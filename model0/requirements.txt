@@ -1,1 +1,1 @@
-matploylib
+matplotlib
