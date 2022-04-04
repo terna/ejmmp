@@ -40,7 +40,7 @@ $r_{i,t}$ - revenues, `revenues`
 
 $s_{i,t}$ - sales, `sales`
 
-$w_{i,t}$ - inventories (final, initial), `initialInventories`, `finalInventories`
+$i_{i,t}$ - inventories (final, initial), `initialInventories`, `finalInventories`
 
 $d_{i,t}$ - deperibility share, `deperibilityShare`
 
@@ -62,7 +62,7 @@ When an agent is created, the **initialization process** defines:
 - the id of its employer, `myEmployer`, set to $0$
 - $r_{i,0}$ - `revenues`, initial value  $0$
 - $s_{i,0}$ - `sales`, , initial value  $0$
-- $w_{i,0}$ - inventories, `initialInventories`, set to $0$ 
+- $i_{i,0}$ - inventories, `initialInventories`, set to $0$ 
 
 
 
