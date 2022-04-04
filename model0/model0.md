@@ -40,9 +40,13 @@ $r_{i,t}$ - revenues, `revenues`
 
 $s_{i,t}$ - sales, `sales`
 
-$i_{i,t}$ - inventories (final, initial), `initialInventories`, `finalInventories`
+$v_{i,t}$ - inventories (final, initial), `initialInventories`, `finalInventories`
 
-$d_{i,t}$ - deperibility share, `deperibilityShare`
+$d_{i}$ - deperibility share of the production, `deperibilityShare`, setting $d_{max}$
+
+$c_{i,t}$ - consumption rate, a uniformly distributed decimal number in range $[c_{min},c_{max}]$,`consumptionRate`
+
+$C_{i,t}$ - consumption of $i$ in $t$
 
 $T$ - number of cycles `ncycles`
 
@@ -52,7 +56,7 @@ $t$ - cycle `cycle`
 
 ### agent structure
 
-Here we have the structure of a generic agent: it can represent and employer, a worker, an unemployed person.
+The structure of a generic agent: it can represent and employer, a worker, an unemployed person.
 
 When an agent is created, the **initialization process** defines:
 
@@ -62,15 +66,29 @@ When an agent is created, the **initialization process** defines:
 - the id of its employer, `myEmployer`, set to $0$
 - $r_{i,0}$ - `revenues`, initial value  $0$
 - $s_{i,0}$ - `sales`, , initial value  $0$
-- $i_{i,0}$ - inventories, `initialInventories`, set to $0$ 
+- $v_{i,0}$ - inventories, `initialInventories`, set to $0$ 
+- $d_{i}$ - deperibility share, a uniformly distributed decimal number in range $[0,d_{max}]$,`deperibilityShare`
+- $w$ - `wage`, currently a fixed value
 
 
 
-each agent has a **produce** function, used only if is an employer, with:
+each agent has the functions:
 
-$\pi_{i,t}=\pi_{i,t-1}+\Delta\pi_{i,t}$
+- **produce** function, used only if is an employer, with:
 
-$q_{i,t}=n_{i,t} \pi_{i,t}$
+  $\pi_{i,t}=\pi_{i,t-1}+\Delta\pi_{i,t}$
 
+  $q_{i,t}=n_{i,t} \pi_{i,t}$
 
+  
+
+- **payWages**
+
+  if employer, increases the wallet of each employee of the amount $w$ in each time $t$
+
+  
+
+- **buyConsumptionGoods** 
+
+  $C_{i,t}=c_{i,t} (w+\Pi_{i,t-1})$
 
