@@ -40,7 +40,7 @@ $r_{i,t}$ - revenues, `revenues`
 
 $s_{i,t}$ - sales, `sales`
 
-$v_{i,t}$ - inventories (final, initial), `initialInventories`, `finalInventories`
+$v_{i,t}$ - in**v**entories (final, initial), `initialInventories`, `finalInventories`
 
 $d_{i}$ - deperibility share of the production, `deperibilityShare`, setting $d_{max}$
 
