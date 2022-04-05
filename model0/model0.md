@@ -10,7 +10,7 @@
 
   
 
-### simbols
+### symbols
 
 [symbol table](https://www.caam.rice.edu/~heinken/latex/symbols.pdf) in $\LaTeX$ 
 
@@ -22,7 +22,7 @@ $p$ - price `price`
 
 $u$ - unemployment rate `unemploymentRate`
 
-$dimensional~etherogeneity$ is a $true/false$ chooser, forcing increasing firms to attract more workers. `dimensionalEtherogeneity`
+$dimensional~heterogeneity$ is a $true/false$ chooser, forcing increasing firms to attract more workers. `dimensionalHeterogeneity`
 
 $\pi_{i,t}$ - labor productivity, a uniformly distributed decimal number in range $[\pi_{min},\pi_{max}]$,`productivity`
 
