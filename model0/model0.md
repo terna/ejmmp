@@ -12,7 +12,7 @@
 
   
 
-### symbols
+### symbol table
 
 [symbol table](https://www.caam.rice.edu/~heinken/latex/symbols.pdf) in $\LaTeX$ 
 
@@ -28,7 +28,7 @@ $dimensional~heterogeneity$ is a $true/false$ chooser, forcing increasing firms 
 
 $\pi_{i,t}$ - labor productivity, a uniformly distributed decimal number in range $[\pi_{min},\pi_{max}]$,`productivity`
 
-$\Delta\pi_{i,t}$ - uniperiodal additive productivity correction in range $[\Delta\pi_{min},\Delta\pi_{max}]$, `productivityDelta`
+&Delta;$\pi_{i,t}$ - uniperiodal additive productivity correction in range $[$&Delta;$\pi_{min},$ &Delta;$\pi_{max}]$, `productivityDelta`
 
 $n_{i,t}$ - number of workers in a firm, set just in time
 
@@ -50,7 +50,7 @@ $c_{i,t}$ - consumption rate, a uniformly distributed decimal number in range $[
 
 $C_{i,t}$ - consumption of $i$ in $t$
 
-numero azioni acquisto
+numero atti acquisto DA FARE
 
 $T$ - number of cycles `ncycles`
 
@@ -88,7 +88,7 @@ each agent has the functions:
 
 - **payWages**
 
-  if employer, increases the wallet of each employee of the amount $w$ in each time $t$
+  if employer, pays $w$ to each employee in each time $t$
 
   
 
