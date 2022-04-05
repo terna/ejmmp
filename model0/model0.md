@@ -2,11 +2,13 @@
 
 - We are considering here uniquely the real part of the economy.
 
-- No loans, credits,`` debits, capital stock, interest rate
+- No loans, credits, debts, capital stock, interest rate
 
 - Enterpreneurs have unlimited funds that they put freely in their activities.
 
 - Saving is abstension from consuming.
+
+- Investments are uniquely ones, without technical progress
 
   
 
@@ -47,6 +49,8 @@ $d_{i}$ - deperibility share of the production, `deperibilityShare`, setting $d_
 $c_{i,t}$ - consumption rate, a uniformly distributed decimal number in range $[c_{min},c_{max}]$,`consumptionRate`
 
 $C_{i,t}$ - consumption of $i$ in $t$
+
+numero azioni acquisto
 
 $T$ - number of cycles `ncycles`
 
