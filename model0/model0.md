@@ -94,5 +94,5 @@ each agent has the functions:
 
 - **buyConsumptionGoods** 
 
-  $C_{i,t}=c_{i,t} (w+\Pi_{i,t-1})$
+  $C_{i,t}=c_{i,t} (w+\Pi_{i,t-1})$ 	using $\Pi_{i,t-1}$ we introduce a lag with a (possible) cyclical effect
 
