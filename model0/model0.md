@@ -85,9 +85,9 @@ When an agent is created, the **initialization process** defines:
 - $v^i_{i,0}$ - inventories, `initialInventories`, set to $0$ 
 - $v^f_{i,0}$ - inventories, `finalInventories`, set to $0$ 
 - $d_{i}$ - deperibility share, a uniformly distributed decimal number in range $[0,d_{max}]$,`deperibilityShare`
-- $c_{i,t}$ - consumption rate, set to $0$
-- $I_{i,t}$  - investment plan, set to $0$
-- $\Pi_{i,t}$ - profit, set to 0
+- $c_{i,0}$ - consumption rate, set to $0$
+- $I_{i,0}$  - investment plan, set to $0$
+- $\Pi_{i,0}$ - profit, set to 0
 
 
 
@@ -97,7 +97,7 @@ we have also a *wallet*, currently unused
 
 each agent has the **functions**:
 
-@@
+
 
 - **produce** function, used only if is an employer, with:
 
@@ -117,3 +117,22 @@ each agent has the **functions**:
 
   $C_{i,t}=c_{i,t} (w+\Pi_{i,t-1})$ 	using $\Pi_{i,t-1}$ we introduce a lag with a (possible) cyclical effect
 
+  
+
+- **buyInvestmentGoods**
+
+  $I_[i,t]$
+
+  
+
+- **makeBalanceSheet**
+
+  $v^f_{i,t}=v^i_{i,t}+q_{i,t}-s_{i,t}-(q_{i,t}-s_{i,t}) d_{i}$
+
+  $r_{i,t}=p s_{i,t}$
+
+  $\Pi_{i,t}=r_{i,t}-w n_{i,t}-p(v^f_{i,t}-v^i_{i,t})$
+
+
+
+@@
