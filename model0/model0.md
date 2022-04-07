@@ -135,7 +135,39 @@ each agent has the **functions**:
 
 
 
-@@
-
 ### agent setup
+
+- agent basic creation
+
+  
+
+- creation of employer list
+
+  
+
+- selecting exployers
+
+  
+
+- with a given (heterogeneous) productivity
+
+  
+
+- assigning to the employer itself as employee
+
+  
+
+- creation of a temporary workforce list of to-be-employed agent, escluding employers (already self employed)
+
+  
+
+- applying the unmployement rate to exclude agents
+
+  
+
+- assigning workforce (to-be-employed agents) to employers, with a reinforcement mechanism, gradually giving more attraction/hiring capacity to those who grow the most
+
+
+
+@@
 
