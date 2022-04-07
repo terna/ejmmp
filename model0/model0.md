@@ -82,13 +82,22 @@ When an agent is created, the **initialization process** defines:
 - the id of its employer, `myEmployer`, set to $0$
 - $r_{i,0}$ - `revenues`, initial value  $0$
 - $s_{i,0}$ - `sales`, , initial value  $0$
-- $v_{i,0}$ - inventories, `initialInventories`, set to $0$ 
+- $v^i_{i,0}$ - inventories, `initialInventories`, set to $0$ 
+- $v^f_{i,0}$ - inventories, `finalInventories`, set to $0$ 
 - $d_{i}$ - deperibility share, a uniformly distributed decimal number in range $[0,d_{max}]$,`deperibilityShare`
-- $w$ - `wage`, currently a fixed value
+- $c_{i,t}$ - consumption rate, set to $0$
+- $I_{i,t}$  - investment plan, set to $0$
+- $\Pi_{i,t}$ - profit, set to 0
 
 
 
-each agent has the functions:
+we have also a *wallet*, currently unused
+
+
+
+each agent has the **functions**:
+
+@@
 
 - **produce** function, used only if is an employer, with:
 
