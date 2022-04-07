@@ -50,7 +50,9 @@ $c_{i,t}$ - consumption rate, a uniformly distributed decimal number in range $[
 
 $C_{i,t}$ - consumption of $i$ in $t$
 
-numero atti acquisto DA FARE
+$I_{i,t}$  - investment plan  of $i$ in $t$, a uniformly distributed realization in range $[I_{min},I_{max}]$,`investmentProgram`
+
+numero atti acquisto DA FARE e idem invest
 
 $T$ - number of cycles `ncycles`
 
