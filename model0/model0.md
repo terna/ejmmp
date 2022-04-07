@@ -62,7 +62,7 @@ $I_{i,t}$  - investment plan  of $i$ in $t$, a uniformly distributed realization
 
 the investment and consumption actions are repeated in each cycle, looking around randomly for the sellers; currently `nOfConsumptionActions` $=30$ and `nOfInvestmentActions`$=10$; each consumption buy action is at maximum the 20% of the planned consumptions in that cycle; instead, each investment buy action can reach the whole amount of the investment program of the cycle; each buy action is limited by the residual capabilty of the seller
 
-magically, the same good can be a consumption item or an investment one
+**magically**, the same good can be a consumption item or an investment one
 
 $T$ - number of cycles `ncycles`
 
@@ -169,5 +169,45 @@ each agent has the **functions**:
 
 
 
-@@
+### collective actions
+
+
+
+- *produceAll* orders to the employers to produce and to collects the results
+
+  
+
+- *payWagesAll* orders to the employers to pay wages, also to themselves
+
+  
+
+- *buyConsumptionGoodsAll* orders to the agents to buy investment goodsorder to the employers to buy investment goods
+
+  
+
+- *buyInvestmentGoodsAll* orders to the employers to buy investment goodsorder to the employers to buy investment goods
+
+
+
+- *makeBalanceSheetAll* with everyone making accounts
+
+
+
+## <p style="color:red">model machine</p>
+
+- a radom seed determining the random number sequences
+
+
+
+- a list of actions (collective ones)
+
+
+
+- an engine excecuting actions
+
+
+
+- display tools (their code is hidden in another sheet)
+
+
 
