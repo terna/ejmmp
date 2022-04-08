@@ -26,7 +26,7 @@
 
 $\mathcal{N}$ - number of agents, `agentNum`
 
-$\mathcal{E}$ - employer number, a uniformly distributed integer number in range $[\mathcal{E}_{min},\mathcal{E}_{max}]$, `employerNum`
+$\mathcal{N}^E$ - employer number, a uniformly distributed integer number in range $[\mathcal{E}_{min},\mathcal{E}_{max}]$, `employerNum`
 
 $p$ - price `price`
 
@@ -44,11 +44,11 @@ $q_{i,t}$ - production in quantity, `production`
 
 $\Pi_{i,t}$ - profit, `profit`
 
-$w$ - wage `wage`
+$W$ - wage `wage`
 
-$r_{i,t}$ - revenues, `revenues`
+$R_{i,t}$ - revenues, `revenues`
 
-$s_{i,t}$ - sales, `sales`
+$s_{i,t}$ - sales in quantity, `sales`
 
 $v_{i,t}$ - in**v**entories (final, initial), `initialInventories`, `finalInventories`
 
@@ -68,11 +68,9 @@ $T$ - number of cycles `ncycles`
 
 $t$ - cycle `cycle`
 
-### 
-
 ### agent structure
 
-The structure of a generic agent: it can represent and employer, a worker, an unemployed person.
+The structure of a generic agent: it can represent an employer, a worker, an unemployed person.
 
 When an agent is created, the **initialization process** defines:
 
@@ -80,14 +78,18 @@ When an agent is created, the **initialization process** defines:
 
 - its employer status, `employer`, set to $false$
 - the id of its employer, `myEmployer`, set to $0$
-- $r_{i,0}$ - `revenues`, initial value  $0$
-- $s_{i,0}$ - `sales`, , initial value  $0$
+- $R_{i,0}$ - `revenues`, initial value  $0$
+- $s_{i,0}$ - `sales`, initial value  $0$
 - $v^i_{i,0}$ - inventories, `initialInventories`, set to $0$ 
 - $v^f_{i,0}$ - inventories, `finalInventories`, set to $0$ 
 - $d_{i}$ - deperibility share, a uniformly distributed decimal number in range $[0,d_{max}]$,`deperibilityShare`
 - $c_{i,0}$ - consumption rate, set to $0$
 - $I_{i,0}$  - investment plan, set to $0$
 - $\Pi_{i,0}$ - profit, set to 0
+
+
+
+- $\pi_{i,t-1}$ is set after the initialization step, if an agent becomes an employer
 
 
 
@@ -109,13 +111,13 @@ each agent has the **functions**:
 
 - **payWages**
 
-  if employer, pays $w$ to each employee in each time $t$
+  if employer, pays $W$ to each employee in each time $t$
 
   
 
 - **buyConsumptionGoods** 
 
-  $C_{i,t}=c_{i,t} (w+\Pi_{i,t-1})$ 	using $\Pi_{i,t-1}$ we introduce a lag with a (possible) cyclical effect
+  $C_{i,t}=c_{i,t} (W+\Pi_{i,t-1})$ 	using $\Pi_{i,t-1}$ we introduce a lag with a (possible) cyclical effect
 
   
 
@@ -129,9 +131,9 @@ each agent has the **functions**:
 
   $v^f_{i,t}=v^i_{i,t}+q_{i,t}-s_{i,t}-(q_{i,t}-s_{i,t}) d_{i}$
 
-  $r_{i,t}=p s_{i,t}$
+  $R_{i,t}=p s_{i,t}$
 
-  $\Pi_{i,t}=r_{i,t}-w n_{i,t}-p(v^f_{i,t}-v^i_{i,t})$
+  $\Pi_{i,t}=r_{i,t}-W n_{i,t}-p(v^f_{i,t}-v^i_{i,t})$
 
 
 
@@ -169,7 +171,7 @@ each agent has the **functions**:
 
 
 
-### collective actions
+### meta actions
 
 
 
@@ -199,15 +201,14 @@ each agent has the **functions**:
 
 
 
-- a list of actions (collective ones)
+- a list of actions (meta ones)
 
 
 
-- an engine excecuting actions
+- an engine excecuting the meta actions
 
 
 
-- display tools (their code is hidden in another sheet)
-
+- display tools (their code is hidden into the file `tools.py`)
 
 
