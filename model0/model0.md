@@ -147,7 +147,7 @@ each agent has the **functions**:
 
   
 
-- selecting exployers
+- selecting employers
 
   
 
@@ -197,7 +197,7 @@ each agent has the **functions**:
 
 ## <p style="color:red">model machine</p>
 
-- a radom seed determining the random number sequences
+- a random seed determining the random number sequences
 
 
 
@@ -210,5 +210,4 @@ each agent has the **functions**:
 
 
 - display tools (their code is hidden into the file `tools.py`)
-
 
