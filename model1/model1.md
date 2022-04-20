@@ -60,7 +60,7 @@ $C_{i,t}$ - consumption of $i$ in $t$
 
 $I_{i,t}$  - investment plan  of $i$ in $t$, a uniformly distributed realization in range $[I_{min},I_{max}]$,`investmentProgram`
 
-$H_{i,t}$  - high powered money (cash)  held by individuals, `cashMoney`
+$H_{i,t}$  - high powered money (cash) held by individuals (also acting as employers), `cashMoney`
 
 the investment and consumption actions are repeated in each cycle, looking around randomly for the sellers; currently `nOfConsumptionActions` $=30$ and `nOfInvestmentActions`$=10$; each consumption buy action is at maximum the 20% of the planned consumptions in that cycle; instead, each investment buy action can reach the whole amount of the investment program of the cycle; each buy action is limited by the residual capabilty of the seller
 
