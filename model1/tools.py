@@ -127,6 +127,23 @@ def plot6():
     ax2f.tick_params(axis='y', labelcolor=myColor2)
     fig6.legend()
     
+def plot7():
+    # https://matplotlib.org/3.5.1/gallery/subplots_axes_and_figures/two_scales.html
+    # https://matplotlib.org/3.5.1/tutorials/colors/colors.html
+    myColor1 = 'tab:orange'
+    myColor2 = 'tab:blue'
+    fig7, ax1g = plt.subplots()
+    ax1g.set_ylim([min(0, min(cmv.totalCashMoneySeries)), max(cmv.totalCashMoneySeries)])
+    t=range(1,cmv.ncycles+1)
+    ax1g.plot(t, cmv.totalCashMoneySeries, label="cash-money", color=myColor1)
+    ax1g.tick_params(axis='y', labelcolor=myColor1)
+    
+    ax2g = ax1g.twinx()  # instantiate a second axes that shares the same x-axis
+    ax2g.set_ylim([0, max(cmv.totalCashMoneyInfraVarSeries)])
+    ax2g.plot(t, cmv.totalCashMoneyInfraVarSeries, label="cash-moneyInVar", color=myColor2)
+    ax2g.tick_params(axis='y', labelcolor=myColor2)
+    fig7.legend()
+    
 
 def nationalAccounts():
     print("-------------------------------------------\n"+\

@@ -133,7 +133,7 @@ each agent has the **functions**:
 
   $R_{i,t}=p s_{i,t}$
 
-  $\Pi_{i,t}=r_{i,t}-W n_{i,t}-p(v^f_{i,t}-v^i_{i,t})$
+  $\Pi_{i,t}=R_{i,t}-W n_{i,t}-p(v^f_{i,t}-v^i_{i,t})$
 
 
 

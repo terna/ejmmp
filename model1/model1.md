@@ -60,6 +60,8 @@ $C_{i,t}$ - consumption of $i$ in $t$
 
 $I_{i,t}$  - investment plan  of $i$ in $t$, a uniformly distributed realization in range $[I_{min},I_{max}]$,`investmentProgram`
 
+$H_{i,t}$  - high powered money (cash)  held by individuals, `cashMoney`
+
 the investment and consumption actions are repeated in each cycle, looking around randomly for the sellers; currently `nOfConsumptionActions` $=30$ and `nOfInvestmentActions`$=10$; each consumption buy action is at maximum the 20% of the planned consumptions in that cycle; instead, each investment buy action can reach the whole amount of the investment program of the cycle; each buy action is limited by the residual capabilty of the seller
 
 **magically**, the same good can be a consumption item or an investment one
@@ -85,7 +87,8 @@ When an agent is created, the **initialization process** defines:
 - $d_{i}$ - deperibility share, a uniformly distributed decimal number in range $[0,d_{max}]$,`deperibilityShare`
 - $c_{i,0}$ - consumption rate, set to $0$
 - $I_{i,0}$  - investment plan, set to $0$
-- $\Pi_{i,0}$ - profit, set to 0
+- $\Pi_{i,0}$ - profit, set to $0$
+- $H_{i,0}$ - cash money, set to $0$
 
 
 
@@ -133,7 +136,7 @@ each agent has the **functions**:
 
   $R_{i,t}=p s_{i,t}$
 
-  $\Pi_{i,t}=r_{i,t}-W n_{i,t}-p(v^f_{i,t}-v^i_{i,t})$
+  $\Pi_{i,t}=R_{i,t}-W n_{i,t}-p(v^f_{i,t}-v^i_{i,t})$
 
 
 
@@ -192,6 +195,10 @@ each agent has the **functions**:
 
 
 - *makeBalanceSheetAll* with everyone making accounts
+
+
+
+- *accountCashMoney* summraizing eveyone cash money at the end of a cycle
 
 
 
