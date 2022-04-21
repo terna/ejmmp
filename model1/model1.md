@@ -1,18 +1,18 @@
-### Stock-flow *model0*, the real part
+### Stock-flow *model1*, with real and financial elements
 
-- We are considering here uniquely the real part of the economy.
-
-  
-
-- No loans, credits, debts, capital stock, interest rate.
-
-
-
-- Enterpreneurs have unlimited funds that they put freely in their activities.
+- Besides the real part of the economy, we introduce the initial element of the monetary side of the economy.
 
   
 
-- Saving is abstension from consuming.
+- We are introducing gradually loans, credits, debts, capital stock, interest rate.
+
+
+
+- Enterpreneurs have unlimited funds that they put freely in their activities, balancing negative cash if any.
+
+  
+
+- Saving is abstension from consuming, employed in cash.
 
 
 
@@ -22,11 +22,13 @@
 
 ### symbol table
 
-[symbol table](https://www.caam.rice.edu/~heinken/latex/symbols.pdf) in $\LaTeX$ 
+[symbol table](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols) in $\LaTeX$ 
 
-$\mathcal{N}$ - number of agents, `agentNum`
+$\mathbf{N}$ - agents' set,, with $|\mathbf{N}|$, `agentList` and`agentNum`
 
-$\mathcal{N}^E$ - employer number, a uniformly distributed integer number in range $[\mathcal{E}_{min},\mathcal{E}_{max}]$, `employerNum`
+$\mathbf{E}$ - employers' set, with $|\mathbf{E}|$ in range $[|\mathbf{E}|_{min},|\mathbf{E}|_{max}]$,  `employerList`and `employerNum`
+
+$\mathbf{N}^w$ - working agents' set, with $\mathbf{N}^w_i$ employed by employer $i$ with $i \in \mathbf{E}$
 
 $p$ - price `price`
 
@@ -96,17 +98,13 @@ When an agent is created, the **initialization process** defines:
 
 
 
-we have also a *wallet*, currently unused
-
-
-
 each agent has the **functions**:
 
 
 
 - **produce** function, used only if is an employer, with:
 
-  $\pi_{i,t}=\pi_{i,t-1}+\Delta\pi_{i,t}$
+  $\pi_{i,t}=\pi_{i,t-1}+$&Delta;$\pi_{i,t}$
 
   $q_{i,t}=n_{i,t} \pi_{i,t}$
 
@@ -116,17 +114,33 @@ each agent has the **functions**:
 
   if employer, pays $W$ to each employee in each time $t$
 
+  &Delta;$H_{i,t}=W$ for the working agent $\in \mathbf{N}^w$ 
+
+  &Delta;$H_{i,t}=-W \mathbf{N}^w_i$ for the employer $\in \mathbf{E}$ 
+
   
 
 - **buyConsumptionGoods** 
 
   $C_{i,t}=c_{i,t} (W+\Pi_{i,t-1})$ 	using $\Pi_{i,t-1}$ we introduce a lag with a (possible) cyclical effect
 
+  being $b$ the buyer and $s$ the seller, for each fraction $C_{i,t}/k$
+
+  &Delta;$H_{s,t}=C_{b,t}/k$
+
+  &Delta;$H_{b,t}=-C_{b,t}/k$
+
   
 
 - **buyInvestmentGoods**
 
-  $I_[i,t]$
+  $I_{i,t}$ for $i \in \mathbf{E}$  ($I_{i,t}$ is exogenously set)
+
+  being $b$ the buyer and $s$ the seller, for each fraction $I_{i,t}/k$
+
+  &Delta;$H_{s,t}=I_{b,t}/k$
+
+  &Delta;$H_{b,t}=-I_{b,t}/k$
 
   
 
