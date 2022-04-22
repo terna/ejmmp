@@ -24,11 +24,11 @@
 
 [symbol table](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols) in $\LaTeX$ 
 
-$\mathbf{N}$ - agents' set,, with $|\mathbf{N}|$, `agentList` and`agentNum`
+$a_i$ -  with $a_i \in \mathbf{A}$; agent number $N=|\mathbf{A}|$, `agentList` and`agentNum`
 
-$\mathbf{E}$ - employers' set, with $|\mathbf{E}|$ in range $[|\mathbf{E}|_{min},|\mathbf{E}|_{max}]$,  `employerList`and `employerNum`
+$\mathbf{A}^e$ - employers' set, being $\mathbf{A}^e \subset \mathbf{A}$ with $N^e=|\mathbf{E}|$ in range $[N^e_{min},N^e_{max}]$,  `employerList`and `employerNum`
 
-$\mathbf{N}^w$ - working agents' set, with $\mathbf{N}^w_i$ employed by employer $i$ with $i \in \mathbf{E}$
+$\mathbf{A}^w$ - working agents' set, being $\mathbf{A}^w \subseteq \mathbf{A}$, with $N^w_i=|\mathbf{A}^w_i|$ number of working agents employed by employer $i$, with $a_i \in \mathbf{A}^e$
 
 $p$ - price `price`
 
@@ -114,9 +114,9 @@ each agent has the **functions**:
 
   if employer, pays $W$ to each employee in each time $t$
 
-  &Delta;$H_{i,t}=W$ for the working agent $\in \mathbf{N}^w$ 
+  &Delta;$H_{i,t}=W$ for  $a_i \in \mathbf{A}^w$ 
 
-  &Delta;$H_{i,t}=-W \mathbf{N}^w_i$ for the employer $\in \mathbf{E}$ 
+  &Delta;$H_{i,t}=-W \mathbf{N}^w_i$ for $a_i \in \mathbf{A}^e$ 
 
   
 
