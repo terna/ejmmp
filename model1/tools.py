@@ -133,7 +133,7 @@ def plot7():
     myColor1 = 'tab:orange'
     myColor2 = 'tab:blue'
     fig7, ax1g = plt.subplots()
-    ax1g.set_ylim([min(0, min(cmv.totalCashMoneySeries)), max(cmv.totalCashMoneySeries)])
+    ax1g.set_ylim([min(-0.01, min(cmv.totalCashMoneySeries)), max(0.01,max(cmv.totalCashMoneySeries))])
     t=range(1,cmv.ncycles+1)
     ax1g.plot(t, cmv.totalCashMoneySeries, label="cash-money", color=myColor1)
     ax1g.tick_params(axis='y', labelcolor=myColor1)
