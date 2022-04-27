@@ -139,12 +139,29 @@ def plot7():
     ax1g.tick_params(axis='y', labelcolor=myColor1)
     
     ax2g = ax1g.twinx()  # instantiate a second axes that shares the same x-axis
-    ax2g.set_ylim([0, max(cmv.totalCashMoneyInfraVarSeries)])
+    ax2g.set_ylim([0, max(0.01,max(cmv.totalCashMoneyInfraVarSeries))])
     ax2g.plot(t, cmv.totalCashMoneyInfraVarSeries, label="cash-moneyInVar", color=myColor2)
     ax2g.tick_params(axis='y', labelcolor=myColor2)
     fig7.legend()
     
-
+def plot8():
+    # https://matplotlib.org/3.5.1/gallery/subplots_axes_and_figures/two_scales.html
+    # https://matplotlib.org/3.5.1/tutorials/colors/colors.html
+    myColor1 = 'tab:orange'
+    myColor2 = 'tab:blue'
+    fig8, ax1h = plt.subplots()
+    ax1h.set_ylim([min(-0.01, min(cmv.totalCheckingAccountSeries)), \
+                   max(0.01,max(cmv.totalCheckingAccountSeries))])
+    t=range(1,cmv.ncycles+1)
+    ax1h.plot(t, cmv.totalCheckingAccountSeries, label="checking-account", color=myColor1)
+    ax1h.tick_params(axis='y', labelcolor=myColor1)
+    
+    ax2h = ax1h.twinx()  # instantiate a second axes that shares the same x-axis
+    ax2h.set_ylim([0, max(0.01,max(cmv.totalCheckingAccountInfraVarSeries))])
+    ax2h.plot(t, cmv.totalCheckingAccountInfraVarSeries, label="checking-accountInVar", color=myColor2)
+    ax2h.tick_params(axis='y', labelcolor=myColor2)
+    fig8.legend()
+    
 def nationalAccounts():
     print("-------------------------------------------\n"+\
           '"national" accounts'+\
