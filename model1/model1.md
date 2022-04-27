@@ -26,9 +26,13 @@
 
 $a_i$ -  with $a_i \in \mathbf{A}$; agent number $N=|\mathbf{A}|$, `agentList` and`agentNum`
 
-$\mathbf{A}^e$ - employers' set, being $\mathbf{A}^e \subset \mathbf{A}$ with $N^e=|\mathbf{E}|$ in range $[N^e_{min},N^e_{max}]$,  `employerList`and `employerNum`
+$a^e_i$ -  with $a^e_i \in \mathbf{A^e}$ and $\mathbf{A^e} \subset \mathbf{A}$; employer number $N^e=|\mathbf{A^e}|$ in range $[N^e_{min},N^e_{max}]$, `employerList`
 
-$\mathbf{A}^w$ - working agents' set, being $\mathbf{A}^w \subseteq \mathbf{A}$, with $N^w_i=|\mathbf{A}^w_i|$ number of working agents employed by employer $i$, with $a_i \in \mathbf{A}^e$
+$\mathbf{F}$ - firms' set, with $f_j \in \mathbf{F}$ being $N^f = |\mathbf{F}|$,  with $N^f = |\mathbf{F}| = |\mathbf{A^e}|$ , `firmList`
+
+$\mathbf{A}^w$ - working agents' set, being $\mathbf{A}^w \subseteq \mathbf{A}$, with $N^w_i=|\mathbf{A}^w_i|$ number of working agents employed by employer $i$, also including self-employed employers, with $a_i \in \mathbf{A}^e$
+
+$\mathbf{B}$ - banks' set, with $b_j \in \mathbf{B}$ being $N^b = |\mathbf{B}|$, `bankList`
 
 $p$ - price `price`
 
@@ -64,6 +68,10 @@ $I_{i,t}$  - investment plan  of $i$ in $t$, a uniformly distributed realization
 
 $H_{i,t}$  - high powered money (cash) held by individuals (also acting as employers), `cashMoney`
 
+$M1_{i,t}$ - checking account money deposits held by  $a_i$ at time $t$, `checkingAccount`
+
+$M1^f_{i,t}$ - firm's bank account (with positive or negative balance), `bankAccount`
+
 the investment and consumption actions are repeated in each cycle, looking around randomly for the sellers; currently `nOfConsumptionActions` $=30$ and `nOfInvestmentActions`$=10$; each consumption buy action is at maximum the 20% of the planned consumptions in that cycle; instead, each investment buy action can reach the whole amount of the investment program of the cycle; each buy action is limited by the residual capabilty of the seller
 
 **magically**, the same good can be a consumption item or an investment one
@@ -74,7 +82,7 @@ $t$ - cycle `cycle`
 
 ### agent structure
 
-The structure of a generic agent: it can represent an employer, a worker, an unemployed person.
+The structure of a **generic agent**: it can represent an employer, a worker, an unemployed person.
 
 When an agent is created, the **initialization process** defines:
 
@@ -90,15 +98,15 @@ When an agent is created, the **initialization process** defines:
 - $c_{i,0}$ - consumption rate, set to $0$
 - $I_{i,0}$  - investment plan, set to $0$
 - $\Pi_{i,0}$ - profit, set to $0$
-- $H_{i,0}$ - cash money, set to $0$
-
-
+- $H_{i,0}$ - cash money, set to $0$ 
+- $M1_{i,0}$ - checking account money deposits, set to $0$
+- $M1^f_{i,0}$ - firm's bank account, set to $0$
 
 - $\pi_{i,t-1}$ is set after the initialization step, if an agent becomes an employer
 
 
 
-each agent has the **functions**:
+each **generic agent** has the **functions**:
 
 
 
@@ -114,9 +122,9 @@ each agent has the **functions**:
 
   if employer, pays $W$ to each employee in each time $t$
 
-  &Delta;$H_{i,t}=W$ for  $a_i \in \mathbf{A}^w$ 
+  &Delta;$M1_{i,t}=W$ for  $a_i \in \mathbf{A}^w$ 
 
-  &Delta;$H_{i,t}=-W \mathbf{N}^w_i$ for $a_i \in \mathbf{A}^e$ 
+  &Delta;$M1^f_{i,t}=-W \mathbf{N}^w_i$ for $a_i \in \mathbf{A}^e$ 
 
   
 
@@ -124,23 +132,23 @@ each agent has the **functions**:
 
   $C_{i,t}=c_{i,t} (W+\Pi_{i,t-1})$ 	using $\Pi_{i,t-1}$ we introduce a lag with a (possible) cyclical effect
 
-  being $b$ the buyer and $s$ the seller, for each fraction $C_{i,t}/k$
+  being $bu$ the buyer and $se$ the seller, for each fraction $C_{i,t}/k$
 
-  &Delta;$H_{s,t}=C_{b,t}/k$
+  &Delta;$M1^f_{se,t}=C_{bu,t}/k$
 
-  &Delta;$H_{b,t}=-C_{b,t}/k$
+  &Delta;$M1_{bu,t}=-C_{bu,t}/k$
 
   
 
 - **buyInvestmentGoods**
 
-  $I_{i,t}$ for $i \in \mathbf{E}$  ($I_{i,t}$ is exogenously set)
+  $I_{j,t}$ for $f_j \in \mathbf{F}$  ($I_{j,t}$ is exogenously set)
 
-  being $b$ the buyer and $s$ the seller, for each fraction $I_{i,t}/k$
+  being $bu$ the buyer and $se$ the seller, for each fraction $I_{j,t}/k$
 
-  &Delta;$H_{s,t}=I_{b,t}/k$
+  &Delta;$M1^f_{se,t}=I_{bu,t}/k$
 
-  &Delta;$H_{b,t}=-I_{b,t}/k$
+  &Delta;$M1^f_{bu,t}=-I_{bu,t}/k$
 
   
 
@@ -151,6 +159,14 @@ each agent has the **functions**:
   $R_{i,t}=p s_{i,t}$
 
   $\Pi_{i,t}=R_{i,t}-W n_{i,t}-p(v^f_{i,t}-v^i_{i,t})$
+
+
+
+If an agent becomes an employer, it generates an agent **firm** (to be continued) 
+
+
+
+Agent **bank** is a special subject operating on the financial side of the model  (to be continued)
 
 
 
