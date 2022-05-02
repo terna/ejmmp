@@ -162,6 +162,24 @@ def plot8():
     ax2h.tick_params(axis='y', labelcolor=myColor2)
     fig8.legend()
     
+def plot9():
+    # https://matplotlib.org/3.5.1/gallery/subplots_axes_and_figures/two_scales.html
+    # https://matplotlib.org/3.5.1/tutorials/colors/colors.html
+    myColor1 = 'tab:orange'
+    myColor2 = 'tab:blue'
+    fig9, ax1i = plt.subplots()
+    ax1i.set_ylim([min(-0.01, min(cmv.totalBankAccountSeries)), \
+                   max(0.01,max(cmv.totalBankAccountSeries))])
+    t=range(1,cmv.ncycles+1)
+    ax1i.plot(t, cmv.totalBankAccountSeries, label="checking-account", color=myColor1)
+    ax1i.tick_params(axis='y', labelcolor=myColor1)
+    
+    ax2i = ax1i.twinx()  # instantiate a second axes that shares the same x-axis
+    ax2i.set_ylim([0, max(0.01,max(cmv.totalBankAccountInfraVarSeries))])
+    ax2i.plot(t, cmv.totalBankAccountInfraVarSeries, label="checking-accountInVar", color=myColor2)
+    ax2i.tick_params(axis='y', labelcolor=myColor2)
+    fig9.legend()
+    
 def nationalAccounts():
     print("-------------------------------------------\n"+\
           '"national" accounts'+\
