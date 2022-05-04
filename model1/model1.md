@@ -1,4 +1,4 @@
-### Stock-flow *model1*, with real and financial elements
+### Stock-flow *model1c*, with real and financial elements
 
 - Besides the real part of the economy, we introduce the initial element of the monetary side of the economy.
 
@@ -8,15 +8,15 @@
 
 
 
-- Enterpreneurs have unlimited funds that they put freely in their activities, balancing negative cash if any.
+- Firms have unlimited funds that they put freely in their activities, balancing other agent negative cash, if any.
 
   
 
-- Saving is abstension from consuming, employed in cash.
+- Saving is abstension from consuming, increasing agent liquidity.
 
 
 
-- Investments are uniquely replacement ones, without technical progress.
+- Investments are uniquely for replacement, without technical progress.
 
   
 
@@ -44,11 +44,13 @@ $\pi_{i,t}$ - labor productivity, a uniformly distributed decimal number in rang
 
 &Delta;$\pi_{i,t}$ - uniperiodal additive productivity correction in range $[$&Delta;$\pi_{min},$ &Delta;$\pi_{max}]$, `productivityDelta`
 
-$n_{i,t}$ - number of workers in a firm, set just in time
+$n_{i,t}$ - number of workers in a firm
 
 $q_{i,t}$ - production in quantity, `production`
 
 $\Pi_{i,t}$ - profit, `profit`
+
+$\rho$ - dividend distribution share, `rho`
 
 $W$ - wage `wage`
 
@@ -78,7 +80,7 @@ the investment and consumption actions are repeated in each cycle, looking aroun
 
 $T$ - number of cycles `ncycles`
 
-$t$ - cycle `cycle`
+$t$ - current cycle `cycle`
 
 ### agent structure
 
@@ -87,30 +89,49 @@ The structure of a **generic agent**: it can represent an employer, a worker, an
 When an agent is created, the **initialization process** defines:
 
 - its numerical id, `num`
-
-- its employer status, `employer`, set to $false$
+- its entrepreneur status, `entrepreneur`, set to $false$
 - the id of its employer, `myEmployer`, set to $0$
-- $R_{i,0}$ - `revenues`, initial value  $0$
-- $s_{i,0}$ - `sales`, initial value  $0$
-- $v^i_{i,0}$ - inventories, `initialInventories`, set to $0$ 
-- $v^f_{i,0}$ - inventories, `finalInventories`, set to $0$ 
-- $d_{i}$ - deperibility share, a uniformly distributed decimal number in range $[0,d_{max}]$,`deperibilityShare`
+- if entrepreneur, the id of its firm, `myFirm`, set to $0$
 - $c_{i,0}$ - consumption rate, set to $0$
-- $I_{i,0}$  - investment plan, set to $0$
-- $\Pi_{i,0}$ - profit, set to $0$
 - $H_{i,0}$ - cash money, set to $0$ 
 - $M1_{i,0}$ - checking account money deposits, set to $0$
-- $M1^f_{i,0}$ - firm's bank account, set to $0$
 
+
+
+## firm structure
+
+- $R_{i,0}$ - `revenues`, initial value  $0$
+- $s_{i,0}$ - `sales`, initial value  $0$
+- $v^i_{i,0}$ - in**v**entories, `initialInventories`, set to $0$ 
+- $v^f_{i,0}$ - in**v**entories, `finalInventories`, set to $0$ 
+- $d_{i}$ - deperibility share, a uniformly distributed decimal number in range $[0,d_{max}]$,`deperibilityShare`
+- $I_{i,0}$  - investment plan, set to $0$
+- $\Pi_{i,0}$ - profit, set to $0$, being the related dividend $D_{i,0}$, set to $0$
+- $M1^f_{i,0}$ - firm's bank account, set to $0$
 - $\pi_{i,t-1}$ is set after the initialization step, if an agent becomes an employer
 
 
 
 each **generic agent** has the **functions**:
 
+- **buyConsumptionGoods** 
+
+  $C_{i,t}=c_{i,t} (W+D_{i,t-1})$; using $D_{i,t-1}$ we introduce a lag with a (possible) cyclical effect
+
+  being $bu$ the buyer and $se$ the seller (firm), for each fraction $C_{i,t}/k$ 
+
+  ($k$ is the number of buying actions in each cycle)
+
+  &Delta;$M1^f_{se,t}=C_{bu,t}/k$
+
+  &Delta;$M1_{bu,t}=-C_{bu,t}/k$
 
 
-- **produce** function, used only if is an employer, with:
+
+
+each **firm** has the **functions**:
+
+- **produce** function, with:
 
   $\pi_{i,t}=\pi_{i,t-1}+$&Delta;$\pi_{i,t}$
 
@@ -120,7 +141,7 @@ each **generic agent** has the **functions**:
 
 - **payWages**
 
-  if employer, pays $W$ to each employee in each time $t$
+  paying $W$ to each worker in each time $t$
 
   &Delta;$M1_{i,t}=W$ for  $a_i \in \mathbf{A}^w$ 
 
@@ -128,23 +149,13 @@ each **generic agent** has the **functions**:
 
   
 
-- **buyConsumptionGoods** 
-
-  $C_{i,t}=c_{i,t} (W+\Pi_{i,t-1})$ 	using $\Pi_{i,t-1}$ we introduce a lag with a (possible) cyclical effect
-
-  being $bu$ the buyer and $se$ the seller, for each fraction $C_{i,t}/k$
-
-  &Delta;$M1^f_{se,t}=C_{bu,t}/k$
-
-  &Delta;$M1_{bu,t}=-C_{bu,t}/k$
-
-  
-
 - **buyInvestmentGoods**
 
   $I_{j,t}$ for $f_j \in \mathbf{F}$  ($I_{j,t}$ is exogenously set)
 
-  being $bu$ the buyer and $se$ the seller, for each fraction $I_{j,t}/k$
+  being $bu$ the buyer (firm) and $se$ the seller (firm), for each fraction $I_{j,t}/k$
+
+  ($k$ is the number of investment actions in each cycle)
 
   &Delta;$M1^f_{se,t}=I_{bu,t}/k$
 
@@ -154,15 +165,11 @@ each **generic agent** has the **functions**:
 
 - **makeBalanceSheet**
 
-  $v^f_{i,t}=v^i_{i,t}+q_{i,t}-s_{i,t}-(q_{i,t}-s_{i,t}) d_{i}$
+  $v^f_{i,t}=v^i_{i,t}+(q_{i,t}-s_{i,t}) (1 - d_{i})$
 
   $R_{i,t}=p s_{i,t}$
 
   $\Pi_{i,t}=R_{i,t}-W n_{i,t}-p(v^f_{i,t}-v^i_{i,t})$
-
-
-
-If an agent becomes an employer, it generates an agent **firm** (to be continued) 
 
 
 
@@ -176,11 +183,11 @@ Agent **bank** is a special subject operating on the financial side of the model
 
   
 
-- creation of employer list
+- creation of entrepreneur list
 
   
 
-- selecting employers
+- selecting entrepreneurs and creating their firms
 
   
 
@@ -188,11 +195,11 @@ Agent **bank** is a special subject operating on the financial side of the model
 
   
 
-- assigning to the employer itself as employee
+- linking the firm to its entrepreneur, considering the entrepreneur itself as a worker in its firm
 
   
 
-- creation of a temporary workforce list of to-be-employed agent, escluding employers (already self employed)
+- creation of a temporary workforce list of to-be-employed agent, escluding entrepreneurs (already self employed)
 
   
 
@@ -200,7 +207,7 @@ Agent **bank** is a special subject operating on the financial side of the model
 
   
 
-- assigning workforce (to-be-employed agents) to employers, with a reinforcement mechanism, gradually giving more attraction/hiring capacity to those who grow the most
+- assigning workforce (to-be-employed agents) to firms, with a reinforcement mechanism, gradually giving more attraction/hiring capability to firms growing the most
 
 
 
@@ -208,27 +215,35 @@ Agent **bank** is a special subject operating on the financial side of the model
 
 
 
-- *produceAll* orders to the employers to produce and to collects the results
+- *produceAll* orders to the firms to produce and to collects the results
 
   
 
-- *payWagesAll* orders to the employers to pay wages, also to themselves
+- *payWagesAll* orders to the firms to pay wages, also to the entrepreneurs
 
   
 
-- *buyConsumptionGoodsAll* orders to the agents to buy investment goodsorder to the employers to buy investment goods
+- *buyConsumptionGoodsAll* orders to the agents to buy consumption goods
 
   
 
-- *buyInvestmentGoodsAll* orders to the employers to buy investment goodsorder to the employers to buy investment goods
+- *buyInvestmentGoodsAll* orders to the firms to buy investment goods
 
 
 
-- *makeBalanceSheetAll* with everyone making accounts
+- *makeBalanceSheetAll* with firm making accounts
 
 
 
-- *accountCashMoney* summraizing eveyone cash money at the end of a cycle
+- *accountCashMoneyAll* summarizing eveyone cash money at the end of a cycle
+
+  
+
+- *accountCheckingAccountAll* summarizing eveyone checking accounts at the end of a cycle
+
+  
+
+- *accountBankingAccountAll* summarizing firm banking accounts at the end of a cycle
 
 
 

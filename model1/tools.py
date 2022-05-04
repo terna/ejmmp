@@ -3,17 +3,16 @@ import commonVar as cmv
 
 def makeHist():
     print("-------------------------------------------\n"+\
-          "employer number "+ str(len(cmv.employerList))+\
+          "entrepreneur number "+ str(len(cmv.entrepreneurList))+\
           "\n-------------------------------------------\n")
-    cmv.employerSizeList=[]
-    list(cmv.employerSizeList.append(cmv.employerList[i].num) \
-                                for i in range(len(cmv.employerList)))
-    #print(cmv.employerSizeList)
+    cmv.firmSizeList=[]
+    list(cmv.firmSizeList.append(cmv.firmList[i].num) for i in range(cmv.firmNum))
+    #print(cmv.entrepreneurSizeList)
 
-    plt.hist(cmv.employerSizeList,20,facecolor='orange')
-    plt.xlabel("# of employees")
-    plt.ylabel("# of employeers")
-    plt.title("Distribution of the employers by number of employees")      
+    plt.hist(cmv.firmSizeList,20,facecolor='orange')
+    plt.xlabel("# of workers")
+    plt.ylabel("# of firms")
+    plt.title("Distribution of the firms by number of workers")      
 
 
 def plot1():
