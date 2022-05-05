@@ -6,7 +6,7 @@ def makeHist():
           "entrepreneur number "+ str(len(cmv.entrepreneurList))+\
           "\n-------------------------------------------\n")
     cmv.firmSizeList=[]
-    list(cmv.firmSizeList.append(cmv.firmList[i].num) for i in range(cmv.firmNum))
+    list(cmv.firmSizeList.append(len(cmv.firmList[i].myWorkers)) for i in range(cmv.firmNum))
     #print(cmv.entrepreneurSizeList)
 
     plt.hist(cmv.firmSizeList,20,facecolor='orange')
