@@ -1,4 +1,4 @@
-### Stock-flow *model1c*, with real and financial elements
+### Stock-flow *model01c*, with real and financial elements
 
 - Besides the real part of the economy, we introduce the initial element of the monetary side of the economy.
 
@@ -120,7 +120,7 @@ each **generic agent** has the **functions**:
 
   being $bu$ the buyer and $se$ the seller (firm), for each fraction $C_{i,t}/k$ 
 
-  ($k$ is the number of buying actions in each cycle)
+  ($k$ is the number of buying actions in each cycle with random share [0,cmv.maxConsumptionShareInSubstep))
 
   &Delta;$M1^f_{se,t}=C_{bu,t}/k$
 
@@ -155,7 +155,7 @@ each **firm** has the **functions**:
 
   being $bu$ the buyer (firm) and $se$ the seller (firm), for each fraction $I_{j,t}/k$
 
-  ($k$ is the number of investment actions in each cycle)
+  ($k$ is the number of investment actions in each cycle, with random share [0,cmv.maxInvestmentShareInSubstep))
 
   &Delta;$M1^f_{se,t}=I_{bu,t}/k$
 
@@ -229,7 +229,11 @@ Agent **bank** is a special subject operating on the financial side of the model
 
 - *buyInvestmentGoodsAll* orders to the firms to buy investment goods
 
+  
 
+- *buyConsumptionOrInvestmentGoodsAll* orders to the agents and to the firms to buy consumption or investment goods
+
+  
 
 - *makeBalanceSheetAll* with firm making accounts
 
