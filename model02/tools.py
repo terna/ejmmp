@@ -5,14 +5,14 @@ def makeHist():
     print("-------------------------------------------\n"+\
           "entrepreneur number "+ str(len(cmv.entrepreneurList))+\
           "\n-------------------------------------------\n")
-    cmv.firmSizeList=[]
-    list(cmv.firmSizeList.append(len(cmv.firmList[i].myWorkers)) for i in range(cmv.firmNum))
-    #print(cmv.entrepreneurSizeList)
+    cmv.enterpriseSizeList=[]
+    list(cmv.enterpriseSizeList.append(len(cmv.firmList[i].myWorkers)) for i in range(cmv.firmNum))
+    list(cmv.enterpriseSizeList.append(len(cmv.bankList[i].myWorkers)) for i in range(cmv.bankNum))
 
-    plt.hist(cmv.firmSizeList,20,facecolor='orange')
+    plt.hist(cmv.enterpriseSizeList,20,facecolor='orange')
     plt.xlabel("# of workers")
-    plt.ylabel("# of firms")
-    plt.title("Distribution of the firms by number of workers")      
+    plt.ylabel("# of enterprises")
+    plt.title("Distribution of the enterprises by number of workers")      
 
 
 def plot1():
