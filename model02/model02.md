@@ -1,18 +1,18 @@
 ### Stock-flow *model02*, with real and financial elements
 
-- Besides the real part of the economy, we introduce the initial element of the monetary side of the economy.
+- The model also consider the monetary side of the economy.
 
   
 
-- We are introducing gradually loans, credits, debts, capital stock, interest rate.
-
-
-
-- Firms have unlimited funds that they put freely in their activities, balancing other agent negative cash, if any.
+- We have to initialize loans and capital stocks.
 
   
 
-- Saving is abstension from consuming, increasing agent liquidity.
+- Currently, entrepreneurs have unlimited funds that they put freely in their activities, balancing other agent negative cash, if any.
+
+  
+
+- Saving is abstension from consuming, increasing agents' liquidity.
 
 
 
@@ -22,7 +22,7 @@
 
 ### symbol table
 
-[symbol table](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols) in $\LaTeX$ 
+[symbol table](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols) in $\LaTeX$
 
 $a_i$ -  with $a_i \in \mathbf{A}$; agent number $N=|\mathbf{A}|$, `agentList` and`agentNum`
 
@@ -33,6 +33,16 @@ $\mathbf{F}$ - firms' set, with $f_j \in \mathbf{F}$ being $N^f = |\mathbf{F}|$,
 $\mathbf{A}^w$ - working agents' set, being $\mathbf{A}^w \subseteq \mathbf{A}$, with $N^w_i=|\mathbf{A}^w_i|$ number of working agents employed by employer $i$, also including self-employed employers, with $a_i \in \mathbf{A}^e$
 
 $\mathbf{B}$ - banks' set, with $b_j \in \mathbf{B}$ being $N^b = |\mathbf{B}|$, `bankList`
+
+$x^d$ - interest rate on deposits, `interestRateOnDeposits`
+
+$x^{l^a}$ - interest rate on loans to (private) agents, `interestRateOnLoansVsAgents`
+
+$x^{l^f}$ - interest rate on loans to firms, `interestRateOnLoansVsFirms`
+
+$X^d_{a|f|b}$ - amount of positive interest on deposits for a given interval $t$ for agents $a$ or firms $f$, and negative for banks $b$, `interestOnDeposits`
+
+$X^l_{a|f|b}$ - amount of negative interest on loanss for a given interval $t$ for agents $a$ or firms $f$, and positive for banks $b$, `interestOnLoans`
 
 $p$ - price `price`
 
@@ -211,7 +221,7 @@ Agent **bank** is a special subject operating on the financial side of the model
 
 
 
-### meta actions
+### meta actions (in `metaActions.py`)
 
 
 
