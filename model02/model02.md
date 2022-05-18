@@ -126,7 +126,7 @@ each **generic agent** has the **functions**:
 
 - **buyConsumptionGoods** 
 
-  $C_{i,t}=c_{i,t} (W+D_{i,t-1})$; using $D_{i,t-1}$ we introduce a lag with a (possible) cyclical effect
+  $C_{i,t}=c_{i,t} (W+D_{i,t-1}+X^d_{i,t-1}-X^l_{i,t-1})$; using $D_{i,t-1},X^d_{i,t-1},X^l_{i,t-1}$ we introduce lags with (possible) cyclical effect
 
   being $bu$ the buyer and $se$ the seller (firm), for each fraction $C_{i,t}/k$ 
 
@@ -177,15 +177,15 @@ each **firm** has the **functions**:
 
   $v^f_{i,t}=v^i_{i,t}+(q_{i,t}-s_{i,t}) (1 - d_{i})$
 
-  $R_{i,t}=p s_{i,t}$
+  $R_{i,t}=p s_{i,t}+X^d_{i,t}$
 
-  $\Pi_{i,t}=R_{i,t}-W n_{i,t}-p(v^f_{i,t}-v^i_{i,t})$
-
-
-
-Agent **bank** is a special subject operating on the financial side of the model  (to be continued)
+  $\Pi_{i,t}=R_{i,t}-W n_{i,t}-X^l_{i,t}-p(v^f_{i,t}-v^i_{i,t})$
 
 
+
+## bank structure
+
+to be completed **:-)**
 
 ### agent setup
 
@@ -197,7 +197,7 @@ Agent **bank** is a special subject operating on the financial side of the model
 
   
 
-- selecting entrepreneurs and creating their firms
+- selecting entrepreneurs and creating their firms or their banks
 
   
 
@@ -205,7 +205,7 @@ Agent **bank** is a special subject operating on the financial side of the model
 
   
 
-- linking the firm to its entrepreneur, considering the entrepreneur itself as a worker in its firm
+- linking the firm or the bank to its entrepreneur, considering the entrepreneur itself as a worker in its firm or bank
 
   
 
@@ -217,7 +217,7 @@ Agent **bank** is a special subject operating on the financial side of the model
 
   
 
-- assigning workforce (to-be-employed agents) to firms, with a reinforcement mechanism, gradually giving more attraction/hiring capability to firms growing the most
+- assigning workforce (to-be-employed agents) to firms of banks, with a reinforcement mechanism, gradually giving more attraction/hiring capability to firms or banks growing the most
 
 
 
@@ -247,7 +247,11 @@ Agent **bank** is a special subject operating on the financial side of the model
 
 - *makeBalanceSheetAll* with firm making accounts
 
+  
 
+- *distributeDividendAll* attributing the $\rho$ share of firm profits to the entrepreneurs 
+
+  
 
 - *accountCashMoneyAll* summarizing eveyone cash money at the end of a cycle
 
@@ -259,7 +263,13 @@ Agent **bank** is a special subject operating on the financial side of the model
 
 - *accountBankingAccountAll* summarizing firm banking accounts at the end of a cycle
 
+  
 
+- *computeAndApplyInterestsAll* calculating the interests on deposits and loans for each agent and firm (and symmetrically for banks) and updatating accounts
+
+  
+
+- *makeBankFinancialAccountsAll* summmarinzing all the checking and banl accounts
 
 ## <p style="color:red">model machine</p>
 
