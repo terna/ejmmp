@@ -42,7 +42,7 @@ $x^{l^f}$ - interest rate on loans to firms, `interestRateOnLoansVsFirms`
 
 $X^d_{a|f|b}$ - amount of positive interest on deposits for a given interval $t$ for agents $a$ or firms $f$, and negative for banks $b$, `interestOnDeposits`
 
-$X^l_{a|f|b}$ - amount of negative interest on loanss for a given interval $t$ for agents $a$ or firms $f$, and positive for banks $b$, `interestOnLoans`
+$X^l_{a|f|b}$ - amount of negative interest on loans for a given interval $t$ for agents $a$ or firms $f$, and positive for banks $b$, `interestOnLoans`
 
 $p$ - price `price`
 
@@ -92,9 +92,9 @@ $T$ - number of cycles `ncycles`
 
 $t$ - current cycle `cycle`
 
-### agent structure
+## agent structure
 
-The structure of a **generic agent**: it can represent an employer, a worker, an unemployed person.
+The structure of an **agent**: it can represent an entrepreneur, a worker, an unemployed person.
 
 When an agent is created, the **initialization process** defines:
 
@@ -106,8 +106,6 @@ When an agent is created, the **initialization process** defines:
 - $H_{i,0}$ - cash money, set to $0$ 
 - $M1_{i,0}$ - checking account money deposits, set to $0$
 
-
-
 ## firm structure
 
 - $R_{i,0}$ - `revenues`, initial value  $0$
@@ -118,11 +116,19 @@ When an agent is created, the **initialization process** defines:
 - $I_{i,0}$  - investment plan, set to $0$
 - $\Pi_{i,0}$ - profit, set to $0$, being the related dividend $D_{i,0}$, set to $0$
 - $M1^f_{i,0}$ - firm's bank account, set to $0$
-- $\pi_{i,t-1}$ is set after the initialization step, if an agent becomes an employer
+- $\pi_{i,t-1}$ set within the initialization step
+
+## bank structure
+
+- $R_{i,0}$ - `revenues`, initial value  $0$
+- $I_{i,0}$  - investment plan, set to $0$
+- $\Pi_{i,0}$ - profit, set to $0$, being the related dividend $D_{i,0}$, set to $0$
+- $M1^b_{i,0}$ - bank's account mantained with the central bank, set to $0$
+- $\pi_{i,t-1}$ set within the initialization step
 
 
 
-each **generic agent** has the **functions**:
+each **agent** has the **functions**:
 
 - **buyConsumptionGoods** 
 
@@ -183,11 +189,21 @@ each **firm** has the **functions**:
 
 
 
-## bank structure
+each **bank** has the **functions**:
+
+- **produce** function, with:
+
+​				$\pi_{i,t}=\pi_{i,t-1}+$&Delta;$\pi_{i,t}$
+
+​				$q_{i,t}=n_{i,t} \pi_{i,t}-X^d_b-X^l_b$
+
+​				$X^d_b<0$ in def but cost???????????????????
+
+​				$X^l_b<0$ if the b. is borrower so cost???????????????????
 
 to be completed **:-)**
 
-### agent setup
+## agent setup
 
 - agent basic creation
 
@@ -218,6 +234,10 @@ to be completed **:-)**
   
 
 - assigning workforce (to-be-employed agents) to firms of banks, with a reinforcement mechanism, gradually giving more attraction/hiring capability to firms or banks growing the most
+
+  
+
+- assigning agents and firms to banks in a random way
 
 
 

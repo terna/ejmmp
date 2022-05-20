@@ -23,8 +23,8 @@ def produceAll():
                                           
 
 def payWagesAll():
-    for aFirm in cmv.firmList:
-        aFirm.payWages()
+    for anItem in cmv.firmList+cmv.bankList:
+        anItem.payWages()
 
 
 def buyConsumptionGoodsAll():
@@ -53,22 +53,22 @@ def buyInvestmentGoodsAll():
     cmv.totalInvestmentSeries.append(0)
     cmv.totalInvestmentInfraVarSeries.append(0)
     for k in range(cmv.nOfInvestmentActions):
-        firmSafeList=cmv.firmList.copy() # safe copy without the shuffles in 
-                                         # buyInvestmentGoods
-        r.shuffle(firmSafeList)
-        for aFirm in firmSafeList:
-            aFirm.buyInvestmentGoods(k)
+        firm_bankSafeList=cmv.firmList+cmv.bankList # safe copy without the shuffles in 
+                                                    # buyInvestmentGoods
+        r.shuffle(firm_bankSafeList)
+        for anItem in firm_bankSafeList:
+            anItem.buyInvestmentGoods(k)
             if k==cmv.nOfInvestmentActions-1:
-                cmv.totalInvestmentSeries[-1]+=aFirm.madeInvestment
-                cmv.totalInvestmentInfraVarSeries[-1]+=aFirm.madeInvestment**2
+                cmv.totalInvestmentSeries[-1]+=anItem.madeInvestment
+                cmv.totalInvestmentInfraVarSeries[-1]+=anItem.madeInvestment**2
 
     cmv.totalInvestmentInfraVarSeries[-1]=\
-                              (cmv.totalInvestmentInfraVarSeries[-1]/cmv.firmNum - \
-                              (cmv.totalInvestmentSeries[-1]/cmv.firmNum)**2)
+                              (cmv.totalInvestmentInfraVarSeries[-1]/(cmv.firmNum+cmv.bankNum) - \
+                              (cmv.totalInvestmentSeries[-1]/(cmv.firmNum+cmv.bankNum))**2)
                 
 
 def buyConsumptionOrInvestmentGoodsAll():
-    agentAndFirmList=cmv.agentList+cmv.firmList
+    agent_Firm_BankList=cmv.agentList+cmv.firmList+cmv.bankList
 
     cmv.totalEntrepreneurConsumptionSeries.append(0) 
     cmv.totalNonEntrepreneurConsumptionSeries.append(0)
@@ -80,11 +80,11 @@ def buyConsumptionOrInvestmentGoodsAll():
     repetitions=max(cmv.nOfConsumptionActions,cmv.nOfInvestmentActions)
 
     for k in range(repetitions):
-        r.shuffle(agentAndFirmList)
-        for anItem in agentAndFirmList:
+        r.shuffle(agent_Firm_BankList)
+        for anItem in agent_Firm_BankList:
             if anItem.__class__.__name__=="Agent" and\
             k < cmv.nOfConsumptionActions - 1: anItem.buyConsumptionGoods(k)
-            if anItem.__class__.__name__=="Firm" and\
+            if anItem.__class__.__name__ in ["Firm","Bank"] and\
             k < cmv.nOfInvestmentActions - 1:  anItem.buyInvestmentGoods(k)
 
             if k==cmv.nOfConsumptionActions-1 and anItem.__class__.__name__=="Agent":
@@ -95,7 +95,7 @@ def buyConsumptionOrInvestmentGoodsAll():
                 cmv.totalConsumptionSeries[-1]+=anItem.madeConsumption
                 cmv.totalConsumptionInfraVarSeries[-1]+=anItem.madeConsumption**2
 
-            if k==cmv.nOfInvestmentActions-1 and anItem.__class__.__name__=="Firm":
+            if k==cmv.nOfInvestmentActions-1 and anItem.__class__.__name__ in ["Firm","Bank"]:
                 cmv.totalInvestmentSeries[-1]+=anItem.madeInvestment
                 cmv.totalInvestmentInfraVarSeries[-1]+=anItem.madeInvestment**2
 
@@ -104,8 +104,8 @@ def buyConsumptionOrInvestmentGoodsAll():
                               (cmv.totalConsumptionSeries[-1]/cmv.agentNum)**2)
  
     cmv.totalInvestmentInfraVarSeries[-1]=\
-                              (cmv.totalInvestmentInfraVarSeries[-1]/cmv.firmNum - \
-                              (cmv.totalInvestmentSeries[-1]/cmv.firmNum)**2)
+                              (cmv.totalInvestmentInfraVarSeries[-1]/(cmv.firmNum+cmv.bankNum) - \
+                              (cmv.totalInvestmentSeries[-1]/(cmv.firmNum+cmv.bankNum))**2)
 
 
 def accountCashMoneyAll():
