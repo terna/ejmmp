@@ -8,8 +8,8 @@ import random as r
 def generateSeeds():
     cmv.seedList=[]
     # seeds for class instances and functions (estimete); entrepreneurMax 
-    # is the max number of firm that will be created
-    nSeeds=cmv.agentNum + cmv.entrepreneurMax + cmv.bankMax + 50
+    # represents the max number of firm that will be created
+    nSeeds=cmv.agentNum + cmv.entrepreneurMax + cmv.bankMax + 101
     
     for i in range(nSeeds):
         cmv.seedList.append(r.randint(-2147483648,2147483647)) 
@@ -28,3 +28,5 @@ def generateSeeds():
     # function # 3 -  buyConsumptionOrInvestmentGoodsAll
     if 'buyConsumptionOrInvestmentGoodsAll' in cmv.functionDict: 
         del cmv.functionDict['buyConsumptionOrInvestmentGoodsAll'].r
+        
+    # agents from position 101
