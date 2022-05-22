@@ -1,7 +1,9 @@
 import commonVar as cmv
-import random as r
+#import random as r
+from tools import *
 
 def produceAll():
+    # no seedManager()
     cmv.totalProductionSeries.append(0)
     cmv.totalProductionInfraVarSeries.append(0)
     cmv.totalInitialInventoriesSeries.append(0)
@@ -23,17 +25,19 @@ def produceAll():
                                           
 
 def payWagesAll():
+    # no seedManager
     for anItem in cmv.firmList+cmv.bankList:
         anItem.payWages()
 
 
-def buyConsumptionGoodsAll():
+def buyConsumptionGoodsAll(r,seed):
+    seedManager(r,seed,"buyConsumptionGoodsAll",buyConsumptionGoodsAll)
     cmv.totalEntrepreneurConsumptionSeries.append(0) 
     cmv.totalNonEntrepreneurConsumptionSeries.append(0)
     cmv.totalConsumptionSeries.append(0)
     cmv.totalConsumptionInfraVarSeries.append(0)
     for k in range(cmv.nOfConsumptionActions):
-        r.shuffle(cmv.agentList)
+        buyConsumptionGoodsAll.r.shuffle(cmv.agentList)
         for anAgent in cmv.agentList:
             anAgent.buyConsumptionGoods(k)
             if k==cmv.nOfConsumptionActions-1:
@@ -49,13 +53,14 @@ def buyConsumptionGoodsAll():
                               (cmv.totalConsumptionSeries[-1]/cmv.agentNum)**2)
                 
 
-def buyInvestmentGoodsAll():
+def buyInvestmentGoodsAll(r,seed):
+    seedManager(r,seed,"buyInvestmentGoodsAll",buyInvestmentGoodsAll)
     cmv.totalInvestmentSeries.append(0)
     cmv.totalInvestmentInfraVarSeries.append(0)
     for k in range(cmv.nOfInvestmentActions):
         firm_bankSafeList=cmv.firmList+cmv.bankList # safe copy without the shuffles in 
                                                     # buyInvestmentGoods
-        r.shuffle(firm_bankSafeList)
+        buyInvestmentGoodsAll.r.shuffle(firm_bankSafeList)
         for anItem in firm_bankSafeList:
             anItem.buyInvestmentGoods(k)
             if k==cmv.nOfInvestmentActions-1:
@@ -67,7 +72,9 @@ def buyInvestmentGoodsAll():
                               (cmv.totalInvestmentSeries[-1]/(cmv.firmNum+cmv.bankNum))**2)
                 
 
-def buyConsumptionOrInvestmentGoodsAll():
+def buyConsumptionOrInvestmentGoodsAll(r,seed):
+    seedManager(r,seed,"buyConsumptionOrInvestmentGoodsAll",buyConsumptionOrInvestmentGoodsAll)
+
     agent_Firm_BankList=cmv.agentList+cmv.firmList+cmv.bankList
 
     cmv.totalEntrepreneurConsumptionSeries.append(0) 
@@ -80,7 +87,7 @@ def buyConsumptionOrInvestmentGoodsAll():
     repetitions=max(cmv.nOfConsumptionActions,cmv.nOfInvestmentActions)
 
     for k in range(repetitions):
-        r.shuffle(agent_Firm_BankList)
+        buyConsumptionOrInvestmentGoodsAll.r.shuffle(agent_Firm_BankList)
         for anItem in agent_Firm_BankList:
             if anItem.__class__.__name__=="Agent" and\
             k < cmv.nOfConsumptionActions - 1: anItem.buyConsumptionGoods(k)

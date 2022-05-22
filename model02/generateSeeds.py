@@ -12,4 +12,19 @@ def generateSeeds():
     nSeeds=cmv.agentNum + cmv.entrepreneurMax + cmv.bankMax + 50
     
     for i in range(nSeeds):
-        cmv.seedList.append(r.randint(-2147483648,2147483647))      
+        cmv.seedList.append(r.randint(-2147483648,2147483647)) 
+
+    # if seed assignment already done in a previuous run, we erase it    
+
+    # function # 0 - setup
+    if 'setup' in cmv.functionDict: del cmv.functionDict['setup'].r
+        
+    # function # 1 -  buyConsumptionGoodsAll
+    if 'buyConsumptionGoodsAll' in cmv.functionDict: del cmv.functionDict['buyConsumptionGoodsAll'].r
+        
+    # function # 2 -  buyInvestmentGoodsAll
+    if 'buyInvestmentGoodsAll' in cmv.functionDict: del cmv.functionDict['buyInvestmentGoodsAll'].r
+        
+    # function # 3 -  buyConsumptionOrInvestmentGoodsAll
+    if 'buyConsumptionOrInvestmentGoodsAll' in cmv.functionDict: 
+        del cmv.functionDict['buyConsumptionOrInvestmentGoodsAll'].r
