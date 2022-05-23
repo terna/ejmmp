@@ -6,15 +6,23 @@ import random as r
 # into the model machine cell
 
 def generateSeeds():
-    cmv.seedList=[]
-    # seeds for class instances and functions (estimete); entrepreneurMax 
-    # represents the max number of firm that will be created
-    nSeeds=cmv.agentNum + cmv.entrepreneurMax + cmv.bankMax + 101
+    cmv.functionSeedList=[]
+    # seeds for functions (currently quite large as quantity)
+    cmv.agentSeedList=[]
+    # seeds for agent class instances; quantity = cmv.agentNum 
+    cmv.firmSeedList=[]
+    # seeds for firm class instances using cmv.entrepreneurMax as a tentative quantity 
+    # (add positions if new firms are created while the simulation is running)
+    cmv.bankSeedList=[]
+    # seeds for bank class instances; quantity = cmv.bankMax
     
-    for i in range(nSeeds):
-        cmv.seedList.append(r.randint(-2147483648,2147483647)) 
+    for i in range(10):
+        cmv.functionSeedList.append(r.randint(-2147483648,2147483647)) 
 
-    # if seed assignment already done in a previuous run, we erase it    
+    for i in range(cmv.agentNum):
+        cmv.agentSeedList.append(r.randint(-2147483648,2147483647)) 
+        
+    # if seed assignment are already done in a previuous run, we erase them    
 
     # function # 0 - setup
     if 'setup' in cmv.functionDict: del cmv.functionDict['setup'].r
@@ -29,4 +37,4 @@ def generateSeeds():
     if 'buyConsumptionOrInvestmentGoodsAll' in cmv.functionDict: 
         del cmv.functionDict['buyConsumptionOrInvestmentGoodsAll'].r
         
-    # agents from position 101
+ 

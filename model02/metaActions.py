@@ -116,6 +116,7 @@ def buyConsumptionOrInvestmentGoodsAll(r,seed):
 
 
 def accountCashMoneyAll():
+    # no seedManager()
     cmv.totalCashMoneySeries.append(0)
     cmv.totalCashMoneyInfraVarSeries.append(0)
     for anAgent in cmv.agentList:
@@ -130,6 +131,7 @@ def accountCashMoneyAll():
 
 
 def accountCheckingAccountAll():
+    # no seedManager()
     cmv.totalCheckingAccountSeries.append(0)
     cmv.totalCheckingAccountInfraVarSeries.append(0)
     for anAgent in cmv.agentList:
@@ -144,6 +146,7 @@ def accountCheckingAccountAll():
 
 
 def accountBankAccountAll(): #temporary - this is an attribute of firms
+    # no seedManager()
     cmv.totalBankAccountSeries.append(0)
     cmv.totalBankAccountInfraVarSeries.append(0)
     for aFirm in cmv.firmList:
@@ -158,18 +161,21 @@ def accountBankAccountAll(): #temporary - this is an attribute of firms
 
 
 def computeAndApplyInterestsAll():
+    # no seedManager()
     
     for aBank in cmv.bankList:
         aBank.computeAndApplyInterests()
 
 
 def makeBankFinancialAccountsAll():
+    # no seedManager()
     
     for aBank in cmv.bankList:
         aBank.makeFinancialAccounts()
         
 
 def makeBalanceSheetAll():
+    # no seedManager()
     cmv.totalProfitSeries.append(0)
     cmv.totalProfitInfraVarSeries.append(0)
     cmv.totalFinalInventoriesSeries.append(0)
@@ -192,5 +198,6 @@ def makeBalanceSheetAll():
                                             
 
 def distributeDividendAll():
+    # no seedManager()
     for aFirm in cmv.firmList:
         aFirm.distributeDividend()
