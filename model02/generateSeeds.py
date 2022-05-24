@@ -6,8 +6,20 @@ import random as r
 # into the model machine cell
 
 def generateSeeds():
+    
     cmv.functionSeedList=[]
     # seeds for functions (currently quite large as quantity)
+    for i in range(10):
+        cmv.functionSeedList.append(r.randint(-2147483648,2147483647)) 
+    
+    # generators for class instances lists
+    rAgent=r.Random()
+    rAgent.seed(r.randint(-2147483648,2147483647))
+    rFirm=r.Random()
+    rFirm.seed(r.randint(-2147483648,2147483647))
+    rBank=r.Random()
+    rBank.seed(r.randint(-2147483648,2147483647))
+
     cmv.agentSeedList=[]
     # seeds for agent class instances; quantity = cmv.agentNum 
     cmv.firmSeedList=[]
@@ -16,12 +28,15 @@ def generateSeeds():
     cmv.bankSeedList=[]
     # seeds for bank class instances; quantity = cmv.bankMax
     
-    for i in range(10):
-        cmv.functionSeedList.append(r.randint(-2147483648,2147483647)) 
-
     for i in range(cmv.agentNum):
-        cmv.agentSeedList.append(r.randint(-2147483648,2147483647)) 
+        cmv.agentSeedList.append(rAgent.randint(-2147483648,2147483647)) 
         
+    for i in range(cmv.entrepreneurMax):
+        cmv.firmSeedList.append(rFirm.randint(-2147483648,2147483647)) 
+
+    for i in range(cmv.bankMax):
+        cmv.bankSeedList.append(rBank.randint(-2147483648,2147483647)) 
+
     # if seed assignment are already done in a previuous run, we erase them    
 
     # function # 0 - setup
