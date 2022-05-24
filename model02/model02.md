@@ -189,7 +189,9 @@ each **firm** has the **functions**:
   
   reordering, we have:
   
-  $\underbrace{R_{i,t}+p(v^f_{i,t}-v^i_{i,t})}_{\textrm{indirect added value}}=\underbrace{\Pi_{i,t}+W n_{i,t}+X^l_{i,t}}_{\textrm{direct added value}}$
+  $\underbrace{R_{i,t}+p(v^f_{i,t}-v^i_{i,t})}_{\textrm{indirect added value (*)}}=\underbrace{\Pi_{i,t}+W n_{i,t}+X^l_{i,t}}_{\textrm{direct added value}}$
+  
+  (*) the cost of bought-in materials and components is missing by construction in this version of the model
 
 each **bank** has the **functions**:
 
