@@ -147,7 +147,7 @@ each **agent** has the **functions**:
 
 each **firm** has the **functions**:
 
-- **produce** function, with:
+- **produce** function (production in quantity), with:
 
   $\pi_{i,t}=\pi_{i,t-1}+$&Delta;$\pi_{i,t}$
 
@@ -185,23 +185,17 @@ each **firm** has the **functions**:
 
   $R_{i,t}=p s_{i,t}+X^d_{i,t}$
 
-  $\Pi_{i,t}=R_{i,t}-W n_{i,t}-X^l_{i,t}-p(v^f_{i,t}-v^i_{i,t})$
-
-
+  $\Pi_{i,t}=R_{i,t}-W n_{i,t}-X^l_{i,t}+p(v^f_{i,t}-v^i_{i,t})$
+  
+  reordering, we have:
+  
+  $\underbrace{R_{i,t}+p(v^f_{i,t}-v^i_{i,t})}_{\textrm{indirect added value}}=\underbrace{\Pi_{i,t}+W n_{i,t}+X^l_{i,t}}_{\textrm{direct added value}}$
 
 each **bank** has the **functions**:
 
-- **produce** function, with:
+- **makeBalanceSheet**, with:
 
-​				$\pi_{i,t}=\pi_{i,t-1}+$&Delta;$\pi_{i,t}$
-
-​				$q_{i,t}=n_{i,t} \pi_{i,t}-X^d_b-X^l_b$ NB not production, <p style="color:red">added value</p>
-
-​				$X^d_b<0$ in def, here addendum of add. value and cost???????????????????
-
-​				$X^l_b<0$ if the b. is borrower so cost???????????????????
-
-to be completed **:-)**
+​				
 
 ## agent setup
 
