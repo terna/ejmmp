@@ -191,13 +191,12 @@ def nationalAccounts():
     print("-------------------------------------------\n"+\
           '"national" accounts'+\
           "\n-------------------------------------------\n")
-    print("%s\t%s\t%s\t%s\t\t%s\t%s\t%s" % \
-          ("t","total","lost","initial","consum.","invest.","final"))
-    print("\t%s\t%s\t%s\t\t\t\t%s" % ("produc.","produc.","invent.","invent."))
+    print("%s\t%s\t%s\t\t%s\t%s\t%s" % \
+          ("  t","total","initial","consum.","invest.","final"))
+    print("\t%s\t%s\t\t\t\t%s" % ("a.v.","invent.","invent."))
     for i in range(cmv.ncycles):
-        print("%3d\t%.1f\t%.1f\t%.1f\t    |\t%.1f\t%.1f\t%.1f" % \
-                                   (i+1,cmv.totalProductionSeries[i],
-                                   -cmv.totalLostProductionSeries[i],\
+        print("%3d\t%.1f\t%.1f\t    |\t%.1f\t%.1f\t%.1f" % \
+                                   (i+1,cmv.totalAddedValueSeries[i],
                                    cmv.totalInitialInventoriesSeries[i],\
                                    cmv.totalConsumptionSeries[i],\
                                    cmv.totalInvestmentSeries[i],\

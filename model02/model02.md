@@ -1,6 +1,6 @@
 ### Stock-flow *model02*, with real and financial elements
 
-- The model also consider the monetary side of the economy.
+- The model also considers the monetary side of the economy.
 
   
 
@@ -60,7 +60,9 @@ $q_{i,t}$ - production in quantity, `production`
 
 $\Pi_{i,t}$ - profit, `profit`
 
-$\rho$ - dividend distribution share, `rho`
+$\rho$ - profit distribution share, `rho`
+
+$\delta_{i,t}$ - dividend $\rho\Pi_{i,t}$, `dividend` or `perceivedDividend` 
 
 $W$ - wage `wage`
 
@@ -83,6 +85,8 @@ $H_{i,t}$  - high powered money (cash) held by individuals (also acting as emplo
 $M1_{i,t}$ - checking account money deposits held by  $a_i$ at time $t$, `checkingAccount`
 
 $M1^f_{i,t}$ - firm's bank account (with positive or negative balance), `bankAccount`
+
+$M1^b_{i,t}$ - bank's account (with positive or negative balance) mantained with the central bank , `centralBankAccount`
 
 the investment and consumption actions are repeated in each cycle, looking around randomly for the sellers; currently `nOfConsumptionActions` $=30$ and `nOfInvestmentActions`$=10$; each consumption buy action is at maximum the 20% of the planned consumptions in that cycle; instead, each investment buy action can reach the whole amount of the investment program of the cycle; each buy action is limited by the residual capabilty of the seller
 
@@ -189,11 +193,45 @@ each **firm** has the **functions**:
   
   reordering, we have:
   
-  $\underbrace{R_{i,t}+p(v^f_{i,t}-v^i_{i,t})}_{\textrm{indirect added value (*)}}=\underbrace{\Pi_{i,t}+W n_{i,t}+X^l_{i,t}}_{\textrm{direct added value}}$
+  $\underbrace{\Pi_{i,t}+W n_{i,t}+X^l_{i,t}}_{\textrm{direct added value}}=\underbrace{R_{i,t}+p(v^f_{i,t}-v^i_{i,t})}_{\textrm{indirect added value (*)}}$
   
   (*) the cost of bought-in materials and components is missing by construction in this version of the model
 
+- **distributeDividend**
+
+  $\delta_{i,t}=\rho\Pi_{i,t}$​
+
+  &Delta;$M1_{i,t}=\delta_{i,t}$
+
+  &Delta;$M1^f_{i,t}=-\delta_{i,t}$
+
+  
+
 each **bank** has the **functions**:
+
+- **produce** function (production of bank services in quantity), analogously with the firm one
+
+  
+
+- **payWages**
+
+  paying $W$ to each worker in each time $t$
+
+  &Delta;$M1_{i,t}=W$ for  $a_i \in \mathbf{A}^w$ 
+
+  &Delta;$M1^f_{i,t}=-W \mathbf{N}^w_i$ for $a_i \in \mathbf{A}^e$
+
+  
+
+- **distributeDividend**
+
+  $\delta_{i,t}=\rho\Pi_{i,t}$​​
+
+  &Delta;$M1_{i,t}=\delta_{i,t}$
+
+  &Delta;$M1^b_{i,t}=-\delta_{i,t}$
+
+  
 
 - **makeBalanceSheet**, with:
 

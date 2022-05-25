@@ -9,19 +9,19 @@ def produceAll():
     cmv.totalInitialInventoriesSeries.append(0)
     cmv.totalInitialInventoriesInfraVarSeries.append(0)
 
-    for aFirm in cmv.firmList:
-        aFirm.produce()
-        cmv.totalProductionSeries[-1]+=aFirm.production
-        cmv.totalProductionInfraVarSeries[-1]+=aFirm.production**2
-        cmv.totalInitialInventoriesSeries[-1]+=aFirm.initialInventories
-        cmv.totalInitialInventoriesInfraVarSeries[-1]+=aFirm.initialInventories**2
+    for anItem in cmv.firmList+cmv.bankList:
+        anItem.produce()
+        cmv.totalProductionSeries[-1]+=anItem.production
+        cmv.totalProductionInfraVarSeries[-1]+=anItem.production**2
+        cmv.totalInitialInventoriesSeries[-1]+=anItem.initialInventories
+        cmv.totalInitialInventoriesInfraVarSeries[-1]+=anItem.initialInventories**2
 
     cmv.totalProductionInfraVarSeries[-1]=\
-                            (cmv.totalProductionInfraVarSeries[-1]/cmv.firmNum - \
-                            (cmv.totalProductionSeries[-1]/cmv.firmNum)**2)
+                            (cmv.totalProductionInfraVarSeries[-1]/(cmv.firmNum+cmv.bankNum) - \
+                            (cmv.totalProductionSeries[-1]/(cmv.firmNum+cmv.bankNum))**2)
     cmv.totalInitialInventoriesInfraVarSeries[-1]=\
-                            (cmv.totalInitialInventoriesInfraVarSeries[-1]/cmv.firmNum - \
-                            (cmv.totalInitialInventoriesSeries[-1]/cmv.firmNum)**2)
+                            (cmv.totalInitialInventoriesInfraVarSeries[-1]/(cmv.firmNum+cmv.bankNum) - \
+                            (cmv.totalInitialInventoriesSeries[-1]/(cmv.firmNum+cmv.bankNum))**2)
                                           
 
 def payWagesAll():
@@ -181,23 +181,29 @@ def makeBalanceSheetAll():
     cmv.totalFinalInventoriesSeries.append(0)
     cmv.totalFinalInventoriesInfraVarSeries.append(0)
     cmv.totalLostProductionSeries.append(0)
+    cmv.totalAddedValueSeries.append(0)
+    cmv.totalAddedValueInfraVarSeries.append(0)
     
-    for aFirm in cmv.firmList:
-        aFirm.makeBalanceSheet()
-        cmv.totalProfitSeries[-1]+=aFirm.profit
-        cmv.totalProfitInfraVarSeries[-1]+=aFirm.profit**2
-        cmv.totalFinalInventoriesSeries[-1]+=aFirm.finalInventories
-        cmv.totalFinalInventoriesInfraVarSeries[-1]+=aFirm.finalInventories**2
-        cmv.totalLostProductionSeries[-1]+=aFirm.lostProduction
-
-    cmv.totalProfitInfraVarSeries[-1]=(cmv.totalProfitInfraVarSeries[-1]/cmv.firmNum - \
-                                          (cmv.totalProfitSeries[-1]/cmv.firmNum)**2)
+    for anItem in cmv.firmList+cmv.bankList:
+        anItem.makeBalanceSheet()
+        cmv.totalProfitSeries[-1]+=anItem.profit
+        cmv.totalProfitInfraVarSeries[-1]+=anItem.profit**2
+        cmv.totalFinalInventoriesSeries[-1]+=anItem.finalInventories
+        cmv.totalFinalInventoriesInfraVarSeries[-1]+=anItem.finalInventories**2
+        cmv.totalLostProductionSeries[-1]+=anItem.lostProduction
+        cmv.totalAddedValueSeries[-1]+=anItem.addedValue
+        cmv.totalAddedValueInfraVarSeries[-1]+=anItem.addedValue**2
+        
+    cmv.totalProfitInfraVarSeries[-1]=(cmv.totalProfitInfraVarSeries[-1]/(cmv.firmNum+cmv.bankNum) - \
+                                          (cmv.totalProfitSeries[-1]/(cmv.firmNum+cmv.bankNum))**2)
     cmv.totalFinalInventoriesInfraVarSeries[-1]=\
-                            (cmv.totalFinalInventoriesInfraVarSeries[-1]/cmv.firmNum - \
-                            (cmv.totalFinalInventoriesSeries[-1]/cmv.firmNum)**2)
+                            (cmv.totalFinalInventoriesInfraVarSeries[-1]/(cmv.firmNum+cmv.bankNum) - \
+                            (cmv.totalFinalInventoriesSeries[-1]/(cmv.firmNum+cmv.bankNum))**2)
+    cmv.totalAddedValueInfraVarSeries[-1]=(cmv.totalAddedValueInfraVarSeries[-1]/(cmv.firmNum+cmv.bankNum) - \
+                                          (cmv.totalAddedValueSeries[-1]/(cmv.firmNum+cmv.bankNum))**2)
                                             
 
 def distributeDividendAll():
     # no seedManager()
-    for aFirm in cmv.firmList:
-        aFirm.distributeDividend()
+    for anItem in cmv.firmList+cmv.bankList:
+        anItem.distributeDividend()
