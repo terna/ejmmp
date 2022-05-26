@@ -323,7 +323,7 @@ each **bank** has the **functions**:
 
   
 
-- *makeBankFinancialAccountsAll* summmarinzing all the checking and banl accounts
+- *makeBankFinancialAccountsAll* summmarinzing all the checking and bank accounts
 
 ## <p style="color:red">model machine</p>
 

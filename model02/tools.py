@@ -23,6 +23,7 @@ def makeHist():
     plt.title("Distribution of the enterprises by number of workers")      
 
 
+"""
 def plot1():
     # https://matplotlib.org/3.5.1/gallery/subplots_axes_and_figures/two_scales.html
     # https://matplotlib.org/3.5.1/tutorials/colors/colors.html
@@ -39,6 +40,7 @@ def plot1():
     ax2a.plot(t, cmv.totalProductionInfraVarSeries, label="prodInVar", color=myColor2)
     ax2a.tick_params(axis='y', labelcolor=myColor2)
     fig1.legend()
+
 
 def plot2():
     # https://matplotlib.org/3.5.1/gallery/subplots_axes_and_figures/two_scales.html
@@ -186,7 +188,8 @@ def plot9():
     ax2i.plot(t, cmv.totalBankAccountInfraVarSeries, label="checking-accountInVar", color=myColor2)
     ax2i.tick_params(axis='y', labelcolor=myColor2)
     fig9.legend()
-    
+"""
+
 def nationalAccounts():
     print("-------------------------------------------\n"+\
           '"national" accounts'+\
