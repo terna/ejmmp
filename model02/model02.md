@@ -235,7 +235,17 @@ each **bank** has the **functions**:
 
 - **makeBalanceSheet**, with:
 
-​				
+  being $d_{i}=1$ we have $v^f_{i,t}=v^i_{i,t}=0$
+
+  $R_{i,t}=p s_{i,t}+\sum_{a_i}X^l_{i,t}+\sum_{f_i}X^l_{i,t}$
+
+  $\Pi_{i,t}=R_{i,t}-W n_{i,t}-\sum_{a_i}X^d_{i,t}-\sum_{f_i}X^d_{i,t}$
+
+  reordering, we have:
+
+  $\underbrace{\Pi_{i,t}+W n_{i,t}+\sum_{a_i}X^d_{i,t}+\sum_{f_i}X^d_{i,t}}_{\textrm{direct added value}}=\underbrace{R_{i,t}}_{\textrm{indirect added value (*)}}$
+
+  (*) the cost of bought-in materials and components is missing by construction in this version of the model				
 
 ## agent setup
 
