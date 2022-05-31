@@ -243,9 +243,9 @@ each **bank** has the **functions**:
 
   reordering, we have:
 
-  $\underbrace{\Pi_{i,t}+W n_{i,t}+\sum_{a_i}X^d_{i,t}+\sum_{f_i}X^d_{i,t}}_{\textrm{direct added value}}=\underbrace{R_{i,t}}_{\textrm{indirect added value (*)}}$
+  $\underbrace{\Pi_{i,t}+W n_{i,t}+\sum_{a_i}X^d_{i,t}}_{\textrm{direct added value}}=\underbrace{R_{i,t}-\sum_{f_i}X^d_{i,t}}_{\textrm{indirect added value (*)}}$
 
-  (*) the cost of bought-in materials and components is missing by construction in this version of the model				
+  (*) the cost of bought-in materials and components is missing by construction in this version of the model  RIVEDERE				
 
 ## agent setup
 
@@ -355,3 +355,4 @@ each **bank** has the **functions**:
 
 - display tools; their code is hidden into the file `tools.py`, in the same folder of the notebook; online, look a the model [GitHub](https://github.com/terna/ejmmp/tree/main/model02)
 
+###### 
