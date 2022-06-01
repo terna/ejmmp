@@ -37,5 +37,5 @@ def nationalAccounts():
                                    cmv.totalConsumptionSeries[i],\
                                    cmv.totalInvestmentSeries[i],\
                                    cmv.totalFinalInventoriesSeries[i]))
-        
+
     print("\n\n\n")

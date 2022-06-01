@@ -1,20 +1,20 @@
 ### Stock-flow *model02*, with real and financial elements
 
-- The model also considers the monetary side of the economy.
+- In the model, we observe both the real and monetary sides of the economy.
 
   
 
-- We have to initialize loans and capital stocks.
+- We consider loans and capital stocks.
 
   
 
-- Currently, entrepreneurs have unlimited funds that they put freely in their activities, balancing other agent negative cash, if any.
+- Enterprises have initial endowments.
 
   
 
 - Saving is abstension from consuming, increasing agents' liquidity.
 
-
+  
 
 - Investments are uniquely for replacement, without technical progress.
 
@@ -66,7 +66,7 @@ $\delta_{i,t}$ - dividend $\rho\Pi_{i,t}$, `dividend` or `perceivedDividend`
 
 $W$ - wage `wage`
 
-$R_{i,t}$ - revenues, `revenues`
+$R_{i,t}$ - revenues, `revenues`, including both sales revenues, `salesRevenues`, and active interests 
 
 $s_{i,t}$ - sales in quantity, `sales`
 
@@ -78,7 +78,7 @@ $c_{i,t}$ - consumption rate, a uniformly distributed decimal number in range $[
 
 $C_{i,t}$ - consumption of $i$ in $t$
 
-$I_{i,t}$  - investment plan  of $i$ in $t$, a uniformly distributed realization in range $[I_{min},I_{max}]$,`investmentProgram`
+$I_{i,t}$  - investment plan  of $i$ in $t$, a uniformly distributed realization in range $[I_{min},I_{max}]$,`investmentProgram`, with $I_{i,t} \le 2\Pi_{i,t}$, being 2$\Pi_{i,t}$ a proxy of investment sustainability
 
 $H_{i,t}$  - high powered money (cash) held by individuals (also acting as employers), `cashMoney`
 
@@ -245,7 +245,7 @@ each **bank** has the **functions**:
 
   $\underbrace{\Pi_{i,t}+W n_{i,t}+\sum_{a_i}X^d_{i,t}}_{\textrm{direct added value}}=\underbrace{R_{i,t}-\sum_{f_i}X^d_{i,t}}_{\textrm{indirect added value (*)}}$
 
-  (*) the cost of bought-in materials and components is missing by construction in this version of the model  RIVEDERE				
+  (*) the cost of bought-in materials and components is missing by construction in this version of the model, excepted the interests on deposits paid to firms				
 
 ## agent setup
 
@@ -277,11 +277,15 @@ each **bank** has the **functions**:
 
   
 
-- assigning workforce (to-be-employed agents) to firms of banks, with a reinforcement mechanism, gradually giving more attraction/hiring capability to firms or banks growing the most
+- assigning workforce (to-be-employed agents) to firms or banks, with a reinforcement mechanism, gradually giving more attraction/hiring capability to firms or banks growing the most
 
   
 
 - assigning agents and firms to banks in a random way
+
+  
+
+- endowments provided to the enterprises are proportional to the initial workforce, being extacted from a random-normal distribution with $\mu=kN^w_i$ and $\sigma=\frac{k}{5}N^w_i$ (temporary $k=20$ for the firms and $k=10$ for the banks)
 
 
 
