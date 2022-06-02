@@ -162,9 +162,17 @@ def accountBankAccountAll(): #temporary - this is an attribute of firms
 
 def computeAndApplyInterestsAll():
     # no seedManager()
+    cmv.privateClientsTotalInterestOnDeposits.append(0)
+    cmv.privateClientsTotalInterestOnLoans.append(0)
+    cmv.commercialClientsTotalInterestOnDeposits.append(0)
+    cmv.commercialClientsTotalInterestOnLoans.append(0)
     
     for aBank in cmv.bankList:
         aBank.computeAndApplyInterests()
+        cmv.privateClientsTotalInterestOnDeposits[-1]+=aBank.myPrivateClientsTotalInterestOnDeposits
+        cmv.privateClientsTotalInterestOnLoans[-1]+=aBank.myPrivateClientsTotalInterestOnLoans
+        cmv.commercialClientsTotalInterestOnDeposits[-1]+=aBank.myCommercialClientsTotalInterestOnDeposits
+        cmv.commercialClientsTotalInterestOnLoans[-1]+=aBank.myCommercialClientsTotalInterestOnLoans
 
 
 def makeBankFinancialAccountsAll():
@@ -199,7 +207,8 @@ def makeBalanceSheetAll():
     cmv.totalFinalInventoriesInfraVarSeries[-1]=\
                             (cmv.totalFinalInventoriesInfraVarSeries[-1]/(cmv.firmNum+cmv.bankNum) - \
                             (cmv.totalFinalInventoriesSeries[-1]/(cmv.firmNum+cmv.bankNum))**2)
-    cmv.totalAddedValueInfraVarSeries[-1]=(cmv.totalAddedValueInfraVarSeries[-1]/(cmv.firmNum+cmv.bankNum) - \
+    cmv.totalAddedValueInfraVarSeries[-1]=(cmv.totalAddedValueInfraVarSeries[-1]/\
+                                          (cmv.firmNum+cmv.bankNum) - \
                                           (cmv.totalAddedValueSeries[-1]/(cmv.firmNum+cmv.bankNum))**2)
                                             
 
