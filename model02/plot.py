@@ -101,3 +101,31 @@ def makePlots():
      [0, max(0.01,max(cmv.commercialClientsTotalInterestOnLoansInfraVarSeries))],\
      cmv.commercialClientsTotalInterestOnLoansInfraVarSeries,\
      "commercial-clients-intOnLoansInVar")
+    
+    plot([min(-0.01, min(cmv.totalDebtsVsAgentsSeries)),\
+      max(0.01,max(cmv.totalDebtsVsAgentsSeries))],\
+     cmv.totalDebtsVsAgentsSeries,"debt-vs-agents",\
+     [0, max(0.01,max(cmv.totalDebtsVsAgentsInfraVarSeries))],\
+     cmv.totalDebtsVsAgentsInfraVarSeries,\
+     "debt-vs-agentsInVar")
+
+    plot([min(-0.01, min(cmv.totalCreditsVsAgentsSeries)),\
+      max(0.01,max(cmv.totalCreditsVsAgentsSeries))],\
+     cmv.totalCreditsVsAgentsSeries,"credit-vs-agents",\
+     [0, max(0.01,max(cmv.totalCreditsVsAgentsInfraVarSeries))],\
+     cmv.totalCreditsVsAgentsInfraVarSeries,\
+     "credit-vs-agentsInVar")
+
+    plot([min(-0.01, min(cmv.totalDebtsVsFirmsSeries)),\
+      max(0.01,max(cmv.totalDebtsVsFirmsSeries))],\
+     cmv.totalDebtsVsFirmsSeries,"debt-vs-firms",\
+     [0, max(0.01,max(cmv.totalDebtsVsFirmsInfraVarSeries))],\
+     cmv.totalDebtsVsFirmsInfraVarSeries,\
+     "debt-vs-firmsInVar")
+
+    plot([min(-0.01, min(cmv.totalCreditsVsFirmsSeries)),\
+      max(0.01,max(cmv.totalCreditsVsFirmsSeries))],\
+     cmv.totalCreditsVsFirmsSeries,"credit-vs-firms",\
+     [0, max(0.01,max(cmv.totalCreditsVsFirmsInfraVarSeries))],\
+     cmv.totalCreditsVsFirmsInfraVarSeries,\
+     "credit-vs-firmsInVar")
