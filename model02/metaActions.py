@@ -162,17 +162,37 @@ def accountBankAccountAll(): #temporary - this is an attribute of firms
 
 def computeAndApplyInterestsAll():
     # no seedManager()
-    cmv.privateClientsTotalInterestOnDeposits.append(0)
-    cmv.privateClientsTotalInterestOnLoans.append(0)
-    cmv.commercialClientsTotalInterestOnDeposits.append(0)
-    cmv.commercialClientsTotalInterestOnLoans.append(0)
+    cmv.privateClientsTotalInterestOnDepositsSeries.append(0)
+    cmv.privateClientsTotalInterestOnLoansSeries.append(0)
+    cmv.commercialClientsTotalInterestOnDepositsSeries.append(0)
+    cmv.commercialClientsTotalInterestOnLoansSeries.append(0)
+    cmv.privateClientsTotalInterestOnDepositsInfraVarSeries.append(0)
+    cmv.privateClientsTotalInterestOnLoansInfraVarSeries.append(0)
+    cmv.commercialClientsTotalInterestOnDepositsInfraVarSeries.append(0)
+    cmv.commercialClientsTotalInterestOnLoansInfraVarSeries.append(0)
     
     for aBank in cmv.bankList:
         aBank.computeAndApplyInterests()
-        cmv.privateClientsTotalInterestOnDeposits[-1]+=aBank.myPrivateClientsTotalInterestOnDeposits
-        cmv.privateClientsTotalInterestOnLoans[-1]+=aBank.myPrivateClientsTotalInterestOnLoans
-        cmv.commercialClientsTotalInterestOnDeposits[-1]+=aBank.myCommercialClientsTotalInterestOnDeposits
-        cmv.commercialClientsTotalInterestOnLoans[-1]+=aBank.myCommercialClientsTotalInterestOnLoans
+        cmv.privateClientsTotalInterestOnDepositsSeries[-1]+=\
+                          aBank.myPrivateClientsTotalInterestOnDeposits
+        cmv.privateClientsTotalInterestOnDepositsInfraVarSeries[-1]+=\
+                          aBank.myPrivateClientsTotalInterestOnDeposits**2
+        cmv.privateClientsTotalInterestOnLoansSeries[-1]+=\
+                          aBank.myPrivateClientsTotalInterestOnLoans
+        cmv.privateClientsTotalInterestOnLoansInfraVarSeries[-1]+=\
+                          aBank.myPrivateClientsTotalInterestOnLoans**2
+        cmv.commercialClientsTotalInterestOnDepositsSeries[-1]+=\
+                          aBank.myCommercialClientsTotalInterestOnDeposits
+        cmv.commercialClientsTotalInterestOnDepositsInfraVarSeries[-1]+=\
+                          aBank.myCommercialClientsTotalInterestOnDeposits**2
+        cmv.commercialClientsTotalInterestOnLoansSeries[-1]+=\
+                          aBank.myCommercialClientsTotalInterestOnLoans
+        cmv.commercialClientsTotalInterestOnLoansInfraVarSeries[-1]+=\
+                          aBank.myCommercialClientsTotalInterestOnLoans**2
+
+    cmv.privateClientsTotalInterestOnDepositsInfraVarSeries[-1]=\
+               (cmv.privateClientsTotalInterestOnDepositsInfraVarSeries[-1]/cmv.bankNum - \
+               (cmv.privateClientsTotalInterestOnDepositsSeries[-1]/cmv.bankNum)**2)
 
 
 def makeBankFinancialAccountsAll():
