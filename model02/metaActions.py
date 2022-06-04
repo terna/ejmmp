@@ -193,14 +193,38 @@ def computeAndApplyInterestsAll():
     cmv.privateClientsTotalInterestOnDepositsInfraVarSeries[-1]=\
                (cmv.privateClientsTotalInterestOnDepositsInfraVarSeries[-1]/cmv.bankNum - \
                (cmv.privateClientsTotalInterestOnDepositsSeries[-1]/cmv.bankNum)**2)
+    cmv.privateClientsTotalInterestOnLoansInfraVarSeries[-1]=\
+               (cmv.privateClientsTotalInterestOnLoansInfraVarSeries[-1]/cmv.bankNum - \
+               (cmv.privateClientsTotalInterestOnLoansSeries[-1]/cmv.bankNum)**2)
+    cmv.commercialClientsTotalInterestOnDepositsInfraVarSeries[-1]=\
+               (cmv.commercialClientsTotalInterestOnDepositsInfraVarSeries[-1]/cmv.bankNum - \
+               (cmv.commercialClientsTotalInterestOnDepositsSeries[-1]/cmv.bankNum)**2)
+    cmv.commercialClientsTotalInterestOnLoansInfraVarSeries[-1]=\
+               (cmv.commercialClientsTotalInterestOnLoansInfraVarSeries[-1]/cmv.bankNum - \
+               (cmv.commercialClientsTotalInterestOnLoansSeries[-1]/cmv.bankNum)**2)
 
 
 def makeBankFinancialAccountsAll():
     # no seedManager()
+    cmv.totalDebtsVsAgentsSeries.append(0)
+    cmv.totalCreditsVsAgentsSeries.append(0)
+    cmv.totalDebtsVsFirmsSeries.append(0)
+    cmv.totalCreditsVsFirmsSeries.append(0)
+    cmv.totalDebtsVsAgentsInfraVarSeries.append(0)
+    cmv.totalCreditsVsAgentsInfraVarSeries.append(0)
+    cmv.totalDebtsVsFirmsInfraVarSeries.append(0)
+    cmv.totalCreditsVsFirmsInfraVarSeries.append(0)
     
     for aBank in cmv.bankList:
         aBank.makeFinancialAccounts()
-        
+        cmv.totalDebtsVsAgentsSeries[-1]+=aBank.myDebtsVsAgents
+        cmv.totalDebtsVsAgentsInfraVarSeries[-1]+=aBank.myDebtsVsAgents**2
+        cmv.totalCreditsVsAgentsSeries[-1]+=aBank.myCreditsVsAgents
+        cmv.totalCreditsVsAgentsInfraVarSeries[-1]+=aBank.myCreditsVsAgents**2
+        cmv.totalDebtsVsFirmsSeries[-1]+=aBank.myDebtsVsFirms
+        cmv.totalDebtsVsFirmsInfraVarSeries[-1]+=aBank.myDebtsVsFirms**2
+        cmv.totalCreditsVsFirmsSeries[-1]+=aBank.myCreditsVsFirms
+        cmv.totalCreditsVsFirmsInfraVarSeries[-1]+=aBank.myCreditsVsFirms**2
 
 def makeBalanceSheetAll():
     # no seedManager()
