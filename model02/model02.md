@@ -78,7 +78,9 @@ $c_{i,t}$ - consumption rate, a uniformly distributed decimal number in range $[
 
 $C_{i,t}$ - consumption of $i$ in $t$
 
-$I_{i,t}$  - investment plan  of $i$ in $t$, a uniformly distributed realization in range $[I_{min},I_{max}]$,`investmentProgram`, with $I_{i,t} \le 2\Pi_{i,t}$, being 2$\Pi_{i,t}$ a proxy of investment sustainability
+$I_{i,t}$  - investment plan  of $i$ in $t$, a uniformly distributed realization in range $[I_{min},I_{max}]$,`investmentProgram`
+
+$\lambda$ -parameter limiting the investment plan, in $I_{i,t} \le \lambda\Pi_{i,t-1}$ , `Lambda`
 
 $H_{i,t}$  - high powered money (cash) held by individuals (also acting as employers), `cashMoney`
 
@@ -87,6 +89,10 @@ $M1_{i,t}$ - checking account money deposits held by  $a_i$ at time $t$, `checki
 $M1^f_{i,t}$ - firm's bank account (with positive or negative balance), `bankAccount`
 
 $M1^b_{i,t}$ - bank's account (with positive or negative balance) mantained with the central bank , `centralBankAccount`
+
+$\alpha$ - parameter determining the mean of the random normal distribution of the initial endowments of both firms and banks as $\alpha N^w_i$, being $i$ a firm or a bank, `alphaF` or `alphaB`
+
+$\beta$ - parameter determining the standard deviation $\sigma$ of the random normal distribution of the initial endowments of both firms and banks, with $\sigma=\frac{\alpha}{\beta}N^w_i$, being $i$ a firm or a bank, `beta`
 
 the investment and consumption actions are repeated in each cycle, looking around randomly for the sellers; currently `nOfConsumptionActions` $=30$ and `nOfInvestmentActions`$=10$; each consumption buy action is at maximum the 20% of the planned consumptions in that cycle; instead, each investment buy action can reach the whole amount of the investment program of the cycle; each buy action is limited by the residual capabilty of the seller
 
@@ -140,7 +146,7 @@ each **agent** has the **functions**:
 
   being $bu$ the buyer and $se$ the seller (firm), for each fraction $C_{i,t}/k$ 
 
-  ($k$ is the number of buying actions in each cycle with random share [0,cmv.maxConsumptionShareInSubstep))
+  ($k$ is the number of buying actions in each cycle with random share [0,`maxConsumptionShareInSubstep`))
 
   &Delta;$M1^f_{se,t}=C_{bu,t}/k$
 
@@ -171,11 +177,11 @@ each **firm** has the **functions**:
 
 - **buyInvestmentGoods**
 
-  $I_{j,t}$ for $f_j \in \mathbf{F}$  ($I_{j,t}$ is exogenously set)
+  $I_{j,t}$ for $f_j \in \mathbf{F}$  ($I_{j,t}$ is exogenously set), , with $I_{i,t} \le \lambda\Pi_{i,t-1}$, being $\lambda\Pi_{i,t-1}$ a proxy of investment sustainability, introducing a lag with (possible) cyclical effect
 
   being $bu$ the buyer (firm) and $se$ the seller (firm), for each fraction $I_{j,t}/k$
 
-  ($k$ is the number of investment actions in each cycle, with random share [0,cmv.maxInvestmentShareInSubstep))
+  ($k$ is the number of investment actions in each cycle, with random share [0,`maxInvestmentShareInSubstep`))
 
   &Delta;$M1^f_{se,t}=I_{bu,t}/k$
 
@@ -220,6 +226,20 @@ each **bank** has the **functions**:
   &Delta;$M1_{i,t}=W$ for  $a_i \in \mathbf{A}^w$ 
 
   &Delta;$M1^f_{i,t}=-W \mathbf{N}^w_i$ for $a_i \in \mathbf{A}^e$
+
+  
+
+- **buyInvestmentGoods**
+
+  $I_{j,t}$ for $f_j \in \mathbf{F}$  ($I_{j,t}$ is exogenously set), , with $I_{i,t} \le \lambda\Pi_{i,t-1}$, being $\lambda\Pi_{i,t-1}$ a proxy of investment sustainability, introducing a lag with (possible) cyclical effect
+
+  being $bu$ the buyer (firm) and $se$ the seller (firm), for each fraction $I_{j,t}/k$
+
+  ($k$ is the number of investment actions in each cycle, with random share [0,`maxInvestmentShareInSubstep`))
+
+  &Delta;$M1^f_{se,t}=I_{bu,t}/k$
+
+  &Delta;$M1^b_{bu,t}=-I_{bu,t}/k$
 
   
 
@@ -285,7 +305,7 @@ each **bank** has the **functions**:
 
   
 
-- endowments provided to the enterprises are proportional to the initial workforce, being extacted from a random-normal distribution with $\mu=kN^w_i$ and $\sigma=\frac{k}{5}N^w_i$ (temporary $k=20$ for the firms and $k=10$ for the banks)
+- endowments provided to the enterprises are proportional to the initial workforce, being extracted from a random-normal distribution with $\mu=\alpha N^w_i$ and $\sigma=\frac{\alpha}{\beta}N^w_i$ (substituting $\alpha$ with $\alpha^f$ for the firms, or with $\alpha^b$ for the banks)
 
 
 
