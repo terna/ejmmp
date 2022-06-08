@@ -52,7 +52,7 @@ $dimensional~heterogeneity$ is a $true/false$ chooser, forcing increasing firms 
 
 $\pi_{i,t}$ - labor productivity, a uniformly distributed decimal number in range $[\pi_{min},\pi_{max}]$,`productivity`
 
-&Delta;$\pi_{i,t}$ - uniperiodal additive productivity correction in range $[$&Delta;$\pi_{min},$ &Delta;$\pi_{max}]$, `productivityDelta`
+$\Delta\pi_{i,t}$ - uniperiodal additive productivity correction in range $[$&Delta;$\pi_{min},$ &Delta;$\pi_{max}]$, `productivityDelta`
 
 $n_{i,t}$ - number of workers in a firm
 
@@ -148,9 +148,9 @@ each **agent** has the **functions**:
 
   ($k$ is the number of buying actions in each cycle with random share [0,`maxConsumptionShareInSubstep`))
 
-  &Delta;$M1^f_{se,t}=C_{bu,t}/k$
+  $\Delta M1^f_{se,t}=C_{bu,t}/k$
 
-  &Delta;$M1_{bu,t}=-C_{bu,t}/k$
+  $\Delta M1_{bu,t}=-C_{bu,t}/k$
 
 
 
@@ -169,9 +169,9 @@ each **firm** has the **functions**:
 
   paying $W$ to each worker in each time $t$
 
-  &Delta;$M1_{i,t}=W$ for  $a_i \in \mathbf{A}^w$ 
+  $\Delta M1_{i,t}=W$ for  $a_i \in \mathbf{A}^w$ 
 
-  &Delta;$M1^f_{i,t}=-W \mathbf{N}^w_i$ for $a_i \in \mathbf{A}^e$ 
+  $\Delta M1^f_{i,t}=-W \mathbf{N}^w_i$ for $a_i \in \mathbf{A}^e$ 
 
   
 
@@ -183,9 +183,9 @@ each **firm** has the **functions**:
 
   ($k$ is the number of investment actions in each cycle, with random share [0,`maxInvestmentShareInSubstep`))
 
-  &Delta;$M1^f_{se,t}=I_{bu,t}/k$
+  $\Delta M1^f_{se,t}=I_{bu,t}/k$
 
-  &Delta;$M1^f_{bu,t}=-I_{bu,t}/k$
+  $\Delta M1^f_{bu,t}=-I_{bu,t}/k$
 
   
 
@@ -207,9 +207,9 @@ each **firm** has the **functions**:
 
   $\delta_{i,t}=\rho\Pi_{i,t}$​
 
-  &Delta;$M1_{i,t}=\delta_{i,t}$
+  $\Delta M1_{i,t}=\delta_{i,t}$
 
-  &Delta;$M1^f_{i,t}=-\delta_{i,t}$
+  $\Delta M1^f_{i,t}=-\delta_{i,t}$
 
   
 
@@ -223,9 +223,9 @@ each **bank** has the **functions**:
 
   paying $W$ to each worker in each time $t$
 
-  &Delta;$M1_{i,t}=W$ for  $a_i \in \mathbf{A}^w$ 
+  $\Delta M1_{i,t}=W$ for  $a_i \in \mathbf{A}^w$ 
 
-  &Delta;$M1^f_{i,t}=-W \mathbf{N}^w_i$ for $a_i \in \mathbf{A}^e$
+  $\Delta M1^f_{i,t}=-W \mathbf{N}^w_i$ for $a_i \in \mathbf{A}^e$
 
   
 
@@ -237,9 +237,9 @@ each **bank** has the **functions**:
 
   ($k$ is the number of investment actions in each cycle, with random share [0,`maxInvestmentShareInSubstep`))
 
-  &Delta;$M1^f_{se,t}=I_{bu,t}/k$
+  $\Delta M1^f_{se,t}=I_{bu,t}/k$
 
-  &Delta;$M1^b_{bu,t}=-I_{bu,t}/k$
+  $\Delta M1^b_{bu,t}=-I_{bu,t}/k$
 
   
 
@@ -247,9 +247,9 @@ each **bank** has the **functions**:
 
   $\delta_{i,t}=\rho\Pi_{i,t}$​​
 
-  &Delta;$M1_{i,t}=\delta_{i,t}$
+  $\Delta M1_{i,t}=\delta_{i,t}$
 
-  &Delta;$M1^b_{i,t}=-\delta_{i,t}$
+  $\Delta M1^b_{i,t}=-\delta_{i,t}$
 
   
 
@@ -379,4 +379,3 @@ each **bank** has the **functions**:
 
 - display tools; their code is hidden into the file `tools.py`, in the same folder of the notebook; online, look a the model [GitHub](https://github.com/terna/ejmmp/tree/main/model02)
 
-###### 
