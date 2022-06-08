@@ -52,7 +52,7 @@ $dimensional~heterogeneity$ is a $true/false$ chooser, forcing increasing firms 
 
 $\pi_{i,t}$ - labor productivity, a uniformly distributed decimal number in range $[\pi_{min},\pi_{max}]$,`productivity`
 
-$\Delta\pi_{i,t}$ - uniperiodal additive productivity correction in range $[$&Delta;$\pi_{min},$ &Delta;$\pi_{max}]$, `productivityDelta`
+$\Delta\pi_{i,t}$ - uniperiodal additive productivity correction in range $[\Delta\pi_{min},\Delta\pi_{max}]$, `productivityDelta`
 
 $n_{i,t}$ - number of workers in a firm
 
@@ -159,7 +159,7 @@ each **firm** has the **functions**:
 
 - **produce** function (production in quantity), with:
 
-  $\pi_{i,t}=\pi_{i,t-1}+$&Delta;$\pi_{i,t}$
+  $\pi_{i,t}=\pi_{i,t-1}+\Delta\pi_{i,t}$
 
   $q_{i,t}=n_{i,t} \pi_{i,t}$
 
