@@ -1,10 +1,10 @@
 ### Stock-flow *model02*, with real and financial elements
 
-- In the model, we observe both the real and monetary sides of the economy.
+- We observe both the real and monetary sides of the economy.
 
   
 
-- We consider loans and capital stocks.
+- We consider loans and deposits, with their interests.
 
   
 
@@ -12,11 +12,15 @@
 
   
 
-- Saving is abstension from consuming, increasing agents' liquidity.
+- When agents abstein from consuming, their savings increase liquidity.
 
   
 
 - Investments are uniquely for replacement, without technical progress.
+
+  
+  
+- We use specific random sequences for both each agent and each function.
 
   
 
@@ -263,7 +267,11 @@ each **bank** has the **functions**:
 
   $\underbrace{\Pi_{i,t}+W N^w_{i,t}+\sum_{a_i}X^d_{i,t}}_{\textrm{direct added value}}=\underbrace{R_{i,t}-\sum_{f_i}X^d_{i,t}}_{\textrm{indirect added value (*)}}$
 
-  (*) the cost of bought-in materials and components is missing by construction in this version of the model, excepted the interests on deposits paid to firms				
+  (*) the cost of bought-in materials and components is missing by construction in this version of the model, excepted the interests on deposits paid to firms		
+
+  
+
+- Every time we observe a transaction between an agent (or a firm) and its bank, we record the corresponding financial flow on the checking account (or bank account) of the agent (or firm) and on that mantained by the bank with the central bank 
 
 ## agent setup
 
@@ -291,7 +299,7 @@ each **bank** has the **functions**:
 
   
 
-- applying the unmployement rate to exclude agents
+- applying the unemployement rate to exclude agents
 
   
 
