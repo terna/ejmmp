@@ -30,7 +30,7 @@ $a^e_i$ -  with $a^e_i \in \mathbf{A^e}$ and $\mathbf{A^e} \subset \mathbf{A}$; 
 
 $\mathbf{F}$ - firms' set, with $f_j \in \mathbf{F}$ being $N^f = |\mathbf{F}|$,  with $N^f = |\mathbf{F}| = |\mathbf{A^e}|$ , `firmList`
 
-$\mathbf{A}^w$ - working agents' set, being $\mathbf{A}^w \subseteq \mathbf{A}$, with $N^w_i=|\mathbf{A}^w_i|$ number of working agents employed by employer $i$, also including self-employed employers, with $a_i \in \mathbf{A}^e$
+$\mathbf{A}^w$ - working agents' set, being $\mathbf{A}^w \subseteq \mathbf{A}$, with $N^w_{i,t}=|\mathbf{A}^w_i|$ number of working agents employed by employer $i$ at time $t$, also including self-employed employers, with $a_i \in \mathbf{A}^e$
 
 $\mathbf{B}$ - banks' set, with $b_j \in \mathbf{B}$ being $N^b = |\mathbf{B}|$, `bankList`
 
@@ -53,8 +53,6 @@ $dimensional~heterogeneity$ is a $true/false$ chooser, forcing increasing firms 
 $\pi_{i,t}$ - labor productivity, a uniformly distributed decimal number in range $[\pi_{min},\pi_{max}]$,`productivity`
 
 $\Delta\pi_{i,t}$ - uniperiodal additive productivity correction in range $[\Delta\pi_{min},\Delta\pi_{max}]$, `productivityDelta`
-
-$n_{i,t}$ - number of workers in a firm
 
 $q_{i,t}$ - production in quantity, `production`
 
@@ -161,7 +159,7 @@ each **firm** has the **functions**:
 
   $\pi_{i,t}=\pi_{i,t-1}+\Delta\pi_{i,t}$
 
-  $q_{i,t}=n_{i,t} \pi_{i,t}$
+  $q_{i,t}=N^w_{i,t} \pi_{i,t}$
 
   
 
@@ -195,11 +193,11 @@ each **firm** has the **functions**:
 
   $R_{i,t}=p s_{i,t}+X^d_{i,t}$
 
-  $\Pi_{i,t}=R_{i,t}-W n_{i,t}-X^l_{i,t}+p(v^f_{i,t}-v^i_{i,t})$
+  $\Pi_{i,t}=R_{i,t}-W N^w_{i,t}-X^l_{i,t}+p(v^f_{i,t}-v^i_{i,t})$
   
   reordering, we have:
   
-  $\underbrace{\Pi_{i,t}+W n_{i,t}+X^l_{i,t}}_{\textrm{direct added value}}=\underbrace{R_{i,t}+p(v^f_{i,t}-v^i_{i,t})}_{\textrm{indirect added value (*)}}$
+  $\underbrace{\Pi_{i,t}+W N^w_{i,t}+X^l_{i,t}}_{\textrm{direct added value}}=\underbrace{R_{i,t}+p(v^f_{i,t}-v^i_{i,t})}_{\textrm{indirect added value (*)}}$
   
   (*) the cost of bought-in materials and components is missing by construction in this version of the model
 
@@ -259,11 +257,11 @@ each **bank** has the **functions**:
 
   $R_{i,t}=p s_{i,t}+\sum_{a_i}X^l_{i,t}+\sum_{f_i}X^l_{i,t}$
 
-  $\Pi_{i,t}=R_{i,t}-W n_{i,t}-\sum_{a_i}X^d_{i,t}-\sum_{f_i}X^d_{i,t}$
+  $\Pi_{i,t}=R_{i,t}-W N^w_{i,t}-\sum_{a_i}X^d_{i,t}-\sum_{f_i}X^d_{i,t}$
 
   reordering, we have:
 
-  $\underbrace{\Pi_{i,t}+W n_{i,t}+\sum_{a_i}X^d_{i,t}}_{\textrm{direct added value}}=\underbrace{R_{i,t}-\sum_{f_i}X^d_{i,t}}_{\textrm{indirect added value (*)}}$
+  $\underbrace{\Pi_{i,t}+W N^w_{i,t}+\sum_{a_i}X^d_{i,t}}_{\textrm{direct added value}}=\underbrace{R_{i,t}-\sum_{f_i}X^d_{i,t}}_{\textrm{indirect added value (*)}}$
 
   (*) the cost of bought-in materials and components is missing by construction in this version of the model, excepted the interests on deposits paid to firms				
 
