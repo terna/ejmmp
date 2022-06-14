@@ -56,18 +56,25 @@ table = tb.tabulate(data, tablefmt='grid',headers="firstrow")
 print(table)
 
 
-print("\n\nReconciliation of firm accounts\n\n")
+print("\n\nReconciliation of firm financial accounts\n\n")
 
-if cmv.cycle==0: totFirmDepositsPreviousCycle=0
+if cmv.cycle==0: totFirmDepositsPreviousCycle=totInitialEndowments
 else: totFirmDepositsPreviousCycle=cmv.totalDebtsVsFirmsSeries[-2]
 
 if cmv.cycle==0: totFirmLoansPreviousCycle=0
 else: totFirmLoansPreviousCycle=cmv.totalCreditsVsFirmsSeries[-2]
     
-data = [[" ","cycle "+str(cmv.cycle)],["firm Deposits Previous Cycle",totFirmDepositsPreviousCycle],
-        ["firm Deposits Current Cycle",totFirmBankAccountDeposits],\
-        ["firm Loans Previous Cycle",totFirmLoansPreviousCycle],\
-        ["firm Loans Current Cycle",totFirmBankAccountLoans]]
+totalFirmSalesRevenues=0
+for aFirm in cmv.firmList:
+    totalFirmSalesRevenues+=aFirm.salesRevenues
+    
+data = [[" ","cycle "+str(cmv.cycle), " "],\
+        ["firm Deposits Previous Cycle",totFirmDepositsPreviousCycle,"-"],
+        ["firm Deposits Current Cycle",totFirmBankAccountDeposits,"+"],\
+        ["firm Loans Previous Cycle",totFirmLoansPreviousCycle,"+"],\
+        ["firm Loans Current Cycle",totFirmBankAccountLoans,"-"],\
+        ["firm Sales Revenues Current Cycle",totalFirmSalesRevenues,"+"],\
+        ["firm paid Wages Current Cycle",cmv.wage*totFirmWorkers,"-"]]
 
 table = tb.tabulate(data, tablefmt='grid',headers="firstrow")
 print(table)
