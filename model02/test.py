@@ -8,7 +8,7 @@
 
 import tabulate as tb
 
-
+print("\nLast cycle test\n")
 ##########################################################################
 print("\n\nFIRMS\n\n")
 
@@ -57,3 +57,17 @@ print(table)
 
 
 print("\n\nReconciliation of firm accounts\n\n")
+
+if cmv.cycle==0: totFirmDepositsPreviousCycle=0
+else: totFirmDepositsPreviousCycle=cmv.totalDebtsVsFirmsSeries[-2]
+
+if cmv.cycle==0: totFirmLoansPreviousCycle=0
+else: totFirmLoansPreviousCycle=cmv.totalCreditsVsFirmsSeries[-2]
+    
+data = [[" ","cycle "+str(cmv.cycle)],["firm Deposits Previous Cycle",totFirmDepositsPreviousCycle],
+        ["firm Deposits Current Cycle",totFirmBankAccountDeposits],\
+        ["firm Loans Previous Cycle",totFirmLoansPreviousCycle],\
+        ["firm Loans Current Cycle",totFirmBankAccountLoans]]
+
+table = tb.tabulate(data, tablefmt='grid',headers="firstrow")
+print(table)
