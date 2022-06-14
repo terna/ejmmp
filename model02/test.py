@@ -68,13 +68,26 @@ totalFirmSalesRevenues=0
 for aFirm in cmv.firmList:
     totalFirmSalesRevenues+=aFirm.salesRevenues
     
-data = [[" ","cycle "+str(cmv.cycle), " "],\
-        ["firm Deposits Previous Cycle",totFirmDepositsPreviousCycle,"-"],
-        ["firm Deposits Current Cycle",totFirmBankAccountDeposits,"+"],\
-        ["firm Loans Previous Cycle",totFirmLoansPreviousCycle,"+"],\
-        ["firm Loans Current Cycle",totFirmBankAccountLoans,"-"],\
-        ["firm Sales Revenues Current Cycle",totalFirmSalesRevenues,"+"],\
-        ["firm paid Wages Current Cycle",cmv.wage*totFirmWorkers,"-"]]
+data = [[" "," ","cycle "+str(cmv.cycle), " "],\
+        ["(1)","firms' Deposits Previous Cycle",totFirmDepositsPreviousCycle,"-"],
+        ["(2)","firms' Deposits Current Cycle (with interests)",totFirmBankAccountDeposits,"+"],\
+        ["(3)","firms' Loans Previous Cycle",totFirmLoansPreviousCycle,"+"],\
+        ["(4)","firms' Loans Current Cycle",totFirmBankAccountLoans,"-"],\
+        ["(5)","firms' Sales Revenues Current Cycle",totalFirmSalesRevenues,"+"],\
+        ["(7)","firms' Paid Wages Current Cycle",cmv.wage*totFirmWorkers,"-"],\
+        ["(7)","firms' Paid Dividends Current Cycle",totFirmDividend,"-"]]
 
 table = tb.tabulate(data, tablefmt='grid',headers="firstrow")
 print(table)
+
+print("\nReconciliation\n")
+print("\n- (1) + (2) + (3) - (4) => ",-totFirmDepositsPreviousCycle\
+                                      +totFirmBankAccountDeposits\
+                                      +totFirmLoansPreviousCycle\
+                                      -totFirmBankAccountLoans,"\n")
+print("\n+ (5) - (6) - (7)       => ",+totalFirmSalesRevenues\
+                                      -cmv.wage*totFirmWorkers\
+                                      -totFirmDividend,"\n")
+
+print("___________________________________________________________________________________\n")
+
