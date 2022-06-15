@@ -70,9 +70,9 @@ for aFirm in cmv.firmList:
     
 data = [[" "," ","cycle "+str(cmv.cycle), " "],\
         ["(1)","firms' Deposits Previous Cycle",totFirmDepositsPreviousCycle,"-"],
-        ["(2)","firms' Deposits Current Cycle (with interests)",totFirmBankAccountDeposits,"+"],\
+        ["(2)","firms' Deposits Current Cycle (with current interests)",totFirmBankAccountDeposits,"+"],\
         ["(3)","firms' Loans Previous Cycle",totFirmLoansPreviousCycle,"+"],\
-        ["(4)","firms' Loans Current Cycle",totFirmBankAccountLoans,"-"],\
+        ["(4)","firms' Loans Current Cycle (with current interests)",totFirmBankAccountLoans,"-"],\
         ["(5)","firms' Sales Revenues Current Cycle",totalFirmSalesRevenues,"+"],\
         ["(7)","firms' Paid Wages Current Cycle",cmv.wage*totFirmWorkers,"-"],\
         ["(7)","firms' Paid Dividends Current Cycle",totFirmDividend,"-"]]
