@@ -10,6 +10,14 @@ import tabulate as tb
 
 print("\nLast cycle test\n")
 ##########################################################################
+print("\n\nAGENTS\n\n")
+
+
+
+
+print("___________________________________________________________________________________\n")
+##########################################################################
+
 print("\n\nFIRMS\n\n")
 
 data = [["# in\nfirm\nList","num","firm\nInitEn","firm\nWorkers","firm\nDividend","firm\nProfit",\
@@ -64,16 +72,20 @@ else: totFirmDepositsPreviousCycle=cmv.totalDebtsVsFirmsSeries[-2]
 if cmv.cycle==0: totFirmLoansPreviousCycle=0
 else: totFirmLoansPreviousCycle=cmv.totalCreditsVsFirmsSeries[-2]
     
-totalFirmSalesRevenues=0
+totalFirmRevenues=0
 for aFirm in cmv.firmList:
-    totalFirmSalesRevenues+=aFirm.salesRevenues
+    totalFirmRevenues+=aFirm.revenues
     
 data = [[" "," ","cycle "+str(cmv.cycle), " "],\
         ["(1)","firms' Deposits Previous Cycle",totFirmDepositsPreviousCycle,"-"],
-        ["(2)","firms' Deposits Current Cycle (with current interests)",totFirmBankAccountDeposits,"+"],\
+        ["(2)","firms' Deposits Current Cycle (with current interests)",totFirmBankAccountDeposits\
+                                                                       #+cmv.commercialClientsTotalInterestOnDepositsSeries[-1],\
+                                                                       ,"+"],\
         ["(3)","firms' Loans Previous Cycle",totFirmLoansPreviousCycle,"+"],\
-        ["(4)","firms' Loans Current Cycle (with current interests)",totFirmBankAccountLoans,"-"],\
-        ["(5)","firms' Sales Revenues Current Cycle",totalFirmSalesRevenues,"+"],\
+        ["(4)","firms' Loans Current Cycle (with current interests)",totFirmBankAccountLoans\
+                                                                    #+cmv.commercialClientsTotalInterestOnLoansSeries[-1],\
+                                                                         ,"-"],\
+        ["(5)","firms' Revenues Current Cycle",totalFirmRevenues,"+"],\
         ["(7)","firms' Paid Wages Current Cycle",cmv.wage*totFirmWorkers,"-"],\
         ["(7)","firms' Paid Dividends Current Cycle",totFirmDividend,"-"]]
 
@@ -83,11 +95,13 @@ print(table)
 print("\nReconciliation\n")
 print("\n- (1) + (2) + (3) - (4) => ",-totFirmDepositsPreviousCycle\
                                       +totFirmBankAccountDeposits\
+      #+cmv.commercialClientsTotalInterestOnDepositsSeries[-1]\
                                       +totFirmLoansPreviousCycle\
-                                      -totFirmBankAccountLoans,"\n")
-print("\n+ (5) - (6) - (7)       => ",+totalFirmSalesRevenues\
+                                      -totFirmBankAccountLoans\
+      #-cmv.commercialClientsTotalInterestOnLoansSeries[-1],"\n")
+     )
+print("\n+ (5) - (6) - (7)       => ",+totalFirmRevenues\
                                       -cmv.wage*totFirmWorkers\
                                       -totFirmDividend,"\n")
 
 print("___________________________________________________________________________________\n")
-
