@@ -145,3 +145,64 @@ print("\n+ (5) - (6) - (7)       => ",+totalFirmRevenues\
                                       -totFirmDividend,"\n")
 
 print("___________________________________________________________________________________\n")
+##########################################################################
+
+print("\n\nBANKS\n\n")
+
+data = [["# in\nbank\nList","num","bank\nInitEn","bank\nWorkers","bank\nDividend","bank\nProfit",\
+        "myFirm\nBank\nAccount\nDeposits\n(t-1)",\
+         "myFirm\nBank\nAccount\nLoans\n(t-1)","int\nOn\nFirm\nDeposits","int\nOn\nLoans\nto\nFirms"]]
+
+totInitialEndowments=0
+totBankWorkers=0
+totBankDividend=0
+totBankProfit=0
+totBankAccountDepositsTminus1=0
+totBankAccountDeposits=0
+totBankAccountLoansTminus1=0
+totBankAccountLoans=0
+"""
+totInterestOnDeposits=0
+totInterestOnLoans=0
+"""
+
+i=0
+for aBank in cmv.bankList:
+    totInitialEndowments+=aBank.initEn
+    totBankWorkers+=len(aBank.myWorkers)
+    if aBank.profit > 0: dividend=aBank.profit/2
+    else: dividend=0
+    totBankDividend+=dividend
+    totBankProfit+=aBank.profit
+    totMyFirmBankAccountDeposits=0
+    totMyFirmBankAccountDepositsTminus1=0
+    totMyFirmBankAccountLoans=0
+    totMyFirmBankAccountLoansTminus1=0
+
+    for aFirm in aBank.myCommercialClients:
+        if aFirm.bankAccountTminus1 > 0: totMyFirmBankAccountDepositsTminus1+=aFirm.bankAccountTminus1
+        if aFirm.bankAccount > 0:        totMyFirmBankAccountDeposits       +=aFirm.bankAccount
+    totBankAccountDepositsTminus1+=totMyFirmBankAccountDepositsTminus1
+    totBankAccountDeposits+=totMyFirmBankAccountDeposits
+
+    for aFirm in aBank.myCommercialClients:
+        if aFirm.bankAccountTminus1 < 0: totMyFirmBankAccountLoansTminus1+=abs(aFirm.bankAccountTminus1)
+        if aFirm.bankAccount < 0:        totMyFirmBankAccountLoans       +=abs(aFirm.bankAccount)
+    totBankAccountLoansTminus1+=totMyFirmBankAccountLoansTminus1
+    totBankAccountLoans+=totMyFirmBankAccountLoans
+    
+    row=[i,aBank.num,aBank.initEn,len(aBank.myWorkers),dividend,aBank.profit,\
+         str(round(totMyFirmBankAccountDeposits,3))+"\n"+"("+str(round(totMyFirmBankAccountDepositsTminus1,3))+")",\
+         str(round(totMyFirmBankAccountLoans,3))+"\n"+"("+str(round(totMyFirmBankAccountLoansTminus1,3))+")",\
+         "-","-"]
+    data.append(row)
+    i+=1
+    
+row=["tot"," ",totInitialEndowments,totBankWorkers,totBankDividend,totBankProfit,\
+     str(round(totBankAccountDeposits,3))+"\n"+"("+str(round(totBankAccountDepositsTminus1,3))+")",\
+     str(round(totBankAccountLoans,3))+"\n"+"("+str(round(totBankAccountLoansTminus1,3))+")",\
+     "-","-"]
+data.append(row)
+
+table = tb.tabulate(data, tablefmt='grid',headers="firstrow")
+print(table)
