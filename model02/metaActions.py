@@ -2,9 +2,15 @@ import commonVar as cmv
 #import random as r
 from tools import *
 
-def copyBankAccounts():
+def copyAccounts():
     for aFirm in cmv.firmList:
         aFirm.copyBankAccountBalance()
+
+    for anAgent in cmv.agentList:
+        anAgent.copyCheckingAccountBalance()
+
+    for aBank in cmv.bankList:
+        aBank.copyCentralBankAccountBalance()
 
 def produceAll():
     # no seedManager()

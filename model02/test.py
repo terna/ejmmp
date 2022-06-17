@@ -13,6 +13,8 @@ print("\nLast cycle test\n")
 print("\n\nAGENTS\n\n")
 
 
+print("\nReconciliation of agents' financial accounts\n")
+
 if cmv.cycle==0: totAgentDepositsPreviousCycle=0
 else: totAgentDepositsPreviousCycle=cmv.totalDebtsVsAgentsSeries[-2]
 
@@ -108,7 +110,7 @@ table = tb.tabulate(data, tablefmt='grid',headers="firstrow")
 print(table)
 
 
-print("\n\nReconciliation of firm financial accounts\n\n")
+print("\n\nReconciliation of firms' financial accounts\n\n")
 
 if cmv.cycle==0: totFirmDepositsPreviousCycle=totInitialEndowments
 else: totFirmDepositsPreviousCycle=cmv.totalDebtsVsFirmsSeries[-2]
@@ -149,9 +151,10 @@ print("_________________________________________________________________________
 
 print("\n\nBANKS\n\n")
 
-data = [["# in\nbank\nList","num","bank\nInitEn","bank\nWorkers","bank\nDividend","bank\nProfit",\
-        "myFirm\nBank\nAccount\nDeposits\n(t-1)",\
-         "myFirm\nBank\nAccount\nLoans\n(t-1)","int\nOn\nFirm\nDeposits","int\nOn\nLoans\nto\nFirms"]]
+data = [["# in\nbank\nList","num","bank\nInitEn","bank\nWorkers","bank\nProfit\n(bank\nDivid)",\
+        "myFirm\nBank\nAccount\nDeposits\n(t-1)","myFirm\nBank\nAccount\nLoans\n(t-1)",\
+         "myAgent\nChecking\nAccount\nDeposits\n(t-1)","myAgent\nChecking\nAccount\nLoans\n(t-1)",\
+         "central\nBank\nBalance"]]
 
 totInitialEndowments=0
 totBankWorkers=0
@@ -161,10 +164,10 @@ totBankAccountDepositsTminus1=0
 totBankAccountDeposits=0
 totBankAccountLoansTminus1=0
 totBankAccountLoans=0
-"""
-totInterestOnDeposits=0
-totInterestOnLoans=0
-"""
+totCheckingAccountDepositsTminus1=0
+totCheckingAccountDeposits=0
+totCheckingAccountLoansTminus1=0
+totCheckingAccountLoans=0
 
 i=0
 for aBank in cmv.bankList:
@@ -178,6 +181,10 @@ for aBank in cmv.bankList:
     totMyFirmBankAccountDepositsTminus1=0
     totMyFirmBankAccountLoans=0
     totMyFirmBankAccountLoansTminus1=0
+    totMyAgentCheckingAccountDepositsTminus1=0
+    totMyAgentCheckingAccountDeposits=0
+    totMyAgentCheckingAccountLoansTminus1=0
+    totMyAgentCheckingAccountLoans=0
 
     for aFirm in aBank.myCommercialClients:
         if aFirm.bankAccountTminus1 > 0: totMyFirmBankAccountDepositsTminus1+=aFirm.bankAccountTminus1
@@ -191,18 +198,90 @@ for aBank in cmv.bankList:
     totBankAccountLoansTminus1+=totMyFirmBankAccountLoansTminus1
     totBankAccountLoans+=totMyFirmBankAccountLoans
     
-    row=[i,aBank.num,aBank.initEn,len(aBank.myWorkers),dividend,aBank.profit,\
+    for anAgent in aBank.myPrivateClients:
+        if anAgent.checkingAccountTminus1 > 0: totMyAgentCheckingAccountDepositsTminus1+=anAgent.checkingAccountTminus1
+        if anAgent.checkingAccount > 0:        totMyAgentCheckingAccountDeposits       +=anAgent.checkingAccount
+    totCheckingAccountDepositsTminus1+=totMyAgentCheckingAccountDepositsTminus1
+    totCheckingAccountDeposits+=totMyAgentCheckingAccountDeposits
+    
+    for anAgent in aBank.myPrivateClients:
+        if anAgent.checkingAccountTminus1 < 0: totMyAgentCheckingAccountLoansTminus1+=abs(anAgent.checkingAccountTminus1)
+        if anAgent.checkingAccount < 0:        totMyAgentCheckingAccountLoans       +=abs(anAgent.checkingAccount)
+    totCheckingAccountLoansTminus1+=totMyAgentCheckingAccountLoansTminus1
+    totCheckingAccountLoans+=totMyAgentCheckingAccountLoans
+
+    row=[i,aBank.num,aBank.initEn,len(aBank.myWorkers),\
+         str(round(aBank.profit,3))+"\n("+str(round(dividend,3))+")",\
          str(round(totMyFirmBankAccountDeposits,3))+"\n"+"("+str(round(totMyFirmBankAccountDepositsTminus1,3))+")",\
          str(round(totMyFirmBankAccountLoans,3))+"\n"+"("+str(round(totMyFirmBankAccountLoansTminus1,3))+")",\
-         "-","-"]
+         str(round(totMyAgentCheckingAccountDeposits,3))+"\n"+"("+str(round(totMyAgentCheckingAccountDepositsTminus1,3))+")",\
+         str(round(totMyAgentCheckingAccountLoans,3))+"\n"+"("+str(round(totMyAgentCheckingAccountLoansTminus1,3))+")","-"]
     data.append(row)
     i+=1
     
-row=["tot"," ",totInitialEndowments,totBankWorkers,totBankDividend,totBankProfit,\
+row=["tot"," ",totInitialEndowments,totBankWorkers,\
+     str(round(totBankProfit,3))+"\n("+str(round(totBankDividend,3))+")",\
      str(round(totBankAccountDeposits,3))+"\n"+"("+str(round(totBankAccountDepositsTminus1,3))+")",\
      str(round(totBankAccountLoans,3))+"\n"+"("+str(round(totBankAccountLoansTminus1,3))+")",\
-     "-","-"]
+     str(round(totCheckingAccountDeposits,3))+"\n"+"("+str(round(totCheckingAccountDepositsTminus1,3))+")",\
+     str(round(totCheckingAccountLoans,3))+"\n"+"("+str(round(totCheckingAccountLoansTminus1,3))+")","-"]
 data.append(row)
 
 table = tb.tabulate(data, tablefmt='grid',headers="firstrow")
 print(table)
+
+print("\n\nReconciliation of banks' financial accounts with the central bank\n\n")
+
+totCentralBankDepositsPreviousCycle=0
+totCentralBankLoansPreviousCycle=0
+totCentralBankDeposits=0
+totCentralBankLoans=0
+
+for aBank in cmv.bankList:    
+    if cmv.cycle==0: 
+        totCentralBankDepositsPreviousCycle+=aBank.initEn
+        totCentralBankLoansPreviousCycle=+0
+    else: 
+        if aBank.centralBankAccountTminus1 > 0 :
+            totCentralBankDepositsPreviousCycle+=aBank.centralBankAccountTminus1
+        if aBank.centralBankAccountTminus1 < 0 :
+            totCentralBankLoansPreviousCycle+=abs(aBank.centralBankAccountTminus1)
+
+    if aBank.centralBankAccount > 0 :
+        totCentralBankDeposits+=aBank.centralBankAccount
+    if aBank.centralBankAccount < 0 :
+        totCentralBankLoans+=abs(aBank.centralBankAccount)
+
+    
+totalBankRevenues=0
+totBankWorkers=0
+totBankDividend=0
+for aBank in cmv.bankList:
+    totalBankRevenues+=aBank.revenues
+    totBankWorkers+=len(aBank.myWorkers)
+    if aBank.profit > 0: totBankDividend+=aBank.profit/2
+    
+data = [[" "," ","cycle "+str(cmv.cycle+1), " "],\
+        ["(1)","banks' Deposits at CB Previous Cycle",totCentralBankDepositsPreviousCycle,"central bank stock (-)"],
+        ["(2)","banks' Deposits at CB Current Cycle (with current interests)",totCentralBankDeposits,\
+                                                                       "central bank stock (+)"],\
+        ["(3)","banks' Loans by CB Previous Cycle",totCentralBankLoansPreviousCycle,"bank stock (+)"],\
+        ["(4)","banks' Loans by CB Current Cycle (with current interests)",totCentralBankLoans,\
+                                                                       "central bank stock (-)"],\
+        ["(5)","banks' Revenues Current Cycle (with interests on deposits at CB)",totalBankRevenues,"central bank flow (+)"],\
+        ["(6)","banks' Paid Wages Current Cycle",cmv.wage*totBankWorkers,"central bank flow (-)"],\
+        ["(7)","banks' Paid Dividends Current Cycle",totBankDividend,"central bank flow (-)"]]
+
+table = tb.tabulate(data, tablefmt='grid',headers="firstrow")
+print(table)
+
+print("\nReconciliation\n")
+print("\n- (1) + (2) + (3) - (4) => ",round(-totCentralBankDepositsPreviousCycle\
+                                      +totCentralBankDeposits\
+                                      +totCentralBankLoansPreviousCycle\
+                                      -totCentralBankLoans))
+
+print("\n+ (5) - (6) - (7)       => ",+totalBankRevenues\
+                                      -cmv.wage*totBankWorkers\
+                                      -totBankDividend,"\n")
+

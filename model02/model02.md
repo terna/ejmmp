@@ -319,6 +319,10 @@ each **bank** has the **functions**:
 
 
 
+- *copyAccounts* is only used to keep note of financial account balances of agents, firms, and banks in previous cycle, i.e., $t-1$ 
+
+  
+
 - *produceAll* orders to the firms to produce and to collects the results
 
   
