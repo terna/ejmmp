@@ -69,7 +69,7 @@ def makePlots():
      "checking-accountInVar")
 
     plot([min(-0.01, min(cmv.totalBankAccountSeries)),max(0.01,max(cmv.totalBankAccountSeries))],\
-     cmv.totalBankAccountSeries,"bank-ccount",\
+     cmv.totalBankAccountSeries,"bank-account",\
      [0, max(0.01,max(cmv.totalBankAccountInfraVarSeries))],\
      cmv.totalBankAccountInfraVarSeries,\
      "bank-accountInVar")
