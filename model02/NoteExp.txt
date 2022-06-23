@@ -6,8 +6,15 @@ Exp1
 
 int Deposits 0; rho=0; non investimenti;  min quota consumi 100%; deperibilità 50%
 
-wage 100, cons. 96.7 per 2.3 nella loro ricerca non hanno trovato venditori con goods; 
+wage 100, cons. 96.6563 (per 3.3437 nella loro ricerca non hanno trovato venditori con goods; 
 
-i Revenues delle firm, compresi int. (0) 77.0 ; delle bank 19.7; quadra con 96.7
+Revenues delle firm, compresi int. (0) 76.9776 ; delle bank 19.6787; quadra con 96.6553 come i consumi
 
-i depositi delle firm erano 1638, diventano 1633 (-5), gli agents hanno depositi per 3.3 (il risparmio) NON si è creta moneta-
+depositi delle firm: erano 1638.050, diventano 1633.028 (-5.022), 
+gli agents hanno depositi per 3.34368 (esattamente il risparmio)
+
+le banks hanno Revenues 19.6787 e wages 18, differenza 1.6787 (come i profit)
+
+-5.022 + 3.34368 => -1.67832
+
+Come mettere in evidenza questa perfetta quadratura?
