@@ -25,7 +25,7 @@ totWorkers=0
 totFirmBankDividend=0
 for anItem in (cmv.firmList+cmv.bankList):
     totWorkers+=len(anItem.myWorkers)
-    if anItem.profit>0: totFirmBankDividend+=anItem.profit/2
+    if anItem.profit>0: totFirmBankDividend+=anItem.profit*cmv.rho
 
 
 data = [[" "," ","cycle "+str(cmv.cycle+1), " "],\
@@ -80,7 +80,7 @@ totFirmInvestments=0
 
 i=0
 for aFirm in cmv.firmList:
-    if aFirm.profit>0: firmDividend=aFirm.profit/2
+    if aFirm.profit>0: firmDividend=aFirm.profit*cmv.rho
     else: firmDividend=0
     totInitialEndowments+=aFirm.initEn
     firmWorkers=len(aFirm.myWorkers)
@@ -185,7 +185,7 @@ for aBank in cmv.bankList:
     totInitialEndowments+=aBank.initEn
     totBankWorkers+=len(aBank.myWorkers)
     totBankInvestments+=aBank.madeInvestment
-    if aBank.profit > 0: dividend=aBank.profit/2
+    if aBank.profit > 0: dividend=aBank.profit*cmv.rho
     else: dividend=0
     totBankDividend+=dividend
     totBankProfit+=aBank.profit
@@ -280,7 +280,7 @@ totBankDividend=0
 for aBank in cmv.bankList:
     totalBankRevenues+=aBank.revenues
     totBankWorkers+=len(aBank.myWorkers)
-    if aBank.profit > 0: totBankDividend+=aBank.profit/2
+    if aBank.profit > 0: totBankDividend+=aBank.profit*cmv.rho
     
 data = [[" "," ","cycle "+str(cmv.cycle+1), " "],\
         ["(1)","banks' Deposits at CB Previous Cycle",totCentralBankDepositsPreviousCycle,"central bank stock (+)"],
