@@ -3,4 +3,8 @@ Note sugli Exp
 
 
 Exp1
+int Deposits 0; rho=0; non investimenti;  min quota consumi 100%; deperibilità 50%
 
+wage 100, cons. 96.7 per 2.3 nella loro ricerca non hanno trovato venditori; 
+
+i Revenues delle firm, compresi int. (0) 77.0 
