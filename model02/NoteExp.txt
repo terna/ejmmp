@@ -18,3 +18,15 @@ le banks hanno Revenues 19.6787 e wages 18, differenza 1.6787 (come i profit)
 -5.022 + 3.34368 => -1.67832
 
 Come mettere in evidenza questa perfetta quadratura?
+
+NB
+introdurre il conto della banca azienda di servizio presso la banca base, 1.6787 si è spostato lì.
+
+
+Exp1b
+
+usa test2,py
+
+nel setup gli initEn delle firm vanno in conto bank e contropartita centralBank
+
+torna tutto, non cambia niente interpretativamente, ma è più giusto
