@@ -116,7 +116,7 @@ print(table)
 
 print("\n\nReconciliation of firms' financial accounts\n\n")
 
-if cmv.cycle==0: totFirmDepositsPreviousCycle=totInitialEndowments
+if cmv.cycle==0: totFirmDepositsPreviousCycle=totFirmInitialEndowments
 else: totFirmDepositsPreviousCycle=cmv.totalDebtsVsFirmsSeries[-2]
 
 if cmv.cycle==0: totFirmLoansPreviousCycle=0

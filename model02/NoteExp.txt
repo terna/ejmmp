@@ -6,7 +6,7 @@ Exp1
 
 int Deposits 0; rho=0; non investimenti;  min quota consumi 100%; deperibilità 50%
 
-wage 100, cons. 96.6563 (per 3.3437 nella loro ricerca non hanno trovato venditori con goods; 
+wage 100, cons. 96.6563 (per 3.3437 nella loro ricerca non hanno trovato venditori con goods (hanno prodotto poco, bassa produttività); 
 
 Revenues delle firm, compresi int. (0) 76.9776 ; delle bank 19.6787; quadra con 96.6553 come i consumi
 
@@ -30,3 +30,15 @@ usa test2,py
 nel setup gli initEn delle firm vanno in conto bank e contropartita centralBank
 
 torna tutto, non cambia niente interpretativamente, ma è più giusto
+
+
+Exp2
+
+si basa su Exp1b e test2
+
+0 deperibilità, ora genero scorte abbassando la p. al consumo, min 0.2
+
+CONTI MOLTO INTERESSANTI DA CAPIRE 
+
+dep aumentati
+le banche hanno venduto meno del prodotto, hanno dato soldi
