@@ -38,7 +38,32 @@ si basa su Exp1b e test2
 
 0 deperibilità, ora genero scorte abbassando la p. al consumo, min 0.2
 
-CONTI MOLTO INTERESSANTI DA CAPIRE 
+le banche hanno venduto meno dei wage, hanno dato soldi più di quanti ricevuti
 
-dep aumentati
-le banche hanno venduto meno del prodotto, hanno dato soldi
+cmv.bankList[0].sales + cmv.bankList[1].sales - 18
+#perdita attività, fondi da banks a...
+-3.233500834444719
+
+gli agents, da zero
+a=cmv.totalCheckingAccountSeries[-1]
+40.88795088163167
+E
+le firms sono scese dal initEn
+b=cmv.totalBankAccountSeries[-1] - totFirmInitialEndowments
+-37.6544500471864
+
+a+b
+3.233500834445266
+
+central bank account sempre a 1848.74
+ma le banche hanno trasferito parte del loro initEn
+
+all'interno di central bank account serve un "di cui" dato da un 
+bank treasury account at CB
+
+
+Exp2b 
+idem Exp2 a 10 cicli, che è ancora senza loans
+
+SERVE
+bank treasury account at CB (I SOLDI DELLE BANCHE a partire da initEn)
