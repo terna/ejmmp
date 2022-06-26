@@ -65,5 +65,7 @@ bank treasury account at CB
 Exp2b 
 idem Exp2 a 10 cicli, che è ancora senza loans
 
+OK
+
 SERVE
 bank treasury account at CB (I SOLDI DELLE BANCHE a partire da initEn)
