@@ -56,14 +56,14 @@ def makePlots():
      [0, max(cmv.totalInvestmentInfraVarSeries)],\
      cmv.totalInvestmentInfraVarSeries,"investiInVar")
 
-    plot([min(-0.01, min(cmv.totalCashMoneySeries)),max(0.01,max(cmv.totalCashMoneySeries))],\
-     cmv.totalCashMoneySeries,"cash-money",\
-     [0, max(0.01,max(cmv.totalCashMoneyInfraVarSeries))],\
-     cmv.totalCashMoneyInfraVarSeries,"cash-moneyInVar")
+    #plot([min(-0.01, min(cmv.totalCashMoneySeries)),max(0.01,max(cmv.totalCashMoneySeries))],\
+     #cmv.totalCashMoneySeries,"cash-money",\
+     #[0, max(0.01,max(cmv.totalCashMoneyInfraVarSeries))],\
+     #cmv.totalCashMoneyInfraVarSeries,"cash-moneyInVar")
 
     plot([min(-0.01, min(cmv.totalCheckingAccountSeries)),\
       max(0.01,max(cmv.totalCheckingAccountSeries))],\
-     cmv.totalCheckingAccountSeries,"checking-ccount",\
+     cmv.totalCheckingAccountSeries,"checking-account",\
      [0, max(0.01,max(cmv.totalCheckingAccountInfraVarSeries))],\
      cmv.totalCheckingAccountInfraVarSeries,\
      "checking-accountInVar")
@@ -129,3 +129,18 @@ def makePlots():
      [0, max(0.01,max(cmv.totalCreditsVsFirmsInfraVarSeries))],\
      cmv.totalCreditsVsFirmsInfraVarSeries,\
      "credit-vs-firmsInVar")
+
+    plot([min(-0.01, min(cmv.totalCentralBankAccountSeries)),\
+      max(0.01,1.1*max(cmv.totalCentralBankAccountSeries))],\
+     cmv.totalCentralBankAccountSeries,"bank-accounts-at-CB",\
+     [0, max(0.01,max(cmv.totalCentralBankAccountInfraVarSeries))],\
+     cmv.totalCentralBankAccountInfraVarSeries,\
+     "bank-accounts-at-CB-InVar")
+
+    
+    plot([min(-0.01, min(cmv.totalBankTreasuryAccountAtCentralBankSeries)),\
+      max(0.01,1.1*max(cmv.totalBankTreasuryAccountAtCentralBankSeries))],\
+     cmv.totalBankTreasuryAccountAtCentralBankSeries,"bank-treasury-acc-at-CB",\
+     [0, max(0.01,max(cmv.totalBankTreasuryAccountAtCentralBankInfraVarSeries))],\
+     cmv.totalBankTreasuryAccountAtCentralBankInfraVarSeries,\
+     "bank-treasury-acc-at-CB-InVar")

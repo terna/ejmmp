@@ -40,5 +40,9 @@ def initSeries():
     cmv.totalCreditsVsAgentsInfraVarSeries=[]
     cmv.totalDebtsVsFirmsInfraVarSeries=[]
     cmv.totalCreditsVsFirmsInfraVarSeries=[]
+    cmv.totalCentralBankAccountSeries=[]
+    cmv.totalBankTreasuryAccountAtCentralBankSeries=[]
+    cmv.totalCentralBankAccountInfraVarSeries=[]
+    cmv.totalBankTreasuryAccountAtCentralBankInfraVarSeries=[]
 
     cmv.totalLostProductionSeries=[]

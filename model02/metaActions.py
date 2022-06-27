@@ -10,7 +10,7 @@ def copyAccounts():
         anAgent.copyCheckingAccountBalance()
 
     for aBank in cmv.bankList:
-        aBank.copyCentralBankAccountBalance()
+        aBank.copyAccountsAtCentralBank()
 
 def produceAll():
     # no seedManager()
@@ -224,6 +224,10 @@ def makeBankFinancialAccountsAll():
     cmv.totalCreditsVsAgentsInfraVarSeries.append(0)
     cmv.totalDebtsVsFirmsInfraVarSeries.append(0)
     cmv.totalCreditsVsFirmsInfraVarSeries.append(0)
+    cmv.totalCentralBankAccountSeries.append(0)
+    cmv.totalBankTreasuryAccountAtCentralBankSeries.append(0)
+    cmv.totalCentralBankAccountInfraVarSeries.append(0)
+    cmv.totalBankTreasuryAccountAtCentralBankInfraVarSeries.append(0)
     
     for aBank in cmv.bankList:
         aBank.makeFinancialAccounts()
@@ -235,6 +239,10 @@ def makeBankFinancialAccountsAll():
         cmv.totalDebtsVsFirmsInfraVarSeries[-1]+=aBank.myDebtsVsFirms**2
         cmv.totalCreditsVsFirmsSeries[-1]+=aBank.myCreditsVsFirms
         cmv.totalCreditsVsFirmsInfraVarSeries[-1]+=aBank.myCreditsVsFirms**2
+        cmv.totalCentralBankAccountSeries[-1]+=aBank.centralBankAccount
+        cmv.totalCentralBankAccountInfraVarSeries[-1]+=aBank.centralBankAccount**2
+        cmv.totalBankTreasuryAccountAtCentralBankSeries[-1]+=aBank.bankTreasuryAccountAtCentralBank
+        cmv.totalBankTreasuryAccountAtCentralBankInfraVarSeries[-1]+=aBank.bankTreasuryAccountAtCentralBank**2
         
     cmv.totalDebtsVsAgentsInfraVarSeries[-1]=\
                (cmv.totalDebtsVsAgentsInfraVarSeries[-1]/cmv.bankNum - \
@@ -248,6 +256,12 @@ def makeBankFinancialAccountsAll():
     cmv.totalCreditsVsFirmsInfraVarSeries[-1]=\
                (cmv.totalCreditsVsFirmsInfraVarSeries[-1]/cmv.bankNum - \
                (cmv.totalCreditsVsFirmsSeries[-1]/cmv.bankNum)**2)
+    cmv.totalCentralBankAccountInfraVarSeries[-1]=\
+               (cmv.totalCentralBankAccountInfraVarSeries[-1]/cmv.bankNum - \
+               (cmv.totalCentralBankAccountSeries[-1]/cmv.bankNum)**2)
+    cmv.totalBankTreasuryAccountAtCentralBankInfraVarSeries[-1]=\
+               (cmv.totalBankTreasuryAccountAtCentralBankInfraVarSeries[-1]/cmv.bankNum - \
+               (cmv.totalBankTreasuryAccountAtCentralBankSeries[-1]/cmv.bankNum)**2)
 
 
 def makeBalanceSheetAll():

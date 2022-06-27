@@ -68,7 +68,7 @@ print("\n\nFIRMS\n\n")
 
 data = [["# in\nfirm\nList","num","firm\nInitEn","firm\nWorkers","firm\nProfit\n(firm\nDivid)","firm\nInvest\nment",\
         "firmBank\nAccount\nDeposits","firmBank\nAccount\nLoans","firm\nInt\nOn\nDeposits","firm\nInt\nOn\nLoans"]]
-totInitialEndowments=0
+totFirmInitialEndowments=0
 totFirmWorkers=0
 totFirmDividend=0
 totFirmProfit=0
@@ -82,7 +82,7 @@ i=0
 for aFirm in cmv.firmList:
     if aFirm.profit>0: firmDividend=aFirm.profit*cmv.rho
     else: firmDividend=0
-    totInitialEndowments+=aFirm.initEn
+    totFirmInitialEndowments+=aFirm.initEn
     firmWorkers=len(aFirm.myWorkers)
     totFirmWorkers+=firmWorkers
     totFirmDividend+=firmDividend
@@ -105,7 +105,7 @@ for aFirm in cmv.firmList:
     i+=1
     
 
-row  =   ["tot"," ",totInitialEndowments,totFirmWorkers,\
+row  =   ["tot"," ",totFirmInitialEndowments,totFirmWorkers,\
           str(round(totFirmProfit,3))+"\n("+str(round(totFirmDividend,3))+")",totFirmInvestments,\
           totFirmBankAccountDeposits,totFirmBankAccountLoans,totFirmInterestOnDeposits,totFirmInterestOnLoans]
 
@@ -116,7 +116,7 @@ print(table)
 
 print("\n\nReconciliation of firms' financial accounts\n\n")
 
-if cmv.cycle==0: totFirmDepositsPreviousCycle=totInitialEndowments
+if cmv.cycle==0: totFirmDepositsPreviousCycle=totFirmInitialEndowments
 else: totFirmDepositsPreviousCycle=cmv.totalDebtsVsFirmsSeries[-2]
 
 if cmv.cycle==0: totFirmLoansPreviousCycle=0
@@ -166,7 +166,7 @@ data = [["# in\nbank\nList\n(num)","bank\nInitEn\n(bank\nWorkers)","bank\nProfit
          "myAgent\nChecking\nAccount\nDeposits\n(t-1)","myAgent\nChecking\nAccount\nLoans\n(t-1)",\
          "central\nBank\nBalance"]]
 
-totInitialEndowments=0
+totBankInitialEndowments=0
 totBankWorkers=0
 totBankDividend=0
 totBankProfit=0
@@ -182,7 +182,7 @@ totBankInvestments=0
 
 i=0
 for aBank in cmv.bankList:
-    totInitialEndowments+=aBank.initEn
+    totBankInitialEndowments+=aBank.initEn
     totBankWorkers+=len(aBank.myWorkers)
     totBankInvestments+=aBank.madeInvestment
     if aBank.profit > 0: dividend=aBank.profit*cmv.rho
@@ -240,11 +240,16 @@ totCentralBankLoansPreviousCycle=0
 totCentralBankDeposits=0
 totCentralBankLoans=0
 totCentralBankBalance=0
+totBankTreasuryAccountAtCentralBankDepositsPreviousCycle=0
+totBankTreasuryAccountAtCentralBankLoansPreviousCycle=0
+totBankTreasuryAccountAtCentralBankDeposits=0
+totBankTreasuryAccountAtCentralBankLoans=0
 
 for aBank in cmv.bankList:    
     if cmv.cycle==0: 
         totCentralBankDepositsPreviousCycle+=aBank.initEn
-        totCentralBankLoansPreviousCycle=+0
+        totCentralBankLoansPreviousCycle+=0
+        
     else: 
         if aBank.centralBankAccountTminus1 > 0 :
             totCentralBankDepositsPreviousCycle+=aBank.centralBankAccountTminus1
@@ -258,8 +263,27 @@ for aBank in cmv.bankList:
 
     totCentralBankBalance+=aBank.centralBankAccount
 
+if cmv.cycle==0: totCentralBankDepositsPreviousCycle+=totFirmInitialEndowments
     
-row=["tot",str(round(totInitialEndowments,3))+"\n("+str(totBankWorkers)+")",\
+
+for aBank in cmv.bankList:    
+    if cmv.cycle==0:
+        totBankTreasuryAccountAtCentralBankDepositsPreviousCycle+=aBank.initEn
+        totBankTreasuryAccountAtCentralBankLoansPreviousCycle+=0
+    else:
+        if aBank.bankTreasuryAccountAtCentralBankTminus1 > 0 :
+            totBankTreasuryAccountAtCentralBankDepositsPreviousCycle+=aBank.bankTreasuryAccountAtCentralBankTminus1
+        if aBank.bankTreasuryAccountAtCentralBankTminus1 < 0 :
+            totBankTreasuryAccountAtCentralBankLoansPreviousCycle+=abs(aBank.bankTreasuryAccountAtCentralBankTminus1)
+            
+    if aBank.bankTreasuryAccountAtCentralBank > 0 :
+        totBankTreasuryAccountAtCentralBankDeposits+=aBank.bankTreasuryAccountAtCentralBank
+    if aBank.bankTreasuryAccountAtCentralBank < 0 :
+        totBankTreasuryAccountAtCentralBankLoans+=abs(aBank.bankTreasuryAccountAtCentralBank)
+    
+
+    
+row=["tot",str(round(totBankInitialEndowments,3))+"\n("+str(totBankWorkers)+")",\
      str(round(totBankProfit,3))+"\n("+str(round(totBankDividend,3))+")",totBankInvestments,\
      str(round(totBankAccountDeposits,3))+"\n"+"("+str(round(totBankAccountDepositsTminus1,3))+")",\
      str(round(totBankAccountLoans,3))+"\n"+"("+str(round(totBankAccountLoansTminus1,3))+")",\
@@ -283,12 +307,19 @@ for aBank in cmv.bankList:
     if aBank.profit > 0: totBankDividend+=aBank.profit*cmv.rho
     
 data = [[" "," ","cycle "+str(cmv.cycle+1), " "],\
-        ["(1)","banks' Deposits at CB Previous Cycle",totCentralBankDepositsPreviousCycle,"central bank stock (+)"],
+        ["(1)","banks' Deposits at CB Previous Cycle",totCentralBankDepositsPreviousCycle,"central bank stock (+)"],\
+        ["(1b)","(including banks' Treasury Accounts at Central Bank)",\
+        totBankTreasuryAccountAtCentralBankDepositsPreviousCycle,"-"],
         ["(2)","banks' Deposits at CB Current Cycle (with current interests)",totCentralBankDeposits,\
                                                                        "central bank stock (-)"],\
+        ["(2b)","(including banks' Treasury Accounts at Central Bank)",\
+        totBankTreasuryAccountAtCentralBankDeposits,"-"],
         ["(3)","banks' Loans by CB Previous Cycle",totCentralBankLoansPreviousCycle,"central bank stock (-)"],\
+        ["(3b)","(including banks' Treasury Accounts at Central Bank)",\
+        totBankTreasuryAccountAtCentralBankLoansPreviousCycle,"-"],
         ["(4)","banks' Loans by CB Current Cycle (with current interests)",totCentralBankLoans,\
                                                                        "central bank stock (+)"],\
+        ["(4b)","(including banks' Treasury Accounts at Central Bank)",totBankTreasuryAccountAtCentralBankLoans,"-"],\
         ["(5)","firms' Deposits Previous Cycle",totBankAccountDepositsTminus1,"firm deposit stock (+)"],\
         ["(6)","firms' Deposits Current Cycle (with current interests)",totBankAccountDeposits,"firm deposit stock (-)"],\
         ["(7)","agents' Deposits Previous Cycle",totCheckingAccountDepositsTminus1,"agent deposit stock (+)"],\
