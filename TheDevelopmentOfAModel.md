@@ -8,4 +8,6 @@ Report on the development of an ABM stock-flow consistent model.
 
 Comments welcome. Please do not quote.
 
-Last updated: June 27^th^, 2022
+Design and development of the model by Eleonora Priori and Pietro Terna.
+
+Last updated: July 5^th^, 2022
