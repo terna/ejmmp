@@ -307,49 +307,74 @@ for aBank in cmv.bankList:
     if aBank.profit > 0: totBankDividend+=aBank.profit*cmv.rho
     
 data = [[" "," ","cycle "+str(cmv.cycle+1), " "],\
-        ["(1)","banks' Deposits at CB Previous Cycle",totCentralBankDepositsPreviousCycle,"central bank stock (+)"],\
-        ["(1b)","(including banks' Treasury Accounts at Central Bank)",\
-        totBankTreasuryAccountAtCentralBankDepositsPreviousCycle,"-"],
-        ["(2)","banks' Deposits at CB Current Cycle (with current interests)",totCentralBankDeposits,\
-                                                                       "central bank stock (-)"],\
-        ["(2b)","(including banks' Treasury Accounts at Central Bank)",\
-        totBankTreasuryAccountAtCentralBankDeposits,"-"],
-        ["(3)","banks' Loans by CB Previous Cycle",totCentralBankLoansPreviousCycle,"central bank stock (-)"],\
-        ["(3b)","(including banks' Treasury Accounts at Central Bank)",\
-        totBankTreasuryAccountAtCentralBankLoansPreviousCycle,"-"],
-        ["(4)","banks' Loans by CB Current Cycle (with current interests)",totCentralBankLoans,\
-                                                                       "central bank stock (+)"],\
-        ["(4b)","(including banks' Treasury Accounts at Central Bank)",totBankTreasuryAccountAtCentralBankLoans,"-"],\
-        ["(5)","firms' Deposits Previous Cycle",totBankAccountDepositsTminus1,"firm deposit stock (+)"],\
-        ["(6)","firms' Deposits Current Cycle (with current interests)",totBankAccountDeposits,"firm deposit stock (-)"],\
-        ["(7)","agents' Deposits Previous Cycle",totCheckingAccountDepositsTminus1,"agent deposit stock (+)"],\
-        ["(8)","agents' Deposits Current Cycle (with current interests)",totCheckingAccountDeposits,"agent deposit stock (-)"],\
-
-        ["(9)", "firms' Loans Previous Cycle",totBankAccountLoansTminus1,"firm loan stock (-)"],\
-        ["(10)","firms' Loans Current Cycle (with current interests)",totBankAccountLoans,"firm loan stock (+)"],\
-        ["(11)","agents' Loans Previous Cycle",totCheckingAccountLoansTminus1,"agent loan stock (-)"],\
-        ["(12)","agents' Loans Current Cycle (with current interests)",totCheckingAccountLoans,"agent loan stock (+)"],\
-
-
-        ["(13)","banks' Revenues Current Cycle (with interests on deposits at CB)",totalBankRevenues,"central bank flow (+)"],\
-        ["(14)","banks' Paid Wages Current Cycle",cmv.wage*totBankWorkers,"central bank flow (-)"],\
-        ["(15)","banks' Paid Dividends Current Cycle",totBankDividend,"central bank flow (-)"],\
-        ["(16)","agents' Interests On Deposits Current Cycle",cmv.privateClientsTotalInterestOnDepositsSeries[-1],\
-                                                                                                  "bank flow (-)"],\
-        ["(17)","firms' Interests On Deposits Current Cycle",cmv.commercialClientsTotalInterestOnDepositsSeries[-1],\
-                                                                                                  "bank flow (-)"],\
-        ["(18)","banks' Investments",totBankInvestments,"bank flow (-)"]]
+        ["(1)","firms' Deposits Previous Cycle",totBankAccountDepositsTminus1,"firm deposit stock (+)"],\
+        ["(2)","firms' Deposits Current Cycle (with current interests)",totBankAccountDeposits,"firm deposit stock (-)"],\
+        ["(3)","agents' Deposits Previous Cycle",totCheckingAccountDepositsTminus1,"agent deposit stock (+)"],\
+        ["(4)","agents' Deposits Current Cycle (with current interests)",totCheckingAccountDeposits,"agent deposit stock (-)"],\
+        ["(5)", "firms' Loans Previous Cycle",totBankAccountLoansTminus1,"firm loan stock (-)"],\
+        ["(6)","firms' Loans Current Cycle (with current interests)",totBankAccountLoans,"firm loan stock (+)"],\
+        ["(7)","agents' Loans Previous Cycle",totCheckingAccountLoansTminus1,"agent loan stock (-)"],\
+        ["(8)","agents' Loans Current Cycle (with current interests)",totCheckingAccountLoans,"agent loan stock (+)"],\
+        ["(9)","banks' Revenues Current Cycle (without interests on deposits at CB)",\
+                totalBankRevenues,"central bank flow (+)"],\
+        ["(10)","banks' Paid Wages Current Cycle",cmv.wage*totBankWorkers,"central bank flow (-)"],\
+        ["(11)","banks' Paid Dividends Current Cycle",totBankDividend,"central bank flow (-)"],\
+        ["(12)","agents' Interests On Deposits Current Cycle",\
+                cmv.privateClientsTotalInterestOnDepositsSeries[-1],"bank flow (-)"],\
+        ["(13)","firms' Interests On Deposits Current Cycle",\
+                cmv.commercialClientsTotalInterestOnDepositsSeries[-1],"bank flow (-)"],\
+        ["(14)","banks' Investments",totBankInvestments,"bank flow (-)"]]
 
 
 table = tb.tabulate(data, tablefmt='grid',headers="firstrow")
 print(table)
 
 print("\nReconciliation\n")
-print("\n+ (1) - (2) - (3) + (4) + (5) - (6) + (7) - (8) - (9) + (10) - (11) + (12) => ",\
-                                                              round(+totCentralBankDepositsPreviousCycle\
-                                                                    -totCentralBankDeposits\
-                                                                    -totCentralBankLoansPreviousCycle\
-                                                                    +totCentralBankLoans\
+print("\n+ (1) - (2) + (3) - (4) - (5) + (6) - (7) + (8) => ",\
+                                                              round(+totBankAccountDepositsTminus1\
+                                                                    -totBankAccountDeposits\
+                                                                    +totCheckingAccountDepositsTminus1\
+                                                                    -totCheckingAccountDeposits\
+                                                                    -totBankAccountLoansTminus1\
+                                                                    +totBankAccountLoans\
+                                                                    -totCheckingAccountLoansTminus1\
+                                                                    +totCheckingAccountLoans,4))
+
+print("\n+ (9) - (10) - (11) - (12) - (13) - (14)        => ",\
+                                                              round(+totalBankRevenues\
+                                                                    -cmv.wage*totBankWorkers\
+                                                                    -totBankDividend\
+                                                                    -cmv.privateClientsTotalInterestOnDepositsSeries[-1]\
+                                                                    -cmv.commercialClientsTotalInterestOnDepositsSeries[-1]\
+                                                                    -totBankInvestments\
+                                                                    ,4),"\n")
+
+##provv
+
+data = [[" "," ","cycle "+str(cmv.cycle+1), " "],\
+
+        ["(1)","banks' Deposits at CB Previous Cycle",totCentralBankDepositsPreviousCycle,"central bank stock (-)"],\
+        ["(1b)","(including banks' Treasury Accounts at Central Bank)",\
+        totBankTreasuryAccountAtCentralBankDepositsPreviousCycle,"--"],
+        ["(2)","banks' Deposits at CB Current Cycle (with current interests)",totCentralBankDeposits,\
+                                                                       "central bank stock (+)"],\
+        ["(2b)","(including banks' Treasury Accounts at Central Bank)",\
+        totBankTreasuryAccountAtCentralBankDeposits,"--"],
+        ["(3)","banks' Loans by CB Previous Cycle",totCentralBankLoansPreviousCycle,"central bank stock (+)"],\
+        ["(3b)","(including banks' Treasury Accounts at Central Bank)",\
+        totBankTreasuryAccountAtCentralBankLoansPreviousCycle,"--"],
+        ["(4)","banks' Loans by CB Current Cycle (with current interests)",totCentralBankLoans,\
+                                                                       "central bank stock (-)"],\
+        ["(4b)","(including banks' Treasury Accounts at Central Bank)",totBankTreasuryAccountAtCentralBankLoans,"--"]]
+
+table = tb.tabulate(data, tablefmt='grid',headers="firstrow")
+print(table)
+
+"""        
+         round(-totCentralBankDepositsPreviousCycle
+                                                                    +totCentralBankDeposits\
+                                                                    +totCentralBankLoansPreviousCycle\
+                                                                    -totCentralBankLoans\
                                                                     +totBankAccountDepositsTminus1\
                                                                     -totBankAccountDeposits\
                                                                     +totCheckingAccountDepositsTminus1\
@@ -359,12 +384,4 @@ print("\n+ (1) - (2) - (3) + (4) + (5) - (6) + (7) - (8) - (9) + (10) - (11) + (
                                                                     -totCheckingAccountLoansTminus1\
                                                                     +totCheckingAccountLoans,4))
 
-print("\n+ (13) - (14) - (15) - (16) - (17) - (18)                                  => ",\
-                                                              round(+totalBankRevenues\
-                                                                    -cmv.wage*totBankWorkers\
-                                                                    -totBankDividend\
-                                                                    -cmv.privateClientsTotalInterestOnDepositsSeries[-1]\
-                                                                    -cmv.commercialClientsTotalInterestOnDepositsSeries[-1]\
-                                                                    -totBankInvestments\
-                                                                    ,4),"\n")
-
+"""
