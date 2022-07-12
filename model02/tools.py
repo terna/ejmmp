@@ -31,6 +31,8 @@ def nationalAccounts():
           ("  t","total","initial","consum.","invest.","final"))
     print("\t%s\t%s\t\t\t\t%s" % ("a.v.","invent.","invent."))
     for i in range(cmv.ncycles):
+        if abs(cmv.totalInitialInventoriesSeries[i])< 1e-5: cmv.totalInitialInventoriesSeries[i]=0
+        if abs(cmv.totalFinalInventoriesSeries[i])< 1e-5: cmv.totalFinalInventoriesSeries[i]=0
         print("%3d\t%.3f\t%.3f\t    |\t%.3f\t%.3f\t%.3f" % \
                                    (i+1,cmv.totalAddedValueSeries[i],
                                    cmv.totalInitialInventoriesSeries[i],\

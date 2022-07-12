@@ -164,7 +164,7 @@ print("\n\nBANKS\n\n")
 data = [["# in\nbank\nList\n(num)","bank\nInitEn\n(bank\nWorkers)","bank\nProfit\n(bank\nDivid)",\
         "bank\nInvest\nment","myFirm\nBank\nAccount\nDeposits\n(t-1)","myFirm\nBank\nAccount\nLoans\n(t-1)",\
          "myAgent\nChecking\nAccount\nDeposits\n(t-1)","myAgent\nChecking\nAccount\nLoans\n(t-1)",\
-         "central\nBank\nBalance"]]
+         "central\nBank\nBalance\n(Treasury)"]]
 
 totBankInitialEndowments=0
 totBankWorkers=0
@@ -230,7 +230,7 @@ for aBank in cmv.bankList:
          str(round(totMyFirmBankAccountLoans,3))+"\n"+"("+str(round(totMyFirmBankAccountLoansTminus1,3))+")",\
          str(round(totMyAgentCheckingAccountDeposits,3))+"\n"+"("+str(round(totMyAgentCheckingAccountDepositsTminus1,3))+")",\
          str(round(totMyAgentCheckingAccountLoans,3))+"\n"+"("+str(round(totMyAgentCheckingAccountLoansTminus1,3))+")",\
-         aBank.centralBankAccount]
+         str(round(aBank.centralBankAccount,3))+"\n("+str(round(aBank.bankTreasuryAccountAtCentralBank,3))+")" ]
     data.append(row)
     i+=1
 
@@ -244,6 +244,7 @@ totBankTreasuryAccountAtCentralBankDepositsPreviousCycle=0
 totBankTreasuryAccountAtCentralBankLoansPreviousCycle=0
 totBankTreasuryAccountAtCentralBankDeposits=0
 totBankTreasuryAccountAtCentralBankLoans=0
+totTreasuryAccountAtCentralBankBalance=0
 
 for aBank in cmv.bankList:    
     if cmv.cycle==0: 
@@ -262,6 +263,7 @@ for aBank in cmv.bankList:
         totCentralBankLoans+=abs(aBank.centralBankAccount)
 
     totCentralBankBalance+=aBank.centralBankAccount
+    totTreasuryAccountAtCentralBankBalance+=aBank.bankTreasuryAccountAtCentralBank
 
 if cmv.cycle==0: totCentralBankDepositsPreviousCycle+=totFirmInitialEndowments
     
@@ -289,7 +291,7 @@ row=["tot",str(round(totBankInitialEndowments,3))+"\n("+str(totBankWorkers)+")",
      str(round(totBankAccountLoans,3))+"\n"+"("+str(round(totBankAccountLoansTminus1,3))+")",\
      str(round(totCheckingAccountDeposits,3))+"\n"+"("+str(round(totCheckingAccountDepositsTminus1,3))+")",\
      str(round(totCheckingAccountLoans,3))+"\n"+"("+str(round(totCheckingAccountLoansTminus1,3))+")",\
-     round(totCentralBankBalance,3)]
+     str(round(totCentralBankBalance,3))+"\n("+str(round(totTreasuryAccountAtCentralBankBalance,3))+")" ]
 data.append(row)
 
 table = tb.tabulate(data, tablefmt='grid',headers="firstrow",floatfmt=".3f")
@@ -315,7 +317,7 @@ data = [[" "," ","cycle "+str(cmv.cycle+1), " "],\
         ["(6)","firms' Loans Current Cycle (with current interests)",totBankAccountLoans,"firm loan stock (+)"],\
         ["(7)","agents' Loans Previous Cycle",totCheckingAccountLoansTminus1,"agent loan stock (-)"],\
         ["(8)","agents' Loans Current Cycle (with current interests)",totCheckingAccountLoans,"agent loan stock (+)"],\
-        ["(9)","banks' Revenues Current Cycle (without interests on deposits at CB)",\
+        ["(9)","banks' Revenues Current Cycle (without int. on dep. at CB)",\
                 totalBankRevenues,"central bank flow (+)"],\
         ["(10)","banks' Paid Wages Current Cycle",cmv.wage*totBankWorkers,"central bank flow (-)"],\
         ["(11)","banks' Paid Dividends Current Cycle",totBankDividend,"central bank flow (-)"],\
@@ -326,7 +328,7 @@ data = [[" "," ","cycle "+str(cmv.cycle+1), " "],\
         ["(14)","banks' Investments",totBankInvestments,"bank flow (-)"]]
 
 
-table = tb.tabulate(data, tablefmt='grid',headers="firstrow")
+table = tb.tabulate(data, tablefmt='grid',headers="firstrow",floatfmt=".3f")
 print(table)
 
 print("\nReconciliation\n")
