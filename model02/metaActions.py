@@ -268,6 +268,10 @@ def makeBalanceSheetAll():
     # no seedManager()
     cmv.totalProfitSeries.append(0)
     cmv.totalProfitInfraVarSeries.append(0)
+    cmv.totalFirmProfitSeries.append(0)
+    cmv.totalFirmProfitInfraVarSeries.append(0)
+    cmv.totalBankProfitSeries.append(0)
+    cmv.totalBankProfitInfraVarSeries.append(0)
     cmv.totalFinalInventoriesSeries.append(0)
     cmv.totalFinalInventoriesInfraVarSeries.append(0)
     cmv.totalLostProductionSeries.append(0)
@@ -284,8 +288,20 @@ def makeBalanceSheetAll():
         cmv.totalAddedValueSeries[-1]+=anItem.addedValue
         cmv.totalAddedValueInfraVarSeries[-1]+=anItem.addedValue**2
         
+    for anItem in cmv.firmList:
+        cmv.totalFirmProfitSeries[-1]+=anItem.profit
+        cmv.totalFirmProfitInfraVarSeries[-1]+=anItem.profit**2
+        
+    for anItem in cmv.bankList:
+        cmv.totalBankProfitSeries[-1]+=anItem.profit
+        cmv.totalBankProfitInfraVarSeries[-1]+=anItem.profit**2
+        
     cmv.totalProfitInfraVarSeries[-1]=(cmv.totalProfitInfraVarSeries[-1]/(cmv.firmNum+cmv.bankNum) - \
                                           (cmv.totalProfitSeries[-1]/(cmv.firmNum+cmv.bankNum))**2)
+    cmv.totalFirmProfitInfraVarSeries[-1]=(cmv.totalFirmProfitInfraVarSeries[-1]/cmv.firmNum - \
+                                          (cmv.totalFirmProfitSeries[-1]/cmv.firmNum)**2)
+    cmv.totalBankProfitInfraVarSeries[-1]=(cmv.totalBankProfitInfraVarSeries[-1]/cmv.bankNum - \
+                                          (cmv.totalBankProfitSeries[-1]/cmv.bankNum)**2)
     cmv.totalFinalInventoriesInfraVarSeries[-1]=\
                             (cmv.totalFinalInventoriesInfraVarSeries[-1]/(cmv.firmNum+cmv.bankNum) - \
                             (cmv.totalFinalInventoriesSeries[-1]/(cmv.firmNum+cmv.bankNum))**2)

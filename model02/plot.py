@@ -52,6 +52,16 @@ def makePlots():
      [0, max(cmv.totalProfitInfraVarSeries)],\
      cmv.totalProfitInfraVarSeries,"profInVar"," ")
 
+    plot([min(cmv.totalFirmProfitSeries), max(0,max(cmv.totalFirmProfitSeries))],\
+     cmv.totalFirmProfitSeries,"firmProfit",\
+     [0, max(cmv.totalFirmProfitInfraVarSeries)],\
+     cmv.totalFirmProfitInfraVarSeries,"firmProfInVar"," ")
+
+    plot([min(cmv.totalBankProfitSeries), max(0,max(cmv.totalBankProfitSeries))],\
+     cmv.totalBankProfitSeries,"bankProfit",\
+     [0, max(cmv.totalBankProfitInfraVarSeries)],\
+     cmv.totalBankProfitInfraVarSeries,"bankProfInVar"," ")
+
     plot([min(cmv.totalInitialInventoriesSeries), \
       max(0.01,max(cmv.totalInitialInventoriesSeries))],\
      cmv.totalInitialInventoriesSeries,"initialInventories",\

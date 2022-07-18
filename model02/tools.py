@@ -11,8 +11,10 @@ def seedManager(r,seed,name,address):
 
 def makeHist():
     print("-------------------------------------------\n"+\
-          "enterprise number "+ str(len(cmv.entrepreneurList))+\
-          "\n-------------------------------------------\n")
+          "# of enterprises "+ str(len(cmv.entrepreneurList))+"\n"\
+          "# of firms       "+ str(len(cmv.firmList))+"\n"\
+          "# of banks       "+ str(len(cmv.bankList))+"\n"\
+          "-------------------------------------------\n")
     cmv.enterpriseSizeList=[]
     list(cmv.enterpriseSizeList.append(len(cmv.firmList[i].myWorkers)) for i in range(cmv.firmNum))
     list(cmv.enterpriseSizeList.append(len(cmv.bankList[i].myWorkers)) for i in range(cmv.bankNum))
