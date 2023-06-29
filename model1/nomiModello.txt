@@ -13,3 +13,5 @@ Leo nota però https://it.wikipedia.org/wiki/Boko_Haram
 pt 
 Heterogeneous Agent Library, HAL (HAL 9000, Odissea nello spazio) e poi ne parliamo come HAL 2023, HAL 2024 ecc.
 
+Actually Representative Agent Based Intertemporal General Equilibrium Model, ARABI GEM.
+
