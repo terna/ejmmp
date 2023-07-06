@@ -3,6 +3,6 @@ howManyCycles: 10
 Firm.count: 10 
 probabilityToFailProductionChoices: 0.05
 tickNumber.betweenChecks: 1
-log_file_root: 'prova'
+log_file_root: 'prova2'
 wage: 1
 costOfCapital: 0.1
