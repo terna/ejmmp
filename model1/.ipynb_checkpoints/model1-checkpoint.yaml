@@ -1,9 +1,9 @@
 myRandom.seed: [4321,4322,4323,4324,4325,4326,4327,4328,4329,4330,4331,4332,4333,4334,4335,4336] #increase the number of items if more than 16 ranks
 howManyCycles: 100
-Firm.count: 10 
+Firm.count: 100 #10 
 probabilityToFailProductionChoices: 0.05
 tickNumber.betweenChecks: 10
-log_file_root: 'prova'
+log_file_root: 'prova3ranks' #'prova'
 wage: 1
 costOfCapital: 0.1
 usingMarkup: True
