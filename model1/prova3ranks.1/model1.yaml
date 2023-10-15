@@ -10,4 +10,4 @@ usingMarkup: True
 unusedCriticalRatio: 1.2
 changeInStockOfWorkers: 0.1
 timeFraction: 12 #52
-tollerance: 0 #0.10
+tollerance: 0.10
