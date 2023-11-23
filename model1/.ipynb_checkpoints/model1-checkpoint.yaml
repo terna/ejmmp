@@ -6,8 +6,9 @@ tickNumber.betweenChecks: 10
 log_file_root:  'prova' #'prova3ranks'  
 wage: 1
 costOfCapital: 0.1
-usingMarkup: True
+usingMarkup: False
 unusedCriticalRatio: 1.2
 changeInStockOfWorkers: 0.1
 timeFraction: 12 #52
 tollerance: 0.10
+investmentGoods: [1]
