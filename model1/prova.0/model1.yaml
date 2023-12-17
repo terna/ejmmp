@@ -11,4 +11,4 @@ unusedCriticalRatio: 1.2
 changeInStockOfWorkers: 0.1
 timeFraction: 12 #52
 tollerance: 0.10
-investmentGoods: [1] #list of type of investment goods (must coincide with firm-features.csv)
+investmentGoods: [1] #list of type of investment goods (must be consistent with firm-features.csv)
