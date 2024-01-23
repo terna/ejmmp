@@ -3,7 +3,7 @@ howManyCycles: 144
 Firm.count: 100 #300
 probabilityToFailProductionChoices: 0 #0.05
 tickNumber.betweenChecks: 10
-log_file_root: 'prova' #'prova3ranks' 
+log_file_root: 'prova' # 'prova3ranks'  
 wage: 1
 costOfCapital: 0.1
 usingMarkup: True
