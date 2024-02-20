@@ -1,1 +1,1 @@
-zeroIncrementAndSubstituions=False
+zeroIncrementAndSubstituions=True
