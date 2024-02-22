@@ -1,0 +1,31 @@
+
+dimensional classes
+
+https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Structural_business_statistics_overview#Size_class_analysis
+
+
+# firms in millions
+
+>250 0,05 with 35% of employees
+
+0-9, 29m, 4.5 mean dim.	    EU ~ 4.5*29=> 130.5
+10-49, 1.5m, 30 mean dim.   EU ~ 30*1.5=> 45
+50-249, 0,2m, 150 mean dim. EU ~ 150*0.2=>30
+>=250, 0.05m, ? mean dim.   EU (130.5+45+30)*0.35/0.65 =>110,65
+Tot employees 316.2m
+
+hp employees 10000
+
+0-9    10000*130.5/316.2 =>4130~; 4130/4.5 => 920~units quota upon 1 thousand firms: 0.937
+10-49  10000*45/316.2    =>1420~; 1420/30  => 50~units  quota upon 1 thousand firms: 0.051
+50-249 10000*30/316.2    => 950~; 950/150  =>  6~units  quota upon 1 thousand firms: 0.006
+>=250  10000*110,65/316.2=>3500~; 3500/625 =>  6~units  quota upon 1 thousand firms: 0.006
+hp dim. max big firms 1000 
+
+NB 1000 firms with ~10000 employees
+
+multiply by # of cores
+
+
+
+ 
