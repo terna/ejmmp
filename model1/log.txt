@@ -1,0 +1,13 @@
+1. THE UNINFORMED PLANNER ACTING 
+
+Comparing data_analysis planner with the folders (and the corresponding condition in plannerMethods): 
+- PlannerNoInv(incrementAndSubstitutions = 'zero')
+- PlannerTotalInv (incrementAndSubstitutions = 'total')
+- PlannerRandom (incrementAndSubstitutions = 'random')
+
+Production inputs are currently random.
+
+Assignations (zero/random/total) are NOT consistent with the investment goods collection.
+If the planner assigns more than how much has been collected interally, imports of investment goods will occur (a kind of compensation mechanism out of the model itself).
+
+------
