@@ -10,6 +10,6 @@ usingMarkup: True
 timeFraction: 12 #52
 tollerance: 0.10
 investmentGoods: [1] #list of type of investment goods (must be consistent with firm-features.csv)
-minOfInventoriesBeingSold: 0.5
-rangeOfInventoriesBeingSold: 0.5 #must be complement with the above 
+minOfInventoriesBeingSold: 0.75
+rangeOfInventoriesBeingSold: 0.25 #must be complement to 1 with the above minOfInventoriesBeingSold
 centralPlannerPriceCoefficient: 1.5
