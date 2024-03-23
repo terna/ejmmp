@@ -5,3 +5,7 @@ incrementAndSubstitutions = 'proportionally'
 # relevant only under the case of incrementAndSubstitutions = 'proportionally' 
 askingInvGoodsProduction = 'min' # 'regular' is the default option
 investmentVariation= 2 # used directly if max and as (1/investmentVariation) if min
+
+##################################################
+#order generation
+randomOrderGeneration=True
