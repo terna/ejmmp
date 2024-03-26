@@ -3,9 +3,12 @@ incrementAndSubstitutions = 'proportionally'
 
 #askingMaxInvGoodsProduction = 'min', 'regular', 'max' # to be accorded with the name of the folder in the experiments -> PropMin, PropMax
 # relevant only under the case of incrementAndSubstitutions = 'proportionally' 
-askingInvGoodsProduction = 'min' # 'regular' is the default option
-investmentVariation= 2 # used directly if max and as (1/investmentVariation) if min
+askingInvGoodsProduction = 'min' # OR 'regular' (basic option) OR 'min' OR 'max'
 
-##################################################
-#order generation
+investmentVariation= -0.8 # positive or negative in (-1,+1) 
+#used as 1+investmentVariation for the cases 'min'(must be negative) or 'max' (must be positive)
+
+#################################################
+#order generation (alternatively)
+noOrderGeneration=False
 randomOrderGeneration=True
