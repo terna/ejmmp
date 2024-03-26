@@ -1,5 +1,5 @@
 myRandom.seed: [4321,4321,4321] #[4321,4322,4323,4324,4325,4326,4327,4328,4329,4330,4331,4332,4333,4334,4335,4336] #increase the number of items if more than 16 ranks
-howManyCycles: 48 #264 #144
+howManyCycles: 12 #264 #144 #48
 Firm.count: 33 #11 #1000
 probabilityToFailProductionChoices: 0.05 #0
 tickNumber.betweenChecks: 10
