@@ -13,4 +13,6 @@ investmentVariation= 0.8 # positive or negative in (-1,+1)
 noOrderGeneration=False
 randomOrderGeneration=True
 
+#################################################
+#modify duration
 durationCoeff=2
