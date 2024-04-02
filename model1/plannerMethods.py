@@ -1,5 +1,5 @@
 #incrementAndSubstitutions = 'zero', 'random', 'total', 'proportionally' # to be accorded with the name of the folder in the experiments
-incrementAndSubstitutions = 'proportionally'
+incrementAndSubstitutions = 'total'
 
 #askingMaxInvGoodsProduction = 'min', 'regular', 'max' # to be accorded with the name of the folder in the experiments -> PropMin, PropMax
 # relevant only under the case of incrementAndSubstitutions = 'proportionally' 
@@ -15,4 +15,4 @@ randomOrderGeneration=True
 
 #################################################
 #modify duration
-durationCoeff=2
+durationCoeff=1
