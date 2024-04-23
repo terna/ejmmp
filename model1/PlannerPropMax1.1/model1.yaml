@@ -13,3 +13,5 @@ minOfInventoriesBeingSold: 0.75
 rangeOfInventoriesBeingSold: 0.25 #must be complement to 1 with the above minOfInventoriesBeingSold
 usingMarkup: True
 centralPlannerPriceCoefficient: 1 #must be 1 if usingMarkup == True
+minOrderAsAShareOfMaxOrderProduction: 0.25  #upon 1
+capacityMargin: 0.2 #upon 1
