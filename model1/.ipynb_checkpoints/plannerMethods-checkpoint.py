@@ -15,4 +15,4 @@ randomOrderGeneration=True
 
 #################################################
 #modify duration
-durationCoeff=2
+durationCoeff=1
