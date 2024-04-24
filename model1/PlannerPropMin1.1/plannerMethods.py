@@ -2,7 +2,7 @@
 incrementAndSubstitutions = 'proportionally'
 
 #askingMaxInvGoodsProduction = 'min', 'regular', 'max' # to be accorded with the name of the folder in the experiments -> PropMin, PropMax
-# relevant only under the case of incrementAndSubstitutions = 'proportionally' 
+# 'min' or 'max' to be used ONLY under the case of incrementAndSubstitutions = 'proportionally' 
 askingInvGoodsProduction = 'min' # OR 'regular' (basic option) OR 'min' OR 'max'
 
 investmentVariation= -0.8 # positive or negative in (-1,+1) 
