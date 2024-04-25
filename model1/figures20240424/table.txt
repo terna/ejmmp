@@ -1,0 +1,142 @@
+
+
+1 PlannerZero	
+probabilityToFailProductionChoices: 0.05
+minOrderAsAShareOfMaxOrderProduction: 0.25 
+capacityMargin: 0.2
+
+incrementAndSubstitutions = 'zero'
+askingInvGoodsProduction = 'regular'
+investmentVariation= 0.8 #not relevant
+durationCoeff=1
+
+
+2 PlannerTotal
+probabilityToFailProductionChoices: 0.05
+minOrderAsAShareOfMaxOrderProduction: 0.25 
+capacityMargin: 0.2
+
+incrementAndSubstitutions = 'total'
+askingInvGoodsProduction = 'regular'
+investmentVariation= 0.8 #not relevant
+durationCoeff=1
+
+
+3 PlannerRandom
+probabilityToFailProductionChoices: 0.05
+minOrderAsAShareOfMaxOrderProduction: 0.25 
+capacityMargin: 0.2
+
+incrementAndSubstitutions = 'random'
+askingInvGoodsProduction = 'regular'
+investmentVariation= 0.8 #not relevant
+durationCoeff=1
+
+
+4 PlannerPropReg1
+probabilityToFailProductionChoices: 0.05
+minOrderAsAShareOfMaxOrderProduction: 0.25 
+capacityMargin: 0.2
+
+incrementAndSubstitutions = 'proportionally'
+askingInvGoodsProduction = 'regular'
+investmentVariation= 0.8 #not relevant
+durationCoeff=1
+
+5 PlannerPropReg2
+probabilityToFailProductionChoices: 0.05
+minOrderAsAShareOfMaxOrderProduction: 0.25 
+capacityMargin: 0.2
+
+incrementAndSubstitutions = 'proportionally'
+askingInvGoodsProduction = 'regular'
+investmentVariation= 0.8 #not relevant
+durationCoeff=2
+
+
+6 PlannerPropMin1
+probabilityToFailProductionChoices: 0.05
+minOrderAsAShareOfMaxOrderProduction: 0.25 
+capacityMargin: 0.2
+
+incrementAndSubstitutions = 'proportionally'
+askingInvGoodsProduction = 'min'
+investmentVariation= -0.8
+durationCoeff=1
+
+7 PlannerPropMin2
+probabilityToFailProductionChoices: 0.05
+minOrderAsAShareOfMaxOrderProduction: 0.25 
+capacityMargin: 0.2
+
+incrementAndSubstitutions = 'proportionally'
+askingInvGoodsProduction = 'min'
+investmentVariation= -0.8
+durationCoeff=2
+
+
+8 PlannerPropMax1
+probabilityToFailProductionChoices: 0.05
+minOrderAsAShareOfMaxOrderProduction: 0.25 
+capacityMargin: 0.2
+
+incrementAndSubstitutions = 'proportionally'
+askingInvGoodsProduction = 'max'
+investmentVariation= 0.8
+durationCoeff=1
+
+9 PlannerPropMax2
+probabilityToFailProductionChoices: 0.05
+minOrderAsAShareOfMaxOrderProduction: 0.25 
+capacityMargin: 0.2
+
+incrementAndSubstitutions = 'proportionally'
+askingInvGoodsProduction = 'max'
+investmentVariation= 0.8
+durationCoeff=2
+
+
+10 PlannerPropMax1Fail0.1
+probabilityToFailProductionChoices: 0.10
+minOrderAsAShareOfMaxOrderProduction: 0.25 
+capacityMargin: 0.2
+
+incrementAndSubstitutions = 'proportionally'
+askingInvGoodsProduction = 'max'
+investmentVariation= 0.8
+durationCoeff=1
+
+
+11 PlannerPropMax2Fail0.1
+probabilityToFailProductionChoices: 0.10
+minOrderAsAShareOfMaxOrderProduction: 0.25 
+capacityMargin: 0.2
+
+incrementAndSubstitutions = 'proportionally'
+askingInvGoodsProduction = 'max'
+investmentVariation= 0.8
+durationCoeff=2
+
+
+TEST OFF, missing in figures
+
+12 PlannerPropMax1LowCapacity
+probabilityToFailProductionChoices: 0.05
+minOrderAsAShareOfMaxOrderProduction: 0.25 
+capacityMargin: -0.2
+
+incrementAndSubstitutions = 'proportionally'
+askingInvGoodsProduction = 'max'
+investmentVariation= 0.8
+durationCoeff=1
+
+
+13 PlannerPropMax1UpMarkup    #riga 1 0.5
+probabilityToFailProductionChoices: 0.05
+minOrderAsAShareOfMaxOrderProduction: 0.25 
+capacityMargin: 0.2
+
+incrementAndSubstitutions = 'proportionally'
+askingInvGoodsProduction = 'max'
+investmentVariation= 0.8
+durationCoeff=1
