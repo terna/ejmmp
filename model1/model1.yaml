@@ -8,7 +8,7 @@ wage: 1
 costOfCapital: 0.1
 timeFraction: 12 #52
 tollerance: 0.10
-investmentGoods: [2,4,6,8] #list of type of investment goods (must be consistent with firm-features.csv)
+investmentGoods:  [2,4,6,8] #list of type of investment goods (must be consistent with firm-features.csv)
 minOfInventoriesBeingSold: 0.75
 rangeOfInventoriesBeingSold: 0.25 #must be complement to 1 with the above minOfInventoriesBeingSold
 usingMarkup: True
