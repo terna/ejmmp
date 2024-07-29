@@ -3,6 +3,19 @@
 #all these shares are meant to be as QUANTITIES
 
 investmentComposition = [\
+                         [1],\
+                         [1],\
+                         [1],\
+                         [1],\
+                         [1],\
+                         [1],\
+                         [1],\
+                         [1]\
+                        ]
+
+
+"""
+[\
                          [1,0,0,0],\
                          [1,0,0,0],\
                          [0.5,0.5,0,0],\
@@ -13,7 +26,9 @@ investmentComposition = [\
                          [0.25,0.25,0.25,0.25],\
                           ]
 
-"""
+                        
+                          
+                          
                         [\
                          [1,0,0,0],\
                          [1,0,0,0],\
@@ -24,6 +39,9 @@ investmentComposition = [\
                          [1,0,0,0],\
                          [1,0,0,0]\
                         ]
-                         
+
 """
+
+                         
+
 
