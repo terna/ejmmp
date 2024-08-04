@@ -1,0 +1,44 @@
+
+composition in Q? è vero?
+
+---
+
+PlannerPropMax1
+
+---A
+
+investmentComposition1.4-base.py                => investmentComposition.py
+
+model1.4-2468.yaml                              => model1.yaml
+
+firm-features1.4-02040608.csv                   => firm-features.csv
+
+Sectors producing investment goods [2, 4, 6, 8] 
+ prices [9.701388888888737, 9.827380952380961, 21.285714285714292, 65.0] 
+ number of firms [940, 170, 30, 30]
+
+rispetto a 1.3: suddivisione consumi e suddivisione investimenti; composizione dei beni di investimento per sectorialClass
+
+i grafici del planner hanno le dide giuste
+investimenti carentissimi rispetto ai richiesti, problema collo di bottiglia 2 e 4?
+
+errori di costruzione sui passaggi V    =>    Q     =>      V 
+                                    iniziale    sulle variaz
+---B
+
+rifare caso 1.3
+
+investmentCompositionEx1.3-1.py                => investmentComposition.py
+
+model1.3-1.yaml                                => model1.yaml
+
+firm-features1.3-1.csv                         => firm-features.csv
+
+Sectors producing investment goods [1] 
+ prices [11.434642517975817] 
+ number of firms [1170]
+
+investimenti carentissimi rispetto ai richiesti! WHY???
+
+
+
