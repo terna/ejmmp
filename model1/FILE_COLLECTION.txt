@@ -1,0 +1,26 @@
+Description of the folder FILE COLLECTION
+
+--- in OLDS
+firm-features-veryOld240222before1.3.csv just as a memo, was in use up to and including v.1.2
+
+firm-features-frozen-paper.csv kept as a file kept as a backup, but equal to firm-featuresTEST.csv
+
+--- in TEST (files to compare stricly v.1.3 and 1.4 using case PlannerPropMax1)
+
+investmentCompositionTEST.py    => investmentComposition.py
+
+model1TEST.yaml                 => model1.yaml
+
+firm-featuresTEST.csv           => firm-features.csv
+
+plannerMethodsTEST.py           => plannerMethods.py
+
+--- NEW (file for 1.4 with four sectors producing investment goods. i.e. [2, 4, 6, 8])
+
+firm-features1.4-02040608.csv          => firm-features.csv
+
+investmentComposition1.4-base.py       => investmentComposition.py         mixed version
+or
+investmentComposition1.4-1234-5678.py  => investmentComposition.py         segmented version
+
+model1.4-2468.yaml                     => model1.yaml                      N.B. it uses plannerUsingResidualInvGoods: False
