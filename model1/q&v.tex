@@ -1,0 +1,29 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\title{About quantities and values of firm capital goods}
+\author{Anonymous}
+\date{\today}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+\section{Model's Inputs}
+
+We have the value $K_f$ of the productive capital of the firm $f$. We subdevide it in $n$ constituent parts expressed as quotas $q_i$ with $\sum_{i=1}^{n}  q_i = 1$.
+
+We calculate---as sum of productiion costs---the prices of the $n$ types of capital productive goods, as $p_i$.
+
+With $k_{f,i} = q_i K_i$ as investment components in value, we obtain $\bar{k}_{f,i} =  p_i k_{f,i}$.
+
+Into the code we have to pay attention where to use $k_{f,i}$ of $\bar{k}_{f,i}$.
+
+
+\end{document}  
