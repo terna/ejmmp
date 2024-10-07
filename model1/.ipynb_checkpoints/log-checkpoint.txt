@@ -1,0 +1,32 @@
+1. THE UNINFORMED PLANNER ACTING 
+Comparing data_analysis planner with the folders (and the corresponding condition in plannerMethods): 
+a) PlannerZero (incrementAndSubstitutions = 'zero')
+b) PlannerRandom (incrementAndSubstitutions = 'random')
+
+
+2. THE PLANNER GETTING PARTIALLY INFORMED
+c) PlannerTot (incrementAndSubstitutions = 'total')
+Production inputs are currently random.
+Assignations (zero/random/total) are NOT consistent with the investment goods collection.
+If the planner assigns more than how much has been collected internally, imports of investment goods will occur (a kind of compensation mechanism out of the model itself).
+
+3. A FULLY INFORMED PLANNER NOT AFFECTING SECTORS PRODUCTION (SHY?)
+d) PlannerProp (incrementAndSubstitutions = 'proportionally')
+The planner distributes all it collected with no accumulation of inventories of the undistributed investment goods. 
+It may occur the case that the proportionalValue according to which the planner distributes is greater than one (i.e., the planner distributes more than the firm request). In this case, the firm inventories grow up and firms have more capital than what they require.
+
+4. THE PLANNER: FROM INFORMED TO WISE
+To the case d) of PlannerProp we add some intentional choices in the action of the planner: this affects the production of investment goods.
+Then, we keep the proportionality condition of d), but we also add the policy-making intervention of the planner. To do so, the planner acts on the production of investment goods and buys most of the investment goods produced to increase or decrease the proportionalValue according to its needs. We use a parameter investmentVariation to determine the size of the production orders for the sector producing investment goods, which may increase (if max) and decrease (if min).
+
+e) PlannerWise (incrementAndSubstitutions = 'proportionally' and askingInvGoodsProduction != 'regular') #i.e. 'min' or 'max'
+
+
+
+
+
+
+
+
+
+
