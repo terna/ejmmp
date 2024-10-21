@@ -1,4 +1,4 @@
-\documentclass[11pt]{amsart}
+\documentclass[]{amsart} %size below in \usepackage[fontsize=14pt]{scrextend}
 \usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
 \geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
 %\geometry{landscape}                % Activate for for rotated page geometry
@@ -6,9 +6,11 @@
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{epstopdf}
+\usepackage[T1]{fontenc}
+\usepackage[fontsize=14pt]{scrextend}
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
-\title{About quantities and values of firm capital goods}
+\title{About quantities and values of firm capital goods: fixing the error in \emph{model1.4CapitalQ}}
 \author{Anonymous}
 \date{\today}                                           % Activate to display a given date or no date
 
@@ -17,13 +19,146 @@
 
 \section{Model's Inputs}
 
-We have the value $K_f$ of the productive capital of the firm $f$. We subdevide it in $n$ constituent parts expressed as quotas $q_i$ with $\sum_{i=1}^{n}  q_i = 1$.
+We have the value $K_{f,t}$ of the productive capital of the firm $f$ at time $t$. We subdivide it in $n$ constituent parts expressed as quotas $q_{f,i}$ with $\sum_{i=1}^{n} 
+q_{f,i} = 1$. Quotas are specific of the ``sectorial class'' of the firm $f$.
 
-We calculate---as sum of productiion costs---the prices of the $n$ types of capital productive goods, as $p_i$.
+We calculate---as sum of production costs---the prices of the $n$ types of capital productive goods, as $p_i$.
 
-With $k_{f,i} = q_i K_i$ as investment components in value, we obtain $\bar{k}_{f,i} =  p_i k_{f,i}$.
+With 
+\begin{equation}
+k_{f,i} = q_{f,i}  K_{f,0}
+\label{vAddenda}
+\end{equation} 
 
-Into the code we have to pay attention where to use $k_{f,i}$ of $\bar{k}_{f,i}$.
+as investment components of the firm $f$ in value, we obtain 
+
+\begin{equation}
+\hat{k}_{f,i} =  \frac{k_{f,i}}{p_i} 
+\label{qAddenda}
+\end{equation} 
+
+as investment components of the firm $f$ in quantity.
+
+$\hat{K_{f,0}}$ follows as:
+\begin{equation}
+\hat{K_{f,0}} = \sum_{i=1}^{n}  \hat{k}_{f,i} 
+\label{hatK}
+\end{equation} 
+
+
+$\hat{K_{f,t}}$ is the productive capital of the firm $f$ at time $t$, in quantity; i.e., \emph{a bit strange sum of heterogeneous addenda}.
+
+\section{Dynamic}
+
+Adding the time dynamic, we have $\hat{K_{f,0}}$, obtained eliminating prices in  $K_{f,0}$, becoming $\hat{K_{f,t}}$ at time $t$.
+To obtain $K_{f,t}$ we cannot use $q_{f,i}$ quotas, but $\hat{q}_{f,i}$ ones; with:
+
+\begin{equation}
+\hat{q}_{f,i}=\frac{\hat{k}_{f,i} }{\hat{K_{f,0}}}
+\label{qQuotas}
+\end{equation} 
+
+We obtain:
+\begin{equation}
+K_{f,t}= \hat{K_{f,t}} \sum_{i=1}^{n}  \hat{q}_{f,i} p_i
+\label{correctCalculation}
+\end{equation} 
+
+\section{An example}
+
+With $K_{f,0}=1$ and $q_f=[\frac{1}{2},\frac{1}{2}]$,  $p=[1,2]$:
+
+\begin{itemize}
+\item From eq. (\ref{vAddenda}) follows $k_f = [\frac{1}{2} 1, \frac{1}{2} 1]$;
+
+\item From eq. (\ref{qAddenda}) $\hat{k}_f = [\frac{1}{2}/1, \frac{1}{2}/2  ] = [\frac{1}{2} + \frac{1}{4}]$;
+
+\item From eq. (\ref{hatK}) $\hat{K_{f,0}} = \frac{1}{2} + \frac{1}{4} = \frac{3}{4}$;
+
+\item From eq. (\ref{qQuotas}) $\hat{q}_f = [\frac{1}{2}  / \frac{3}{4}, \frac{1}{4} / \frac{3}{4}] = [\frac{2}{3}, \frac{1}{3}]$;
+
+\item From eq. ({correctCalculation}) $K_{f,t}= \frac{3}{4} [\frac{2}{3} 1 + \frac{1}{3} 2] = \frac{3}{4} \frac{4}{3} = 1$.
+
+\end{itemize}
+
+Using instead the wrong calculation way:
+\begin{equation}
+K_{f,t}= \hat{K_{f,t}} \sum_{i=1}^{n}  q_{f,i} p_i
+\label{wrongCalculation}
+\end{equation} 
+
+we had obtained:
+$K_{f,t}=  \frac{3}{4} (\frac{1}{2} 1 + \frac{1}{2} 2)=\frac{3}{4} \frac{3}{2} = \frac{9}{8} = 1.125$.
+
+\section{The code}
+
+In \verb|model1.4CapitalQ| we were implicitly using the miscalculation of eq. (\ref{wrongCalculation}) at the end of:
+
+\scriptsize
+\begin{verbatim}
+    def produce(self,model)->tuple: 
+\end{verbatim}
+\normalsize
+
+with:
+\scriptsize
+\begin{verbatim}
+            self.desiredCapitalSubstitutions.append(desiredCapitalQsubstitutions*\
+                    investmentComposition[self.sectorialClass][i]* model.investmentGoodPrices[i])
+            self.requiredCapitalIncrement.append(requiredCapitalQincrement*\
+                    investmentComposition[self.sectorialClass][i]* model.investmentGoodPrices[i])
+\end{verbatim}
+\normalsize
+
+being \verb|investmentComposition| the initial quotas $q_{f,i}$.
+
+Simplifying the eq. (\ref{correctCalculation}) for easier calculations we observe:
+
+\begin{itemize}
+
+\item using eq. (\ref{qQuotas}) in (\ref{correctCalculation}) we obtain:
+
+\begin{equation}
+K_{f,t}= \hat{K_{f,t}} \sum_{i=1}^{n}  \frac{\hat{k}_{f,i} }{\hat{K_{f,0}}} p_i = \frac{\hat{K_{f,t}}}{\hat{K_{f,0}}} \sum_{i=1}^{n}  \hat{k}_{f,i}  p_i
+\label{firstSimp}
+\end {equation}
+
+\item using \ref{qAddenda} and then \ref{vAddenda} definitions, we have:
+
+\begin{equation}
+K_{f,t}= \frac{\hat{K_{f,t}}}{\hat{K_{f,0}}} \sum_{i=1}^{n}   \frac{k_{f,i}}{p_i}   p_i = \frac{\hat{K_{f,t}}}{\hat{K_{f,0}}} K_{f,0}
+\label{secondSimp}
+\end {equation}
+
+\end{itemize}
+
+Into the code we have to calculate the sum of \verb|desiredCapitalQsubstitutions| $+$ the sum \verb|requiredCapitalQincrement| and report the result to the initial capital expressed in quantity, e.g., \verb|self.capitalQ0| set in \verb|def settingCapitalQ| and never modified and apply the correction to obtain the new values of \verb|desiredCapitalSubstitutions| and \verb|requiredCapitalIncrement|, but this is only an apparent simplification, due to the presence of a lot of intermediate use of measure of the capital.as values or as quantities.
+
+The actual simpler solution is to memorize the quotas of eq. (\ref{qQuotas}) within each firm and use them in the rows of code reported above, becoming:
+
+\scriptsize
+\begin{verbatim}
+self.desiredCapitalSubstitutions.append(desiredCapitalQsubstitutions*\
+         self.investmentCompositionQ[i]* model.investmentGoodPrices[i]
+self.requiredCapitalIncrement.append(requiredCapitalQincrement*\
+        self.investmentCompositionQ[i]* model.investmentGoodPrices[i])
+\end{verbatim}
+\normalsize
+with the novelty of \verb|investmentCompositionQ[i]|.
+
+\vspace*{1cm}
+
+Using eqs. (\ref{qQuotas}) and (\ref{qAddenda}) we add the following code at the end of \verb|def settingCapitalQ|.
+
+\scriptsize
+\begin{verbatim}
+self.investmentCompositionQ=[]
+for i in range(len(params['investmentGoods'])):
+      self.investmentCompositionQ.append(((investmentComposition[self.sectorialClass][i]*self.capital)/ \
+             investmentGoodPrices[i])/self.capitalQ)
+\end{verbatim}
+\normalsize
+
 
 
 \end{document}  
