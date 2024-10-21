@@ -15,7 +15,7 @@ firm-featuresTEST.csv           => firm-features.csv
 
 plannerMethodsTEST.py           => plannerMethods.py
 
---- NEW (file for 1.4 with four sectors producing investment goods. i.e. [2, 4, 6, 8])
+--- NEW (file for 1.4 with four sectors producing investment goods, i.e., [2, 4, 6, 8])
 
 firm-features1.4-02040608.csv          => firm-features.csv
 
@@ -24,3 +24,7 @@ or
 investmentComposition1.4-1234-5678.py  => investmentComposition.py         segmented version
 
 model1.4-2468.yaml                     => model1.yaml                      N.B. it uses plannerUsingResidualInvGoods: False
+
+--- NEW2 (the same files, but with a novelty in firm-features: initial capital multipled by 10)
+
+firm-features1.4-2468.C10times.csv     => firm-features.csv
