@@ -5,14 +5,26 @@ costOfCapital: 0.1
 howManyCycles: 264
 investmentGoods:
 - 1
-log_file_root: PlannerPropReg1
+log_file_root: nameFromIpyCode
 minOfInventoriesBeingSold: 0.75
 minOrderAsAShareOfMaxOrderProduction: 0.25
 myRandom.seed:
-- 3272
-- 4527
-- 9373
-- 7247
+- 4321
+- 4322
+- 4323
+- 4324
+- 4325
+- 4326
+- 4327
+- 4328
+- 4329
+- 4330
+- 4331
+- 4332
+- 4333
+- 4334
+- 4335
+- 4336
 probabilityToFailProductionChoices: 0.05
 rangeOfInventoriesBeingSold: 0.25
 tickNumber.betweenChecks: 10
