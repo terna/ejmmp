@@ -1,0 +1,9 @@
+"share of firms of that class, L min, L max, K min, K max, order duration min, order duration max, recipe, L prod, max order production, assets' useful life, planned markup, order observation frequency min, order observation frequency max, production type" 
+0.843, 1, 9, 100, 450, 1, 1, 50, 0.6, 6, 12, 0.10, 5, 10, 0
+0.094, 1, 9, 100, 450, 2, 4, 50, 0.6, 6, 12, 0.10, 5, 10, 1 
+0.034, 10, 49, 1200, 2400, 1, 1, 50, 0.7, 50, 12, 0.30, 5, 10, 0
+0.017, 10, 49, 1200, 2400, 2, 4, 50, 0.7, 50, 12, 0.30, 5, 10, 1
+0.003, 50, 249, 8000, 16000, 2, 4, 70, 0.7, 250, 12, 0.20, 10, 15, 0
+0.003, 50, 249, 8000, 16000, 4, 8, 70, 0.7, 250, 12, 0.20, 10, 15, 1
+0.003, 250, 1000, 30000, 70000, 6, 12, 80, 0.8, 500, 12, 0.30, 15, 20, 0
+0.003, 250, 1000, 30000, 70000, 12, 24, 80, 0.8, 500, 12, 0.30, 15, 20, 1

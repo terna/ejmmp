@@ -1,0 +1,22 @@
+Firm.count: 10000
+capacityMargin: 0.2
+centralPlannerPriceCoefficient: 1
+costOfCapital: 0.1
+howManyCycles: 264
+investmentGoods:
+- 1
+log_file_root: PlannerPropMax21
+minOfInventoriesBeingSold: 0.75
+minOrderAsAShareOfMaxOrderProduction: 0.25
+myRandom.seed:
+- 6125
+- 3628
+- 8497
+- 2090
+probabilityToFailProductionChoices: 0.05
+rangeOfInventoriesBeingSold: 0.25
+tickNumber.betweenChecks: 10
+timeFraction: 12
+tollerance: 0.1
+usingMarkup: true
+wage: 1
