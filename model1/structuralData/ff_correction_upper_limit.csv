@@ -327,32 +327,32 @@
 25,Natural water; water treatment and supply services,C,10-19,2.3863499533054083e-05,0.20467371416954666,3.0,10,19,495.19317311887215,7180.301010223646,148993.6921848227,0.0
 25,Natural water; water treatment and supply services,C,20-49,1.9176026410489885e-05,0.20467371416954666,3.0,20,49,397.92308554195074,13728.3464511973,148993.6921848227,0.0
 25,Natural water; water treatment and supply services,C,50-249,1.103686853403751e-05,0.20467371416954666,3.0,50,249,229.0268425674783,34239.512963838,148993.6921848227,0.0
-25,Natural water; water treatment and supply services,C,>=250,,0.20467371416954666,3.0,250,2000,,,148993.6921848227,0.0
+25,Natural water; water treatment and supply services,C,>=250,,0.20467371416954666,3.0,250,,,,148993.6921848227,0.0
 25,Natural water; water treatment and supply services,I,0-9,4.3676811185501497e-08,0.20467371416954666,3.0,1,9,0.9063406099639357,4.531703049819678,148993.6921848227,0.0
 25,Natural water; water treatment and supply services,I,10-19,8.691902723482886e-09,0.20467371416954666,3.0,10,19,0.18036629054008674,2.6153112128312577,148993.6921848227,0.0
 25,Natural water; water treatment and supply services,I,20-49,6.9845646885130326e-09,0.20467371416954666,3.0,20,49,0.14493719775542682,5.000333322562225,148993.6921848227,0.0
 25,Natural water; water treatment and supply services,I,50-249,4.020005009610833e-09,0.20467371416954666,3.0,50,249,0.08341940937479009,12.471201701531118,148993.6921848227,0.0
-25,Natural water; water treatment and supply services,I,>=250,,0.20467371416954666,3.0,250,2000,,,148993.6921848227,0.0
+25,Natural water; water treatment and supply services,I,>=250,,0.20467371416954666,3.0,250,,,,148993.6921848227,0.0
 25,Natural water; water treatment and supply services,Int,0-9,0.000144378259040777,0.20467371416954666,3.0,1,9,2996.003504211555,14980.017521057776,148993.6921848227,0.0
 25,Natural water; water treatment and supply services,Int,10-19,2.8731991848910847e-05,0.20467371416954666,3.0,10,19,596.2196028281703,8645.18424100847,148993.6921848227,0.0
 25,Natural water; water treatment and supply services,Int,20-49,2.3088207735731926e-05,0.20467371416954666,3.0,20,49,479.10503798692247,16529.123810548826,148993.6921848227,0.0
 25,Natural water; water treatment and supply services,Int,50-249,1.3288546230121263e-05,0.20467371416954666,3.0,50,249,275.75156630802866,41224.859163050285,148993.6921848227,0.0
-25,Natural water; water treatment and supply services,Int,>=250,,0.20467371416954666,3.0,250,2000,,,148993.6921848227,0.0
+25,Natural water; water treatment and supply services,Int,>=250,,0.20467371416954666,3.0,250,,,,148993.6921848227,0.0
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",C,0-9,0.00018059598213663247,0.7953262858304534,3.0,1,9,3747.560047631992,18737.800238159958,578963.4506723202,0.0
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",C,10-19,3.593949893266317e-05,0.7953262858304534,3.0,10,19,745.7830940561176,10813.854863813705,578963.4506723202,0.0
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",C,20-49,2.8879954499461477e-05,0.7953262858304534,3.0,20,49,599.2899862950945,20675.50452718076,578963.4506723202,0.0
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",C,50-249,1.6622018256356717e-05,0.7953262858304534,3.0,50,249,344.9246810009544,51566.239809642684,578963.4506723202,0.0
-26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",C,>=250,,0.7953262858304534,3.0,250,2000,,,578963.4506723202,0.0
+26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",C,>=250,,0.7953262858304534,3.0,250,,,,578963.4506723202,0.0
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",I,0-9,1.8878212648764802e-07,0.7953262858304534,3.0,1,9,3.917431310276165,19.587156551380826,578963.4506723202,0.0
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",I,10-19,3.7568582385601594e-08,0.7953262858304534,3.0,10,19,0.7795883204529681,11.304030646568037,578963.4506723202,0.0
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",I,20-49,3.018903941700128e-08,0.7953262858304534,3.0,20,49,0.6264549003639921,21.61269406255773,578963.4506723202,0.0
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",I,50-249,1.737546935334074e-08,0.7953262858304534,3.0,50,249,0.3605595982094978,53.90365993231992,578963.4506723202,0.0
-26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",I,>=250,,0.7953262858304534,3.0,250,2000,,,578963.4506723202,0.0
+26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",I,>=250,,0.7953262858304534,3.0,250,,,,578963.4506723202,0.0
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",Int,0-9,0.0008463788197396599,0.7953262858304534,3.0,1,9,17563.266981313885,87816.33490656942,578963.4506723202,0.0
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",Int,10-19,0.00016843359596809153,0.7953262858304534,3.0,10,19,3495.1775087191813,50680.07387642813,578963.4506723202,0.0
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",Int,20-49,0.0001353484253315021,0.7953262858304534,3.0,20,49,2808.6247837921983,96897.55504083083,578963.4506723202,0.0
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",Int,50-249,7.790053813524234e-05,0.7953262858304534,3.0,50,249,1616.5195977826213,241669.67986850187,578963.4506723202,0.0
-26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",Int,>=250,,0.7953262858304534,3.0,250,2000,,,578963.4506723202,0.0
+26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",Int,>=250,,0.7953262858304534,3.0,250,,,,578963.4506723202,0.0
 27,Constructions and construction works,C,0-9,0.001668291384705052,1.0,4.0,1,9,34618.83297270285,173094.16486351425,11981602.897619046,1733.772
 27,Constructions and construction works,C,10-19,0.00017120115902147882,1.0,4.0,10,19,3552.6074061369977,51512.80738898647,11981602.897619046,1733.772
 27,Constructions and construction works,C,20-49,6.894389686031012e-05,1.0,4.0,20,49,1430.6596987649723,49357.75960739154,11981602.897619046,1733.772
@@ -564,80 +564,80 @@
 40,"Computer programming, consultancy and related services; Information services",Int,50-249,0.00018683070184921747,0.7114945974179961,8.0,50,249,3876.937159052943,579602.105278415,2864335.7871385384,2216.5518480877645
 40,"Computer programming, consultancy and related services; Information services",Int,>=250,6.968674527670958e-05,0.7114945974179961,8.0,250,2514.0899038896237,1446.074598995915,1626833.9238704045,2864335.7871385384,2216.5518480877645
 41,"Financial services, except insurance and pension funding",C,0-9,0.0011778787679362608,0.6231745400231202,9.0,1,9,24442.24594283787,122211.22971418937,984861.6960117597,0.0
-41,"Financial services, except insurance and pension funding",C,10-19,,0.6231745400231202,9.0,10,19,,,984861.6960117597,0.0
+41,"Financial services, except insurance and pension funding",C,10-19,,0.6231745400231202,9.0,10,,,,984861.6960117597,0.0
 41,"Financial services, except insurance and pension funding",C,20-49,3.268336405451255e-05,0.6231745400231202,9.0,20,49,678.2148080140378,23398.410876484304,984861.6960117597,0.0
 41,"Financial services, except insurance and pension funding",C,50-249,2.128784484970152e-05,0.6231745400231202,9.0,50,249,441.7455799131406,66040.96419701452,984861.6960117597,0.0
-41,"Financial services, except insurance and pension funding",C,>=250,,0.6231745400231202,9.0,250,2000,,,984861.6960117597,0.0
+41,"Financial services, except insurance and pension funding",C,>=250,,0.6231745400231202,9.0,250,,,,984861.6960117597,0.0
 41,"Financial services, except insurance and pension funding",I,0-9,4.289144380403774e-07,0.6231745400231202,9.0,1,9,8.900433956700972,44.50216978350486,984861.6960117597,0.0
-41,"Financial services, except insurance and pension funding",I,10-19,,0.6231745400231202,9.0,10,19,,,984861.6960117597,0.0
+41,"Financial services, except insurance and pension funding",I,10-19,,0.6231745400231202,9.0,10,,,,984861.6960117597,0.0
 41,"Financial services, except insurance and pension funding",I,20-49,1.1901366344578599e-08,0.6231745400231202,9.0,20,49,0.24696609801336097,8.520330381460953,984861.6960117597,0.0
 41,"Financial services, except insurance and pension funding",I,50-249,7.751785887777004e-09,0.6231745400231202,9.0,50,249,0.16085785933405863,24.048249970441766,984861.6960117597,0.0
-41,"Financial services, except insurance and pension funding",I,>=250,,0.6231745400231202,9.0,250,2000,,,984861.6960117597,0.0
+41,"Financial services, except insurance and pension funding",I,>=250,,0.6231745400231202,9.0,250,,,,984861.6960117597,0.0
 41,"Financial services, except insurance and pension funding",Int,0-9,0.004302648454035607,0.6231745400231202,9.0,1,9,89284.56355773311,446422.81778866553,984861.6960117597,0.0
-41,"Financial services, except insurance and pension funding",Int,10-19,,0.6231745400231202,9.0,10,19,,,984861.6960117597,0.0
+41,"Financial services, except insurance and pension funding",Int,10-19,,0.6231745400231202,9.0,10,,,,984861.6960117597,0.0
 41,"Financial services, except insurance and pension funding",Int,20-49,0.00011938836971161115,0.6231745400231202,9.0,20,49,2477.4365364598925,85471.56050786629,984861.6960117597,0.0
 41,"Financial services, except insurance and pension funding",Int,50-249,7.776191848062465e-05,0.6231745400231202,9.0,50,249,1613.6430914876541,241239.64217740428,984861.6960117597,0.0
-41,"Financial services, except insurance and pension funding",Int,>=250,,0.6231745400231202,9.0,250,2000,,,984861.6960117597,0.0
+41,"Financial services, except insurance and pension funding",Int,>=250,,0.6231745400231202,9.0,250,,,,984861.6960117597,0.0
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",C,0-9,0.0008818273036882366,0.16938490161373554,9.0,1,9,18298.86098857316,91494.3049428658,267694.988752107,0.0
-42,"Insurance, reinsurance and pension funding services, except compulsory social security",C,10-19,,0.16938490161373554,9.0,10,19,,,267694.988752107,0.0
+42,"Insurance, reinsurance and pension funding services, except compulsory social security",C,10-19,,0.16938490161373554,9.0,10,,,,267694.988752107,0.0
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",C,20-49,2.4468632582747635e-05,0.16938490161373554,9.0,20,49,507.75033199750953,17517.386453914078,267694.988752107,0.0
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",C,50-249,1.593729621091331e-05,0.16938490161373554,9.0,50,249,330.7159652206931,49442.03680049362,267694.988752107,0.0
-42,"Insurance, reinsurance and pension funding services, except compulsory social security",C,>=250,,0.16938490161373554,9.0,250,2000,,,267694.988752107,0.0
+42,"Insurance, reinsurance and pension funding services, except compulsory social security",C,>=250,,0.16938490161373554,9.0,250,,,,267694.988752107,0.0
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",I,0-9,1.1914822132124622e-05,0.16938490161373554,9.0,1,9,247.2453200160894,1236.226600080447,267694.988752107,0.0
-42,"Insurance, reinsurance and pension funding services, except compulsory social security",I,10-19,,0.16938490161373554,9.0,10,19,,,267694.988752107,0.0
+42,"Insurance, reinsurance and pension funding services, except compulsory social security",I,10-19,,0.16938490161373554,9.0,10,,,,267694.988752107,0.0
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",I,20-49,3.306082764962999e-07,0.16938490161373554,9.0,20,49,6.8604758187623505,236.68641574730108,267694.988752107,0.0
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",I,50-249,2.1533700399817738e-07,0.16938490161373554,9.0,50,249,4.468473458893462,668.0367821045726,267694.988752107,0.0
-42,"Insurance, reinsurance and pension funding services, except compulsory social security",I,>=250,,0.16938490161373554,9.0,250,2000,,,267694.988752107,0.0
+42,"Insurance, reinsurance and pension funding services, except compulsory social security",I,>=250,,0.16938490161373554,9.0,250,,,,267694.988752107,0.0
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",Int,0-9,0.0005960350654630764,0.16938490161373554,9.0,1,9,12368.365961913947,61841.82980956974,267694.988752107,0.0
-42,"Insurance, reinsurance and pension funding services, except compulsory social security",Int,10-19,,0.16938490161373554,9.0,10,19,,,267694.988752107,0.0
+42,"Insurance, reinsurance and pension funding services, except compulsory social security",Int,10-19,,0.16938490161373554,9.0,10,,,,267694.988752107,0.0
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",Int,20-49,1.653857049135561e-05,0.16938490161373554,9.0,20,49,343.19305050462515,11840.160242409567,267694.988752107,0.0
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",Int,50-249,1.077216292877967e-05,0.16938490161373554,9.0,50,249,223.53391775867487,33418.32070492189,267694.988752107,0.0
-42,"Insurance, reinsurance and pension funding services, except compulsory social security",Int,>=250,,0.16938490161373554,9.0,250,2000,,,267694.988752107,0.0
+42,"Insurance, reinsurance and pension funding services, except compulsory social security",Int,>=250,,0.16938490161373554,9.0,250,,,,267694.988752107,0.0
 43,Services auxiliary to financial services and insurance services,C,0-9,0.00014523119299601214,0.2074405583631443,9.0,1,9,3013.7027972749506,15068.513986374754,327837.94428375247,0.0
-43,Services auxiliary to financial services and insurance services,C,10-19,,0.2074405583631443,9.0,10,19,,,327837.94428375247,0.0
+43,Services auxiliary to financial services and insurance services,C,10-19,,0.2074405583631443,9.0,10,,,,327837.94428375247,0.0
 43,Services auxiliary to financial services and insurance services,C,20-49,4.029823851122084e-06,0.2074405583631443,9.0,20,49,83.6231608521278,2884.999049398409,327837.94428375247,0.0
 43,Services auxiliary to financial services and insurance services,C,50-249,2.624768514380307e-06,0.2074405583631443,9.0,50,249,54.46675780047027,8142.780291170306,327837.94428375247,0.0
-43,Services auxiliary to financial services and insurance services,C,>=250,,0.2074405583631443,9.0,250,2000,,,327837.94428375247,0.0
+43,Services auxiliary to financial services and insurance services,C,>=250,,0.2074405583631443,9.0,250,,,,327837.94428375247,0.0
 43,Services auxiliary to financial services and insurance services,I,0-9,6.531309017708751e-06,0.2074405583631443,9.0,1,9,135.53165714941454,677.6582857470727,327837.94428375247,0.0
-43,Services auxiliary to financial services and insurance services,I,10-19,,0.2074405583631443,9.0,10,19,,,327837.94428375247,0.0
+43,Services auxiliary to financial services and insurance services,I,10-19,,0.2074405583631443,9.0,10,,,,327837.94428375247,0.0
 43,Services auxiliary to financial services and insurance services,I,20-49,1.8122845592361266e-07,0.2074405583631443,9.0,20,49,3.760684556091257,129.74361718514837,327837.94428375247,0.0
 43,Services auxiliary to financial services and insurance services,I,50-249,1.1804058008282578e-07,0.2074405583631443,9.0,50,249,2.4494684581799038,366.1955344978956,327837.94428375247,0.0
-43,Services auxiliary to financial services and insurance services,I,>=250,,0.2074405583631443,9.0,250,2000,,,327837.94428375247,0.0
+43,Services auxiliary to financial services and insurance services,I,>=250,,0.2074405583631443,9.0,250,,,,327837.94428375247,0.0
 43,Services auxiliary to financial services and insurance services,Int,0-9,0.0016727224990240154,0.2074405583631443,9.0,1,9,34710.783340544775,173553.9167027239,327837.94428375247,0.0
-43,Services auxiliary to financial services and insurance services,Int,10-19,,0.2074405583631443,9.0,10,19,,,327837.94428375247,0.0
+43,Services auxiliary to financial services and insurance services,Int,10-19,,0.2074405583631443,9.0,10,,,,327837.94428375247,0.0
 43,Services auxiliary to financial services and insurance services,Int,20-49,4.6414113137944176e-05,0.2074405583631443,9.0,20,49,963.1425571275124,33228.41822089918,327837.94428375247,0.0
 43,Services auxiliary to financial services and insurance services,Int,50-249,3.0231173194689217e-05,0.2074405583631443,9.0,50,249,627.3292213762928,93785.71859575578,327837.94428375247,0.0
-43,Services auxiliary to financial services and insurance services,Int,>=250,,0.2074405583631443,9.0,250,2000,,,327837.94428375247,0.0
-44,Imputed rents of owner-occupied dwellings,C,0-9,,0.0,10.0,1,9,,,0.0,0.0
-44,Imputed rents of owner-occupied dwellings,C,10-19,,0.0,10.0,10,19,,,0.0,0.0
-44,Imputed rents of owner-occupied dwellings,C,20-49,,0.0,10.0,20,49,,,0.0,0.0
-44,Imputed rents of owner-occupied dwellings,C,50-249,,0.0,10.0,50,249,,,0.0,0.0
-44,Imputed rents of owner-occupied dwellings,C,>=250,,0.0,10.0,250,2000,,,0.0,0.0
-44,Imputed rents of owner-occupied dwellings,I,0-9,,0.0,10.0,1,9,,,0.0,0.0
-44,Imputed rents of owner-occupied dwellings,I,10-19,,0.0,10.0,10,19,,,0.0,0.0
-44,Imputed rents of owner-occupied dwellings,I,20-49,,0.0,10.0,20,49,,,0.0,0.0
-44,Imputed rents of owner-occupied dwellings,I,50-249,,0.0,10.0,50,249,,,0.0,0.0
-44,Imputed rents of owner-occupied dwellings,I,>=250,,0.0,10.0,250,2000,,,0.0,0.0
-44,Imputed rents of owner-occupied dwellings,Int,0-9,,0.0,10.0,1,9,,,0.0,0.0
-44,Imputed rents of owner-occupied dwellings,Int,10-19,,0.0,10.0,10,19,,,0.0,0.0
-44,Imputed rents of owner-occupied dwellings,Int,20-49,,0.0,10.0,20,49,,,0.0,0.0
-44,Imputed rents of owner-occupied dwellings,Int,50-249,,0.0,10.0,50,249,,,0.0,0.0
-44,Imputed rents of owner-occupied dwellings,Int,>=250,,0.0,10.0,250,2000,,,0.0,0.0
+43,Services auxiliary to financial services and insurance services,Int,>=250,,0.2074405583631443,9.0,250,,,,327837.94428375247,0.0
+44,Imputed rents of owner-occupied dwellings,C,0-9,,0.0,10.0,1,,,,0.0,0.0
+44,Imputed rents of owner-occupied dwellings,C,10-19,,0.0,10.0,10,,,,0.0,0.0
+44,Imputed rents of owner-occupied dwellings,C,20-49,,0.0,10.0,20,,,,0.0,0.0
+44,Imputed rents of owner-occupied dwellings,C,50-249,,0.0,10.0,50,,,,0.0,0.0
+44,Imputed rents of owner-occupied dwellings,C,>=250,,0.0,10.0,250,,,,0.0,0.0
+44,Imputed rents of owner-occupied dwellings,I,0-9,,0.0,10.0,1,,,,0.0,0.0
+44,Imputed rents of owner-occupied dwellings,I,10-19,,0.0,10.0,10,,,,0.0,0.0
+44,Imputed rents of owner-occupied dwellings,I,20-49,,0.0,10.0,20,,,,0.0,0.0
+44,Imputed rents of owner-occupied dwellings,I,50-249,,0.0,10.0,50,,,,0.0,0.0
+44,Imputed rents of owner-occupied dwellings,I,>=250,,0.0,10.0,250,,,,0.0,0.0
+44,Imputed rents of owner-occupied dwellings,Int,0-9,,0.0,10.0,1,,,,0.0,0.0
+44,Imputed rents of owner-occupied dwellings,Int,10-19,,0.0,10.0,10,,,,0.0,0.0
+44,Imputed rents of owner-occupied dwellings,Int,20-49,,0.0,10.0,20,,,,0.0,0.0
+44,Imputed rents of owner-occupied dwellings,Int,50-249,,0.0,10.0,50,,,,0.0,0.0
+44,Imputed rents of owner-occupied dwellings,Int,>=250,,0.0,10.0,250,,,,0.0,0.0
 45,Real estate services excluding imputed rents,C,0-9,0.011209689268668293,1.0,10.0,1,9,232613.0579020738,1163065.289510369,2367426.005238095,0.0
 45,Real estate services excluding imputed rents,C,10-19,0.00044967148775702245,1.0,10.0,10,19,9331.164969121604,135301.89205226325,2367426.005238095,0.0
 45,Real estate services excluding imputed rents,C,20-49,0.0001861494142272928,1.0,10.0,20,49,3862.799711238963,133266.59003774423,2367426.005238095,0.0
 45,Real estate services excluding imputed rents,C,50-249,5.959723920255852e-05,1.0,10.0,50,249,1236.7065420962754,184887.62804339317,2367426.005238095,0.0
-45,Real estate services excluding imputed rents,C,>=250,,1.0,10.0,250,2000,,,2367426.005238095,0.0
+45,Real estate services excluding imputed rents,C,>=250,,1.0,10.0,250,,,,2367426.005238095,0.0
 45,Real estate services excluding imputed rents,I,0-9,0.000314107462082329,1.0,10.0,1,9,6518.066247300217,32590.331236501082,2367426.005238095,0.0
 45,Real estate services excluding imputed rents,I,10-19,1.2600275208781347e-05,1.0,10.0,10,19,261.4692054769615,3791.303479415942,2367426.005238095,0.0
 45,Real estate services excluding imputed rents,I,20-49,5.216105341517058e-06,1.0,10.0,20,49,108.23977228529972,3734.2721438428403,2367426.005238095,0.0
 45,Real estate services excluding imputed rents,I,50-249,1.6699782754328804e-06,1.0,10.0,50,249,34.65383776196526,5180.748745413805,2367426.005238095,0.0
-45,Real estate services excluding imputed rents,I,>=250,,1.0,10.0,250,2000,,,2367426.005238095,0.0
+45,Real estate services excluding imputed rents,I,>=250,,1.0,10.0,250,,,,2367426.005238095,0.0
 45,Real estate services excluding imputed rents,Int,0-9,0.004893004117745339,1.0,10.0,1,9,101535.07585062589,507675.3792531294,2367426.005238095,0.0
 45,Real estate services excluding imputed rents,Int,10-19,0.00019628059159298818,1.0,10.0,10,19,4073.032492068101,59058.97113498746,2367426.005238095,0.0
 45,Real estate services excluding imputed rents,Int,20-49,8.125380003849409e-05,1.0,10.0,20,49,1686.1033736185937,58170.56638984148,2367426.005238095,0.0
 45,Real estate services excluding imputed rents,Int,50-249,2.601406067868783e-05,1.0,10.0,50,249,539.8196201417593,80703.03321119302,2367426.005238095,0.0
-45,Real estate services excluding imputed rents,Int,>=250,,1.0,10.0,250,2000,,,2367426.005238095,0.0
+45,Real estate services excluding imputed rents,Int,>=250,,1.0,10.0,250,,,,2367426.005238095,0.0
 46,Legal and accounting services; services of head offices; management consultancy services,C,0-9,0.0007916335210320503,0.5337835342347296,11.0,1,9,16427.243400916068,82136.21700458034,5228449.0813146345,1174.323775316405
 46,Legal and accounting services; services of head offices; management consultancy services,C,10-19,4.540803030208495e-05,0.5337835342347296,11.0,10,19,942.2652607687162,13662.846281146385,5228449.0813146345,1174.323775316405
 46,Legal and accounting services; services of head offices; management consultancy services,C,20-49,1.972669756533564e-05,0.5337835342347296,11.0,20,49,409.350101773807,14122.578511196341,5228449.0813146345,1174.323775316405
@@ -923,18 +923,18 @@
 64,Services of households as employers; undifferentiated goods and services produced by households for own use,Int,20-49,3.0909976289227967e-06,0.16285287965201428,15.0,20,49,64.1415112586086,2212.882138421997,288481.6577621789,66.7936200306347
 64,Services of households as employers; undifferentiated goods and services produced by households for own use,Int,50-249,9.158271283509629e-07,0.16285287965201428,15.0,50,249,19.004393764136946,2841.1568677384735,288481.6577621789,66.7936200306347
 64,Services of households as employers; undifferentiated goods and services produced by households for own use,Int,>=250,1.7938839360356957e-07,0.16285287965201428,15.0,250,9036.676934064231,3.722501292243618,4187.81395377407,288481.6577621789,66.7936200306347
-65,Services provided by extraterritorial organisations and bodies,C,0-9,,,15.0,1,9,,,0.0,0.0
-65,Services provided by extraterritorial organisations and bodies,C,10-19,,,15.0,10,19,,,0.0,0.0
-65,Services provided by extraterritorial organisations and bodies,C,20-49,,,15.0,20,49,,,0.0,0.0
-65,Services provided by extraterritorial organisations and bodies,C,50-249,,,15.0,50,249,,,0.0,0.0
-65,Services provided by extraterritorial organisations and bodies,C,>=250,,,15.0,250,2000,,,0.0,0.0
-65,Services provided by extraterritorial organisations and bodies,I,0-9,,,15.0,1,9,,,0.0,0.0
-65,Services provided by extraterritorial organisations and bodies,I,10-19,,,15.0,10,19,,,0.0,0.0
-65,Services provided by extraterritorial organisations and bodies,I,20-49,,,15.0,20,49,,,0.0,0.0
-65,Services provided by extraterritorial organisations and bodies,I,50-249,,,15.0,50,249,,,0.0,0.0
-65,Services provided by extraterritorial organisations and bodies,I,>=250,,,15.0,250,2000,,,0.0,0.0
-65,Services provided by extraterritorial organisations and bodies,Int,0-9,,,15.0,1,9,,,0.0,0.0
-65,Services provided by extraterritorial organisations and bodies,Int,10-19,,,15.0,10,19,,,0.0,0.0
-65,Services provided by extraterritorial organisations and bodies,Int,20-49,,,15.0,20,49,,,0.0,0.0
-65,Services provided by extraterritorial organisations and bodies,Int,50-249,,,15.0,50,249,,,0.0,0.0
-65,Services provided by extraterritorial organisations and bodies,Int,>=250,,,15.0,250,2000,,,0.0,0.0
+65,Services provided by extraterritorial organisations and bodies,C,0-9,,,15.0,1,,,,0.0,0.0
+65,Services provided by extraterritorial organisations and bodies,C,10-19,,,15.0,10,,,,0.0,0.0
+65,Services provided by extraterritorial organisations and bodies,C,20-49,,,15.0,20,,,,0.0,0.0
+65,Services provided by extraterritorial organisations and bodies,C,50-249,,,15.0,50,,,,0.0,0.0
+65,Services provided by extraterritorial organisations and bodies,C,>=250,,,15.0,250,,,,0.0,0.0
+65,Services provided by extraterritorial organisations and bodies,I,0-9,,,15.0,1,,,,0.0,0.0
+65,Services provided by extraterritorial organisations and bodies,I,10-19,,,15.0,10,,,,0.0,0.0
+65,Services provided by extraterritorial organisations and bodies,I,20-49,,,15.0,20,,,,0.0,0.0
+65,Services provided by extraterritorial organisations and bodies,I,50-249,,,15.0,50,,,,0.0,0.0
+65,Services provided by extraterritorial organisations and bodies,I,>=250,,,15.0,250,,,,0.0,0.0
+65,Services provided by extraterritorial organisations and bodies,Int,0-9,,,15.0,1,,,,0.0,0.0
+65,Services provided by extraterritorial organisations and bodies,Int,10-19,,,15.0,10,,,,0.0,0.0
+65,Services provided by extraterritorial organisations and bodies,Int,20-49,,,15.0,20,,,,0.0,0.0
+65,Services provided by extraterritorial organisations and bodies,Int,50-249,,,15.0,50,,,,0.0,0.0
+65,Services provided by extraterritorial organisations and bodies,Int,>=250,,,15.0,250,,,,0.0,0.0
