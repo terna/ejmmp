@@ -12,929 +12,929 @@
 4,Mining and quarrying,C,From 10 to 19 persons employed,2.7751441987723275e-06,1.0,0.0,10,19,57.58721430396268
 4,Mining and quarrying,C,From 20 to 49 persons employed,1.8815087717671868e-06,1.0,0.0,20,49,39.04332211006369
 4,Mining and quarrying,C,From 50 to 249 persons employed,7.2617789673449e-07,1.0,0.0,50,249,15.06896909376807
-4,Mining and quarrying,C,250 persons employed or more,3.633846604539994e-07,1.0,0.0,250,1750,7.5406208893918345
+4,Mining and quarrying,C,250 persons employed or more,3.633846604539994e-07,1.0,0.0,250,2000,7.5406208893918345
 4,Mining and quarrying,I,From 0 to 9 persons employed,1.0449277284080585e-06,1.0,0.0,0,9,21.68336948206434
 4,Mining and quarrying,I,From 10 to 19 persons employed,2.8329151747951805e-07,1.0,0.0,10,19,5.87860239291522
 4,Mining and quarrying,I,From 20 to 49 persons employed,1.9206766817405263e-07,1.0,0.0,20,49,3.9856098190842064
 4,Mining and quarrying,I,From 50 to 249 persons employed,7.412949511488634e-08,1.0,0.0,50,249,1.5382664163231596
-4,Mining and quarrying,I,250 persons employed or more,3.709493435848607e-08,1.0,0.0,250,1750,0.7697596166132838
+4,Mining and quarrying,I,250 persons employed or more,3.709493435848607e-08,1.0,0.0,250,2000,0.7697596166132838
 4,Mining and quarrying,Int,From 0 to 9 persons employed,0.00027786058726697675,1.0,0.0,0,9,5765.90477447873
 4,Mining and quarrying,Int,From 10 to 19 persons employed,7.533109254793591e-05,1.0,0.0,10,19,1563.200849969789
 4,Mining and quarrying,Int,From 20 to 49 persons employed,5.107342223097762e-05,1.0,0.0,20,49,1059.828210927995
 4,Mining and quarrying,Int,From 50 to 249 persons employed,1.9712047528691032e-05,1.0,0.0,50,249,409.0460978232421
-4,Mining and quarrying,Int,250 persons employed or more,9.864050847977673e-06,1.0,0.0,250,1750,204.68961949399488
+4,Mining and quarrying,Int,250 persons employed or more,9.864050847977673e-06,1.0,0.0,250,2000,204.68961949399488
 5,"Food, beverages and tobacco products",C,From 0 to 9 persons employed,0.0023786707253764727,0.1149449637505493,1.0,0,9,49359.96510790868
 5,"Food, beverages and tobacco products",C,From 10 to 19 persons employed,0.000453993606187445,0.1149449637505493,1.0,10,19,9420.853555541711
 5,"Food, beverages and tobacco products",C,From 20 to 49 persons employed,0.0002866458080982237,0.1149449637505493,1.0,20,49,5948.207515698615
 5,"Food, beverages and tobacco products",C,From 50 to 249 persons employed,0.0001385665217397804,0.1149449637505493,1.0,50,249,2875.4037308452266
-5,"Food, beverages and tobacco products",C,250 persons employed or more,4.6403623249873764e-05,0.1149449637505493,1.0,250,1750,962.9248807153813
+5,"Food, beverages and tobacco products",C,250 persons employed or more,4.6403623249873764e-05,0.1149449637505493,1.0,250,2000,962.9248807153813
 5,"Food, beverages and tobacco products",I,From 0 to 9 persons employed,1.8850781043716037e-09,0.1149449637505493,1.0,0,9,0.03911738958436056
 5,"Food, beverages and tobacco products",I,From 10 to 19 persons employed,3.5978641239350494e-10,0.1149449637505493,1.0,10,19,0.007465953388412901
 5,"Food, beverages and tobacco products",I,From 20 to 49 persons employed,2.2716458011242587e-10,0.1149449637505493,1.0,20,49,0.004713908330598138
 5,"Food, beverages and tobacco products",I,From 50 to 249 persons employed,1.098128939596086e-10,0.1149449637505493,1.0,50,249,0.0022787351592713093
-5,"Food, beverages and tobacco products",I,250 persons employed or more,3.6774511586929085e-11,0.1149449637505493,1.0,250,1750,0.0007631105009306881
+5,"Food, beverages and tobacco products",I,250 persons employed or more,3.6774511586929085e-11,0.1149449637505493,1.0,250,2000,0.0007631105009306881
 5,"Food, beverages and tobacco products",Int,From 0 to 9 persons employed,0.0017425148227342294,0.1149449637505493,1.0,0,9,36159.04880511041
 5,"Food, beverages and tobacco products",Int,From 10 to 19 persons employed,0.0003325767538014255,0.1149449637505493,1.0,10,19,6901.3238310829
 5,"Food, beverages and tobacco products",Int,From 20 to 49 persons employed,0.00020998474658855216,0.1149449637505493,1.0,20,49,4357.408385376054
 5,"Food, beverages and tobacco products",Int,From 50 to 249 persons employed,0.00010150804627575226,0.1149449637505493,1.0,50,249,2106.400675339421
-5,"Food, beverages and tobacco products",Int,250 persons employed or more,3.399335623835964e-05,0.1149449637505493,1.0,250,1750,705.3985488304937
+5,"Food, beverages and tobacco products",Int,250 persons employed or more,3.399335623835964e-05,0.1149449637505493,1.0,250,2000,705.3985488304937
 6,"Textiles, wearing apparel, leather and related products",C,From 0 to 9 persons employed,0.0006261318771500091,0.03094387162144041,1.0,0,9,12992.907038103118
 6,"Textiles, wearing apparel, leather and related products",C,From 10 to 19 persons employed,0.00011950366472486735,0.03094387162144041,1.0,10,19,2479.829031465918
 6,"Textiles, wearing apparel, leather and related products",C,From 20 to 49 persons employed,7.545309907209459e-05,0.03094387162144041,1.0,20,49,1565.732616015069
 6,"Textiles, wearing apparel, leather and related products",C,From 50 to 249 persons employed,3.6474538254278385e-05,0.03094387162144041,1.0,50,249,756.8857330067468
-6,"Textiles, wearing apparel, leather and related products",C,250 persons employed or more,1.2214716153034075e-05,0.03094387162144041,1.0,250,1750,253.46844213645696
+6,"Textiles, wearing apparel, leather and related products",C,250 persons employed or more,1.2214716153034075e-05,0.03094387162144041,1.0,250,2000,253.46844213645696
 6,"Textiles, wearing apparel, leather and related products",I,From 0 to 9 persons employed,6.277669825948331e-06,0.03094387162144041,1.0,0,9,130.26837227281146
 6,"Textiles, wearing apparel, leather and related products",I,From 10 to 19 persons employed,1.1981574130170203e-06,0.03094387162144041,1.0,10,19,24.863049546692512
 6,"Textiles, wearing apparel, leather and related products",I,From 20 to 49 persons employed,7.565014026680774e-07,0.03094387162144041,1.0,20,49,15.698214318364863
 6,"Textiles, wearing apparel, leather and related products",I,From 50 to 249 persons employed,3.656978930006202e-07,0.03094387162144041,1.0,50,249,7.588622942206273
-6,"Textiles, wearing apparel, leather and related products",I,250 persons employed or more,1.2246614143885003e-07,0.03094387162144041,1.0,250,1750,2.5413035960936194
+6,"Textiles, wearing apparel, leather and related products",I,250 persons employed or more,1.2246614143885003e-07,0.03094387162144041,1.0,250,2000,2.5413035960936194
 6,"Textiles, wearing apparel, leather and related products",Int,From 0 to 9 persons employed,0.0004770387550587502,0.03094387162144041,1.0,0,9,9899.065075975735
 6,"Textiles, wearing apparel, leather and related products",Int,From 10 to 19 persons employed,9.104771937949266e-05,0.03094387162144041,1.0,10,19,1889.3376892319282
 6,"Textiles, wearing apparel, leather and related products",Int,From 20 to 49 persons employed,5.748637589019136e-05,0.03094387162144041,1.0,20,49,1192.903867630049
 6,"Textiles, wearing apparel, leather and related products",Int,From 50 to 249 persons employed,2.7789302789314896e-05,0.03094387162144041,1.0,50,249,576.6577952215714
-6,"Textiles, wearing apparel, leather and related products",Int,250 persons employed or more,9.306175263846805e-06,0.03094387162144041,1.0,250,1750,193.11310363852877
+6,"Textiles, wearing apparel, leather and related products",Int,250 persons employed or more,9.306175263846805e-06,0.03094387162144041,1.0,250,2000,193.11310363852877
 7,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",C,From 0 to 9 persons employed,5.2960048590974236e-05,0.022094849345970554,1.0,0,9,1098.9777284747563
 7,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",C,From 10 to 19 persons employed,1.0107966263331104e-05,0.022094849345970554,1.0,10,19,209.75112559598844
 7,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",C,From 20 to 49 persons employed,6.382041769517442e-06,0.022094849345970554,1.0,20,49,132.43420188422206
 7,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",C,From 50 to 249 persons employed,3.0851221424350755e-06,0.022094849345970554,1.0,50,249,64.01958862134236
-7,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",C,250 persons employed or more,1.033156088353348e-06,0.022094849345970554,1.0,250,1750,21.439095343502597
+7,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",C,250 persons employed or more,1.033156088353348e-06,0.022094849345970554,1.0,250,2000,21.439095343502597
 7,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",I,From 0 to 9 persons employed,4.485709799324316e-05,0.022094849345970554,1.0,0,9,930.8328253117463
 7,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",I,From 10 to 19 persons employed,8.561435369678131e-06,0.022094849345970554,1.0,10,19,177.65895321810214
 7,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",I,From 20 to 49 persons employed,5.4055817671776906e-06,0.022094849345970554,1.0,20,49,112.17161104700973
 7,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",I,From 50 to 249 persons employed,2.6130947751418727e-06,0.022094849345970554,1.0,50,249,54.22451520869804
-7,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",I,250 persons employed or more,8.750819746317264e-07,0.022094849345970554,1.0,250,1750,18.158888186403153
+7,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",I,250 persons employed or more,8.750819746317264e-07,0.022094849345970554,1.0,250,2000,18.158888186403153
 7,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Int,From 0 to 9 persons employed,0.0006943621059180797,0.022094849345970554,1.0,0,9,14408.75735961559
 7,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Int,From 10 to 19 persons employed,0.00013252610086070875,0.022094849345970554,1.0,10,19,2750.0585283137284
 7,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Int,From 20 to 49 persons employed,8.367530017513074e-05,0.022094849345970554,1.0,20,49,1736.3520948804503
 7,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Int,From 50 to 249 persons employed,4.044920586044934e-05,0.022094849345970554,1.0,50,249,839.3643427038003
-7,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Int,250 persons employed or more,1.3545766220716366e-05,0.022094849345970554,1.0,250,1750,281.089156595487
+7,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Int,250 persons employed or more,1.3545766220716366e-05,0.022094849345970554,1.0,250,2000,281.089156595487
 8,Paper and paper products,C,From 0 to 9 persons employed,0.000131629667088848,0.02274178639357408,1.0,0,9,2731.456567467048
 8,Paper and paper products,C,From 10 to 19 persons employed,2.5122866568032817e-05,0.02274178639357408,1.0,10,19,521.3263878767754
 8,Paper and paper products,C,From 20 to 49 persons employed,1.5862259492183934e-05,0.02274178639357408,1.0,20,49,329.1588729427327
 8,Paper and paper products,C,From 50 to 249 persons employed,7.667923488392934e-06,0.02274178639357408,1.0,50,249,159.11762473020946
-8,Paper and paper products,C,250 persons employed or more,2.5678600299461296e-06,0.02274178639357408,1.0,250,1750,53.28584579947426
+8,Paper and paper products,C,250 persons employed or more,2.5678600299461296e-06,0.02274178639357408,1.0,250,2000,53.28584579947426
 8,Paper and paper products,I,From 0 to 9 persons employed,2.2212480958434317e-09,0.02274178639357408,1.0,0,9,0.04609327694546186
 8,Paper and paper products,I,From 10 to 19 persons employed,4.239478892604399e-10,0.02274178639357408,1.0,10,19,0.008797372750343526
 8,Paper and paper products,I,From 20 to 49 persons employed,2.676753232917131e-10,0.02274178639357408,1.0,20,49,0.005554549638574293
 8,Paper and paper products,I,From 50 to 249 persons employed,1.2939606111872447e-10,0.02274178639357408,1.0,50,249,0.002685106851394991
-8,Paper and paper products,I,250 persons employed or more,4.333258852702472e-11,0.02274178639357408,1.0,250,1750,0.0008991976211380753
+8,Paper and paper products,I,250 persons employed or more,4.333258852702472e-11,0.02274178639357408,1.0,250,2000,0.0008991976211380753
 8,Paper and paper products,Int,From 0 to 9 persons employed,0.0006837423676144292,0.02274178639357408,1.0,0,9,14188.386416075122
 8,Paper and paper products,Int,From 10 to 19 persons employed,0.00013049921532425936,0.02274178639357408,1.0,10,19,2707.998482637994
 8,Paper and paper products,Int,From 20 to 49 persons employed,8.239555034033183e-05,0.02274178639357408,1.0,20,49,1709.7959151963
 8,Paper and paper products,Int,From 50 to 249 persons employed,3.983056613750464e-05,0.02274178639357408,1.0,50,249,826.5269058895547
-8,Paper and paper products,Int,250 persons employed or more,1.333859406780022e-05,0.02274178639357408,1.0,250,1750,276.79011254110117
+8,Paper and paper products,Int,250 persons employed or more,1.333859406780022e-05,0.02274178639357408,1.0,250,2000,276.79011254110117
 9,Printing and recording services,C,From 0 to 9 persons employed,3.531847417612698e-05,0.012872445724610548,1.0,0,9,732.8961652404776
 9,Printing and recording services,C,From 10 to 19 persons employed,6.740891576626386e-06,0.012872445724610548,1.0,10,19,139.88071970987608
 9,Printing and recording services,C,From 20 to 49 persons employed,4.256113493560507e-06,0.012872445724610548,1.0,20,49,88.31891328893211
 9,Printing and recording services,C,From 50 to 249 persons employed,2.0574340397482315e-06,0.012872445724610548,1.0,50,249,42.693959836632374
-9,Printing and recording services,C,250 persons employed or more,6.890004370697432e-07,0.012872445724610548,1.0,250,1750,14.297496988665273
+9,Printing and recording services,C,250 persons employed or more,6.890004370697432e-07,0.012872445724610548,1.0,250,2000,14.297496988665273
 9,Printing and recording services,I,From 0 to 9 persons employed,3.912575874140298e-08,0.012872445724610548,1.0,0,9,0.8119013975717239
 9,Printing and recording services,I,From 10 to 19 persons employed,7.467550727525838e-09,0.012872445724610548,1.0,10,19,0.15495967534299032
 9,Printing and recording services,I,From 20 to 49 persons employed,4.714916870266085e-09,0.012872445724610548,1.0,20,49,0.09783957473398931
 9,Printing and recording services,I,From 50 to 249 persons employed,2.2792226941658583e-09,0.012872445724610548,1.0,50,249,0.04729631195144701
-9,Printing and recording services,I,250 persons employed or more,7.632737682573397e-10,0.012872445724610548,1.0,250,1750,0.0158387481575456
+9,Printing and recording services,I,250 persons employed or more,7.632737682573397e-10,0.012872445724610548,1.0,250,2000,0.0158387481575456
 9,Printing and recording services,Int,From 0 to 9 persons employed,0.00042616554839372864,0.012872445724610548,1.0,0,9,8843.3915524722
 9,Printing and recording services,Int,From 10 to 19 persons employed,8.133804821493207e-05,0.012872445724610548,1.0,10,19,1687.8516135094787
 9,Printing and recording services,Int,From 20 to 49 persons employed,5.135581259722652e-05,0.012872445724610548,1.0,20,49,1065.688113467742
 9,Printing and recording services,Int,From 50 to 249 persons employed,2.4825747042772735e-05,0.012872445724610548,1.0,50,249,515.160839512617
-9,Printing and recording services,Int,250 persons employed or more,8.313729739373046e-06,0.012872445724610548,1.0,250,1750,172.51879609654156
+9,Printing and recording services,Int,250 persons employed or more,8.313729739373046e-06,0.012872445724610548,1.0,250,2000,172.51879609654156
 10,Coke and refined petroleum products,C,From 0 to 9 persons employed,0.00015619853996669738,0.013504031591214912,1.0,0,9,3241.286992945275
 10,Coke and refined petroleum products,C,From 10 to 19 persons employed,2.981208692912773e-05,0.013504031591214912,1.0,10,19,618.6327325245015
 10,Coke and refined petroleum products,C,From 20 to 49 persons employed,1.8822973787357777e-05,0.013504031591214912,1.0,20,49,390.59686549260016
 10,Coke and refined petroleum products,C,From 50 to 249 persons employed,9.09915279702774e-06,0.013504031591214912,1.0,50,249,188.81716573097123
-10,Coke and refined petroleum products,C,250 persons employed or more,3.0471549186984705e-06,0.013504031591214912,1.0,250,1750,63.23172806591119
+10,Coke and refined petroleum products,C,250 persons employed or more,3.0471549186984705e-06,0.013504031591214912,1.0,250,2000,63.23172806591119
 10,Coke and refined petroleum products,I,From 0 to 9 persons employed,0.0,0.013504031591214912,1.0,0,9,0.0
 10,Coke and refined petroleum products,I,From 10 to 19 persons employed,0.0,0.013504031591214912,1.0,10,19,0.0
 10,Coke and refined petroleum products,I,From 20 to 49 persons employed,0.0,0.013504031591214912,1.0,20,49,0.0
 10,Coke and refined petroleum products,I,From 50 to 249 persons employed,0.0,0.013504031591214912,1.0,50,249,0.0
-10,Coke and refined petroleum products,I,250 persons employed or more,0.0,0.013504031591214912,1.0,250,1750,0.0
+10,Coke and refined petroleum products,I,250 persons employed or more,0.0,0.013504031591214912,1.0,250,2000,0.0
 10,Coke and refined petroleum products,Int,From 0 to 9 persons employed,0.00032796921715118316,0.013504031591214912,1.0,0,9,6805.712510918619
 10,Coke and refined petroleum products,Int,From 10 to 19 persons employed,6.259627531648927e-05,0.013504031591214912,1.0,10,19,1298.9397534280165
 10,Coke and refined petroleum products,Int,From 20 to 49 persons employed,3.952249476091886e-05,0.013504031591214912,1.0,20,49,820.1340948809552
 10,Coke and refined petroleum products,Int,From 50 to 249 persons employed,1.910544119180914e-05,0.013504031591214912,1.0,50,249,396.4583666575561
-10,Coke and refined petroleum products,Int,250 persons employed or more,6.398094460018563e-06,0.013504031591214912,1.0,250,1750,132.76731240455186
+10,Coke and refined petroleum products,Int,250 persons employed or more,6.398094460018563e-06,0.013504031591214912,1.0,250,2000,132.76731240455186
 11,Chemicals and chemical products,C,From 0 to 9 persons employed,0.00023288092479973577,0.06356067823033243,1.0,0,9,4832.5286050649775
 11,Chemicals and chemical products,C,From 10 to 19 persons employed,4.444770338919689e-05,0.06356067823033243,1.0,10,19,922.3374488161652
 11,Chemicals and chemical products,C,From 20 to 49 persons employed,2.8063716498346655e-05,0.06356067823033243,1.0,20,49,582.3521735810629
 11,Chemicals and chemical products,C,From 50 to 249 persons employed,1.3566190303172565e-05,0.06356067823033243,1.0,50,249,281.5129781806454
-11,Chemicals and chemical products,C,250 persons employed or more,4.543091475924553e-06,0.06356067823033243,1.0,250,1750,94.27401377640518
+11,Chemicals and chemical products,C,250 persons employed or more,4.543091475924553e-06,0.06356067823033243,1.0,250,2000,94.27401377640518
 11,Chemicals and chemical products,I,From 0 to 9 persons employed,1.5676284645608988e-07,0.06356067823033243,1.0,0,9,3.2529969569724195
 11,Chemicals and chemical products,I,From 10 to 19 persons employed,2.991979058704942e-08,0.06356067823033243,1.0,10,19,0.6208676987769941
 11,Chemicals and chemical products,I,From 20 to 49 persons employed,1.88909765117119e-08,0.06356067823033243,1.0,20,49,0.39200799485386595
 11,Chemicals and chemical products,I,From 50 to 249 persons employed,9.132025773768953e-09,0.06356067823033243,1.0,50,249,0.1894993152053095
-11,Chemicals and chemical products,I,250 persons employed or more,3.0581635318082502e-09,0.06356067823033243,1.0,250,1750,0.06346016857816376
+11,Chemicals and chemical products,I,250 persons employed or more,3.0581635318082502e-09,0.06356067823033243,1.0,250,2000,0.06346016857816376
 11,Chemicals and chemical products,Int,From 0 to 9 persons employed,0.0020458396099818353,0.06356067823033243,1.0,0,9,42453.36300134537
 11,Chemicals and chemical products,Int,From 10 to 19 persons employed,0.00039046938792664063,0.06356067823033243,1.0,10,19,8102.657992192262
 11,Chemicals and chemical products,Int,From 20 to 49 persons employed,0.00024653742192492123,0.06356067823033243,1.0,20,49,5115.915546520997
 11,Chemicals and chemical products,Int,From 50 to 249 persons employed,0.00011917785667782356,0.06356067823033243,1.0,50,249,2473.068165549341
-11,Chemicals and chemical products,Int,250 persons employed or more,3.991068182681759e-05,0.06356067823033243,1.0,250,1750,828.1893922467015
+11,Chemicals and chemical products,Int,250 persons employed or more,3.991068182681759e-05,0.06356067823033243,1.0,250,2000,828.1893922467015
 12,Basic pharmaceutical products and pharmaceutical preparations,C,From 0 to 9 persons employed,0.00040294176238273727,0.03273716299284782,1.0,0,9,8361.47312006931
 12,Basic pharmaceutical products and pharmaceutical preparations,C,From 10 to 19 persons employed,7.690555142251168e-05,0.03273716299284782,1.0,10,19,1595.8725578626909
 12,Basic pharmaceutical products and pharmaceutical preparations,C,From 20 to 49 persons employed,4.8557190309071334e-05,0.03273716299284782,1.0,20,49,1007.6137036640512
 12,Basic pharmaceutical products and pharmaceutical preparations,C,From 50 to 249 persons employed,2.347287410628729e-05,0.03273716299284782,1.0,50,249,487.0872771536291
-12,Basic pharmaceutical products and pharmaceutical preparations,C,250 persons employed or more,7.860675096293276e-06,0.03273716299284782,1.0,250,1750,163.1174270311136
+12,Basic pharmaceutical products and pharmaceutical preparations,C,250 persons employed or more,7.860675096293276e-06,0.03273716299284782,1.0,250,2000,163.1174270311136
 12,Basic pharmaceutical products and pharmaceutical preparations,I,From 0 to 9 persons employed,2.4348291052436188e-09,0.03273716299284782,1.0,0,9,0.0505253116357768
 12,Basic pharmaceutical products and pharmaceutical preparations,I,From 10 to 19 persons employed,4.6471200664595943e-10,0.03273716299284782,1.0,10,19,0.009643271844462776
 12,Basic pharmaceutical products and pharmaceutical preparations,I,From 20 to 49 persons employed,2.934132702806816e-10,0.03273716299284782,1.0,20,49,0.006088639603936614
 12,Basic pharmaceutical products and pharmaceutical preparations,I,From 50 to 249 persons employed,1.4183795871578314e-10,0.03273716299284782,1.0,50,249,0.0029432895518062847
-12,Basic pharmaceutical products and pharmaceutical preparations,I,250 persons employed or more,4.749917307687469e-11,0.03273716299284782,1.0,250,1750,0.0009856587129595151
+12,Basic pharmaceutical products and pharmaceutical preparations,I,250 persons employed or more,4.749917307687469e-11,0.03273716299284782,1.0,250,2000,0.0009856587129595151
 12,Basic pharmaceutical products and pharmaceutical preparations,Int,From 0 to 9 persons employed,0.0007708000045538774,0.03273716299284782,1.0,0,9,15994.925621297834
 12,Basic pharmaceutical products and pharmaceutical preparations,Int,From 10 to 19 persons employed,0.00014711505463259488,0.03273716299284782,1.0,10,19,3052.7949438498554
 12,Basic pharmaceutical products and pharmaceutical preparations,Int,From 20 to 49 persons employed,9.288658065629971e-05,0.03273716299284782,1.0,20,49,1927.496030146102
 12,Basic pharmaceutical products and pharmaceutical preparations,Int,From 50 to 249 persons employed,4.4902001125495555e-05,0.03273716299284782,1.0,50,249,931.7646133972381
-12,Basic pharmaceutical products and pharmaceutical preparations,Int,250 persons employed or more,1.503693328830039e-05,0.03273716299284782,1.0,250,1750,312.03247028778486
+12,Basic pharmaceutical products and pharmaceutical preparations,Int,250 persons employed or more,1.503693328830039e-05,0.03273716299284782,1.0,250,2000,312.03247028778486
 13,Rubber and plastic products,C,From 0 to 9 persons employed,0.00016523446681996812,0.051463025750899116,1.0,0,9,3428.7921526283026
 13,Rubber and plastic products,C,From 10 to 19 persons employed,3.153668587155306e-05,0.051463025750899116,1.0,10,19,654.4200076252944
 13,Rubber and plastic products,C,From 20 to 49 persons employed,1.991186369849178e-05,0.051463025750899116,1.0,20,49,413.19249734972556
 13,Rubber and plastic products,C,From 50 to 249 persons employed,9.625529542407091e-06,0.051463025750899116,1.0,50,249,199.74004694708705
-13,Rubber and plastic products,C,250 persons employed or more,3.2234297351072148e-06,0.051463025750899116,1.0,250,1750,66.88961929672101
+13,Rubber and plastic products,C,250 persons employed or more,3.2234297351072148e-06,0.051463025750899116,1.0,250,2000,66.88961929672101
 13,Rubber and plastic products,I,From 0 to 9 persons employed,2.1795137431495184e-05,0.051463025750899116,1.0,0,9,452.2724442957142
 13,Rubber and plastic products,I,From 10 to 19 persons employed,4.1598246173015e-06,0.051463025750899116,1.0,10,19,86.32081598117125
 13,Rubber and plastic products,I,From 20 to 49 persons employed,2.626460533192962e-06,0.051463025750899116,1.0,20,49,54.50186900298502
 13,Rubber and plastic products,I,From 50 to 249 persons employed,1.2696487800953581e-06,0.051463025750899116,1.0,50,249,26.346571980822162
-13,Rubber and plastic products,I,250 persons employed or more,4.251842574344769e-07,0.051463025750899116,1.0,250,1750,8.823028714105108
+13,Rubber and plastic products,I,250 persons employed or more,4.251842574344769e-07,0.051463025750899116,1.0,250,2000,8.823028714105108
 13,Rubber and plastic products,Int,From 0 to 9 persons employed,0.0016581036497704106,0.051463025750899116,1.0,0,9,34407.42656174493
 13,Rubber and plastic products,Int,From 10 to 19 persons employed,0.00031646601917661066,0.051463025750899116,1.0,10,19,6567.008833021209
 13,Rubber and plastic products,Int,From 20 to 49 persons employed,0.00019981263296702382,0.051463025750899116,1.0,20,49,4146.326133395652
 13,Rubber and plastic products,Int,From 50 to 249 persons employed,9.659077777415245e-05,0.051463025750899116,1.0,50,249,2004.3620875366594
-13,Rubber and plastic products,Int,250 persons employed or more,3.234664480978517e-05,0.051463025750899116,1.0,250,1750,671.2275230596335
+13,Rubber and plastic products,Int,250 persons employed or more,3.234664480978517e-05,0.051463025750899116,1.0,250,2000,671.2275230596335
 14,Other non-metallic mineral products,C,From 0 to 9 persons employed,9.619520020836133e-05,0.03620832672900528,1.0,0,9,1996.1534293829209
 14,Other non-metallic mineral products,C,From 10 to 19 persons employed,1.8359836598907675e-05,0.03620832672900528,1.0,10,19,380.98627281233166
 14,Other non-metallic mineral products,C,From 20 to 49 persons employed,1.1592168098227222e-05,0.03620832672900528,1.0,20,49,240.54990325024806
 14,Other non-metallic mineral products,C,From 50 to 249 persons employed,5.603732437084069e-06,0.03620832672900528,1.0,50,249,116.28344966693454
-14,Other non-metallic mineral products,C,250 persons employed or more,1.8765967820991665e-06,0.03620832672900528,1.0,250,1750,38.94139306371133
+14,Other non-metallic mineral products,C,250 persons employed or more,1.8765967820991665e-06,0.03620832672900528,1.0,250,2000,38.94139306371133
 14,Other non-metallic mineral products,I,From 0 to 9 persons employed,3.798541281390568e-05,0.03620832672900528,1.0,0,9,788.2379982656666
 14,Other non-metallic mineral products,I,From 10 to 19 persons employed,7.249904058568021e-06,0.03620832672900528,1.0,10,19,150.44327386253318
 14,Other non-metallic mineral products,I,From 20 to 49 persons employed,4.5774975223875564e-06,0.03620832672900528,1.0,20,49,94.98797608938827
 14,Other non-metallic mineral products,I,From 50 to 249 persons employed,2.2127932522646824e-06,0.03620832672900528,1.0,50,249,45.917829886065334
-14,Other non-metallic mineral products,I,250 persons employed or more,7.41027653135316e-07,0.03620832672900528,1.0,250,1750,15.377117443174315
+14,Other non-metallic mineral products,I,250 persons employed or more,7.41027653135316e-07,0.03620832672900528,1.0,250,2000,15.377117443174315
 14,Other non-metallic mineral products,Int,From 0 to 9 persons employed,0.0011640172046412129,0.03620832672900528,1.0,0,9,24154.60365873134
 14,Other non-metallic mineral products,Int,From 10 to 19 persons employed,0.00022216457400410248,0.03620832672900528,1.0,10,19,4610.152848843884
 14,Other non-metallic mineral products,Int,From 20 to 49 persons employed,0.00014027189585553393,0.03620832672900528,1.0,20,49,2910.7920702027905
 14,Other non-metallic mineral products,Int,From 50 to 249 persons employed,6.78083828802606e-05,0.03620832672900528,1.0,50,249,1407.0965675434722
-14,Other non-metallic mineral products,Int,250 persons employed or more,2.2707899518960604e-05,0.03620832672900528,1.0,250,1750,471.21323517881734
+14,Other non-metallic mineral products,Int,250 persons employed or more,2.2707899518960604e-05,0.03620832672900528,1.0,250,2000,471.21323517881734
 15,Basic metals,C,From 0 to 9 persons employed,1.7278860004915119e-06,0.04270418092187881,1.0,0,9,35.855485076105396
 15,Basic metals,C,From 10 to 19 persons employed,3.2978469364219715e-07,0.04270418092187881,1.0,10,19,6.843385592482481
 15,Basic metals,C,From 20 to 49 persons employed,2.0822187519632725e-07,0.04270418092187881,1.0,20,49,4.320826915952126
 15,Basic metals,C,From 50 to 249 persons employed,1.006558623254066e-07,0.04270418092187881,1.0,50,249,2.0887169456807375
-15,Basic metals,C,250 persons employed or more,3.3707974008403035e-08,0.04270418092187881,1.0,250,1750,0.699476561914526
+15,Basic metals,C,250 persons employed or more,3.3707974008403035e-08,0.04270418092187881,1.0,250,2000,0.699476561914526
 15,Basic metals,I,From 0 to 9 persons employed,1.0388328385557775e-05,0.04270418092187881,1.0,0,9,215.56893990002476
 15,Basic metals,I,From 10 to 19 persons employed,1.982718589716672e-06,0.04270418092187881,1.0,10,19,41.143534228230536
 15,Basic metals,I,From 20 to 49 persons employed,1.2518633844945611e-06,0.04270418092187881,1.0,20,49,25.977505973946936
 15,Basic metals,I,From 50 to 249 persons employed,6.051592243182559e-07,0.04270418092187881,1.0,50,249,12.557702030133056
-15,Basic metals,I,250 persons employed or more,2.0265775815738323e-07,0.04270418092187881,1.0,250,1750,4.2053655282246885
+15,Basic metals,I,250 persons employed or more,2.0265775815738323e-07,0.04270418092187881,1.0,250,2000,4.2053655282246885
 15,Basic metals,Int,From 0 to 9 persons employed,0.0015189811735934837,0.04270418092187881,1.0,0,9,31520.486180901706
 15,Basic metals,Int,From 10 to 19 persons employed,0.0002899130734546703,0.04270418092187881,1.0,10,19,6016.0067710860785
 15,Basic metals,Int,From 20 to 49 persons employed,0.00018304743962482657,0.04270418092187881,1.0,20,49,3798.4304160229894
 15,Basic metals,Int,From 50 to 249 persons employed,8.848636995763502e-05,0.04270418092187881,1.0,50,249,1836.1869455231513
-15,Basic metals,Int,250 persons employed or more,2.963261343872102e-05,0.04270418092187881,1.0,250,1750,614.9084653824541
+15,Basic metals,Int,250 persons employed or more,2.963261343872102e-05,0.04270418092187881,1.0,250,2000,614.9084653824541
 16,"Fabricated metal products, except machinery and equipment",C,From 0 to 9 persons employed,0.00014968042988671684,0.10945780324006169,1.0,0,9,3106.029227889783
 16,"Fabricated metal products, except machinery and equipment",C,From 10 to 19 persons employed,2.8568039037518537e-05,0.10945780324006169,1.0,10,19,592.8174063983188
 16,"Fabricated metal products, except machinery and equipment",C,From 20 to 49 persons employed,1.80374977182169e-05,0.10945780324006169,1.0,20,49,374.29739581305694
 16,"Fabricated metal products, except machinery and equipment",C,From 50 to 249 persons employed,8.719448354347066e-06,0.10945780324006169,1.0,50,249,180.93789188188913
-16,"Fabricated metal products, except machinery and equipment",C,250 persons employed or more,2.9199982167532066e-06,0.10945780324006169,1.0,250,1750,60.59309031571918
+16,"Fabricated metal products, except machinery and equipment",C,250 persons employed or more,2.9199982167532066e-06,0.10945780324006169,1.0,250,2000,60.59309031571918
 16,"Fabricated metal products, except machinery and equipment",I,From 0 to 9 persons employed,0.0004571066161727201,0.10945780324006169,1.0,0,9,9485.451846769864
 16,"Fabricated metal products, except machinery and equipment",I,From 10 to 19 persons employed,8.724346706522346e-05,0.10945780324006169,1.0,10,19,1810.3953793566136
 16,"Fabricated metal products, except machinery and equipment",I,From 20 to 49 persons employed,5.5084419201878454e-05,0.10945780324006169,1.0,20,49,1143.0606938519431
 16,"Fabricated metal products, except machinery and equipment",I,From 50 to 249 persons employed,2.6628180685777724e-05,0.10945780324006169,1.0,50,249,552.5632680114022
-16,"Fabricated metal products, except machinery and equipment",I,250 persons employed or more,8.917334785186138e-06,0.10945780324006169,1.0,250,1750,185.0442472581673
+16,"Fabricated metal products, except machinery and equipment",I,250 persons employed or more,8.917334785186138e-06,0.10945780324006169,1.0,250,2000,185.0442472581673
 16,"Fabricated metal products, except machinery and equipment",Int,From 0 to 9 persons employed,0.003317666087497182,0.10945780324006169,1.0,0,9,68845.12453594623
 16,"Fabricated metal products, except machinery and equipment",Int,From 10 to 19 persons employed,0.0006332104629362901,0.10945780324006169,1.0,10,19,13139.795274333825
 16,"Fabricated metal products, except machinery and equipment",Int,From 20 to 49 persons employed,0.0003998010596864716,0.10945780324006169,1.0,20,49,8296.30017542921
 16,"Fabricated metal products, except machinery and equipment",Int,From 50 to 249 persons employed,0.0001932665354368251,0.10945780324006169,1.0,50,249,4010.4875987735736
-16,"Fabricated metal products, except machinery and equipment",Int,250 persons employed or more,6.47217479707016e-05,0.10945780324006169,1.0,250,1750,1343.045587384135
+16,"Fabricated metal products, except machinery and equipment",Int,250 persons employed or more,6.47217479707016e-05,0.10945780324006169,1.0,250,2000,1343.045587384135
 17,"Computer, electronic and optical products",C,From 0 to 9 persons employed,0.0003300561619742068,0.0460478400142259,1.0,0,9,6849.018851114265
 17,"Computer, electronic and optical products",C,From 10 to 19 persons employed,6.299459005421689e-05,0.0460478400142259,1.0,10,19,1307.2052108309485
 17,"Computer, electronic and optical products",C,From 20 to 49 persons employed,3.977398563726003e-05,0.0460478400142259,1.0,20,49,825.3527999117631
 17,"Computer, electronic and optical products",C,From 50 to 249 persons employed,1.9227013581843692e-05,0.0460478400142259,1.0,50,249,398.98112395480274
-17,"Computer, electronic and optical products",C,250 persons employed or more,6.438807031236479e-06,0.0460478400142259,1.0,250,1750,133.61214186048738
+17,"Computer, electronic and optical products",C,250 persons employed or more,6.438807031236479e-06,0.0460478400142259,1.0,250,2000,133.61214186048738
 17,"Computer, electronic and optical products",I,From 0 to 9 persons employed,0.0004966600318210649,0.0460478400142259,1.0,0,9,10306.227583181177
 17,"Computer, electronic and optical products",I,From 10 to 19 persons employed,9.479264048197744e-05,0.0460478400142259,1.0,10,19,1967.048812918988
 17,"Computer, electronic and optical products",I,From 20 to 49 persons employed,5.9850871603469376e-05,0.0460478400142259,1.0,20,49,1241.9696860554768
 17,"Computer, electronic and optical products",I,From 50 to 249 persons employed,2.8932316004234427e-05,0.0460478400142259,1.0,50,249,600.3765435983049
-17,"Computer, electronic and optical products",I,250 persons employed or more,9.688951376928133e-06,0.0460478400142259,1.0,250,1750,201.05611793818343
+17,"Computer, electronic and optical products",I,250 persons employed or more,9.688951376928133e-06,0.0460478400142259,1.0,250,2000,201.05611793818343
 17,"Computer, electronic and optical products",Int,From 0 to 9 persons employed,0.0008242633132665116,0.0460478400142259,1.0,0,9,17104.346536288624
 17,"Computer, electronic and optical products",Int,From 10 to 19 persons employed,0.000157319073230974,0.0460478400142259,1.0,10,19,3264.5392582701406
 17,"Computer, electronic and optical products",Int,From 20 to 49 persons employed,9.932926865260165e-05,0.0460478400142259,1.0,20,49,2061.188706188211
 17,"Computer, electronic and optical products",Int,From 50 to 249 persons employed,4.801644006400703e-05,0.0460478400142259,1.0,50,249,996.3925569354545
-17,"Computer, electronic and optical products",Int,250 persons employed or more,1.6079907084011486e-05,0.0460478400142259,1.0,250,1750,333.6752935737253
+17,"Computer, electronic and optical products",Int,250 persons employed or more,1.6079907084011486e-05,0.0460478400142259,1.0,250,2000,333.6752935737253
 18,Electrical equipment,C,From 0 to 9 persons employed,0.00031217483012092374,0.054724304078036946,1.0,0,9,6477.962064252227
 18,Electrical equipment,C,From 10 to 19 persons employed,5.958175521125158e-05,0.054724304078036946,1.0,10,19,1236.3852326933015
 18,Electrical equipment,C,From 20 to 49 persons employed,3.761916497869847e-05,0.054724304078036946,1.0,20,49,780.6379634336854
 18,Electrical equipment,C,From 50 to 249 persons employed,1.8185358706055015e-05,0.054724304078036946,1.0,50,249,377.36566966981576
-18,Electrical equipment,C,250 persons employed or more,6.0899741399608755e-06,0.054724304078036946,1.0,250,1750,126.37348576649207
+18,Electrical equipment,C,250 persons employed or more,6.0899741399608755e-06,0.054724304078036946,1.0,250,2000,126.37348576649207
 18,Electrical equipment,I,From 0 to 9 persons employed,0.00029242902720542707,0.054724304078036946,1.0,0,9,6068.215506000749
 18,Electrical equipment,I,From 10 to 19 persons employed,5.581306702039066e-05,0.054724304078036946,1.0,10,19,1158.180916467885
 18,Electrical equipment,I,From 20 to 49 persons employed,3.5239663027092714e-05,0.054724304078036946,1.0,20,49,731.2607494912759
 18,Electrical equipment,I,From 50 to 249 persons employed,1.7035091374065824e-05,0.054724304078036946,1.0,50,249,353.4963905947275
-18,Electrical equipment,I,250 persons employed or more,5.70476874373608e-06,0.054724304078036946,1.0,250,1750,118.3800612398482
+18,Electrical equipment,I,250 persons employed or more,5.70476874373608e-06,0.054724304078036946,1.0,250,2000,118.3800612398482
 18,Electrical equipment,Int,From 0 to 9 persons employed,0.0013574578711530846,0.054724304078036946,1.0,0,9,28168.70466380651
 18,Electrical equipment,Int,From 10 to 19 persons employed,0.0002590847012147016,0.054724304078036946,1.0,10,19,5376.28502992006
 18,Electrical equipment,Int,From 20 to 49 persons employed,0.0001635827961746937,0.054724304078036946,1.0,20,49,3394.5182177995976
 18,Electrical equipment,Int,From 50 to 249 persons employed,7.90770297070855e-05,0.054724304078036946,1.0,50,249,1640.9330579208404
-18,Electrical equipment,Int,250 persons employed or more,2.6481581901418428e-05,0.054724304078036946,1.0,250,1750,549.5211862286488
+18,Electrical equipment,Int,250 persons employed or more,2.6481581901418428e-05,0.054724304078036946,1.0,250,2000,549.5211862286488
 19,Machinery and equipment n.e.c.,C,From 0 to 9 persons employed,7.891665666807747e-05,0.12512411703268533,1.0,0,9,1637.605145601899
 19,Machinery and equipment n.e.c.,C,From 10 to 19 persons employed,1.5062050062993282e-05,0.12512411703268533,1.0,10,19,312.5536702627281
 19,Machinery and equipment n.e.c.,C,From 20 to 49 persons employed,9.509987482378792e-06,0.12512411703268533,1.0,20,49,197.34242545595356
 19,Machinery and equipment n.e.c.,C,From 50 to 249 persons employed,4.59719224908577e-06,0.12512411703268533,1.0,50,249,95.39666276142849
-19,Machinery and equipment n.e.c.,C,250 persons employed or more,1.539523215675645e-06,0.12512411703268533,1.0,250,1750,31.946755554633622
+19,Machinery and equipment n.e.c.,C,250 persons employed or more,1.539523215675645e-06,0.12512411703268533,1.0,250,2000,31.946755554633622
 19,Machinery and equipment n.e.c.,I,From 0 to 9 persons employed,0.002022597601826461,0.12512411703268533,1.0,0,9,41971.066439930626
 19,Machinery and equipment n.e.c.,I,From 10 to 19 persons employed,0.0003860334132518246,0.12512411703268533,1.0,10,19,8010.606766760953
 19,Machinery and equipment n.e.c.,I,From 20 to 49 persons employed,0.0002437366037459073,0.12512411703268533,1.0,20,49,5057.795569630189
 19,Machinery and equipment n.e.c.,I,From 50 to 249 persons employed,0.00011782392223284986,0.12512411703268533,1.0,50,249,2444.972575752346
-19,Machinery and equipment n.e.c.,I,250 persons employed or more,3.945727170220197e-05,0.12512411703268533,1.0,250,1750,818.7806465586839
+19,Machinery and equipment n.e.c.,I,250 persons employed or more,3.945727170220197e-05,0.12512411703268533,1.0,250,2000,818.7806465586839
 19,Machinery and equipment n.e.c.,Int,From 0 to 9 persons employed,0.0023846321708785715,0.12512411703268533,1.0,0,9,49483.67148678537
 19,Machinery and equipment n.e.c.,Int,From 10 to 19 persons employed,0.00045513140895800695,0.12512411703268533,1.0,10,19,9444.464181617639
 19,Machinery and equipment n.e.c.,Int,From 20 to 49 persons employed,0.0002873642023447044,0.12512411703268533,1.0,20,49,5963.114965713327
 19,Machinery and equipment n.e.c.,Int,From 50 to 249 persons employed,0.00013891379837582528,0.12512411703268533,1.0,50,249,2882.610092976435
-19,Machinery and equipment n.e.c.,Int,250 persons employed or more,4.6519920418772706e-05,0.12512411703268533,1.0,250,1750,965.3381715243022
+19,Machinery and equipment n.e.c.,Int,250 persons employed or more,4.6519920418772706e-05,0.12512411703268533,1.0,250,2000,965.3381715243022
 20,"Motor vehicles, trailers and semi-trailers",C,From 0 to 9 persons employed,0.0011074629376623029,0.10112097136086018,1.0,0,9,22981.04204929902
 20,"Motor vehicles, trailers and semi-trailers",C,From 10 to 19 persons employed,0.00021137061444629975,0.10112097136086018,1.0,10,19,4386.166627688792
 20,"Motor vehicles, trailers and semi-trailers",C,From 20 to 49 persons employed,0.00013345672661557674,0.10112097136086018,1.0,20,49,2769.3700094274227
 20,"Motor vehicles, trailers and semi-trailers",C,From 50 to 249 persons employed,6.451388399009992e-05,0.10112097136086018,1.0,50,249,1338.7321871643267
-20,"Motor vehicles, trailers and semi-trailers",C,250 persons employed or more,2.1604626640514278e-05,0.10112097136086018,1.0,250,1750,448.31914134580325
+20,"Motor vehicles, trailers and semi-trailers",C,250 persons employed or more,2.1604626640514278e-05,0.10112097136086018,1.0,250,2000,448.31914134580325
 20,"Motor vehicles, trailers and semi-trailers",I,From 0 to 9 persons employed,0.0008401625912719365,0.10112097136086018,1.0,0,9,17434.273583027934
 20,"Motor vehicles, trailers and semi-trailers",I,From 10 to 19 persons employed,0.00016035361285028895,0.10112097136086018,1.0,10,19,3327.509205362858
 20,"Motor vehicles, trailers and semi-trailers",I,From 20 to 49 persons employed,0.00010124523850224195,0.10112097136086018,1.0,20,49,2100.9471325719564
 20,"Motor vehicles, trailers and semi-trailers",I,From 50 to 249 persons employed,4.894263284381552e-05,0.10112097136086018,1.0,50,249,1015.6120490689477
-20,"Motor vehicles, trailers and semi-trailers",I,250 persons employed or more,1.6390073639910888e-05,0.10112097136086018,1.0,250,1750,340.11158179701926
+20,"Motor vehicles, trailers and semi-trailers",I,250 persons employed or more,1.6390073639910888e-05,0.10112097136086018,1.0,250,2000,340.11158179701926
 20,"Motor vehicles, trailers and semi-trailers",Int,From 0 to 9 persons employed,0.0016779224098916637,0.10112097136086018,1.0,0,9,34818.68706015302
 20,"Motor vehicles, trailers and semi-trailers",Int,From 10 to 19 persons employed,0.00032024863199545193,0.10112097136086018,1.0,10,19,6645.502100190494
 20,"Motor vehicles, trailers and semi-trailers",Int,From 20 to 49 persons employed,0.00020220092675222702,0.10112097136086018,1.0,20,49,4195.885787301262
 20,"Motor vehicles, trailers and semi-trailers",Int,From 50 to 249 persons employed,9.774529513794707e-05,0.10112097136086018,1.0,50,249,2028.3195593234946
-20,"Motor vehicles, trailers and semi-trailers",Int,250 persons employed or more,3.2733273470967646e-05,0.10112097136086018,1.0,250,1750,679.2504818584661
+20,"Motor vehicles, trailers and semi-trailers",Int,250 persons employed or more,3.2733273470967646e-05,0.10112097136086018,1.0,250,2000,679.2504818584661
 21,Other transport equipment,C,From 0 to 9 persons employed,0.0001130898492701274,0.02718937898894872,1.0,0,9,2346.735491583712
 21,Other transport equipment,C,From 10 to 19 persons employed,2.158435295209421e-05,0.02718937898894872,1.0,10,19,447.89844059796656
 21,Other transport equipment,C,From 20 to 49 persons employed,1.362808684947824e-05,0.02718937898894872,1.0,20,49,282.79739780768926
 21,Other transport equipment,C,From 50 to 249 persons employed,6.58790932694454e-06,0.02718937898894872,1.0,50,249,136.70617418498836
-21,Other transport equipment,C,250 persons employed or more,2.2061812519618233e-06,0.02718937898894872,1.0,250,1750,45.78062379832868
+21,Other transport equipment,C,250 persons employed or more,2.2061812519618233e-06,0.02718937898894872,1.0,250,2000,45.78062379832868
 21,Other transport equipment,I,From 0 to 9 persons employed,0.0004631113582314841,0.02718937898894872,1.0,0,9,9610.056675567961
 21,Other transport equipment,I,From 10 to 19 persons employed,8.838953342590154e-05,0.02718937898894872,1.0,10,19,1834.177483777756
 21,Other transport equipment,I,From 20 to 49 persons employed,5.580803097440883e-05,0.02718937898894872,1.0,20,49,1158.0764131201568
 21,Other transport equipment,I,From 50 to 249 persons employed,2.697797950919235e-05,0.02718937898894872,1.0,50,249,559.8219682317956
-21,Other transport equipment,I,250 persons employed or more,9.034476592681775e-06,0.02718937898894872,1.0,250,1750,187.4750652225776
+21,Other transport equipment,I,250 persons employed or more,9.034476592681775e-06,0.02718937898894872,1.0,250,2000,187.4750652225776
 21,Other transport equipment,Int,From 0 to 9 persons employed,0.0003986351258991006,0.02718937898894872,1.0,0,9,8272.105800626176
 21,Other transport equipment,Int,From 10 to 19 persons employed,7.60835858570864e-05,0.02718937898894872,1.0,10,19,1578.8158920549959
 21,Other transport equipment,Int,From 20 to 49 persons employed,4.803821167034363e-05,0.02718937898894872,1.0,20,49,996.8443410843292
 21,Other transport equipment,Int,From 50 to 249 persons employed,2.322199632334374e-05,0.02718937898894872,1.0,50,249,481.8812944674449
-21,Other transport equipment,Int,250 persons employed or more,7.776660299823619e-06,0.02718937898894872,1.0,250,1750,161.3740300245212
+21,Other transport equipment,Int,250 persons employed or more,7.776660299823619e-06,0.02718937898894872,1.0,250,2000,161.3740300245212
 22,Furniture and other manufactured goods,C,From 0 to 9 persons employed,0.0007443925261531256,0.04658677974573148,1.0,0,9,15446.942162072866
 22,Furniture and other manufactured goods,C,From 10 to 19 persons employed,0.00014207491762599977,0.04658677974573148,1.0,10,19,2948.2067029762725
 22,Furniture and other manufactured goods,C,From 20 to 49 persons employed,8.970430203939621e-05,0.04658677974573148,1.0,20,49,1861.4603406249557
 22,Furniture and other manufactured goods,C,From 50 to 249 persons employed,4.3363666125668525e-05,0.04658677974573148,1.0,50,249,899.8425145940425
-22,Furniture and other manufactured goods,C,250 persons employed or more,1.452177048513699e-05,0.04658677974573148,1.0,250,1750,301.34229038278215
+22,Furniture and other manufactured goods,C,250 persons employed or more,1.452177048513699e-05,0.04658677974573148,1.0,250,2000,301.34229038278215
 22,Furniture and other manufactured goods,I,From 0 to 9 persons employed,0.0003346867973264355,0.04658677974573148,1.0,0,9,6945.109494083474
 22,Furniture and other manufactured goods,I,From 10 to 19 persons employed,6.387839411337883e-05,0.04658677974573148,1.0,10,19,1325.545091612706
 22,Furniture and other manufactured goods,I,From 20 to 49 persons employed,4.033200831706482e-05,0.04658677974573148,1.0,20,49,836.9323681600026
 22,Furniture and other manufactured goods,I,From 50 to 249 persons employed,1.94967655182333e-05,0.04658677974573148,1.0,50,249,404.578765539211
-22,Furniture and other manufactured goods,I,250 persons employed or more,6.52914246774729e-06,0.04658677974573148,1.0,250,1750,135.48669891733923
+22,Furniture and other manufactured goods,I,250 persons employed or more,6.52914246774729e-06,0.04658677974573148,1.0,250,2000,135.48669891733923
 22,Furniture and other manufactured goods,Int,From 0 to 9 persons employed,0.0005912230975773674,0.04658677974573148,1.0,0,9,12268.51247466788
 22,Furniture and other manufactured goods,Int,From 10 to 19 persons employed,0.00011284096754836852,0.04658677974573148,1.0,10,19,2341.570929304891
 22,Furniture and other manufactured goods,Int,From 20 to 49 persons employed,7.1246356531578e-05,0.04658677974573148,1.0,20,49,1478.4382028780888
 22,Furniture and other manufactured goods,Int,From 50 to 249 persons employed,3.444097046704458e-05,0.04658677974573148,1.0,50,249,714.6870234705452
-22,Furniture and other manufactured goods,Int,250 persons employed or more,1.1533708126946152e-05,0.04658677974573148,1.0,250,1750,239.3367962355366
+22,Furniture and other manufactured goods,Int,250 persons employed or more,1.1533708126946152e-05,0.04658677974573148,1.0,250,2000,239.3367962355366
 23,Repair and installation services of machinery and equipment,C,From 0 to 9 persons employed,1.4015891880390693e-05,0.045973482487126634,1.0,0,9,290.8447675383108
 23,Repair and installation services of machinery and equipment,C,From 10 to 19 persons employed,2.675076138461665e-06,0.045973482487126634,1.0,10,19,55.510694879623834
 23,Repair and installation services of machinery and equipment,C,From 20 to 49 persons employed,1.6890091644088556e-06,0.045973482487126634,1.0,20,49,35.048749090298834
 23,Repair and installation services of machinery and equipment,C,From 50 to 249 persons employed,8.164784500129529e-07,0.045973482487126634,1.0,50,249,16.942802286188737
-23,Repair and installation services of machinery and equipment,C,250 persons employed or more,2.7342505181152287e-07,0.045973482487126634,1.0,250,1750,5.673862663319589
+23,Repair and installation services of machinery and equipment,C,250 persons employed or more,2.7342505181152287e-07,0.045973482487126634,1.0,250,2000,5.673862663319589
 23,Repair and installation services of machinery and equipment,I,From 0 to 9 persons employed,0.00048535960868514226,0.045973482487126634,1.0,0,9,10071.731700357604
 23,Repair and installation services of machinery and equipment,I,From 10 to 19 persons employed,9.263583929205673e-05,0.045973482487126634,1.0,10,19,1922.292878294059
 23,Repair and installation services of machinery and equipment,I,From 20 to 49 persons employed,5.848909467188684e-05,0.045973482487126634,1.0,20,49,1213.7113562620455
 23,Repair and installation services of machinery and equipment,I,From 50 to 249 persons employed,2.8274023828092762e-05,0.045973482487126634,1.0,50,249,586.7162759124448
-23,Repair and installation services of machinery and equipment,I,250 persons employed or more,9.46850027700529e-06,0.045973482487126634,1.0,250,1750,196.48152151165647
+23,Repair and installation services of machinery and equipment,I,250 persons employed or more,9.46850027700529e-06,0.045973482487126634,1.0,250,2000,196.48152151165647
 23,Repair and installation services of machinery and equipment,Int,From 0 to 9 persons employed,0.0011489380236097838,0.045973482487126634,1.0,0,9,23841.6945025263
 23,Repair and installation services of machinery and equipment,Int,From 10 to 19 persons employed,0.0002192865582696093,0.045973482487126634,1.0,10,19,4550.430939998299
 23,Repair and installation services of machinery and equipment,Int,From 20 to 49 persons employed,0.00013845475320266453,0.045973482487126634,1.0,20,49,2873.084413995969
 23,Repair and installation services of machinery and equipment,Int,From 50 to 249 persons employed,6.692996383557382e-05,0.045973482487126634,1.0,50,249,1388.8684315794246
-23,Repair and installation services of machinery and equipment,Int,250 persons employed or more,2.2413731592297136e-05,0.045973482487126634,1.0,250,1750,465.1089356467009
+23,Repair and installation services of machinery and equipment,Int,250 persons employed or more,2.2413731592297136e-05,0.045973482487126634,1.0,250,2000,465.1089356467009
 24,"Electricity, gas, steam and air conditioning",C,From 0 to 9 persons employed,0.0004595261035884147,1.0,2.0,0,9,9535.658801916548
 24,"Electricity, gas, steam and air conditioning",C,From 10 to 19 persons employed,2.115549387156614e-05,1.0,2.0,10,19,438.9991553689339
 24,"Electricity, gas, steam and air conditioning",C,From 20 to 49 persons employed,1.6628205891153408e-05,1.0,2.0,20,49,345.05308104994265
 24,"Electricity, gas, steam and air conditioning",C,From 50 to 249 persons employed,1.0967969158359448e-05,1.0,2.0,50,249,227.59710673092715
-24,"Electricity, gas, steam and air conditioning",C,250 persons employed or more,1.1678547254372072e-05,1.0,2.0,250,1750,242.34236325232993
+24,"Electricity, gas, steam and air conditioning",C,250 persons employed or more,1.1678547254372072e-05,1.0,2.0,250,2000,242.34236325232993
 24,"Electricity, gas, steam and air conditioning",I,From 0 to 9 persons employed,4.5125908502962005e-07,1.0,2.0,0,9,9.364109312844683
 24,"Electricity, gas, steam and air conditioning",I,From 10 to 19 persons employed,2.077489990945828e-08,1.0,2.0,10,19,0.43110142303906235
 24,"Electricity, gas, steam and air conditioning",I,From 20 to 49 persons employed,1.6329059258071718e-08,1.0,2.0,20,49,0.3388454680274535
 24,"Electricity, gas, steam and air conditioning",I,From 50 to 249 persons employed,1.077065195727688e-08,1.0,2.0,50,249,0.2235025634817415
-24,"Electricity, gas, steam and air conditioning",I,250 persons employed or more,1.1468446530740213e-08,1.0,2.0,250,1750,0.23798254821909384
+24,"Electricity, gas, steam and air conditioning",I,250 persons employed or more,1.1468446530740213e-08,1.0,2.0,250,2000,0.23798254821909384
 24,"Electricity, gas, steam and air conditioning",Int,From 0 to 9 persons employed,0.0013930643429811696,1.0,2.0,0,9,28907.577088770602
 24,"Electricity, gas, steam and air conditioning",Int,From 10 to 19 persons employed,6.413338424193592e-05,1.0,2.0,10,19,1330.8364098746936
 24,"Electricity, gas, steam and air conditioning",Int,From 20 to 49 persons employed,5.040880275098095e-05,1.0,2.0,20,49,1046.0366449106011
 24,"Electricity, gas, steam and air conditioning",Int,From 50 to 249 persons employed,3.324966009572507e-05,1.0,2.0,50,249,689.9660573722578
-24,"Electricity, gas, steam and air conditioning",Int,250 persons employed or more,3.540379454146973e-05,1.0,2.0,250,1750,734.6666541994509
+24,"Electricity, gas, steam and air conditioning",Int,250 persons employed or more,3.540379454146973e-05,1.0,2.0,250,2000,734.6666541994509
 25,Natural water; water treatment and supply services,C,From 0 to 9 persons employed,0.00011991408515359676,0.20467371416954666,3.0,0,9,2488.3456949223323
 25,Natural water; water treatment and supply services,C,From 10 to 19 persons employed,2.3863499533054083e-05,0.20467371416954666,3.0,10,19,495.19317311887215
 25,Natural water; water treatment and supply services,C,From 20 to 49 persons employed,1.9176026410489885e-05,0.20467371416954666,3.0,20,49,397.92308554195074
 25,Natural water; water treatment and supply services,C,From 50 to 249 persons employed,1.103686853403751e-05,0.20467371416954666,3.0,50,249,229.0268425674783
-25,Natural water; water treatment and supply services,C,250 persons employed or more,,0.20467371416954666,3.0,250,1750,0.0
+25,Natural water; water treatment and supply services,C,250 persons employed or more,,0.20467371416954666,3.0,250,2000,0.0
 25,Natural water; water treatment and supply services,I,From 0 to 9 persons employed,4.3676811185501497e-08,0.20467371416954666,3.0,0,9,0.9063406099639357
 25,Natural water; water treatment and supply services,I,From 10 to 19 persons employed,8.691902723482886e-09,0.20467371416954666,3.0,10,19,0.18036629054008674
 25,Natural water; water treatment and supply services,I,From 20 to 49 persons employed,6.9845646885130326e-09,0.20467371416954666,3.0,20,49,0.14493719775542682
 25,Natural water; water treatment and supply services,I,From 50 to 249 persons employed,4.020005009610833e-09,0.20467371416954666,3.0,50,249,0.08341940937479009
-25,Natural water; water treatment and supply services,I,250 persons employed or more,,0.20467371416954666,3.0,250,1750,0.0
+25,Natural water; water treatment and supply services,I,250 persons employed or more,,0.20467371416954666,3.0,250,2000,0.0
 25,Natural water; water treatment and supply services,Int,From 0 to 9 persons employed,0.000144378259040777,0.20467371416954666,3.0,0,9,2996.003504211555
 25,Natural water; water treatment and supply services,Int,From 10 to 19 persons employed,2.8731991848910847e-05,0.20467371416954666,3.0,10,19,596.2196028281703
 25,Natural water; water treatment and supply services,Int,From 20 to 49 persons employed,2.3088207735731926e-05,0.20467371416954666,3.0,20,49,479.10503798692247
 25,Natural water; water treatment and supply services,Int,From 50 to 249 persons employed,1.3288546230121263e-05,0.20467371416954666,3.0,50,249,275.75156630802866
-25,Natural water; water treatment and supply services,Int,250 persons employed or more,,0.20467371416954666,3.0,250,1750,0.0
+25,Natural water; water treatment and supply services,Int,250 persons employed or more,,0.20467371416954666,3.0,250,2000,0.0
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",C,From 0 to 9 persons employed,0.00018059598213663247,0.7953262858304534,3.0,0,9,3747.560047631992
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",C,From 10 to 19 persons employed,3.593949893266317e-05,0.7953262858304534,3.0,10,19,745.7830940561176
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",C,From 20 to 49 persons employed,2.8879954499461477e-05,0.7953262858304534,3.0,20,49,599.2899862950945
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",C,From 50 to 249 persons employed,1.6622018256356717e-05,0.7953262858304534,3.0,50,249,344.9246810009544
-26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",C,250 persons employed or more,,0.7953262858304534,3.0,250,1750,0.0
+26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",C,250 persons employed or more,,0.7953262858304534,3.0,250,2000,0.0
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",I,From 0 to 9 persons employed,1.8878212648764802e-07,0.7953262858304534,3.0,0,9,3.917431310276165
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",I,From 10 to 19 persons employed,3.7568582385601594e-08,0.7953262858304534,3.0,10,19,0.7795883204529681
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",I,From 20 to 49 persons employed,3.018903941700128e-08,0.7953262858304534,3.0,20,49,0.6264549003639921
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",I,From 50 to 249 persons employed,1.737546935334074e-08,0.7953262858304534,3.0,50,249,0.3605595982094978
-26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",I,250 persons employed or more,,0.7953262858304534,3.0,250,1750,0.0
+26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",I,250 persons employed or more,,0.7953262858304534,3.0,250,2000,0.0
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",Int,From 0 to 9 persons employed,0.0008463788197396599,0.7953262858304534,3.0,0,9,17563.266981313885
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",Int,From 10 to 19 persons employed,0.00016843359596809153,0.7953262858304534,3.0,10,19,3495.1775087191813
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",Int,From 20 to 49 persons employed,0.0001353484253315021,0.7953262858304534,3.0,20,49,2808.6247837921983
 26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",Int,From 50 to 249 persons employed,7.790053813524234e-05,0.7953262858304534,3.0,50,249,1616.5195977826213
-26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",Int,250 persons employed or more,,0.7953262858304534,3.0,250,1750,0.0
+26,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",Int,250 persons employed or more,,0.7953262858304534,3.0,250,2000,0.0
 27,Constructions and construction works,C,From 0 to 9 persons employed,0.001668291384705052,1.0,4.0,0,9,34618.83297270285
 27,Constructions and construction works,C,From 10 to 19 persons employed,0.00017120115902147882,1.0,4.0,10,19,3552.6074061369977
 27,Constructions and construction works,C,From 20 to 49 persons employed,6.894389686031012e-05,1.0,4.0,20,49,1430.6596987649723
 27,Constructions and construction works,C,From 50 to 249 persons employed,1.5113924841922728e-05,1.0,4.0,50,249,313.6301274834023
-27,Constructions and construction works,C,250 persons employed or more,2.2373910041094997e-06,1.0,4.0,250,1750,46.42825958103752
+27,Constructions and construction works,C,250 persons employed or more,2.2373910041094997e-06,1.0,4.0,250,2000,46.42825958103752
 27,Constructions and construction works,I,From 0 to 9 persons employed,0.03755483904061566,1.0,4.0,0,9,779303.1313253875
 27,Constructions and construction works,I,From 10 to 19 persons employed,0.003853902279639947,1.0,4.0,10,19,79972.5998318704
 27,Constructions and construction works,I,From 20 to 49 persons employed,0.0015519932388067274,1.0,4.0,20,49,32205.521889998356
 27,Constructions and construction works,I,From 50 to 249 persons employed,0.00034022894316553724,1.0,4.0,50,249,7060.114955883028
-27,Constructions and construction works,I,250 persons employed or more,5.0365817267053155e-05,1.0,4.0,250,1750,1045.144650081646
+27,Constructions and construction works,I,250 persons employed or more,5.0365817267053155e-05,1.0,4.0,250,2000,1045.144650081646
 27,Constructions and construction works,Int,From 0 to 9 persons employed,0.023075928741312177,1.0,4.0,0,9,478850.23570190964
 27,Constructions and construction works,Int,From 10 to 19 persons employed,0.002368066982919867,1.0,4.0,10,19,49139.92609532594
 27,Constructions and construction works,Int,From 20 to 49 persons employed,0.0009536370358815741,1.0,4.0,20,49,19788.98983980809
 27,Constructions and construction works,Int,From 50 to 249 persons employed,0.00020905691646631486,1.0,4.0,50,249,4338.154916633569
-27,Constructions and construction works,Int,250 persons employed or more,3.094775639952831e-05,1.0,4.0,250,1750,642.1990903373164
+27,Constructions and construction works,Int,250 persons employed or more,3.094775639952831e-05,1.0,4.0,250,2000,642.1990903373164
 28,Wholesale and retail trade and repair services of motor vehicles and motorcycles,C,From 0 to 9 persons employed,0.0052213774924406,0.1277633364374116,5.0,0,9,108349.17506343685
 28,Wholesale and retail trade and repair services of motor vehicles and motorcycles,C,From 10 to 19 persons employed,0.000491189809409561,0.1277633364374116,5.0,10,19,10192.714609534269
 28,Wholesale and retail trade and repair services of motor vehicles and motorcycles,C,From 20 to 49 persons employed,0.0002275413781455149,0.1277633364374116,5.0,20,49,4721.727293335428
 28,Wholesale and retail trade and repair services of motor vehicles and motorcycles,C,From 50 to 249 persons employed,7.023756725389381e-05,0.1277633364374116,5.0,50,249,1457.5047449528256
-28,Wholesale and retail trade and repair services of motor vehicles and motorcycles,C,250 persons employed or more,2.4668804108684655e-05,0.1277633364374116,5.0,250,1750,511.904105544407
+28,Wholesale and retail trade and repair services of motor vehicles and motorcycles,C,250 persons employed or more,2.4668804108684655e-05,0.1277633364374116,5.0,250,2000,511.904105544407
 28,Wholesale and retail trade and repair services of motor vehicles and motorcycles,I,From 0 to 9 persons employed,0.0010044911897966783,0.1277633364374116,5.0,0,9,20844.267998345345
 28,Wholesale and retail trade and repair services of motor vehicles and motorcycles,I,From 10 to 19 persons employed,9.44953389759966e-05,0.1277633364374116,5.0,10,19,1960.8794882599727
 28,Wholesale and retail trade and repair services of motor vehicles and motorcycles,I,From 20 to 49 persons employed,4.3774523100900735e-05,0.1277633364374116,5.0,20,49,908.3682368579313
 28,Wholesale and retail trade and repair services of motor vehicles and motorcycles,I,From 50 to 249 persons employed,1.3512337999202928e-05,0.1277633364374116,5.0,50,249,280.3954851974579
-28,Wholesale and retail trade and repair services of motor vehicles and motorcycles,I,250 persons employed or more,4.745796760695662e-06,0.1277633364374116,5.0,250,1750,98.48036553276569
+28,Wholesale and retail trade and repair services of motor vehicles and motorcycles,I,250 persons employed or more,4.745796760695662e-06,0.1277633364374116,5.0,250,2000,98.48036553276569
 28,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Int,From 0 to 9 persons employed,0.006284610876878602,0.1277633364374116,5.0,0,9,130412.40651348013
 28,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Int,From 10 to 19 persons employed,0.0005912111934631151,0.1277633364374116,5.0,10,19,12268.265451547837
 28,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Int,From 20 to 49 persons employed,0.000273875815740882,0.1277633364374116,5.0,20,49,5683.21649762196
 28,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Int,From 50 to 249 persons employed,8.454010072406868e-05,0.1277633364374116,5.0,50,249,1754.2976324723006
-28,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Int,250 persons employed or more,2.9692132937233873e-05,0.1277633364374116,5.0,250,1750,616.1435587219786
+28,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Int,250 persons employed or more,2.9692132937233873e-05,0.1277633364374116,5.0,250,2000,616.1435587219786
 29,"Wholesale trade services, except of motor vehicles and motorcycles",C,From 0 to 9 persons employed,0.009013864912991484,0.4823058606794672,5.0,0,9,187047.3507938951
 29,"Wholesale trade services, except of motor vehicles and motorcycles",C,From 10 to 19 persons employed,0.0008479598717131417,0.4823058606794672,5.0,10,19,17596.075503070293
 29,"Wholesale trade services, except of motor vehicles and motorcycles",C,From 20 to 49 persons employed,0.00039281343815669685,0.4823058606794672,5.0,20,49,8151.299544943726
 29,"Wholesale trade services, except of motor vehicles and motorcycles",C,From 50 to 249 persons employed,0.00012125381548458414,0.4823058606794672,5.0,50,249,2516.146534141505
-29,"Wholesale trade services, except of motor vehicles and motorcycles",C,250 persons employed or more,4.258670592629297e-05,0.4823058606794672,5.0,250,1750,883.7197583326262
+29,"Wholesale trade services, except of motor vehicles and motorcycles",C,250 persons employed or more,4.258670592629297e-05,0.4823058606794672,5.0,250,2000,883.7197583326262
 29,"Wholesale trade services, except of motor vehicles and motorcycles",I,From 0 to 9 persons employed,0.003025988417589376,0.4823058606794672,5.0,0,9,62792.500498574795
 29,"Wholesale trade services, except of motor vehicles and motorcycles",I,From 10 to 19 persons employed,0.0002846633242402314,0.4823058606794672,5.0,10,19,5907.068852405063
 29,"Wholesale trade services, except of motor vehicles and motorcycles",I,From 20 to 49 persons employed,0.00013186895139979878,0.4823058606794672,5.0,20,49,2736.4219731927737
 29,"Wholesale trade services, except of motor vehicles and motorcycles",I,From 50 to 249 persons employed,4.070536277019726e-05,0.4823058606794672,5.0,50,249,844.6798729251201
-29,"Wholesale trade services, except of motor vehicles and motorcycles",I,250 persons employed or more,1.4296517655874161e-05,0.4823058606794672,5.0,250,1750,296.6680529297983
+29,"Wholesale trade services, except of motor vehicles and motorcycles",I,250 persons employed or more,1.4296517655874161e-05,0.4823058606794672,5.0,250,2000,296.6680529297983
 29,"Wholesale trade services, except of motor vehicles and motorcycles",Int,From 0 to 9 persons employed,0.03518713509600995,0.4823058606794672,5.0,0,9,730170.7386638944
 29,"Wholesale trade services, except of motor vehicles and motorcycles",Int,From 10 to 19 persons employed,0.0033101537298347765,0.4823058606794672,5.0,10,19,68689.23506871627
 29,"Wholesale trade services, except of motor vehicles and motorcycles",Int,From 20 to 49 persons employed,0.0015334132083593276,0.4823058606794672,5.0,20,49,31819.9663590022
 29,"Wholesale trade services, except of motor vehicles and motorcycles",Int,From 50 to 249 persons employed,0.0004733346269937334,0.4823058606794672,5.0,50,249,9822.200451505478
-29,"Wholesale trade services, except of motor vehicles and motorcycles",Int,250 persons employed or more,0.00016624435679779906,0.4823058606794672,5.0,250,1750,3449.748451260461
+29,"Wholesale trade services, except of motor vehicles and motorcycles",Int,250 persons employed or more,0.00016624435679779906,0.4823058606794672,5.0,250,2000,3449.748451260461
 30,"Retail trade services, except of motor vehicles and motorcycles",C,From 0 to 9 persons employed,0.02613759659276435,0.3899308028831212,5.0,0,9,542383.1226658111
 30,"Retail trade services, except of motor vehicles and motorcycles",C,From 10 to 19 persons employed,0.002458837942173546,0.3899308028831212,5.0,10,19,51023.520715537146
 30,"Retail trade services, except of motor vehicles and motorcycles",C,From 20 to 49 persons employed,0.0011390451578610458,0.3899308028831212,5.0,20,49,23636.40694298077
 30,"Retail trade services, except of motor vehicles and motorcycles",C,From 50 to 249 persons employed,0.0003516009331248936,0.3899308028831212,5.0,50,249,7296.095926940919
-30,"Retail trade services, except of motor vehicles and motorcycles",C,250 persons employed or more,0.00012348910821947481,0.3899308028831212,5.0,250,1750,2562.5312523890057
+30,"Retail trade services, except of motor vehicles and motorcycles",C,250 persons employed or more,0.00012348910821947481,0.3899308028831212,5.0,250,2000,2562.5312523890057
 30,"Retail trade services, except of motor vehicles and motorcycles",I,From 0 to 9 persons employed,0.0011362464445041406,0.3899308028831212,5.0,0,9,23578.33064340298
 30,"Retail trade services, except of motor vehicles and motorcycles",I,From 10 to 19 persons employed,0.000106889929970837,0.3899308028831212,5.0,10,19,2218.0805260098664
 30,"Retail trade services, except of motor vehicles and motorcycles",I,From 20 to 49 persons employed,4.951625931465915e-05,0.3899308028831212,5.0,20,49,1027.5154126929033
 30,"Retail trade services, except of motor vehicles and motorcycles",I,From 50 to 249 persons employed,1.5284699521994042e-05,0.3899308028831212,5.0,50,249,317.17388499456445
-30,"Retail trade services, except of motor vehicles and motorcycles",I,250 persons employed or more,5.368284710163762e-06,0.3899308028831212,5.0,250,1750,111.39765716882265
+30,"Retail trade services, except of motor vehicles and motorcycles",I,250 persons employed or more,5.368284710163762e-06,0.3899308028831212,5.0,250,2000,111.39765716882265
 30,"Retail trade services, except of motor vehicles and motorcycles",Int,From 0 to 9 persons employed,0.01090785661902267,0.3899308028831212,5.0,0,9,226349.70715915938
 30,"Retail trade services, except of motor vehicles and motorcycles",Int,From 10 to 19 persons employed,0.00102613305042999,0.3899308028831212,5.0,10,19,21293.359784919303
 30,"Retail trade services, except of motor vehicles and motorcycles",Int,From 20 to 49 persons employed,0.0004753513285142601,0.3899308028831212,5.0,20,49,9864.049167943736
 30,"Retail trade services, except of motor vehicles and motorcycles",Int,From 50 to 249 persons employed,0.00014673164581255403,0.3899308028831212,5.0,50,249,3044.8388002031616
-30,"Retail trade services, except of motor vehicles and motorcycles",Int,250 persons employed or more,5.1535017065872634e-05,0.3899308028831212,5.0,250,1750,1069.4067981201347
+30,"Retail trade services, except of motor vehicles and motorcycles",Int,250 persons employed or more,5.1535017065872634e-05,0.3899308028831212,5.0,250,2000,1069.4067981201347
 31,Land transport services and transport services via pipelines,C,From 0 to 9 persons employed,0.0016627221568556313,0.4398883062180041,6.0,0,9,34503.26553018434
 31,Land transport services and transport services via pipelines,C,From 10 to 19 persons employed,0.00020224357808269725,0.4398883062180041,6.0,10,19,4196.770848088095
 31,Land transport services and transport services via pipelines,C,From 20 to 49 persons employed,0.00012145506447125616,0.4398883062180041,6.0,20,49,2520.322666152614
 31,Land transport services and transport services via pipelines,C,From 50 to 249 persons employed,4.172862017526603e-05,0.4398883062180041,6.0,50,249,865.9135599889779
-31,Land transport services and transport services via pipelines,C,250 persons employed or more,1.8557875506255372e-05,0.4398883062180041,6.0,250,1750,385.09579223946616
+31,Land transport services and transport services via pipelines,C,250 persons employed or more,1.8557875506255372e-05,0.4398883062180041,6.0,250,2000,385.09579223946616
 31,Land transport services and transport services via pipelines,I,From 0 to 9 persons employed,0.00021729583284348813,0.4398883062180041,6.0,0,9,4509.121255339354
 31,Land transport services and transport services via pipelines,I,From 10 to 19 persons employed,2.6430565416794686e-05,0.4398883062180041,6.0,10,19,548.4625395340511
 31,Land transport services and transport services via pipelines,I,From 20 to 49 persons employed,1.5872573345176545e-05,0.4398883062180041,6.0,20,49,329.372896438466
 31,Land transport services and transport services via pipelines,I,From 50 to 249 persons employed,5.453379710499227e-06,0.4398883062180041,6.0,50,249,113.16346956252892
-31,Land transport services and transport services via pipelines,I,250 persons employed or more,2.4252693075092418e-06,0.4398883062180041,6.0,250,1750,50.32693559424511
+31,Land transport services and transport services via pipelines,I,250 persons employed or more,2.4252693075092418e-06,0.4398883062180041,6.0,250,2000,50.32693559424511
 31,Land transport services and transport services via pipelines,Int,From 0 to 9 persons employed,0.007162601283302571,0.4398883062180041,6.0,0,9,148631.64777450275
 31,Land transport services and transport services via pipelines,Int,From 10 to 19 persons employed,0.0008712159791352364,0.4398883062180041,6.0,10,19,18078.66463936981
 31,Land transport services and transport services via pipelines,Int,From 20 to 49 persons employed,0.0005231987780150507,0.4398883062180041,6.0,20,49,10856.934989703557
 31,Land transport services and transport services via pipelines,Int,From 50 to 249 persons employed,0.00017975671231989078,0.4398883062180041,6.0,50,249,3730.1443000766285
-31,Land transport services and transport services via pipelines,Int,250 persons employed or more,7.994279884249796e-05,0.4398883062180041,6.0,250,1750,1658.898694719393
+31,Land transport services and transport services via pipelines,Int,250 persons employed or more,7.994279884249796e-05,0.4398883062180041,6.0,250,2000,1658.898694719393
 32,Water transport services,C,From 0 to 9 persons employed,0.00018835029384130664,0.04285654993554425,6.0,0,9,3908.470320371817
 32,Water transport services,C,From 10 to 19 persons employed,2.2909803181687392e-05,0.04285654993554425,6.0,10,19,475.402952419221
 32,Water transport services,C,From 20 to 49 persons employed,1.375821990905375e-05,0.04285654993554425,6.0,20,49,285.4977981663879
 32,Water transport services,C,From 50 to 249 persons employed,4.7269460139190625e-06,0.04285654993554425,6.0,50,249,98.08919234800145
-32,Water transport services,C,250 persons employed or more,2.1022040815789032e-06,0.04285654993554425,6.0,250,1750,43.62298615333361
+32,Water transport services,C,250 persons employed or more,2.1022040815789032e-06,0.04285654993554425,6.0,250,2000,43.62298615333361
 32,Water transport services,I,From 0 to 9 persons employed,1.6339923294767705e-05,0.04285654993554425,6.0,0,9,339.07090842427857
 32,Water transport services,I,From 10 to 19 persons employed,1.9874905371923585e-06,0.04285654993554425,6.0,10,19,41.242557249106774
 32,Water transport services,I,From 20 to 49 persons employed,1.193564678884414e-06,0.04285654993554425,6.0,20,49,24.767745394622676
 32,Water transport services,I,From 50 to 249 persons employed,4.100760010017387e-07,0.04285654993554425,6.0,50,249,8.50951621218315
-32,Water transport services,I,250 persons employed or more,1.823721786804757e-07,0.04285654993554425,6.0,250,1750,3.7844180282232376
+32,Water transport services,I,250 persons employed or more,1.823721786804757e-07,0.04285654993554425,6.0,250,2000,3.7844180282232376
 32,Water transport services,Int,From 0 to 9 persons employed,0.0006762958398778015,0.04285654993554425,6.0,0,9,14033.86299030889
 32,Water transport services,Int,From 10 to 19 persons employed,8.226058090065211e-05,0.04285654993554425,6.0,10,19,1706.995154770676
 32,Water transport services,Int,From 20 to 49 persons employed,4.9400649708869314e-05,0.04285654993554425,6.0,20,49,1025.1163895548764
 32,Water transport services,Int,From 50 to 249 persons employed,1.697270473723749e-05,0.04285654993554425,6.0,50,249,352.2018010644515
-32,Water transport services,Int,250 persons employed or more,7.5482328482258755e-06,0.04285654993554425,6.0,250,1750,156.63391575806736
+32,Water transport services,Int,250 persons employed or more,7.5482328482258755e-06,0.04285654993554425,6.0,250,2000,156.63391575806736
 33,Air transport services,C,From 0 to 9 persons employed,0.0004780086933361876,0.06137227433873126,6.0,0,9,9919.192334036456
 33,Air transport services,C,From 10 to 19 persons employed,5.81421183908234e-05,0.06137227433873126,6.0,10,19,1206.511226818382
 33,Air transport services,C,From 20 to 49 persons employed,3.4916583283378014e-05,0.06137227433873126,6.0,20,49,724.5564987907903
 33,Air transport services,C,From 50 to 249 persons employed,1.1996377820827279e-05,0.06137227433873126,6.0,50,249,248.93768790281214
-33,Air transport services,C,250 persons employed or more,5.335122158121933e-06,0.06137227433873126,6.0,250,1750,110.70949869686146
+33,Air transport services,C,250 persons employed or more,5.335122158121933e-06,0.06137227433873126,6.0,250,2000,110.70949869686146
 33,Air transport services,I,From 0 to 9 persons employed,2.2003933517812828e-05,0.06137227433873126,6.0,0,9,456.60518670741374
 33,Air transport services,I,From 10 to 19 persons employed,2.676426863133845e-06,0.06137227433873126,6.0,10,19,55.538723863197696
 33,Air transport services,I,From 20 to 49 persons employed,1.6072974988684384e-06,0.06137227433873126,6.0,20,49,33.35314451714139
 33,Air transport services,I,From 50 to 249 persons employed,5.52223220422473e-07,0.06137227433873126,6.0,50,249,11.459223254835386
-33,Air transport services,I,250 persons employed or more,2.455889922365097e-07,0.06137227433873126,6.0,250,1750,5.096234614718262
+33,Air transport services,I,250 persons employed or more,2.455889922365097e-07,0.06137227433873126,6.0,250,2000,5.096234614718262
 33,Air transport services,Int,From 0 to 9 persons employed,0.0007615942467970642,0.06137227433873126,6.0,0,9,15803.896288477403
 33,Air transport services,Int,From 10 to 19 persons employed,9.263576893130243e-05,0.06137227433873126,6.0,10,19,1922.2914182330508
 33,Air transport services,Int,From 20 to 49 persons employed,5.563135005105163e-05,0.06137227433873126,6.0,20,49,1154.410094735226
 33,Air transport services,Int,From 50 to 249 persons employed,1.9113402032461092e-05,0.06137227433873126,6.0,50,249,396.62356262714445
-33,Air transport services,Int,250 persons employed or more,8.500260347205693e-06,0.06137227433873126,6.0,250,1750,176.38950598334998
+33,Air transport services,Int,250 persons employed or more,8.500260347205693e-06,0.06137227433873126,6.0,250,2000,176.38950598334998
 34,Warehousing and support services for transportation,C,From 0 to 9 persons employed,0.0003223489994833701,0.3417841104735874,6.0,0,9,6689.086975058377
 34,Warehousing and support services for transportation,C,From 10 to 19 persons employed,3.9208604262651195e-05,0.3417841104735874,6.0,10,19,813.6205308651776
 34,Warehousing and support services for transportation,C,From 20 to 49 persons employed,2.354627822397929e-05,0.3417841104735874,6.0,20,49,488.61049121154815
 34,Warehousing and support services for transportation,C,From 50 to 249 persons employed,8.089853682323006e-06,0.3417841104735874,6.0,50,249,167.87312814149615
-34,Warehousing and support services for transportation,C,250 persons employed or more,3.597782454099917e-06,0.3417841104735874,6.0,250,1750,74.65783914758163
+34,Warehousing and support services for transportation,C,250 persons employed or more,3.597782454099917e-06,0.3417841104735874,6.0,250,2000,74.65783914758163
 34,Warehousing and support services for transportation,I,From 0 to 9 persons employed,5.2951639968343046e-06,0.3417841104735874,6.0,0,9,109.88032405495242
 34,Warehousing and support services for transportation,I,From 10 to 19 persons employed,6.440720771290171e-07,0.3417841104735874,6.0,10,19,13.36518540162171
 34,Warehousing and support services for transportation,I,From 20 to 49 persons employed,3.8679010920116414e-07,0.3417841104735874,6.0,20,49,8.02630901813111
 34,Warehousing and support services for transportation,I,From 50 to 249 persons employed,1.3289044491203438e-07,0.3417841104735874,6.0,50,249,2.757619057591214
-34,Warehousing and support services for transportation,I,250 persons employed or more,5.9100069024333594e-08,0.3417841104735874,6.0,250,1750,1.2263897284288472
+34,Warehousing and support services for transportation,I,250 persons employed or more,5.9100069024333594e-08,0.3417841104735874,6.0,250,2000,1.2263897284288472
 34,Warehousing and support services for transportation,Int,From 0 to 9 persons employed,0.006698283875267249,0.3417841104735874,6.0,0,9,138996.56427382582
 34,Warehousing and support services for transportation,Int,From 10 to 19 persons employed,0.0008147391867980661,0.3417841104735874,6.0,10,19,16906.710711728934
 34,Warehousing and support services for transportation,Int,From 20 to 49 persons employed,0.000489282287219798,0.3417841104735874,6.0,20,49,10153.13148114042
 34,Warehousing and support services for transportation,Int,From 50 to 249 persons employed,0.00016810393877574642,0.3417841104735874,6.0,50,249,3488.336768915167
-34,Warehousing and support services for transportation,Int,250 persons employed or more,7.476048704243042e-05,0.3417841104735874,6.0,250,1750,1551.3601746120535
+34,Warehousing and support services for transportation,Int,250 persons employed or more,7.476048704243042e-05,0.3417841104735874,6.0,250,2000,1551.3601746120535
 35,Postal and courier services,C,From 0 to 9 persons employed,0.0001600203874259147,0.11409875903413289,6.0,0,9,3320.594420922663
 35,Postal and courier services,C,From 10 to 19 persons employed,1.9463922812214274e-05,0.11409875903413289,6.0,10,19,403.8972442147781
 35,Postal and courier services,C,From 20 to 49 persons employed,1.168883591969681e-05,0.11409875903413289,6.0,20,49,242.5558640769788
 35,Postal and courier services,C,From 50 to 249 persons employed,4.015962582601641e-06,0.11409875903413289,6.0,50,249,83.33552468491001
-35,Postal and courier services,C,250 persons employed or more,1.7860100174094942e-06,0.11409875903413289,6.0,250,1750,37.061620677975654
+35,Postal and courier services,C,250 persons employed or more,1.7860100174094942e-06,0.11409875903413289,6.0,250,2000,37.061620677975654
 35,Postal and courier services,I,From 0 to 9 persons employed,0.0,0.11409875903413289,6.0,0,9,0.0
 35,Postal and courier services,I,From 10 to 19 persons employed,0.0,0.11409875903413289,6.0,10,19,0.0
 35,Postal and courier services,I,From 20 to 49 persons employed,0.0,0.11409875903413289,6.0,20,49,0.0
 35,Postal and courier services,I,From 50 to 249 persons employed,0.0,0.11409875903413289,6.0,50,249,0.0
-35,Postal and courier services,I,250 persons employed or more,0.0,0.11409875903413289,6.0,250,1750,0.0
+35,Postal and courier services,I,250 persons employed or more,0.0,0.11409875903413289,6.0,250,2000,0.0
 35,Postal and courier services,Int,From 0 to 9 persons employed,0.0021854650980561658,0.11409875903413289,6.0,0,9,45350.74141778546
 35,Postal and courier services,Int,From 10 to 19 persons employed,0.0002658269028191635,0.11409875903413289,6.0,10,19,5516.1929341105615
 35,Postal and courier services,Int,From 20 to 49 persons employed,0.00015963930190601215,0.11409875903413289,6.0,20,49,3312.686488242093
 35,Postal and courier services,Int,From 50 to 249 persons employed,5.4847674103018873e-05,0.11409875903413289,6.0,50,249,1138.147979496606
-35,Postal and courier services,Int,250 persons employed or more,2.4392282887293e-05,0.11409875903413289,6.0,250,1750,506.16599404630205
+35,Postal and courier services,Int,250 persons employed or more,2.4392282887293e-05,0.11409875903413289,6.0,250,2000,506.16599404630205
 36,Accommodation and food services,C,From 0 to 9 persons employed,0.031174921303908084,1.0,7.0,0,9,646913.0053968092
 36,Accommodation and food services,C,From 10 to 19 persons employed,0.004272118845350367,1.0,7.0,10,19,88651.04148030348
 36,Accommodation and food services,C,From 20 to 49 persons employed,0.0015537976649884345,1.0,7.0,20,49,32242.96566580922
 36,Accommodation and food services,C,From 50 to 249 persons employed,0.00032837214292901065,1.0,7.0,50,249,6814.073652342048
-36,Accommodation and food services,C,250 persons employed or more,5.438291827459522e-05,1.0,7.0,250,1750,1128.5037983033228
+36,Accommodation and food services,C,250 persons employed or more,5.438291827459522e-05,1.0,7.0,250,2000,1128.5037983033228
 36,Accommodation and food services,I,From 0 to 9 persons employed,2.2281473430869502e-05,1.0,7.0,0,9,462.3644371485866
 36,Accommodation and food services,I,From 10 to 19 persons employed,3.0533870997858206e-06,1.0,7.0,10,19,63.36105249813965
 36,Accommodation and food services,I,From 20 to 49 persons employed,1.1105369297290512e-06,1.0,7.0,20,49,23.044830676929553
 36,Accommodation and food services,I,From 50 to 249 persons employed,2.3469554603793733e-07,1.0,7.0,50,249,4.870183939217006
-36,Accommodation and food services,I,250 persons employed or more,3.88687925405168e-08,1.0,7.0,250,1750,0.8065690736925345
+36,Accommodation and food services,I,250 persons employed or more,3.88687925405168e-08,1.0,7.0,250,2000,0.8065690736925345
 36,Accommodation and food services,Int,From 0 to 9 persons employed,0.012174052614732127,1.0,7.0,0,9,252624.630166042
 36,Accommodation and food services,Int,From 10 to 19 persons employed,0.001668296099055884,1.0,7.0,10,19,34618.930800531685
 36,Accommodation and food services,Int,From 20 to 49 persons employed,0.0006067702414326806,1.0,7.0,20,49,12591.132360656697
 36,Accommodation and food services,Int,From 50 to 249 persons employed,0.00012823191135783149,1.0,7.0,50,249,2660.9494970520677
-36,Accommodation and food services,Int,250 persons employed or more,2.1236958450143824e-05,1.0,7.0,250,1750,440.68963262298445
+36,Accommodation and food services,Int,250 persons employed or more,2.1236958450143824e-05,1.0,7.0,250,2000,440.68963262298445
 37,Publishing services,C,From 0 to 9 persons employed,0.0004524940131155881,0.09203898631521364,8.0,0,9,9389.7353932365
 37,Publishing services,C,From 10 to 19 persons employed,4.08455871707438e-05,0.09203898631521364,8.0,10,19,847.5896794167937
 37,Publishing services,C,From 20 to 49 persons employed,2.4760455449351844e-05,0.09203898631521364,8.0,20,49,513.805969021837
 37,Publishing services,C,From 50 to 249 persons employed,1.1154752630705858e-05,0.09203898631521364,8.0,50,249,231.47306382721405
-37,Publishing services,C,250 persons employed or more,4.160656666740243e-06,0.09203898631521364,8.0,250,1750,86.33808189815012
+37,Publishing services,C,250 persons employed or more,4.160656666740243e-06,0.09203898631521364,8.0,250,2000,86.33808189815012
 37,Publishing services,I,From 0 to 9 persons employed,0.0003280850499839877,0.09203898631521364,8.0,0,9,6808.116166256277
 37,Publishing services,I,From 10 to 19 persons employed,2.9615478039740625e-05,0.09203898631521364,8.0,10,19,614.5528875015985
 37,Publishing services,I,From 20 to 49 persons employed,1.795280164657509e-05,0.09203898631521364,8.0,20,49,372.5398616169966
 37,Publishing services,I,From 50 to 249 persons employed,8.087858553543535e-06,0.09203898631521364,8.0,50,249,167.8317270825392
-37,Publishing services,I,250 persons employed or more,3.0167233397737505e-06,0.09203898631521364,8.0,250,1750,62.60024021100222
+37,Publishing services,I,250 persons employed or more,3.0167233397737505e-06,0.09203898631521364,8.0,250,2000,62.60024021100222
 37,Publishing services,Int,From 0 to 9 persons employed,0.0007221772324500169,0.09203898631521364,8.0,0,9,14985.951025153803
 37,Publishing services,Int,From 10 to 19 persons employed,6.518926714115124e-05,0.09203898631521364,8.0,10,19,1352.7471108839964
 37,Publishing services,Int,From 20 to 49 persons employed,3.951751111024556e-05,0.09203898631521364,8.0,20,49,820.0306787919944
 37,Publishing services,Int,From 50 to 249 persons employed,1.780290600541028e-05,0.09203898631521364,8.0,50,249,369.4293665245951
-37,Publishing services,Int,250 persons employed or more,6.640378501524244e-06,0.09203898631521364,8.0,250,1750,137.79496575200318
+37,Publishing services,Int,250 persons employed or more,6.640378501524244e-06,0.09203898631521364,8.0,250,2000,137.79496575200318
 38,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",C,From 0 to 9 persons employed,0.00028782349996246676,0.08031878482938368,8.0,0,9,5972.645883189645
 38,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",C,From 10 to 19 persons employed,2.598116111318007e-05,0.08031878482938368,8.0,10,19,539.1369189220386
 38,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",C,From 20 to 49 persons employed,1.5749691137408932e-05,0.08031878482938368,8.0,20,49,326.8229590204435
 38,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",C,From 50 to 249 persons employed,7.095342369900385e-06,0.08031878482938368,8.0,50,249,147.23595328711116
-38,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",C,250 persons employed or more,2.6465206814956044e-06,0.08031878482938368,8.0,250,1750,54.91813856468367
+38,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",C,250 persons employed or more,2.6465206814956044e-06,0.08031878482938368,8.0,250,2000,54.91813856468367
 38,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",I,From 0 to 9 persons employed,0.00016342611190574402,0.08031878482938368,8.0,0,9,3391.2668514100396
 38,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",I,From 10 to 19 persons employed,1.4752096837393143e-05,0.08031878482938368,8.0,10,19,306.12180887162054
 38,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",I,From 20 to 49 persons employed,8.942670722295937e-06,0.08031878482938368,8.0,20,49,185.56999508798427
 38,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",I,From 50 to 249 persons employed,4.028733638164079e-06,0.08031878482938368,8.0,50,249,83.60053776563112
-38,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",I,250 persons employed or more,1.5026937866830456e-06,0.08031878482938368,8.0,250,1750,31.182505458718733
+38,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",I,250 persons employed or more,1.5026937866830456e-06,0.08031878482938368,8.0,250,2000,31.182505458718733
 38,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",Int,From 0 to 9 persons employed,0.000860146399598925,0.08031878482938368,8.0,0,9,17848.959008471666
 38,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",Int,From 10 to 19 persons employed,7.764342450083348e-05,0.08031878482938368,8.0,10,19,1611.184214499935
 38,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",Int,From 20 to 49 persons employed,4.706717876894686e-05,0.08031878482938368,8.0,20,49,976.6943684041089
 38,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",Int,From 50 to 249 persons employed,2.120408234278083e-05,0.08031878482938368,8.0,50,249,440.0074181848913
-38,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",Int,250 persons employed or more,7.908997131747019e-06,0.08031878482938368,8.0,250,1750,164.12016101967873
+38,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",Int,250 persons employed or more,7.908997131747019e-06,0.08031878482938368,8.0,250,2000,164.12016101967873
 39,Telecommunications services,C,From 0 to 9 persons employed,0.0007456828544219012,0.11614763143740667,8.0,0,9,15473.717855591536
 39,Telecommunications services,C,From 10 to 19 persons employed,6.731106522781433e-05,0.11614763143740667,8.0,10,19,1396.7766936280063
 39,Telecommunications services,C,From 20 to 49 persons employed,4.080373786413517e-05,0.11614763143740667,8.0,20,49,846.7212614840573
 39,Telecommunications services,C,From 50 to 249 persons employed,1.8382359856571568e-05,0.11614763143740667,8.0,50,249,381.4536545312664
-39,Telecommunications services,C,250 persons employed or more,6.856511356166487e-06,0.11614763143740667,8.0,250,1750,142.27995396411706
+39,Telecommunications services,C,250 persons employed or more,6.856511356166487e-06,0.11614763143740667,8.0,250,2000,142.27995396411706
 39,Telecommunications services,I,From 0 to 9 persons employed,0.0,0.11614763143740667,8.0,0,9,0.0
 39,Telecommunications services,I,From 10 to 19 persons employed,0.0,0.11614763143740667,8.0,10,19,0.0
 39,Telecommunications services,I,From 20 to 49 persons employed,0.0,0.11614763143740667,8.0,20,49,0.0
 39,Telecommunications services,I,From 50 to 249 persons employed,0.0,0.11614763143740667,8.0,50,249,0.0
-39,Telecommunications services,I,250 persons employed or more,0.0,0.11614763143740667,8.0,250,1750,0.0
+39,Telecommunications services,I,250 persons employed or more,0.0,0.11614763143740667,8.0,250,2000,0.0
 39,Telecommunications services,Int,From 0 to 9 persons employed,0.0011507046585605806,0.11614763143740667,8.0,0,9,23878.354069821366
 39,Telecommunications services,Int,From 10 to 19 persons employed,0.00010387144597869161,0.11614763143740667,8.0,10,19,2155.443750376494
 39,Telecommunications services,Int,From 20 to 49 persons employed,6.296651581636e-05,0.11614763143740667,8.0,20,49,1306.6226403279093
 39,Telecommunications services,Int,From 50 to 249 persons employed,2.8366841207168094e-05,0.11614763143740667,8.0,50,249,588.6423359356709
-39,Telecommunications services,Int,250 persons employed or more,1.0580663766409074e-05,0.11614763143740667,8.0,250,1750,219.56010504388212
+39,Telecommunications services,Int,250 persons employed or more,1.0580663766409074e-05,0.11614763143740667,8.0,250,2000,219.56010504388212
 40,"Computer programming, consultancy and related services; Information services",C,From 0 to 9 persons employed,9.906520179043804e-05,0.7114945974179961,8.0,0,9,2055.709035982707
 40,"Computer programming, consultancy and related services; Information services",C,From 10 to 19 persons employed,8.942386458238127e-06,0.7114945974179961,8.0,10,19,185.5640963043379
 40,"Computer programming, consultancy and related services; Information services",C,From 20 to 49 persons employed,5.420844131448444e-06,0.7114945974179961,8.0,20,49,112.48832145162
 40,"Computer programming, consultancy and related services; Information services",C,From 50 to 249 persons employed,2.4421269414696417e-06,0.7114945974179961,8.0,50,249,50.67674955344938
-40,"Computer programming, consultancy and related services; Information services",C,250 persons employed or more,9.108988855639606e-07,0.7114945974179961,8.0,250,1750,18.90212744815862
+40,"Computer programming, consultancy and related services; Information services",C,250 persons employed or more,9.108988855639606e-07,0.7114945974179961,8.0,250,2000,18.90212744815862
 40,"Computer programming, consultancy and related services; Information services",I,From 0 to 9 persons employed,0.003938971488289186,0.7114945974179961,8.0,0,9,81737.87702046457
 40,"Computer programming, consultancy and related services; Information services",I,From 10 to 19 persons employed,0.000355561838664353,0.7114945974179961,8.0,10,19,7378.288959014534
 40,"Computer programming, consultancy and related services; Information services",I,From 20 to 49 persons employed,0.00021554037230352838,0.7114945974179961,8.0,20,49,4472.693569036951
 40,"Computer programming, consultancy and related services; Information services",I,From 50 to 249 persons employed,9.710239538582644e-05,0.7114945974179961,8.0,50,249,2014.9787009213567
-40,"Computer programming, consultancy and related services; Information services",I,250 persons employed or more,3.6218618385706016e-05,0.7114945974179961,8.0,250,1750,751.5751216436909
+40,"Computer programming, consultancy and related services; Information services",I,250 persons employed or more,3.6218618385706016e-05,0.7114945974179961,8.0,250,2000,751.5751216436909
 40,"Computer programming, consultancy and related services; Information services",Int,From 0 to 9 persons employed,0.0075788120859121896,0.7114945974179961,8.0,0,9,157268.46769042194
 40,"Computer programming, consultancy and related services; Information services",Int,From 10 to 19 persons employed,0.0006841218242300514,0.7114945974179961,8.0,10,19,14196.260547247317
 40,"Computer programming, consultancy and related services; Information services",Int,From 20 to 49 persons employed,0.00041471231347386305,0.7114945974179961,8.0,20,49,8605.724661470389
 40,"Computer programming, consultancy and related services; Information services",Int,From 50 to 249 persons employed,0.00018683070184921747,0.7114945974179961,8.0,50,249,3876.937159052943
-40,"Computer programming, consultancy and related services; Information services",Int,250 persons employed or more,6.968674527670958e-05,0.7114945974179961,8.0,250,1750,1446.074598995915
+40,"Computer programming, consultancy and related services; Information services",Int,250 persons employed or more,6.968674527670958e-05,0.7114945974179961,8.0,250,2000,1446.074598995915
 41,"Financial services, except insurance and pension funding",C,From 0 to 9 persons employed,0.0011778787679362608,0.6231745400231202,9.0,0,9,24442.24594283787
 41,"Financial services, except insurance and pension funding",C,From 10 to 19 persons employed,,0.6231745400231202,9.0,10,19,0.0
 41,"Financial services, except insurance and pension funding",C,From 20 to 49 persons employed,3.268336405451255e-05,0.6231745400231202,9.0,20,49,678.2148080140378
 41,"Financial services, except insurance and pension funding",C,From 50 to 249 persons employed,2.128784484970152e-05,0.6231745400231202,9.0,50,249,441.7455799131406
-41,"Financial services, except insurance and pension funding",C,250 persons employed or more,,0.6231745400231202,9.0,250,1750,0.0
+41,"Financial services, except insurance and pension funding",C,250 persons employed or more,,0.6231745400231202,9.0,250,2000,0.0
 41,"Financial services, except insurance and pension funding",I,From 0 to 9 persons employed,4.289144380403774e-07,0.6231745400231202,9.0,0,9,8.900433956700972
 41,"Financial services, except insurance and pension funding",I,From 10 to 19 persons employed,,0.6231745400231202,9.0,10,19,0.0
 41,"Financial services, except insurance and pension funding",I,From 20 to 49 persons employed,1.1901366344578599e-08,0.6231745400231202,9.0,20,49,0.24696609801336097
 41,"Financial services, except insurance and pension funding",I,From 50 to 249 persons employed,7.751785887777004e-09,0.6231745400231202,9.0,50,249,0.16085785933405863
-41,"Financial services, except insurance and pension funding",I,250 persons employed or more,,0.6231745400231202,9.0,250,1750,0.0
+41,"Financial services, except insurance and pension funding",I,250 persons employed or more,,0.6231745400231202,9.0,250,2000,0.0
 41,"Financial services, except insurance and pension funding",Int,From 0 to 9 persons employed,0.004302648454035607,0.6231745400231202,9.0,0,9,89284.56355773311
 41,"Financial services, except insurance and pension funding",Int,From 10 to 19 persons employed,,0.6231745400231202,9.0,10,19,0.0
 41,"Financial services, except insurance and pension funding",Int,From 20 to 49 persons employed,0.00011938836971161115,0.6231745400231202,9.0,20,49,2477.4365364598925
 41,"Financial services, except insurance and pension funding",Int,From 50 to 249 persons employed,7.776191848062465e-05,0.6231745400231202,9.0,50,249,1613.6430914876541
-41,"Financial services, except insurance and pension funding",Int,250 persons employed or more,,0.6231745400231202,9.0,250,1750,0.0
+41,"Financial services, except insurance and pension funding",Int,250 persons employed or more,,0.6231745400231202,9.0,250,2000,0.0
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",C,From 0 to 9 persons employed,0.0008818273036882366,0.16938490161373554,9.0,0,9,18298.86098857316
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",C,From 10 to 19 persons employed,,0.16938490161373554,9.0,10,19,0.0
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",C,From 20 to 49 persons employed,2.4468632582747635e-05,0.16938490161373554,9.0,20,49,507.75033199750953
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",C,From 50 to 249 persons employed,1.593729621091331e-05,0.16938490161373554,9.0,50,249,330.7159652206931
-42,"Insurance, reinsurance and pension funding services, except compulsory social security",C,250 persons employed or more,,0.16938490161373554,9.0,250,1750,0.0
+42,"Insurance, reinsurance and pension funding services, except compulsory social security",C,250 persons employed or more,,0.16938490161373554,9.0,250,2000,0.0
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",I,From 0 to 9 persons employed,1.1914822132124622e-05,0.16938490161373554,9.0,0,9,247.2453200160894
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",I,From 10 to 19 persons employed,,0.16938490161373554,9.0,10,19,0.0
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",I,From 20 to 49 persons employed,3.306082764962999e-07,0.16938490161373554,9.0,20,49,6.8604758187623505
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",I,From 50 to 249 persons employed,2.1533700399817738e-07,0.16938490161373554,9.0,50,249,4.468473458893462
-42,"Insurance, reinsurance and pension funding services, except compulsory social security",I,250 persons employed or more,,0.16938490161373554,9.0,250,1750,0.0
+42,"Insurance, reinsurance and pension funding services, except compulsory social security",I,250 persons employed or more,,0.16938490161373554,9.0,250,2000,0.0
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",Int,From 0 to 9 persons employed,0.0005960350654630764,0.16938490161373554,9.0,0,9,12368.365961913947
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",Int,From 10 to 19 persons employed,,0.16938490161373554,9.0,10,19,0.0
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",Int,From 20 to 49 persons employed,1.653857049135561e-05,0.16938490161373554,9.0,20,49,343.19305050462515
 42,"Insurance, reinsurance and pension funding services, except compulsory social security",Int,From 50 to 249 persons employed,1.077216292877967e-05,0.16938490161373554,9.0,50,249,223.53391775867487
-42,"Insurance, reinsurance and pension funding services, except compulsory social security",Int,250 persons employed or more,,0.16938490161373554,9.0,250,1750,0.0
+42,"Insurance, reinsurance and pension funding services, except compulsory social security",Int,250 persons employed or more,,0.16938490161373554,9.0,250,2000,0.0
 43,Services auxiliary to financial services and insurance services,C,From 0 to 9 persons employed,0.00014523119299601214,0.2074405583631443,9.0,0,9,3013.7027972749506
 43,Services auxiliary to financial services and insurance services,C,From 10 to 19 persons employed,,0.2074405583631443,9.0,10,19,0.0
 43,Services auxiliary to financial services and insurance services,C,From 20 to 49 persons employed,4.029823851122084e-06,0.2074405583631443,9.0,20,49,83.6231608521278
 43,Services auxiliary to financial services and insurance services,C,From 50 to 249 persons employed,2.624768514380307e-06,0.2074405583631443,9.0,50,249,54.46675780047027
-43,Services auxiliary to financial services and insurance services,C,250 persons employed or more,,0.2074405583631443,9.0,250,1750,0.0
+43,Services auxiliary to financial services and insurance services,C,250 persons employed or more,,0.2074405583631443,9.0,250,2000,0.0
 43,Services auxiliary to financial services and insurance services,I,From 0 to 9 persons employed,6.531309017708751e-06,0.2074405583631443,9.0,0,9,135.53165714941454
 43,Services auxiliary to financial services and insurance services,I,From 10 to 19 persons employed,,0.2074405583631443,9.0,10,19,0.0
 43,Services auxiliary to financial services and insurance services,I,From 20 to 49 persons employed,1.8122845592361266e-07,0.2074405583631443,9.0,20,49,3.760684556091257
 43,Services auxiliary to financial services and insurance services,I,From 50 to 249 persons employed,1.1804058008282578e-07,0.2074405583631443,9.0,50,249,2.4494684581799038
-43,Services auxiliary to financial services and insurance services,I,250 persons employed or more,,0.2074405583631443,9.0,250,1750,0.0
+43,Services auxiliary to financial services and insurance services,I,250 persons employed or more,,0.2074405583631443,9.0,250,2000,0.0
 43,Services auxiliary to financial services and insurance services,Int,From 0 to 9 persons employed,0.0016727224990240154,0.2074405583631443,9.0,0,9,34710.783340544775
 43,Services auxiliary to financial services and insurance services,Int,From 10 to 19 persons employed,,0.2074405583631443,9.0,10,19,0.0
 43,Services auxiliary to financial services and insurance services,Int,From 20 to 49 persons employed,4.6414113137944176e-05,0.2074405583631443,9.0,20,49,963.1425571275124
 43,Services auxiliary to financial services and insurance services,Int,From 50 to 249 persons employed,3.0231173194689217e-05,0.2074405583631443,9.0,50,249,627.3292213762928
-43,Services auxiliary to financial services and insurance services,Int,250 persons employed or more,,0.2074405583631443,9.0,250,1750,0.0
+43,Services auxiliary to financial services and insurance services,Int,250 persons employed or more,,0.2074405583631443,9.0,250,2000,0.0
 44,Imputed rents of owner-occupied dwellings,C,From 0 to 9 persons employed,,0.0,10.0,0,9,0.0
 44,Imputed rents of owner-occupied dwellings,C,From 10 to 19 persons employed,,0.0,10.0,10,19,0.0
 44,Imputed rents of owner-occupied dwellings,C,From 20 to 49 persons employed,,0.0,10.0,20,49,0.0
 44,Imputed rents of owner-occupied dwellings,C,From 50 to 249 persons employed,,0.0,10.0,50,249,0.0
-44,Imputed rents of owner-occupied dwellings,C,250 persons employed or more,,0.0,10.0,250,1750,0.0
+44,Imputed rents of owner-occupied dwellings,C,250 persons employed or more,,0.0,10.0,250,2000,0.0
 44,Imputed rents of owner-occupied dwellings,I,From 0 to 9 persons employed,,0.0,10.0,0,9,0.0
 44,Imputed rents of owner-occupied dwellings,I,From 10 to 19 persons employed,,0.0,10.0,10,19,0.0
 44,Imputed rents of owner-occupied dwellings,I,From 20 to 49 persons employed,,0.0,10.0,20,49,0.0
 44,Imputed rents of owner-occupied dwellings,I,From 50 to 249 persons employed,,0.0,10.0,50,249,0.0
-44,Imputed rents of owner-occupied dwellings,I,250 persons employed or more,,0.0,10.0,250,1750,0.0
+44,Imputed rents of owner-occupied dwellings,I,250 persons employed or more,,0.0,10.0,250,2000,0.0
 44,Imputed rents of owner-occupied dwellings,Int,From 0 to 9 persons employed,,0.0,10.0,0,9,0.0
 44,Imputed rents of owner-occupied dwellings,Int,From 10 to 19 persons employed,,0.0,10.0,10,19,0.0
 44,Imputed rents of owner-occupied dwellings,Int,From 20 to 49 persons employed,,0.0,10.0,20,49,0.0
 44,Imputed rents of owner-occupied dwellings,Int,From 50 to 249 persons employed,,0.0,10.0,50,249,0.0
-44,Imputed rents of owner-occupied dwellings,Int,250 persons employed or more,,0.0,10.0,250,1750,0.0
+44,Imputed rents of owner-occupied dwellings,Int,250 persons employed or more,,0.0,10.0,250,2000,0.0
 45,Real estate services excluding imputed rents,C,From 0 to 9 persons employed,0.011209689268668293,1.0,10.0,0,9,232613.0579020738
 45,Real estate services excluding imputed rents,C,From 10 to 19 persons employed,0.00044967148775702245,1.0,10.0,10,19,9331.164969121604
 45,Real estate services excluding imputed rents,C,From 20 to 49 persons employed,0.0001861494142272928,1.0,10.0,20,49,3862.799711238963
 45,Real estate services excluding imputed rents,C,From 50 to 249 persons employed,5.959723920255852e-05,1.0,10.0,50,249,1236.7065420962754
-45,Real estate services excluding imputed rents,C,250 persons employed or more,,1.0,10.0,250,1750,0.0
+45,Real estate services excluding imputed rents,C,250 persons employed or more,,1.0,10.0,250,2000,0.0
 45,Real estate services excluding imputed rents,I,From 0 to 9 persons employed,0.000314107462082329,1.0,10.0,0,9,6518.066247300217
 45,Real estate services excluding imputed rents,I,From 10 to 19 persons employed,1.2600275208781347e-05,1.0,10.0,10,19,261.4692054769615
 45,Real estate services excluding imputed rents,I,From 20 to 49 persons employed,5.216105341517058e-06,1.0,10.0,20,49,108.23977228529972
 45,Real estate services excluding imputed rents,I,From 50 to 249 persons employed,1.6699782754328804e-06,1.0,10.0,50,249,34.65383776196526
-45,Real estate services excluding imputed rents,I,250 persons employed or more,,1.0,10.0,250,1750,0.0
+45,Real estate services excluding imputed rents,I,250 persons employed or more,,1.0,10.0,250,2000,0.0
 45,Real estate services excluding imputed rents,Int,From 0 to 9 persons employed,0.004893004117745339,1.0,10.0,0,9,101535.07585062589
 45,Real estate services excluding imputed rents,Int,From 10 to 19 persons employed,0.00019628059159298818,1.0,10.0,10,19,4073.032492068101
 45,Real estate services excluding imputed rents,Int,From 20 to 49 persons employed,8.125380003849409e-05,1.0,10.0,20,49,1686.1033736185937
 45,Real estate services excluding imputed rents,Int,From 50 to 249 persons employed,2.601406067868783e-05,1.0,10.0,50,249,539.8196201417593
-45,Real estate services excluding imputed rents,Int,250 persons employed or more,,1.0,10.0,250,1750,0.0
+45,Real estate services excluding imputed rents,Int,250 persons employed or more,,1.0,10.0,250,2000,0.0
 46,Legal and accounting services; services of head offices; management consultancy services,C,From 0 to 9 persons employed,0.0007916335210320503,0.5337835342347296,11.0,0,9,16427.243400916068
 46,Legal and accounting services; services of head offices; management consultancy services,C,From 10 to 19 persons employed,4.540803030208495e-05,0.5337835342347296,11.0,10,19,942.2652607687162
 46,Legal and accounting services; services of head offices; management consultancy services,C,From 20 to 49 persons employed,1.972669756533564e-05,0.5337835342347296,11.0,20,49,409.350101773807
 46,Legal and accounting services; services of head offices; management consultancy services,C,From 50 to 249 persons employed,5.691610743873047e-06,0.5337835342347296,11.0,50,249,118.10701865047243
-46,Legal and accounting services; services of head offices; management consultancy services,C,250 persons employed or more,1.380868829573495e-06,0.5337835342347296,11.0,250,1750,28.654507124166493
+46,Legal and accounting services; services of head offices; management consultancy services,C,250 persons employed or more,1.380868829573495e-06,0.5337835342347296,11.0,250,2000,28.654507124166493
 46,Legal and accounting services; services of head offices; management consultancy services,I,From 0 to 9 persons employed,0.00125977577068273,0.5337835342347296,11.0,0,9,26141.696461517047
 46,Legal and accounting services; services of head offices; management consultancy services,I,From 10 to 19 persons employed,7.226062925483147e-05,0.5337835342347296,11.0,10,19,1499.485448171685
 46,Legal and accounting services; services of head offices; management consultancy services,I,From 20 to 49 persons employed,3.139232355395636e-05,0.5337835342347296,11.0,20,49,651.4243349231208
 46,Legal and accounting services; services of head offices; management consultancy services,I,From 50 to 249 persons employed,9.057414979018404e-06,0.5337835342347296,11.0,50,249,187.95106130607442
-46,Legal and accounting services; services of head offices; management consultancy services,I,250 persons employed or more,2.197462648776945e-06,0.5337835342347296,11.0,250,1750,45.59970344461845
+46,Legal and accounting services; services of head offices; management consultancy services,I,250 persons employed or more,2.197462648776945e-06,0.5337835342347296,11.0,250,2000,45.59970344461845
 46,Legal and accounting services; services of head offices; management consultancy services,Int,From 0 to 9 persons employed,0.030391447291267453,0.5337835342347296,11.0,0,9,630655.0805338486
 46,Legal and accounting services; services of head offices; management consultancy services,Int,From 10 to 19 persons employed,0.0017432507882270667,0.5337835342347296,11.0,10,19,36174.32087730583
 46,Legal and accounting services; services of head offices; management consultancy services,Int,From 20 to 49 persons employed,0.0007573237784398971,0.5337835342347296,11.0,20,49,15715.279496394574
 46,Legal and accounting services; services of head offices; management consultancy services,Int,From 50 to 249 persons employed,0.0002185055121204577,0.5337835342347296,11.0,50,249,4534.223395902978
-46,Legal and accounting services; services of head offices; management consultancy services,Int,250 persons employed or more,5.30126644907928e-05,0.5337835342347296,11.0,250,1750,1100.0695647476202
+46,Legal and accounting services; services of head offices; management consultancy services,Int,250 persons employed or more,5.30126644907928e-05,0.5337835342347296,11.0,250,2000,1100.0695647476202
 47,Architectural and engineering services; technical testing and analysis services,C,From 0 to 9 persons employed,0.00032994508378232233,0.21822213900086998,11.0,0,9,6846.71385966792
 47,Architectural and engineering services; technical testing and analysis services,C,From 10 to 19 persons employed,1.8925621470499956e-05,0.21822213900086998,11.0,10,19,392.726914853469
 47,Architectural and engineering services; technical testing and analysis services,C,From 20 to 49 persons employed,8.221893980004527e-06,0.21822213900086998,11.0,20,49,170.61310573354652
 47,Architectural and engineering services; technical testing and analysis services,C,From 50 to 249 persons employed,2.3722075099792658e-06,0.21822213900086998,11.0,50,249,49.22584646631295
-47,Architectural and engineering services; technical testing and analysis services,C,250 persons employed or more,5.755325786003169e-07,0.21822213900086998,11.0,250,1750,11.942917401348256
+47,Architectural and engineering services; technical testing and analysis services,C,250 persons employed or more,5.755325786003169e-07,0.21822213900086998,11.0,250,2000,11.942917401348256
 47,Architectural and engineering services; technical testing and analysis services,I,From 0 to 9 persons employed,0.0028791534295515846,0.21822213900086998,11.0,0,9,59745.51723651843
 47,Architectural and engineering services; technical testing and analysis services,I,From 10 to 19 persons employed,0.00016514799171590046,0.21822213900086998,11.0,10,19,3426.9977016040625
 47,Architectural and engineering services; technical testing and analysis services,I,From 20 to 49 persons employed,7.174555831708336e-05,0.21822213900086998,11.0,20,49,1488.7971745724374
 47,Architectural and engineering services; technical testing and analysis services,I,From 50 to 249 persons employed,2.0700261115182466e-05,0.21822213900086998,11.0,50,249,429.55258811969054
-47,Architectural and engineering services; technical testing and analysis services,I,250 persons employed or more,5.022189082195836e-06,0.21822213900086998,11.0,250,1750,104.21580222007063
+47,Architectural and engineering services; technical testing and analysis services,I,250 persons employed or more,5.022189082195836e-06,0.21822213900086998,11.0,250,2000,104.21580222007063
 47,Architectural and engineering services; technical testing and analysis services,Int,From 0 to 9 persons employed,0.01005423597484373,0.21822213900086998,11.0,0,9,208636.16456473645
 47,Architectural and engineering services; technical testing and analysis services,Int,From 10 to 19 persons employed,0.0005767101059778556,0.21822213900086998,11.0,10,19,11967.352355564008
 47,Architectural and engineering services; technical testing and analysis services,Int,From 20 to 49 persons employed,0.0002505412758010659,0.21822213900086998,11.0,20,49,5198.999802578501
 47,Architectural and engineering services; technical testing and analysis services,Int,From 50 to 249 persons employed,7.228698125522992e-05,0.21822213900086998,11.0,50,249,1500.0322804029452
-47,Architectural and engineering services; technical testing and analysis services,Int,250 persons employed or more,1.7537889306074614e-05,0.21822213900086998,11.0,250,1750,363.92998618049506
+47,Architectural and engineering services; technical testing and analysis services,Int,250 persons employed or more,1.7537889306074614e-05,0.21822213900086998,11.0,250,2000,363.92998618049506
 48,Scientific research and development services,C,From 0 to 9 persons employed,8.718617629142366e-07,0.1329744735235499,11.0,0,9,18.09206534441849
 48,Scientific research and development services,C,From 10 to 19 persons employed,5.0009915317918966e-08,0.1329744735235499,11.0,10,19,1.037759303466124
 48,Scientific research and development services,C,From 20 to 49 persons employed,2.1725903285862986e-08,0.1329744735235499,11.0,20,49,0.4508357616240761
 48,Scientific research and development services,C,From 50 to 249 persons employed,6.2684280606326915e-09,0.1329744735235499,11.0,50,249,0.13007659574458127
-48,Scientific research and development services,C,250 persons employed or more,1.5208132300104092e-09,0.1329744735235499,11.0,250,1750,0.03155850331368533
+48,Scientific research and development services,C,250 persons employed or more,1.5208132300104092e-09,0.1329744735235499,11.0,250,2000,0.03155850331368533
 48,Scientific research and development services,I,From 0 to 9 persons employed,0.0073670866196824765,0.1329744735235499,11.0,0,9,152874.93750818106
 48,Scientific research and development services,I,From 10 to 19 persons employed,0.0004225754513635392,0.1329744735235499,11.0,10,19,8768.893194101849
 48,Scientific research and development services,I,From 20 to 49 persons employed,0.000183580262612734,0.1329744735235499,11.0,20,49,3809.4870636754886
 48,Scientific research and development services,I,From 50 to 249 persons employed,5.2967172614119934e-05,0.1329744735235499,11.0,50,249,1099.1255595848584
-48,Scientific research and development services,I,250 persons employed or more,1.285061838289138e-05,0.1329744735235499,11.0,250,1750,266.6640944572842
+48,Scientific research and development services,I,250 persons employed or more,1.285061838289138e-05,0.1329744735235499,11.0,250,2000,266.6640944572842
 48,Scientific research and development services,Int,From 0 to 9 persons employed,0.0007141038097923126,0.1329744735235499,11.0,0,9,14818.418858370775
 48,Scientific research and development services,Int,From 10 to 19 persons employed,4.0960932770519747e-05,0.1329744735235499,11.0,10,19,849.9832241472819
 48,Scientific research and development services,Int,From 20 to 49 persons employed,1.7794736468033662e-05,0.1329744735235499,11.0,20,49,369.25983987445574
 48,Scientific research and development services,Int,From 50 to 249 persons employed,5.134195063841983e-06,0.1329744735235499,11.0,50,249,106.54004629763453
-48,Scientific research and development services,Int,250 persons employed or more,1.2456315527623564e-06,0.1329744735235499,11.0,250,1750,25.848188791211903
+48,Scientific research and development services,Int,250 persons employed or more,1.2456315527623564e-06,0.1329744735235499,11.0,250,2000,25.848188791211903
 49,Advertising and market research services,C,From 0 to 9 persons employed,2.559521452428171e-06,0.06382257376629824,11.0,0,9,53.1128113853601
 49,Advertising and market research services,C,From 10 to 19 persons employed,1.4681392915142793e-07,0.06382257376629824,11.0,10,19,3.0465462676102506
 49,Advertising and market research services,C,From 20 to 49 persons employed,6.378065640552247e-08,0.06382257376629824,11.0,20,49,1.3235169294976015
 49,Advertising and market research services,C,From 50 to 249 persons employed,1.840220179006787e-08,0.06382257376629824,11.0,50,249,0.38186539590202545
-49,Advertising and market research services,C,250 persons employed or more,4.464645948386574e-09,0.06382257376629824,11.0,250,1750,0.09264618506483213
+49,Advertising and market research services,C,250 persons employed or more,4.464645948386574e-09,0.06382257376629824,11.0,250,2000,0.09264618506483213
 49,Advertising and market research services,I,From 0 to 9 persons employed,1.3055907592202414e-07,0.06382257376629824,11.0,0,9,2.7092406541523135
 49,Advertising and market research services,I,From 10 to 19 persons employed,7.488857303504029e-09,0.06382257376629824,11.0,10,19,0.15540180961388064
 49,Advertising and market research services,I,From 20 to 49 persons employed,3.253398620318394e-09,0.06382257376629824,11.0,20,49,0.06751150576152903
 49,Advertising and market research services,I,From 50 to 249 persons employed,9.386811188328198e-10,0.06382257376629824,11.0,50,249,0.01947863854325928
-49,Advertising and market research services,I,250 persons employed or more,2.2773790342228759e-10,0.06382257376629824,11.0,250,1750,0.004725805403307032
+49,Advertising and market research services,I,250 persons employed or more,2.2773790342228759e-10,0.06382257376629824,11.0,250,2000,0.004725805403307032
 49,Advertising and market research services,Int,From 0 to 9 persons employed,0.0038763853773262262,0.06382257376629824,11.0,0,9,80439.14818825832
 49,Advertising and market research services,Int,From 10 to 19 persons employed,0.0002223491299947895,0.06382257376629824,11.0,10,19,4613.982583310107
 49,Advertising and market research services,Int,From 20 to 49 persons employed,9.659555836583635e-05,0.06382257376629824,11.0,20,49,2004.4612899341141
 49,Advertising and market research services,Int,From 50 to 249 persons employed,2.787006370349126e-05,0.06382257376629824,11.0,50,249,578.3336706856701
-49,Advertising and market research services,Int,250 persons employed or more,6.761689085608545e-06,0.06382257376629824,11.0,250,1750,140.31229029538798
+49,Advertising and market research services,Int,250 persons employed or more,6.761689085608545e-06,0.06382257376629824,11.0,250,2000,140.31229029538798
 50,"Other professional, scientific and technical services and veterinary services",C,From 0 to 9 persons employed,0.0004689731480161617,0.051197279474552305,11.0,0,9,9731.695091576881
 50,"Other professional, scientific and technical services and veterinary services",C,From 10 to 19 persons employed,2.6900259211130448e-05,0.051197279474552305,11.0,10,19,558.2091888085719
 50,"Other professional, scientific and technical services and veterinary services",C,From 20 to 49 persons employed,1.1686331125944904e-05,0.051197279474552305,11.0,20,49,242.50388692399264
 50,"Other professional, scientific and technical services and veterinary services",C,From 50 to 249 persons employed,3.371778148500971e-06,0.051197279474552305,11.0,50,249,69.96800775579219
-50,"Other professional, scientific and technical services and veterinary services",C,250 persons employed or more,8.180431788161431e-07,0.051197279474552305,11.0,250,1750,16.97527208467948
+50,"Other professional, scientific and technical services and veterinary services",C,250 persons employed or more,8.180431788161431e-07,0.051197279474552305,11.0,250,2000,16.97527208467948
 50,"Other professional, scientific and technical services and veterinary services",I,From 0 to 9 persons employed,1.4811872064230632e-06,0.051197279474552305,11.0,0,9,30.73622088477664
 50,"Other professional, scientific and technical services and veterinary services",I,From 10 to 19 persons employed,8.496077006016019e-08,0.051197279474552305,11.0,10,19,1.7630269717330582
 50,"Other professional, scientific and technical services and veterinary services",I,From 20 to 49 persons employed,3.690967004613386e-08,0.051197279474552305,11.0,20,49,0.765915183713897
 50,"Other professional, scientific and technical services and veterinary services",I,From 50 to 249 persons employed,1.0649297678519477e-08,0.051197279474552305,11.0,50,249,0.22098433222709282
-50,"Other professional, scientific and technical services and veterinary services",I,250 persons employed or more,2.58367690322937e-09,0.051197279474552305,11.0,250,1750,0.053614062859972784
+50,"Other professional, scientific and technical services and veterinary services",I,250 persons employed or more,2.58367690322937e-09,0.051197279474552305,11.0,250,2000,0.053614062859972784
 50,"Other professional, scientific and technical services and veterinary services",Int,From 0 to 9 persons employed,0.002641267718574127,0.051197279474552305,11.0,0,9,54809.133958139726
 50,"Other professional, scientific and technical services and veterinary services",Int,From 10 to 19 persons employed,0.00015150288790774567,0.051197279474552305,11.0,10,19,3143.847183678672
 50,"Other professional, scientific and technical services and veterinary services",Int,From 20 to 49 persons employed,6.581768973788363e-05,0.051197279474552305,11.0,20,49,1365.7875528067946
 50,"Other professional, scientific and technical services and veterinary services",Int,From 50 to 249 persons employed,1.898993325204697e-05,0.051197279474552305,11.0,50,249,394.0614531984875
-50,"Other professional, scientific and technical services and veterinary services",Int,250 persons employed or more,4.607238281651854e-06,0.051197279474552305,11.0,250,1750,95.60512869647562
+50,"Other professional, scientific and technical services and veterinary services",Int,250 persons employed or more,4.607238281651854e-06,0.051197279474552305,11.0,250,2000,95.60512869647562
 51,Rental and leasing services,C,From 0 to 9 persons employed,4.967983615836739e-05,0.0257275415607954,12.0,0,9,1030.909807390649
 51,Rental and leasing services,C,From 10 to 19 persons employed,4.951035327241226e-06,0.0257275415607954,12.0,10,19,102.73928559909092
 51,Rental and leasing services,C,From 20 to 49 persons employed,3.177819362068255e-06,0.0257275415607954,12.0,20,49,65.94315520745307
 51,Rental and leasing services,C,From 50 to 249 persons employed,1.5680593209551373e-06,0.0257275415607954,12.0,50,249,32.53891030135184
-51,Rental and leasing services,C,250 persons employed or more,7.529904000393227e-07,0.0257275415607954,12.0,250,1750,15.625357253534387
+51,Rental and leasing services,C,250 persons employed or more,7.529904000393227e-07,0.0257275415607954,12.0,250,2000,15.625357253534387
 51,Rental and leasing services,I,From 0 to 9 persons employed,3.5948043219784194e-06,0.0257275415607954,12.0,0,9,74.59603971648104
 51,Rental and leasing services,I,From 10 to 19 persons employed,3.5825406379962355e-07,0.0257275415607954,12.0,10,19,7.434155513944518
 51,Rental and leasing services,I,From 20 to 49 persons employed,2.299451781767929e-07,0.0257275415607954,12.0,20,49,4.77160871845428
 51,Rental and leasing services,I,From 50 to 249 persons employed,1.134638690457653e-07,0.0257275415607954,12.0,50,249,2.354496802503378
-51,Rental and leasing services,I,250 persons employed or more,5.448595152046835e-08,0.0257275415607954,12.0,250,1750,1.1306418485037968
+51,Rental and leasing services,I,250 persons employed or more,5.448595152046835e-08,0.0257275415607954,12.0,250,2000,1.1306418485037968
 51,Rental and leasing services,Int,From 0 to 9 persons employed,0.0005525510364598287,0.0257275415607954,12.0,0,9,11466.025788701494
 51,Rental and leasing services,Int,From 10 to 19 persons employed,5.506660072097688e-05,0.0257275415607954,12.0,10,19,1142.6909412896425
 51,Rental and leasing services,Int,From 20 to 49 persons employed,3.534446805733246e-05,0.0257275415607954,12.0,20,49,733.435566114938
 51,Rental and leasing services,Int,From 50 to 249 persons employed,1.7440331330044583e-05,0.0257275415607954,12.0,50,249,361.90555369327956
-51,Rental and leasing services,Int,250 persons employed or more,8.37493957628426e-06,0.0257275415607954,12.0,250,1750,173.7889657681846
+51,Rental and leasing services,Int,250 persons employed or more,8.37493957628426e-06,0.0257275415607954,12.0,250,2000,173.7889657681846
 52,Employment services,C,From 0 to 9 persons employed,2.6911403649445212e-05,0.14093193589902547,12.0,0,9,558.4404478392967
 52,Employment services,C,From 10 to 19 persons employed,2.681959532823675e-06,0.14093193589902547,12.0,10,19,55.65353268475091
 52,Employment services,C,From 20 to 49 persons employed,1.721414283755394e-06,0.14093193589902547,12.0,20,49,35.721190022622324
 52,Employment services,C,From 50 to 249 persons employed,8.494125704839164e-07,0.14093193589902547,12.0,50,249,17.626220558404253
-52,Employment services,C,250 persons employed or more,4.078924200759958e-07,0.14093193589902547,12.0,250,1750,8.464204569358815
+52,Employment services,C,250 persons employed or more,4.078924200759958e-07,0.14093193589902547,12.0,250,2000,8.464204569358815
 52,Employment services,I,From 0 to 9 persons employed,2.303539466298543e-06,0.14093193589902547,12.0,0,9,47.800911016463175
 52,Employment services,I,From 10 to 19 persons employed,2.2956809356179013e-07,0.14093193589902547,12.0,10,19,4.76378380883535
 52,Employment services,I,From 20 to 49 persons employed,1.4734815738837672e-07,0.14093193589902547,12.0,20,49,3.05763207568538
 52,Employment services,I,From 50 to 249 persons employed,7.2707295567622e-08,0.14093193589902547,12.0,50,249,1.5087542525417095
-52,Employment services,I,250 persons employed or more,3.4914428837993764e-08,0.14093193589902547,12.0,250,1750,0.7245117917416561
+52,Employment services,I,250 persons employed or more,3.4914428837993764e-08,0.14093193589902547,12.0,250,2000,0.7245117917416561
 52,Employment services,Int,From 0 to 9 persons employed,0.003289414832168419,0.14093193589902547,12.0,0,9,68258.88073077994
 52,Employment services,Int,From 10 to 19 persons employed,0.00032781929851985074,0.14093193589902547,12.0,10,19,6802.601538755617
 52,Employment services,Int,From 20 to 49 persons employed,0.00021041064045012388,0.14093193589902547,12.0,20,49,4366.246139135993
 52,Employment services,Int,From 50 to 249 persons employed,0.0001038247705090514,0.14093193589902547,12.0,50,249,2154.4751843920317
-52,Employment services,Int,250 persons employed or more,4.985720529500186e-05,0.14093193589902547,12.0,250,1750,1034.5904069381595
+52,Employment services,Int,250 persons employed or more,4.985720529500186e-05,0.14093193589902547,12.0,250,2000,1034.5904069381595
 53,"Travel agency, tour operator and other reservation services and related services",C,From 0 to 9 persons employed,0.0001828412327099267,0.011896588861198229,12.0,0,9,3794.1514016912115
 53,"Travel agency, tour operator and other reservation services and related services",C,From 10 to 19 persons employed,1.822174693848528e-05,0.011896588861198229,12.0,10,19,378.1207644645407
 53,"Travel agency, tour operator and other reservation services and related services",C,From 20 to 49 persons employed,1.1695618472609857e-05,0.011896588861198229,12.0,20,49,242.6966093140387
 53,"Travel agency, tour operator and other reservation services and related services",C,From 50 to 249 persons employed,5.771071754177659e-06,0.011896588861198229,12.0,50,249,119.75591971703514
-53,"Travel agency, tour operator and other reservation services and related services",C,250 persons employed or more,2.771299255558074e-06,0.011896588861198229,12.0,250,1750,57.50742761433274
+53,"Travel agency, tour operator and other reservation services and related services",C,250 persons employed or more,2.771299255558074e-06,0.011896588861198229,12.0,250,2000,57.50742761433274
 53,"Travel agency, tour operator and other reservation services and related services",I,From 0 to 9 persons employed,6.17653025686659e-07,0.011896588861198229,12.0,0,9,12.816961789388685
 53,"Travel agency, tour operator and other reservation services and related services",I,From 10 to 19 persons employed,6.155459008366779e-08,0.011896588861198229,12.0,10,19,1.2773236692020862
 53,"Travel agency, tour operator and other reservation services and related services",I,From 20 to 49 persons employed,3.9508780540463225e-08,0.011896588861198229,12.0,20,49,0.8198495101185708
 53,"Travel agency, tour operator and other reservation services and related services",I,From 50 to 249 persons employed,1.949516461682181e-08,0.011896588861198229,12.0,50,249,0.4045455451203572
-53,"Travel agency, tour operator and other reservation services and related services",I,250 persons employed or more,9.361681415669538e-09,0.011896588861198229,12.0,250,1750,0.1942649157359391
+53,"Travel agency, tour operator and other reservation services and related services",I,250 persons employed or more,9.361681415669538e-09,0.011896588861198229,12.0,250,2000,0.1942649157359391
 53,"Travel agency, tour operator and other reservation services and related services",Int,From 0 to 9 persons employed,9.66789961946621e-05,0.011896588861198229,12.0,0,9,2006.1927142441632
 53,"Travel agency, tour operator and other reservation services and related services",Int,From 10 to 19 persons employed,9.634917555608185e-06,0.011896588861198229,12.0,10,19,199.93485827557188
 53,"Travel agency, tour operator and other reservation services and related services",Int,From 20 to 49 persons employed,6.1841666513019514e-06,0.011896588861198229,12.0,20,49,128.32808125699904
 53,"Travel agency, tour operator and other reservation services and related services",Int,From 50 to 249 persons employed,3.051507670845912e-06,0.011896588861198229,12.0,50,249,63.322052334768145
-53,"Travel agency, tour operator and other reservation services and related services",Int,250 persons employed or more,1.4653501631518088e-06,0.011896588861198229,12.0,250,1750,30.40758527542477
+53,"Travel agency, tour operator and other reservation services and related services",Int,250 persons employed or more,1.4653501631518088e-06,0.011896588861198229,12.0,250,2000,30.40758527542477
 54,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",C,From 0 to 9 persons employed,0.00026394903251001066,0.19044667381212263,12.0,0,9,5477.225113996539
 54,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",C,From 10 to 19 persons employed,2.630485697220044e-05,0.19044667381212263,12.0,10,19,545.8539546749764
 54,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",C,From 20 to 49 persons employed,1.688375830056401e-05,0.19044667381212263,12.0,20,49,350.35606724184316
 54,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",C,From 50 to 249 persons employed,8.331101160741314e-06,0.19044667381212263,12.0,50,249,172.87927169472542
-54,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",C,250 persons employed or more,4.0006389503003675e-06,0.19044667381212263,12.0,250,1750,83.0175429030484
+54,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",C,250 persons employed or more,4.0006389503003675e-06,0.19044667381212263,12.0,250,2000,83.0175429030484
 54,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",I,From 0 to 9 persons employed,9.06043924177751e-05,0.19044667381212263,12.0,0,9,1880.1381799731128
 54,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",I,From 10 to 19 persons employed,9.029529530525195e-06,0.19044667381212263,12.0,10,19,187.372408384525
 54,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",I,From 20 to 49 persons employed,5.795598672986806e-06,0.19044667381212263,12.0,20,49,120.264879550655
 54,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",I,From 50 to 249 persons employed,2.8597731602269063e-06,0.19044667381212263,12.0,50,249,59.34335589176291
-54,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",I,250 persons employed or more,1.3732782345436442e-06,0.19044667381212263,12.0,250,1750,28.496994147769815
+54,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",I,250 persons employed or more,1.3732782345436442e-06,0.19044667381212263,12.0,250,2000,28.496994147769815
 54,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",Int,From 0 to 9 persons employed,0.0041300369433587185,0.19044667381212263,12.0,0,9,85702.68984425974
 54,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",Int,From 10 to 19 persons employed,0.00041159473119430605,0.19044667381212263,12.0,10,19,8541.03149023896
 54,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",Int,From 20 to 49 persons employed,0.0002641818568568693,0.19044667381212263,12.0,20,49,5482.056468548732
 54,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",Int,From 50 to 249 persons employed,0.00013035757413285977,0.19044667381212263,12.0,50,249,2705.0592762187366
-54,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",Int,250 persons employed or more,6.259839827658286e-05,0.19044667381212263,12.0,250,1750,1298.9838071236484
+54,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",Int,250 persons employed or more,6.259839827658286e-05,0.19044667381212263,12.0,250,2000,1298.9838071236484
 55,Public administration and defence services; compulsory social security services,C,From 0 to 9 persons employed,0.0027515304426574626,0.6309972598668583,12.0,0,9,57097.203574246436
 55,Public administration and defence services; compulsory social security services,C,From 10 to 19 persons employed,0.0002742143589634672,0.6309972598668583,12.0,10,19,5690.241632070394
 55,Public administration and defence services; compulsory social security services,C,From 20 to 49 persons employed,0.0001760043388251881,0.6309972598668583,12.0,20,49,3652.2785312695346
 55,Public administration and defence services; compulsory social security services,C,From 50 to 249 persons employed,8.684736688235162e-05,0.6309972598668583,12.0,50,249,1802.1758763387272
-55,Public administration and defence services; compulsory social security services,C,250 persons employed or more,4.170456605638502e-05,0.6309972598668583,12.0,250,1750,865.4144112602355
+55,Public administration and defence services; compulsory social security services,C,250 persons employed or more,4.170456605638502e-05,0.6309972598668583,12.0,250,2000,865.4144112602355
 55,Public administration and defence services; compulsory social security services,I,From 0 to 9 persons employed,0.000462525963265019,0.6309972598668583,12.0,0,9,9597.909103055801
 55,Public administration and defence services; compulsory social security services,I,From 10 to 19 persons employed,4.609480547784967e-05,0.6309972598668583,12.0,10,19,956.5165812020474
 55,Public administration and defence services; compulsory social security services,I,From 20 to 49 persons employed,2.958592610566191e-05,0.6309972598668583,12.0,20,49,613.9396532193438
 55,Public administration and defence services; compulsory social security services,I,From 50 to 249 persons employed,1.4598843393313253e-05,0.6309972598668583,12.0,50,249,302.94163577252425
-55,Public administration and defence services; compulsory social security services,I,250 persons employed or more,7.01044200301455e-06,0.6309972598668583,12.0,250,1750,145.47417974593714
+55,Public administration and defence services; compulsory social security services,I,250 persons employed or more,7.01044200301455e-06,0.6309972598668583,12.0,250,2000,145.47417974593714
 55,Public administration and defence services; compulsory social security services,Int,From 0 to 9 persons employed,0.01164450834278863,0.6309972598668583,12.0,0,9,241636.0193812992
 55,Public administration and defence services; compulsory social security services,Int,From 10 to 19 persons employed,0.001160478307330157,0.6309972598668583,12.0,10,19,24081.167749367905
 55,Public administration and defence services; compulsory social security services,Int,From 20 to 49 persons employed,0.0007448523774418,0.6309972598668583,12.0,20,49,15456.48456881359
 55,Public administration and defence services; compulsory social security services,Int,From 50 to 249 persons employed,0.0003675390511885622,0.6309972598668583,12.0,50,249,7626.828946486488
-55,Public administration and defence services; compulsory social security services,Int,250 persons employed or more,0.0001764942011351792,0.6309972598668583,12.0,250,1750,3662.443698844384
+55,Public administration and defence services; compulsory social security services,Int,250 persons employed or more,0.0001764942011351792,0.6309972598668583,12.0,250,2000,3662.443698844384
 56,Education services,C,From 0 to 9 persons employed,0.0048755923661807496,1.0,13.0,0,9,101173.76335767473
 56,Education services,C,From 10 to 19 persons employed,0.0003354865785898531,1.0,13.0,10,19,6961.705811865121
 56,Education services,C,From 20 to 49 persons employed,0.00018861023866565758,1.0,13.0,20,49,3913.8644538780054
 56,Education services,C,From 50 to 249 persons employed,6.310739648449345e-05,1.0,13.0,50,249,1309.546065074874
-56,Education services,C,250 persons employed or more,1.0182416364743512e-05,1.0,13.0,250,1750,211.29604493635452
+56,Education services,C,250 persons employed or more,1.0182416364743512e-05,1.0,13.0,250,2000,211.29604493635452
 56,Education services,I,From 0 to 9 persons employed,7.83036927167305e-06,1.0,13.0,0,9,162.48854871270575
 56,Education services,I,From 10 to 19 persons employed,5.388030004867973e-07,1.0,13.0,10,19,11.180739318114565
 56,Education services,I,From 20 to 49 persons employed,3.029145396598017e-07,1.0,13.0,20,49,6.285801119412861
 56,Education services,I,From 50 to 249 persons employed,1.0135265238233123e-07,1.0,13.0,50,249,2.1031760856240744
-56,Education services,I,250 persons employed or more,1.6353311398000606e-08,1.0,13.0,250,1750,0.33934872590501985
+56,Education services,I,250 persons employed or more,1.6353311398000606e-08,1.0,13.0,250,2000,0.33934872590501985
 56,Education services,Int,From 0 to 9 persons employed,0.005472524675647466,1.0,13.0,0,9,113560.74809361254
 56,Education services,Int,From 10 to 19 persons employed,0.0003765611318158034,1.0,13.0,10,19,7814.046782150096
 56,Education services,Int,From 20 to 49 persons employed,0.00021170231382286643,1.0,13.0,20,49,4393.049745002582
 56,Education services,Int,From 50 to 249 persons employed,7.083381024074222e-05,1.0,13.0,50,249,1469.877425506169
-56,Education services,Int,250 persons employed or more,1.1429077869655038e-05,1.0,13.0,250,1750,237.16560633774046
+56,Education services,Int,250 persons employed or more,1.1429077869655038e-05,1.0,13.0,250,2000,237.16560633774046
 57,Human health services,C,From 0 to 9 persons employed,0.014219977888617697,0.6250472273428799,14.0,0,9,295079.7707851359
 57,Human health services,C,From 10 to 19 persons employed,0.0013093239445531619,0.6250472273428799,14.0,10,19,27169.874135422724
 57,Human health services,C,From 20 to 49 persons employed,0.0005911389560301929,0.6250472273428799,14.0,20,49,12266.766447448412
 57,Human health services,C,From 50 to 249 persons employed,0.0002468852353076936,0.6250472273428799,14.0,50,249,5123.133046721657
-57,Human health services,C,250 persons employed or more,0.00012834818566953958,0.6250472273428799,14.0,250,1750,2663.3623135497983
+57,Human health services,C,250 persons employed or more,0.00012834818566953958,0.6250472273428799,14.0,250,2000,2663.3623135497983
 57,Human health services,I,From 0 to 9 persons employed,5.607271608623775e-07,0.6250472273428799,14.0,0,9,11.635689126683618
 57,Human health services,I,From 10 to 19 persons employed,5.162972149669012e-08,0.6250472273428799,14.0,10,19,1.071372016488043
 57,Human health services,I,From 20 to 49 persons employed,2.3309998868231807e-08,0.6250472273428799,14.0,20,49,0.4837074415245979
 57,Human health services,I,From 50 to 249 persons employed,9.735265282214873e-09,0.6250472273428799,14.0,50,249,0.20201718107507588
-57,Human health services,I,250 persons employed or more,5.061070721489999e-09,0.6250472273428799,14.0,250,1750,0.1050226378776602
+57,Human health services,I,250 persons employed or more,5.061070721489999e-09,0.6250472273428799,14.0,250,2000,0.1050226378776602
 57,Human health services,Int,From 0 to 9 persons employed,0.006367020669470923,0.6250472273428799,14.0,0,9,132122.49797065867
 57,Human health services,Int,From 10 to 19 persons employed,0.0005862521505519416,0.6250472273428799,14.0,10,19,12165.360000006029
 57,Human health services,Int,From 20 to 49 persons employed,0.0002646835305268941,0.6250472273428799,14.0,20,49,5492.466734494247
 57,Human health services,Int,From 50 to 249 persons employed,0.00011054330804898896,0.6250472273428799,14.0,50,249,2293.8920338994412
-57,Human health services,Int,250 persons employed or more,5.7468130924533286e-05,0.6250472273428799,14.0,250,1750,1192.525265052286
+57,Human health services,Int,250 persons employed or more,5.7468130924533286e-05,0.6250472273428799,14.0,250,2000,1192.525265052286
 58,Residential care services; social work services without accommodation,C,From 0 to 9 persons employed,0.01105978986848829,0.37495277265712,14.0,0,9,229502.48480608116
 58,Residential care services; social work services without accommodation,C,From 10 to 19 persons employed,0.0010183453033446202,0.37495277265712,14.0,10,19,21131.75569222075
 58,Residential care services; social work services without accommodation,C,From 20 to 49 persons employed,0.0004597667231258268,0.37495277265712,14.0,20,49,9540.651915021373
 58,Residential care services; social work services without accommodation,C,From 50 to 249 persons employed,0.0001920184999950661,0.37495277265712,14.0,50,249,3984.589526711116
-58,Residential care services; social work services without accommodation,C,250 persons employed or more,9.982462522976646e-05,0.37495277265712,14.0,250,1750,2071.467885691275
+58,Residential care services; social work services without accommodation,C,250 persons employed or more,9.982462522976646e-05,0.37495277265712,14.0,250,2000,2071.467885691275
 58,Residential care services; social work services without accommodation,I,From 0 to 9 persons employed,9.439350168864328e-07,0.37495277265712,14.0,0,9,19.587662554796566
 58,Residential care services; social work services without accommodation,I,From 10 to 19 persons employed,8.691410981031708e-08,0.37495277265712,14.0,10,19,1.8035608635756861
 58,Residential care services; social work services without accommodation,I,From 20 to 49 persons employed,3.9240339528884485e-08,0.37495277265712,14.0,20,49,0.8142790716279885
 58,Residential care services; social work services without accommodation,I,From 50 to 249 persons employed,1.6388465621013177e-08,0.37495277265712,14.0,50,249,0.3400782136827035
-58,Residential care services; social work services without accommodation,I,250 persons employed or more,8.519868860295173e-09,0.37495277265712,14.0,250,1750,0.1767964036306742
+58,Residential care services; social work services without accommodation,I,250 persons employed or more,8.519868860295173e-09,0.37495277265712,14.0,250,2000,0.1767964036306742
 58,Residential care services; social work services without accommodation,Int,From 0 to 9 persons employed,0.0012893128786674456,0.37495277265712,14.0,0,9,26754.62308644255
 58,Residential care services; social work services without accommodation,Int,From 10 to 19 persons employed,0.00011871524957934741,0.37495277265712,14.0,10,19,2463.4685728037584
 58,Residential care services; social work services without accommodation,Int,From 20 to 49 persons employed,5.359804881988077e-05,0.37495277265712,14.0,20,49,1112.2169165228122
 58,Residential care services; social work services without accommodation,Int,From 50 to 249 persons employed,2.238486697576678e-05,0.37495277265712,14.0,50,249,464.5099639396917
-58,Residential care services; social work services without accommodation,Int,250 persons employed or more,1.1637217021961485e-05,0.37495277265712,14.0,250,1750,241.48471666513134
+58,Residential care services; social work services without accommodation,Int,250 persons employed or more,1.1637217021961485e-05,0.37495277265712,14.0,250,2000,241.48471666513134
 59,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",C,From 0 to 9 persons employed,0.0011914543622674376,0.18862627594203024,15.0,0,9,24723.954064671318
 59,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",C,From 10 to 19 persons employed,7.930740617754816e-05,0.18862627594203024,15.0,10,19,1645.7136164161404
 59,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",C,From 20 to 49 persons employed,4.1354443229261925e-05,0.18862627594203024,15.0,20,49,858.1489876158835
 59,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",C,From 50 to 249 persons employed,1.2252846987917838e-05,0.18862627594203024,15.0,50,249,254.2596977984192
-59,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",C,250 persons employed or more,2.400036502730233e-06,0.18862627594203024,15.0,250,1750,49.803327870746756
+59,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",C,250 persons employed or more,2.400036502730233e-06,0.18862627594203024,15.0,250,2000,49.803327870746756
 59,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",I,From 0 to 9 persons employed,6.659049575773072e-05,0.18862627594203024,15.0,0,9,1381.824105393869
 59,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",I,From 10 to 19 persons employed,4.432498349808578e-06,0.18862627594203024,15.0,10,19,91.97908796426063
 59,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",I,From 20 to 49 persons employed,2.3113037004461887e-06,0.18862627594203024,15.0,20,49,47.962027190521596
 59,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",I,From 50 to 249 persons employed,6.848127643062185e-07,0.18862627594203024,15.0,50,249,14.210598293824606
-59,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",I,250 persons employed or more,1.341382646409606e-07,0.18862627594203024,15.0,250,1750,2.783512653381363
+59,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",I,250 persons employed or more,1.341382646409606e-07,0.18862627594203024,15.0,250,2000,2.783512653381363
 59,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",Int,From 0 to 9 persons employed,0.0005927606278486343,0.18862627594203024,15.0,0,9,12300.417874491588
 59,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",Int,From 10 to 19 persons employed,3.9456238835187565e-05,0.18862627594203024,15.0,10,19,818.7592134619345
 59,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",Int,From 20 to 49 persons employed,2.0574254884809154e-05,0.18862627594203024,15.0,20,49,426.9378238867716
 59,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",Int,From 50 to 249 persons employed,6.095915633452647e-06,0.18862627594203024,15.0,50,249,126.49677811978584
-59,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",Int,250 persons employed or more,1.1940424990434352e-06,0.18862627594203024,15.0,250,1750,24.777660674667757
+59,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",Int,250 persons employed or more,1.1940424990434352e-06,0.18862627594203024,15.0,250,2000,24.777660674667757
 60,Sporting services and amusement and recreation services,C,From 0 to 9 persons employed,0.0008633395879702885,0.1910950259305679,15.0,0,9,17915.221087082202
 60,Sporting services and amusement and recreation services,C,From 10 to 19 persons employed,5.7466929108399986e-05,0.1910950259305679,15.0,10,19,1192.5003260803749
 60,Sporting services and amusement and recreation services,C,From 20 to 49 persons employed,2.9965837642615205e-05,0.1910950259305679,15.0,20,49,621.8232244963807
 60,Sporting services and amusement and recreation services,C,From 50 to 249 persons employed,8.87853383647902e-06,0.1910950259305679,15.0,50,249,184.23908601667853
-60,Sporting services and amusement and recreation services,C,250 persons employed or more,1.7390901330349686e-06,0.1910950259305679,15.0,250,1750,36.08798282600808
+60,Sporting services and amusement and recreation services,C,250 persons employed or more,1.7390901330349686e-06,0.1910950259305679,15.0,250,2000,36.08798282600808
 60,Sporting services and amusement and recreation services,I,From 0 to 9 persons employed,1.7327617285632306e-07,0.1910950259305679,15.0,0,9,3.5956661655498325
 60,Sporting services and amusement and recreation services,I,From 10 to 19 persons employed,1.1533873438051895e-08,0.1910950259305679,15.0,10,19,0.23934022661802898
 60,Sporting services and amusement and recreation services,I,From 20 to 49 persons employed,6.014279589974041e-09,0.1910950259305679,15.0,20,49,0.12480274278540221
 60,Sporting services and amusement and recreation services,I,From 50 to 249 persons employed,1.781962028843506e-09,0.1910950259305679,15.0,50,249,0.03697762057983564
-60,Sporting services and amusement and recreation services,I,250 persons employed or more,3.4904328111832585e-10,0.1910950259305679,15.0,250,1750,0.007243021908559339
+60,Sporting services and amusement and recreation services,I,250 persons employed or more,3.4904328111832585e-10,0.1910950259305679,15.0,250,2000,0.007243021908559339
 60,Sporting services and amusement and recreation services,Int,From 0 to 9 persons employed,0.0010115160550737442,0.1910950259305679,15.0,0,9,20990.041476475177
 60,Sporting services and amusement and recreation services,Int,From 10 to 19 persons employed,6.73300775718995e-05,0.1910950259305679,15.0,10,19,1397.171220129994
 60,Sporting services and amusement and recreation services,Int,From 20 to 49 persons employed,3.510892619959595e-05,0.1910950259305679,15.0,20,49,728.5478203015757
 60,Sporting services and amusement and recreation services,Int,From 50 to 249 persons employed,1.0402371959135835e-05,0.1910950259305679,15.0,50,249,215.8603590924368
-60,Sporting services and amusement and recreation services,Int,250 persons employed or more,2.0375731812795588e-06,0.1910950259305679,15.0,250,1750,42.28182575242799
+60,Sporting services and amusement and recreation services,Int,250 persons employed or more,2.0375731812795588e-06,0.1910950259305679,15.0,250,2000,42.28182575242799
 61,Services furnished by membership organisations,C,From 0 to 9 persons employed,0.0005451186492503615,0.29654548862403846,15.0,0,9,11311.795794018348
 61,Services furnished by membership organisations,C,From 10 to 19 persons employed,3.6285020643829625e-05,0.29654548862403846,15.0,10,19,752.9530396165743
 61,Services furnished by membership organisations,C,From 20 to 49 persons employed,1.892063930231843e-05,0.29654548862403846,15.0,20,49,392.6235295278002
 61,Services furnished by membership organisations,C,From 50 to 249 persons employed,5.6059683115465295e-06,0.29654548862403846,15.0,50,249,116.32984645665215
-61,Services furnished by membership organisations,C,250 persons employed or more,1.0980736635434805e-06,0.29654548862403846,15.0,250,1750,22.786204555420873
+61,Services furnished by membership organisations,C,250 persons employed or more,1.0980736635434805e-06,0.29654548862403846,15.0,250,2000,22.786204555420873
 61,Services furnished by membership organisations,I,From 0 to 9 persons employed,4.865679246493673e-07,0.29654548862403846,15.0,0,9,10.09680555072167
 61,Services furnished by membership organisations,I,From 10 to 19 persons employed,3.238767782905002e-08,0.29654548862403846,15.0,10,19,0.6720790021557428
 61,Services furnished by membership organisations,I,From 20 to 49 persons employed,1.6888389731352096e-08,0.29654548862403846,15.0,20,49,0.35045217439095827
 61,Services furnished by membership organisations,I,From 50 to 249 persons employed,5.0038360836679875e-09,0.29654548862403846,15.0,50,249,0.10383495784455635
-61,Services furnished by membership organisations,I,250 persons employed or more,9.801305171217722e-10,0.29654548862403846,15.0,250,1750,0.02033875795006061
+61,Services furnished by membership organisations,I,250 persons employed or more,9.801305171217722e-10,0.29654548862403846,15.0,250,2000,0.02033875795006061
 61,Services furnished by membership organisations,Int,From 0 to 9 persons employed,0.0023641061388673095,0.29654548862403846,15.0,0,9,49057.7343391714
 61,Services furnished by membership organisations,Int,From 10 to 19 persons employed,0.00015736324591163816,0.29654548862403846,15.0,10,19,3265.455888702863
 61,Services furnished by membership organisations,Int,From 20 to 49 persons employed,8.20562635078026e-05,0.29654548862403846,15.0,20,49,1702.7553500451208
 61,Services furnished by membership organisations,Int,From 50 to 249 persons employed,2.4312329284364448e-05,0.29654548862403846,15.0,50,249,504.50687115522584
-61,Services furnished by membership organisations,Int,250 persons employed or more,4.7621975371445925e-06,0.29654548862403846,15.0,250,1750,98.82069920931258
+61,Services furnished by membership organisations,Int,250 persons employed or more,4.7621975371445925e-06,0.29654548862403846,15.0,250,2000,98.82069920931258
 62,Repair services of computers and personal and household goods,C,From 0 to 9 persons employed,0.00011571153343122332,0.031358802840019816,15.0,0,9,2401.1382457501886
 62,Repair services of computers and personal and household goods,C,From 10 to 19 persons employed,7.702167931797898e-06,0.031358802840019816,15.0,10,19,159.82823360666134
 62,Repair services of computers and personal and household goods,C,From 20 to 49 persons employed,4.016256259405319e-06,0.031358802840019816,15.0,20,49,83.34161879311418
 62,Repair services of computers and personal and household goods,C,From 50 to 249 persons employed,1.1899706432497633e-06,0.031358802840019816,15.0,50,249,24.69316530599151
-62,Repair services of computers and personal and household goods,C,250 persons employed or more,2.3308648053738004e-07,0.031358802840019816,15.0,250,1750,4.836794106771292
+62,Repair services of computers and personal and household goods,C,250 persons employed or more,2.3308648053738004e-07,0.031358802840019816,15.0,250,2000,4.836794106771292
 62,Repair services of computers and personal and household goods,I,From 0 to 9 persons employed,2.5082977587286442e-05,0.031358802840019816,15.0,0,9,520.4986488051896
 62,Repair services of computers and personal and household goods,I,From 10 to 19 persons employed,1.6696114888291004e-06,0.031358802840019816,15.0,10,19,34.64622654710837
 62,Repair services of computers and personal and household goods,I,From 20 to 49 persons employed,8.706104115311908e-07,0.031358802840019816,15.0,20,49,18.06609846302296
 62,Repair services of computers and personal and household goods,I,From 50 to 249 persons employed,2.579518747100842e-07,0.031358802840019816,15.0,50,249,5.352777666692062
-62,Repair services of computers and personal and household goods,I,250 persons employed or more,5.052653606646418e-08,0.031358802840019816,15.0,250,1750,1.048479737299259
+62,Repair services of computers and personal and household goods,I,250 persons employed or more,5.052653606646418e-08,0.031358802840019816,15.0,250,2000,1.048479737299259
 62,Repair services of computers and personal and household goods,Int,From 0 to 9 persons employed,0.00016689880496775593,0.031358802840019816,15.0,0,9,3463.328951701056
 62,Repair services of computers and personal and household goods,Int,From 10 to 19 persons employed,1.1109373330032888e-05,0.031358802840019816,15.0,10,19,230.5313947370189
 62,Repair services of computers and personal and household goods,Int,From 20 to 49 persons employed,5.792926169606381e-06,0.031358802840019816,15.0,20,49,120.20942224326005
 62,Repair services of computers and personal and household goods,Int,From 50 to 249 persons employed,1.7163775504119825e-06,0.031358802840019816,15.0,50,249,35.616672411405126
-62,Repair services of computers and personal and household goods,Int,250 persons employed or more,3.361968673498855e-07,0.031358802840019816,15.0,250,1750,6.976445064355056
+62,Repair services of computers and personal and household goods,Int,250 persons employed or more,3.361968673498855e-07,0.031358802840019816,15.0,250,2000,6.976445064355056
 63,Other personal services,C,From 0 to 9 persons employed,0.0010088668949247113,0.12952152701132918,15.0,0,9,20935.068566132224
 63,Other personal services,C,From 10 to 19 persons employed,6.715374012531119e-05,0.12952152701132918,15.0,10,19,1393.5120292558813
 63,Other personal services,C,From 20 to 49 persons employed,3.501697593573531e-05,0.12952152701132918,15.0,20,49,726.6397538477348
 63,Other personal services,C,From 50 to 249 persons employed,1.0375128151080259e-05,0.12952152701132918,15.0,50,249,215.2950208971652
-63,Other personal services,C,250 persons employed or more,2.0322367779219366e-06,0.12952152701132918,15.0,250,1750,42.17108966746934
+63,Other personal services,C,250 persons employed or more,2.0322367779219366e-06,0.12952152701132918,15.0,250,2000,42.17108966746934
 63,Other personal services,I,From 0 to 9 persons employed,5.4848118698734115e-08,0.12952152701132918,15.0,0,9,1.1381572053338593
 63,Other personal services,I,From 10 to 19 persons employed,3.650884301969173e-09,0.12952152701132918,15.0,10,19,0.07575975936294775
 63,Other personal services,I,From 20 to 49 persons employed,1.9037350340822276e-09,0.12952152701132918,15.0,20,49,0.039504540857427724
 63,Other personal services,I,From 50 to 249 persons employed,5.640548452999787e-10,0.12952152701132918,15.0,50,249,0.011704742142713874
-63,Other personal services,I,250 persons employed or more,1.1048470772520847e-10,0.12952152701132918,15.0,250,1750,0.0022926760144200494
+63,Other personal services,I,250 persons employed or more,1.1048470772520847e-10,0.12952152701132918,15.0,250,2000,0.0022926760144200494
 63,Other personal services,Int,From 0 to 9 persons employed,0.0002619465468283145,0.12952152701132918,15.0,0,9,5435.671391439179
 63,Other personal services,Int,From 10 to 19 persons employed,1.743608638654362e-05,0.12952152701132918,15.0,10,19,361.8174665693001
 63,Other personal services,Int,From 20 to 49 persons employed,9.091958486179263e-06,0.12952152701132918,15.0,20,49,188.66787607575841
 63,Other personal services,Int,From 50 to 249 persons employed,2.6938429695222833e-06,0.12952152701132918,15.0,50,249,55.90012672340774
-63,Other personal services,Int,250 persons employed or more,5.276587119591017e-07,0.12952152701132918,15.0,250,1750,10.94948339563187
+63,Other personal services,Int,250 persons employed or more,5.276587119591017e-07,0.12952152701132918,15.0,250,2000,10.94948339563187
 64,Services of households as employers; undifferentiated goods and services produced by households for own use,C,From 0 to 9 persons employed,0.0015088595539562088,0.16285287965201428,15.0,0,9,31310.45173317362
 64,Services of households as employers; undifferentiated goods and services produced by households for own use,C,From 10 to 19 persons employed,0.00010043501564151316,0.16285287965201428,15.0,10,19,2084.1341404631503
 64,Services of households as employers; undifferentiated goods and services produced by households for own use,C,From 20 to 49 persons employed,5.2371327632107354e-05,0.16285287965201428,15.0,20,49,1086.7611380581216
 64,Services of households as employers; undifferentiated goods and services produced by households for own use,C,From 50 to 249 persons employed,1.551702341808502e-05,0.16285287965201428,15.0,50,249,321.99485465734494
-64,Services of households as employers; undifferentiated goods and services produced by households for own use,C,250 persons employed or more,3.0394097513701542e-06,0.16285287965201428,15.0,250,1750,63.07100754877442
+64,Services of households as employers; undifferentiated goods and services produced by households for own use,C,250 persons employed or more,3.0394097513701542e-06,0.16285287965201428,15.0,250,2000,63.07100754877442
 64,Services of households as employers; undifferentiated goods and services produced by households for own use,I,From 0 to 9 persons employed,2.660010073290807e-09,0.16285287965201428,15.0,0,9,0.055198057891572734
 64,Services of households as employers; undifferentiated goods and services produced by households for own use,I,From 10 to 19 persons employed,1.7705965582884094e-10,0.16285287965201428,15.0,10,19,0.0036741774893398423
 64,Services of households as employers; undifferentiated goods and services produced by households for own use,I,From 20 to 49 persons employed,9.232685619264858e-11,0.16285287965201428,15.0,20,49,0.0019158811480604403
 64,Services of households as employers; undifferentiated goods and services produced by households for own use,I,From 50 to 249 persons employed,2.7355388042161968e-11,0.16285287965201428,15.0,50,249,0.000567653599495454
-64,Services of households as employers; undifferentiated goods and services produced by households for own use,I,250 persons employed or more,5.358259179460756e-12,0.16285287965201428,15.0,250,1750,0.0001111896166693919
+64,Services of households as employers; undifferentiated goods and services produced by households for own use,I,250 persons employed or more,5.358259179460756e-12,0.16285287965201428,15.0,250,2000,0.0001111896166693919
 64,Services of households as employers; undifferentiated goods and services produced by households for own use,Int,From 0 to 9 persons employed,8.905409724226387e-05,0.16285287965201428,15.0,0,9,1847.967894715122
 64,Services of households as employers; undifferentiated goods and services produced by households for own use,Int,From 10 to 19 persons employed,5.927754923257218e-06,0.16285287965201428,15.0,10,19,123.00726328311008
 64,Services of households as employers; undifferentiated goods and services produced by households for own use,Int,From 20 to 49 persons employed,3.0909976289227967e-06,0.16285287965201428,15.0,20,49,64.1415112586086
 64,Services of households as employers; undifferentiated goods and services produced by households for own use,Int,From 50 to 249 persons employed,9.158271283509629e-07,0.16285287965201428,15.0,50,249,19.004393764136946
-64,Services of households as employers; undifferentiated goods and services produced by households for own use,Int,250 persons employed or more,1.7938839360356957e-07,0.16285287965201428,15.0,250,1750,3.722501292243618
+64,Services of households as employers; undifferentiated goods and services produced by households for own use,Int,250 persons employed or more,1.7938839360356957e-07,0.16285287965201428,15.0,250,2000,3.722501292243618
 65,Services provided by extraterritorial organisations and bodies,C,From 0 to 9 persons employed,,0.0,15.0,0,9,0.0
 65,Services provided by extraterritorial organisations and bodies,C,From 10 to 19 persons employed,,0.0,15.0,10,19,0.0
 65,Services provided by extraterritorial organisations and bodies,C,From 20 to 49 persons employed,,0.0,15.0,20,49,0.0
 65,Services provided by extraterritorial organisations and bodies,C,From 50 to 249 persons employed,,0.0,15.0,50,249,0.0
-65,Services provided by extraterritorial organisations and bodies,C,250 persons employed or more,,0.0,15.0,250,1750,0.0
+65,Services provided by extraterritorial organisations and bodies,C,250 persons employed or more,,0.0,15.0,250,2000,0.0
 65,Services provided by extraterritorial organisations and bodies,I,From 0 to 9 persons employed,,0.0,15.0,0,9,0.0
 65,Services provided by extraterritorial organisations and bodies,I,From 10 to 19 persons employed,,0.0,15.0,10,19,0.0
 65,Services provided by extraterritorial organisations and bodies,I,From 20 to 49 persons employed,,0.0,15.0,20,49,0.0
 65,Services provided by extraterritorial organisations and bodies,I,From 50 to 249 persons employed,,0.0,15.0,50,249,0.0
-65,Services provided by extraterritorial organisations and bodies,I,250 persons employed or more,,0.0,15.0,250,1750,0.0
+65,Services provided by extraterritorial organisations and bodies,I,250 persons employed or more,,0.0,15.0,250,2000,0.0
 65,Services provided by extraterritorial organisations and bodies,Int,From 0 to 9 persons employed,,0.0,15.0,0,9,0.0
 65,Services provided by extraterritorial organisations and bodies,Int,From 10 to 19 persons employed,,0.0,15.0,10,19,0.0
 65,Services provided by extraterritorial organisations and bodies,Int,From 20 to 49 persons employed,,0.0,15.0,20,49,0.0
 65,Services provided by extraterritorial organisations and bodies,Int,From 50 to 249 persons employed,,0.0,15.0,50,249,0.0
-65,Services provided by extraterritorial organisations and bodies,Int,250 persons employed or more,,0.0,15.0,250,1750,0.0
+65,Services provided by extraterritorial organisations and bodies,Int,250 persons employed or more,,0.0,15.0,250,2000,0.0
