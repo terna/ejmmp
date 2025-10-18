@@ -1,0 +1,5 @@
+#parameters for test_ff_multi.ipynb
+myRandom.seed: [12345,22345,32345,42345,52345,62345,72345,82345] #increase if more than 8 ranks
+tableOfInvestmentShares: 2 # use only 0/1/2 to chose invTableNoNama (0) or invTableNama (1) or invTableNamaIPF (2)
+howManyFirms: 1000000
+useSmartCapital: 1 # use only 1/0 to express True/False values
