@@ -1,0 +1,97 @@
+
+ Italy 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000                57595              1257804
+   AFF Worker Number              9000000                51827              1131838
+         Firm Number             21831369               999661             21831369
+       Worker Number            161702115               733916             16027824
+      Empl. Compens.              7447036                35364               772310
+           Capital R              6856862                11867               259172
+             GDP VAT             16144780    N.B. contains VAT                     
+  Add. Val. curr. p.             14303899                59039              1289354
+ Int. goods curr. p.             16939701                74986              1637611
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+
+INVESTMENT TABLES
+
+Investment regular substitution rate 0.1
+Investment long term substitution rate 0.01667 for sectors 44 and 45
+                                EU 27 (*)           simulation        simulation to
+                                                                           EU scale
+Gross fixed c. formation           3320258.70             11320.28            247221.17
+
+
+BUYING SECTORS                     Simulated investment purchases     SIM. EU SCALE
+Crop and animal production, hu     601.52                          13136.37
+Forestry and logging               71.12                           1553.07
+Fishing and aquaculture            20.74                           453.01
+Mining and quarrying               0.00                            0.00
+Manufacture of food products;      75.36                           1645.87
+Manufacture of textiles, weari     28.02                           611.90
+Manufacture of wood and of pro     62.71                           1369.61
+Manufacture of paper and paper     24.48                           534.71
+Printing and reproduction of r     14.48                           316.33
+Manufacture of coke and refine     13.15                           287.27
+Manufacture of chemicals and c     324.66                          7090.17
+Manufacture of basic pharmaceu     247.83                          5412.26
+Manufacture of rubber and plas     59.75                           1304.86
+Manufacture of other non-metal     47.37                           1034.47
+Manufacture of basic metals        58.70                           1281.97
+Manufacture of fabricated meta     279.57                          6105.44
+Manufacture of computer, elect     166.72                          3641.02
+Manufacture of electrical equi     66.00                           1441.38
+Manufacture of machinery and e     250.66                          5474.07
+Manufacture of motor vehicles,     456.62                          9972.06
+Manufacture of other transport     68.73                           1501.03
+Manufacture of furniture; othe     67.10                           1465.29
+Repair and installation of mac     46.17                           1008.32
+Electricity, gas, steam and ai     424.47                          9269.90
+Water collection, treatment an     29.94                           653.88
+Sewerage, waste management, re     115.53                          2523.12
+Construction                       343.60                          7503.88
+Wholesale and retail trade and     144.41                          3153.76
+Wholesale trade, except of mot     649.44                          14183.02
+Retail trade, except of motor      707.95                          15460.77
+Land transport and transport v     227.43                          4966.89
+Water transport                    27.83                           607.83
+Air transport                      8.27                            180.71
+Warehousing and support activi     135.89                          2967.59
+Postal and courier activities      91.92                           2007.41
+Accommodation and food service     78.15                           1706.70
+Publishing activities              57.19                           1248.92
+Motion picture, video, televis     11.58                           252.84
+Telecommunications                 96.73                           2112.51
+Computer programming, consulta     270.42                          5905.65
+Financial service activities,      90.19                           1969.65
+Insurance, reinsurance and pen     0.00                            0.00
+Activities auxiliary to financ     18.51                           404.25
+Imputed rents of owner-occupie     3408.59                         74439.51
+Real estate activities             0.00                            0.00
+Legal and accounting activitie     77.76                           1698.16
+Architectural and engineering      36.57                           798.55
+Scientific research and develo     39.52                           863.08
+Advertising and market researc     10.51                           229.61
+Other professional, scientific     6.87                            150.07
+Rental and leasing activities      10.45                           228.23
+Employment activities              9.71                            212.09
+Travel agency, tour operator a     0.04                            0.98
+Security and investigation, se     31.28                           683.20
+Public administration and defe     510.55                          11149.79
+Education                          206.60                          4511.78
+Human health activities            171.57                          3746.80
+Residential care activities an     176.44                          3853.24
+Creative, arts and entertainme     27.63                           603.42
+Sports activities and amusemen     12.76                           278.58
+Activities of membership organ     0.60                            13.19
+Repair of computers and person     0.00                            0.00
+Other personal service activit     1.88                            41.12
+Activities of households as em     0.00                            0.00
+Activities of extraterritorial     0.00                            0.00
+totals                             11320.29                           247221.18
+(*) EU 27 Gross Fixed Capital Formation is 3320258.70, but here we consider only substitutions.With  1000000 ex-ante firms and smart capital option, substitutions are  247221.17673934856
