@@ -3,7 +3,7 @@ myRandom.seed: [12345,22345,32345,42345,52345,62345,72345,82345] #increase if mo
 tableOfInvestmentShares: 2 # use only 0/1/2 to chose invTableNoNama (0) or invTableNama (1) or invTableNamaIPF (2)
 howManyFirms: 1000000
 useSmartCapital: 1 # use only 1/0 to express True/False values 
-selected_countries: [10, 14, 27]
+selected_countries: [0, 1, 10, 14, 27]
 # to select a group of countries use the corresponding number in the list below, e.g.: [1,7,10]
 # [Austria' 0, 'Belgium' 1, 'Bulgaria' 2, 'Croatia' 3, 'Cyprus' 4, 'Czechia' 5, 'Denmark' 6, 'Estonia' 7, 'Finland' 8, 'France' 9, 'Germany' 10, 
 #'Greece' 11, 'Hungary' 12, 'Ireland' 13, 'Italy' 14, 'Latvia' 15, 'Lithuania' 16, 'Luxembourg' 17, 'Malta' 18, Netherlands' 19, 'Poland' 20, 
