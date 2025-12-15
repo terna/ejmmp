@@ -94,7 +94,7 @@ Other personal service activit     8.99                            196.39
 Activities of households as em     0.00                            0.00
 Activities of extraterritorial     0.00                            0.00
 totals                             132507.17                          2893793.82
-(*) EU 27 Gross Fixed Capital Formation is 3320258.70, but here we consider only substitutions.With  1000000 ex-ante firms and smart capital option, substitutions are  2893793.8151896475
+(*) EU 27 Gross Fixed Capital Formation is 3320258.70, but here we consider only substitutions.With  1000000 ex-ante firms and smart capital option, substitutions are  2893793.8151896847
 
 INVESTMENT TABLES (continue)
 
@@ -171,7 +171,7 @@ Activities of households as em     0.06                             0.06        
 Activities of extraterritorial     7.30                             6.86                -0.440              -6.02%
 totals                             2893793.81                       2893793.82          0.01
  
-Sum of the squares of the diffs 2,159,543,219.64
+Sum of the squares of the diffs 2,159,543,219.63
 MAE  = 1386.807
 RMSE = 5764.004
 MAPE = 4.82%
