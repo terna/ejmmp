@@ -8,11 +8,11 @@ Markup tentative 25.0%
    AFF Worker Number              9000000                28109              1188063
          Firm Number             42251874               999659             42251874
        Worker Number            171467679               454557             19212436
-      Empl. Compens.              7447036                18931               800165
-Cap. R & Op. Surplus              6856862                17498               739575
+      Empl. Compens.              7447036                22786               963116
+Cap. R & Op. Surplus              6856862                21061               890170
   GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
-  Add. Val. basic p.             14303899                36429              1539718
- Int. goods basic p.             16939701                44485              1880231
+  Add. Val. basic p.             14303899                43848              1853292
+ Int. goods basic p.             16939701                53544              2263135
 
  AFF => Agriculture, Forestry and Fishing
 
