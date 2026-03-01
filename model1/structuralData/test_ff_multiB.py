@@ -650,6 +650,7 @@ class Model:
                             randomizer = rng.uniform()
                             j = r_min
                             '''
+                            # AHI AHI
                             while randomizer > cumulated_worker_distribution[j]: 
                                 j += 1 
                             labor = j + 1
@@ -664,6 +665,7 @@ class Model:
                         # non-special cases sectors come from the sbs_countries file, while agriculture sector is treaten in the agri_eu27 file
                         country_counter = 10
                         '''
+                        # AHI AHI
                         country_counter = 0
                         if not row[0] in sector_special_cases:
                             if eu_firms_by_employed_number[cl].iloc[int(row[0]), -1] != 0: # to avoid sectors with all zeros 
