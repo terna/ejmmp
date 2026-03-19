@@ -4,15 +4,15 @@
 Markup tentative 25.0%
                                     EU 27           simulation        simulation to
                                                                            EU scale
-     AFF Firm Number             10000000                 2716               114752
-   AFF Worker Number              9000000                 2424               102415
+     AFF Firm Number             10000000                 2695               113865
+   AFF Worker Number              9000000                 2483               104908
          Firm Number             42251874              1000031             42251874
-       Worker Number            171467679               107922              4559765
-      Empl. Compens.              7447036                 4666               197179
-Cap. R & Op. Surplus              6856862                 3866               163340
+       Worker Number            171467679                89023              3761271
+      Empl. Compens.              7447036                 4226               178556
+Cap. R & Op. Surplus              6856862                 3186               134610
   GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
-  Add. Val. basic p.             14303899                 8532               360481
- Int. goods basic p.             16939701                10067               425368
+  Add. Val. basic p.             14303899                 7412               313161
+ Int. goods basic p.             16939701                 8307               350985
 
  AFF => Agriculture, Forestry and Fishing
 
@@ -24,77 +24,77 @@ Investment regular substitution rate 0.1
 Investment long term substitution rate 0.01667 for sectors 44 and 45
                                 EU 27 (*)           simulation        simulation to
                                                                            EU scale
-Gross fixed c. formation           3320258.70              1592.85             67298.91
+Gross fixed c. formation           3320258.70              1288.54             54441.83
 
 
 BUYING SECTORS                     Simulated investment purchases     SIM. EU SCALE
-Crop and animal production, hu     27.56                           1164.36
-Forestry and logging               3.46                            145.99
+Crop and animal production, hu     27.88                           1178.08
+Forestry and logging               3.77                            159.23
 Fishing and aquaculture            0.00                            0.00
-Mining and quarrying               4.95                            209.08
-Manufacture of food products;      31.77                           1342.13
-Manufacture of textiles, weari     4.11                            173.81
-Manufacture of wood and of pro     23.72                           1002.04
-Manufacture of paper and paper     3.59                            151.51
-Printing and reproduction of r     3.53                            149.07
-Manufacture of coke and refine     0.09                            3.63
-Manufacture of chemicals and c     18.43                           778.88
-Manufacture of basic pharmaceu     7.95                            336.04
-Manufacture of rubber and plas     30.88                           1304.91
-Manufacture of other non-metal     2.79                            117.73
-Manufacture of basic metals        2.12                            89.48
-Manufacture of fabricated meta     5.05                            213.39
-Manufacture of computer, elect     5.77                            243.68
-Manufacture of electrical equi     18.91                           798.99
-Manufacture of machinery and e     9.78                            413.25
-Manufacture of motor vehicles,     5.34                            225.67
-Manufacture of other transport     2.50                            105.45
-Manufacture of furniture; othe     2.94                            124.01
-Repair and installation of mac     1.41                            59.47
-Electricity, gas, steam and ai     227.93                          9630.09
-Water collection, treatment an     12.96                           547.42
-Sewerage, waste management, re     32.01                           1352.58
-Construction                       49.21                           2079.07
-Wholesale and retail trade and     30.05                           1269.45
-Wholesale trade, except of mot     113.30                          4787.03
-Retail trade, except of motor      62.07                           2622.31
-Land transport and transport v     22.55                           952.91
-Water transport                    0.57                            24.15
-Air transport                      1.72                            72.63
-Warehousing and support activi     27.97                           1181.56
-Postal and courier activities      1.51                            63.84
-Accommodation and food service     67.03                           2832.16
-Publishing activities              9.31                            393.24
-Motion picture, video, televis     3.09                            130.43
-Telecommunications                 6.52                            275.31
-Computer programming, consulta     56.77                           2398.77
-Financial service activities,      25.07                           1059.04
-Insurance, reinsurance and pen     0.08                            3.29
-Activities auxiliary to financ     2.86                            120.65
+Mining and quarrying               1.24                            52.27
+Manufacture of food products;      26.06                           1101.09
+Manufacture of textiles, weari     0.54                            22.76
+Manufacture of wood and of pro     1.32                            55.69
+Manufacture of paper and paper     3.41                            144.04
+Printing and reproduction of r     1.07                            45.30
+Manufacture of coke and refine     1.87                            79.05
+Manufacture of chemicals and c     6.15                            260.03
+Manufacture of basic pharmaceu     10.88                           459.84
+Manufacture of rubber and plas     1.63                            68.82
+Manufacture of other non-metal     26.16                           1105.08
+Manufacture of basic metals        6.80                            287.16
+Manufacture of fabricated meta     32.95                           1392.01
+Manufacture of computer, elect     3.08                            130.32
+Manufacture of electrical equi     2.87                            121.19
+Manufacture of machinery and e     27.44                           1159.26
+Manufacture of motor vehicles,     6.39                            270.16
+Manufacture of other transport     0.79                            33.33
+Manufacture of furniture; othe     5.51                            233.00
+Repair and installation of mac     0.51                            21.51
+Electricity, gas, steam and ai     50.68                           2141.34
+Water collection, treatment an     8.53                            360.49
+Sewerage, waste management, re     10.33                           436.46
+Construction                       38.07                           1608.63
+Wholesale and retail trade and     12.29                           519.29
+Wholesale trade, except of mot     60.64                           2561.91
+Retail trade, except of motor      29.53                           1247.81
+Land transport and transport v     31.57                           1333.69
+Water transport                    0.65                            27.33
+Air transport                      1.43                            60.48
+Warehousing and support activi     9.60                            405.64
+Postal and courier activities      0.48                            20.34
+Accommodation and food service     44.49                           1879.89
+Publishing activities              50.47                           2132.56
+Motion picture, video, televis     25.31                           1069.17
+Telecommunications                 1.63                            69.08
+Computer programming, consulta     122.46                          5174.06
+Financial service activities,      15.24                           644.04
+Insurance, reinsurance and pen     3.00                            126.79
+Activities auxiliary to financ     4.27                            180.23
 Imputed rents of owner-occupie     196.26                          8292.06
-Real estate activities             215.42                          9101.77
-Legal and accounting activitie     11.95                           505.10
-Architectural and engineering      3.51                            148.21
-Scientific research and develo     3.44                            145.41
-Advertising and market researc     1.82                            76.85
-Other professional, scientific     0.67                            28.43
-Rental and leasing activities      2.90                            122.61
-Employment activities              3.47                            146.76
-Travel agency, tour operator a     0.02                            0.81
-Security and investigation, se     0.66                            27.99
-Public administration and defe     51.02                           2155.64
-Education                          13.71                           579.42
-Human health activities            69.82                           2949.89
-Residential care activities an     45.17                           1908.51
-Creative, arts and entertainme     1.97                            83.29
-Sports activities and amusemen     1.41                            59.60
-Activities of membership organ     0.13                            5.56
-Repair of computers and person     0.00                            0.19
-Other personal service activit     0.29                            12.31
+Real estate activities             219.08                          9256.21
+Legal and accounting activitie     6.85                            289.61
+Architectural and engineering      3.04                            128.27
+Scientific research and develo     2.64                            111.37
+Advertising and market researc     1.46                            61.68
+Other professional, scientific     0.74                            31.46
+Rental and leasing activities      1.65                            69.87
+Employment activities              3.98                            167.97
+Travel agency, tour operator a     0.06                            2.74
+Security and investigation, se     5.05                            213.44
+Public administration and defe     21.01                           887.84
+Education                          33.26                           1405.05
+Human health activities            30.98                           1309.13
+Residential care activities an     39.24                           1657.86
+Creative, arts and entertainme     2.86                            120.85
+Sports activities and amusemen     1.16                            49.07
+Activities of membership organ     0.07                            2.78
+Repair of computers and person     0.00                            0.00
+Other personal service activit     0.15                            6.16
 Activities of households as em     0.00                            0.00
 Activities of extraterritorial     0.00                            0.00
-totals                             1592.85                            67298.91
-(*) EU 27 Gross Fixed Capital Formation is 3320258.70, but here we consider only substitutions.With  1000000 ex-ante firms and smart capital option, substitutions are  67298.91090360924
+totals                             1288.55                            54441.83
+(*) EU 27 Gross Fixed Capital Formation is 3320258.70, but here we consider only substitutions.With  1000000 ex-ante firms and smart capital option, substitutions are  54441.83292583171
 
 INVESTMENT TABLES (continue)
 
@@ -104,76 +104,76 @@ INVESTMENT TABLES (continue)
 
 VENDING SECTORS                    EU GrossCapitalFormation    SIM. EU SCALE       diff (sim - actual)
                                    scaled to substitutions     
-Crop and animal production, hu     150.90                           119.18              -31.714             -21.02%
-Forestry and logging               9.25                             7.31                -1.944              -21.02%
-Fishing and aquaculture            1.14                             0.90                -0.239              -21.02%
-Mining and quarrying               25.71                            24.24               -1.474              -5.73%
-Manufacture of food products;      0.01                             0.01                -0.001              -5.73%
-Manufacture of textiles, weari     32.51                            30.65               -1.864              -5.73%
-Manufacture of wood and of pro     188.43                           177.62              -10.804             -5.73%
-Manufacture of paper and paper     0.01                             0.01                -0.001              -5.73%
-Printing and reproduction of r     0.12                             0.11                -0.007              -5.73%
+Crop and animal production, hu     122.07                           100.76              -21.311             -17.46%
+Forestry and logging               7.48                             6.18                -1.306              -17.46%
+Fishing and aquaculture            0.92                             0.76                -0.161              -17.46%
+Mining and quarrying               20.80                            17.11               -3.685              -17.72%
+Manufacture of food products;      0.01                             0.01                -0.002              -17.72%
+Manufacture of textiles, weari     26.30                            21.64               -4.660              -17.72%
+Manufacture of wood and of pro     152.43                           125.42              -27.010             -17.72%
+Manufacture of paper and paper     0.01                             0.01                -0.002              -17.72%
+Printing and reproduction of r     0.09                             0.08                -0.017              -17.72%
 Manufacture of coke and refine     0.00                             0.00                0.000               0.00%
-Manufacture of chemicals and c     0.83                             0.78                -0.048              -5.73%
-Manufacture of basic pharmaceu     0.01                             0.01                -0.000              -5.73%
-Manufacture of rubber and plas     80.28                            75.68               -4.603              -5.73%
-Manufacture of other non-metal     142.87                           134.68              -8.191              -5.73%
-Manufacture of basic metals        67.44                            63.57               -3.867              -5.73%
-Manufacture of fabricated meta     1423.87                          1342.23             -81.639             -5.73%
-Manufacture of computer, elect     2022.75                          2500.03             477.277             23.60%
-Manufacture of electrical equi     975.93                           1213.42             237.487             24.33%
-Manufacture of machinery and e     4814.53                          5986.11             1171.583            24.33%
-Manufacture of motor vehicles,     3374.95                          3912.13             537.178             15.92%
-Manufacture of other transport     2063.11                          2391.48             328.377             15.92%
-Manufacture of furniture; othe     968.82                           913.27              -55.548             -5.73%
-Repair and installation of mac     1744.14                          2168.56             424.424             24.33%
-Electricity, gas, steam and ai     5.35                             5.04                -0.307              -5.73%
-Water collection, treatment an     0.22                             0.21                -0.013              -5.73%
-Sewerage, waste management, re     1.13                             1.07                -0.065              -5.73%
-Construction                       26565.13                         24587.91            -1977.220           -7.44%
-Wholesale and retail trade and     661.49                           623.57              -37.927             -5.73%
-Wholesale trade, except of mot     2160.35                          2036.49             -123.865            -5.73%
-Retail trade, except of motor      655.62                           618.03              -37.591             -5.73%
-Land transport and transport v     392.78                           370.26              -22.520             -5.73%
-Water transport                    33.50                            31.58               -1.921              -5.73%
-Air transport                      33.25                            31.34               -1.906              -5.73%
-Warehousing and support activi     10.43                            9.83                -0.598              -5.73%
+Manufacture of chemicals and c     0.67                             0.55                -0.119              -17.72%
+Manufacture of basic pharmaceu     0.01                             0.00                -0.001              -17.72%
+Manufacture of rubber and plas     64.94                            53.44               -11.508             -17.72%
+Manufacture of other non-metal     115.57                           95.09               -20.479             -17.72%
+Manufacture of basic metals        54.56                            44.89               -9.667              -17.72%
+Manufacture of fabricated meta     1151.85                          947.75              -204.104            -17.72%
+Manufacture of computer, elect     1636.32                          1783.50             147.183             8.99%
+Manufacture of electrical equi     789.49                           750.96              -38.524             -4.88%
+Manufacture of machinery and e     3894.74                          3704.69             -190.047            -4.88%
+Manufacture of motor vehicles,     2730.18                          2864.06             133.876             4.90%
+Manufacture of other transport     1668.96                          1750.80             81.838              4.90%
+Manufacture of furniture; othe     783.73                           644.86              -138.875            -17.72%
+Repair and installation of mac     1410.93                          1342.08             -68.847             -4.88%
+Electricity, gas, steam and ai     4.33                             3.56                -0.767              -17.72%
+Water collection, treatment an     0.18                             0.15                -0.032              -17.72%
+Sewerage, waste management, re     0.92                             0.75                -0.162              -17.72%
+Construction                       21490.01                         19397.27            -2092.742           -9.74%
+Wholesale and retail trade and     535.12                           440.30              -94.821             -17.72%
+Wholesale trade, except of mot     1747.63                          1437.96             -309.674            -17.72%
+Retail trade, except of motor      530.37                           436.39              -93.980             -17.72%
+Land transport and transport v     317.74                           261.44              -56.302             -17.72%
+Water transport                    27.10                            22.30               -4.802              -17.72%
+Air transport                      26.90                            22.13               -4.766              -17.72%
+Warehousing and support activi     8.44                             6.94                -1.495              -17.72%
 Postal and courier activities      0.00                             0.00                0.000               0.00%
-Accommodation and food service     8.49                             8.00                -0.487              -5.73%
-Publishing activities              860.48                           811.14              -49.336             -5.73%
-Motion picture, video, televis     301.12                           283.85              -17.265             -5.73%
+Accommodation and food service     6.87                             5.65                -1.217              -17.72%
+Publishing activities              696.09                           572.75              -123.345            -17.72%
+Motion picture, video, televis     243.59                           200.43              -43.163             -17.72%
 Telecommunications                 0.00                             0.00                0.000               0.00%
-Computer programming, consulta     5982.76                          7042.97             1060.205            17.72%
-Financial service activities,      1.16                             1.09                -0.066              -5.73%
-Insurance, reinsurance and pen     52.94                            49.91               -3.035              -5.73%
-Activities auxiliary to financ     23.64                            22.29               -1.356              -5.73%
+Computer programming, consulta     4839.79                          8420.37             3580.578            73.98%
+Financial service activities,      0.94                             0.77                -0.166              -17.72%
+Insurance, reinsurance and pen     42.83                            35.24               -7.589              -17.72%
+Activities auxiliary to financ     19.13                            15.74               -3.389              -17.72%
 Imputed rents of owner-occupie     0.00                             0.00                0.000               0.00%
-Real estate activities             786.10                           741.03              -45.071             -5.73%
-Legal and accounting activitie     795.41                           749.80              -45.605             -5.73%
-Architectural and engineering      1873.81                          1766.37             -107.436            -5.73%
-Scientific research and develo     7462.28                          5932.47             -1529.813           -20.50%
-Advertising and market researc     0.14                             0.13                -0.008              -5.73%
-Other professional, scientific     1.70                             1.61                -0.098              -5.73%
-Rental and leasing activities      52.08                            49.09               -2.986              -5.73%
-Employment activities              3.00                             2.83                -0.172              -5.73%
-Travel agency, tour operator a     3.47                             3.27                -0.199              -5.73%
-Security and investigation, se     239.63                           225.89              -13.739             -5.73%
-Public administration and defe     83.21                            78.44               -4.771              -5.73%
-Education                          3.11                             2.93                -0.178              -5.73%
-Human health activities            0.17                             0.16                -0.010              -5.73%
-Residential care activities an     0.19                             0.17                -0.011              -5.73%
-Creative, arts and entertainme     87.63                            82.61               -5.024              -5.73%
-Sports activities and amusemen     0.19                             0.18                -0.011              -5.73%
-Activities of membership organ     0.17                             0.16                -0.010              -5.73%
-Repair of computers and person     68.86                            64.91               -3.948              -5.73%
-Other personal service activit     0.15                             0.14                -0.009              -5.73%
-Activities of households as em     0.00                             0.00                -0.000              -5.73%
-Activities of extraterritorial     0.17                             0.16                -0.010              -5.73%
-totals                             67298.91                         67298.91            0.00
+Real estate activities             635.92                           523.24              -112.682            -17.72%
+Legal and accounting activitie     643.45                           529.43              -114.017            -17.72%
+Architectural and engineering      1515.83                          1247.23             -268.600            -17.72%
+Scientific research and develo     6036.66                          6245.18             208.519             3.45%
+Advertising and market researc     0.11                             0.09                -0.020              -17.72%
+Other professional, scientific     1.38                             1.13                -0.244              -17.72%
+Rental and leasing activities      42.13                            34.66               -7.465              -17.72%
+Employment activities              2.43                             2.00                -0.430              -17.72%
+Travel agency, tour operator a     2.81                             2.31                -0.498              -17.72%
+Security and investigation, se     193.85                           159.50              -34.349             -17.72%
+Public administration and defe     67.32                            55.39               -11.928             -17.72%
+Education                          2.52                             2.07                -0.446              -17.72%
+Human health activities            0.13                             0.11                -0.024              -17.72%
+Residential care activities an     0.15                             0.12                -0.027              -17.72%
+Creative, arts and entertainme     70.89                            58.33               -12.561             -17.72%
+Sports activities and amusemen     0.15                             0.13                -0.027              -17.72%
+Activities of membership organ     0.14                             0.11                -0.025              -17.72%
+Repair of computers and person     55.71                            45.83               -9.871              -17.72%
+Other personal service activit     0.12                             0.10                -0.022              -17.72%
+Activities of households as em     0.00                             0.00                -0.000              -17.72%
+Activities of extraterritorial     0.14                             0.11                -0.024              -17.72%
+totals                             54441.83                         54441.83            0.00
  
-Sum of the squares of the diffs 9,655,443.04
-MAE  = 130.355
-RMSE = 385.416
-MAPE = 7.97%
-R²   = 0.889
+Sum of the squares of the diffs 17,628,591.06
+MAE  = 127.754
+RMSE = 520.777
+MAPE = 16.02%
+R²   = 0.815
 n    = 65

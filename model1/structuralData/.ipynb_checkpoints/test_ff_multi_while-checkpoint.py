@@ -43,8 +43,7 @@ params = parameters.init_params("test_ff_multi.yaml", "")
 
 #generate random seed
 repast4py.random.init(rng_seed=params['myRandom.seed'][rank]) #each rank has a seed
-rng = repast4py.random.default_rng # repast seed
-rng_np = np.random.default_rng(params['myRandom.seed'][rank]) # numpy seed
+rng = repast4py.random.default_rng 
 
 #timer T()
 startTime=-1
@@ -484,7 +483,6 @@ class Model:
                              'Hungary', 'Ireland', 'Italy', 'Latvia', 'Lithuania', 'Luxembourg', 
                              'Malta', 'Netherlands', 'Poland', 'Portugal', 'Romania', 'Slovakia', 
                              'Slovenia', 'Spain', 'Sweden', 'totEU27']
-        country_numid_list = list(range(27))
 
         self.selected_countries = params['selected_countries']
 
@@ -560,11 +558,7 @@ class Model:
             worker_distribution = pickle.load(f)
 
         scaled_worker_distribution = scalingWorkerDistribution(worker_distribution) 
-        #cumulated_worker_distribution = cumulateWorkerSubdistributions(scaled_worker_distribution)
-        L  = [(0,9), (9,19), (19,49), (49,249), (249,1849)] #probabilities
-        #scaled_worker_distribution[L[cl][0]:L[cl][1]] to call specific values within a class
-        wN = [i for i in range(1,1850)]
-        #wN[L[cl][0]:L[cl][1]] to call specific values within a class
+        cumulated_worker_distribution = cumulateWorkerSubdistributions(scaled_worker_distribution)
 
         # smart capital
         """
@@ -576,10 +570,9 @@ class Model:
         self.smart_capital = params['useSmartCapital']
         print('rank', rank, 'use smart capital', self.smart_capital)
 
-        # from addedvalue_by_country.ipynb - in folder structuralData
+
         with open('addedvalue_countryshares.xp', 'rb') as f:
             addedvalue_countryshares = pickle.load(f)
-            countryshare_list = addedvalue_countryshares['Share in 2020'].tolist()
             # addedvalue_countryshares['Country', 'Share in 2020'] where 'Country' is an index, not a column
             # to call the share use addedvalue_countryshares.iloc[0,x]
             # can also call by country doing addedvalue_countryshares.at['Austria', 'Share in 2020']
@@ -587,15 +580,7 @@ class Model:
 
         eu_firms_by_employed_number = pd.read_pickle("./eu_firms_by_employed_number.xp") # this is a list of dfs (0-9, 10-19,20-49,50-249,>250)
         sector_special_cases = ['1', '2', '3', '44'] # agri-silvi-fish and imputed rents
-        agri_eu27 = pd.read_pickle("./agri_eu27base.xp") # agri-silvi-fish shares (countries are cols to keep 
-                                                        # consistency with eu_firms_by_employed_number)
-                                                       # the agri_eu27base file comes from ./special_sectors_eu27.ipynb (cell 7)
-        agri_eu27.index = ["Agricultural share", "Forestry share", "Fishing share"]
-
-        prob_country_agri = agri_eu27.loc["Agricultural share"].tolist()
-        prob_country_silvi = agri_eu27.loc["Forestry share"].tolist()
-        prob_country_fishing = agri_eu27.loc["Fishing share"].tolist()
-
+        agri_eu27 = pd.read_pickle("./agri_eu27.xp") # agri-silvi-fish shares (countries are cols to keep \\consistency with eu_firms_by_employed_number)
         self.eu27_owners = pd.read_pickle("./eu27_ownership.xp") # 44 sector, imputed rents from houses ownership by EU country
 
         #importing csv file containing info about firms 
@@ -633,11 +618,26 @@ class Model:
 
                     #*****************************************************************************************
                     # class attribution
-                    if row[3] == "From 0 to 9 persons employed":    cl = 0
-                    if row[3] == "From 10 to 19 persons employed":  cl = 1
-                    if row[3] == "From 20 to 49 persons employed":  cl = 2
-                    if row[3] == "From 50 to 249 persons employed": cl = 3
-                    if row[3] == "250 persons employed or more":    cl = 4
+                    if row[3] == "From 0 to 9 persons employed": 
+                        cl = 0
+                        r_min = 0
+                        r_max = 8
+                    if row[3] == "From 10 to 19 persons employed": 
+                        cl = 1
+                        r_min = 9 
+                        r_max = 18
+                    if row[3] == "From 20 to 49 persons employed": 
+                        cl = 2
+                        r_min = 19
+                        r_max = 48
+                    if row[3] == "From 50 to 249 persons employed": 
+                        cl = 3
+                        r_min = 49
+                        r_max = 248
+                    if row[3] == "250 persons employed or more": 
+                        cl = 4
+                        r_min = 249
+                        r_max = 1848
 
 
                     for i in range(firmCreationNumber):
@@ -647,9 +647,12 @@ class Model:
                             elif randomizer <= 0.9 : labor = 1
                             else: labor = 2
                         else:
-                            # use L and scaled_worker_distribution
-                            labor = rng_np.choice(wN[L[cl][0]:L[cl][1]], p=scaled_worker_distribution[L[cl][0]:L[cl][1]])
-
+                            randomizer = rng.uniform()
+                            j = r_min
+                            while randomizer > cumulated_worker_distribution[j]: 
+                                j += 1 
+                            labor = j + 1
+                            if labor - 1 > r_max: stop_execution("Selection exceeded in assigning firm labor")       
 
                             if sector =='44': labor = 0 # no employees in a virtual sector
 
@@ -659,27 +662,17 @@ class Model:
                         # assigning rule: we attribute the first country with a cumulative share higher than the random number we draw
                         # non-special cases sectors come from the sbs_countries file, while agriculture sector is treaten in the agri_eu27 file
                         country_counter = 0
-                        #if not row[0] in sector_special_cases:
-                        if not row[0] in sector_special_cases and int(row[0]) != 61 and int(row[0]) != 64:
-                            #if eu_firms_by_employed_number[cl].iloc[int(row[0]), -1] != 0: # to avoid sectors with all zeros 
-                                #while eu_firms_by_employed_number[cl].iloc[int(row[0]), country_counter] <= country_randomizer: country_counter += 1
-                            prob_country_sec_cl = eu_firms_by_employed_number[cl].loc[int(row[0])].squeeze().tolist()
-
-                            country_counter = rng_np.choice(country_numid_list, p=prob_country_sec_cl)  
-
+                        if not row[0] in sector_special_cases:
+                            if eu_firms_by_employed_number[cl].iloc[int(row[0]), -1] != 0: # to avoid sectors with all zeros 
+                                while eu_firms_by_employed_number[cl].iloc[int(row[0]), country_counter] <= country_randomizer: country_counter += 1
 
                         elif row[0] == '44' and rank == 0: # imputed rents
                             country_counter = countImputedRentsFirms
                             countImputedRentsFirms += 1
 
-                        elif int(row[0]) == 61 or int(row[0]) == 64: # 61: membership organizations, 64: services by households
-                            country_counter = rng_np.choice(country_numid_list, p=countryshare_list) 
-
-
                         else: # agri forestry and fishing
-                            if int(row[0]) == 1: country_counter = rng_np.choice(country_numid_list, p=prob_country_agri)
-                            if int(row[0]) == 2: country_counter = rng_np.choice(country_numid_list, p=prob_country_silvi)
-                            if int(row[0]) == 3: country_counter = rng_np.choice(country_numid_list, p=prob_country_fishing)
+                            if agri_eu27.iloc[int(row[0])-1, -1] != 0:
+                                while agri_eu27.iloc[int(row[0])-1, country_counter] <= country_randomizer: country_counter += 1
 
 
                         capital= float(row[11]) + rng.random()*(float(row[12]) - float(row[11]))
