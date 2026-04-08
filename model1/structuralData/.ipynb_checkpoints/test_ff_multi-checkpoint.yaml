@@ -9,3 +9,4 @@ selected_countries: [0, 1, 10, 14, 27]
 # [Austria' 0, 'Belgium' 1, 'Bulgaria' 2, 'Croatia' 3, 'Cyprus' 4, 'Czechia' 5, 'Denmark' 6, 'Estonia' 7, 'Finland' 8, 'France' 9, 'Germany' 10, 
 #'Greece' 11, 'Hungary' 12, 'Ireland' 13, 'Italy' 14, 'Latvia' 15, 'Lithuania' 16, 'Luxembourg' 17, 'Malta' 18, Netherlands' 19, 'Poland' 20, 
 #'Portugal' 21, 'Romania' 22, 'Slovakia' 23, 'Slovenia' 24, 'Spain' 25, 'Sweden' 26, 'EU27' 27]
+plannedMarkUp: 1.25

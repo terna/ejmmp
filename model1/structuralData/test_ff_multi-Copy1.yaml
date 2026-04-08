@@ -1,0 +1,12 @@
+#parameters for test_ff_multi.ipynb
+myRandom.seed: [12345,22345,32345,42345,52345,62345,72345,82345,82301,82302,82303,82304,82305,82306,82307,82308,82309,82310,82311,82312,82313,82314,82315,82316,82317,82318,82319,82320,82321,82322,82323,82324,
+12345,22345,32345,42345,52345,62345,72345,82345,82301,82302,82303,82304,82305,82306,82307,82308,82309,82310,82311,82312,82313,82314,82315,82316,82317,82318,82319,82320,82321,82322,82323,82324] #increase if more than 64 ranks
+tableOfInvestmentShares: 2 # use only 0/1/2 to chose invTableNoNama (0) or invTableNama (1) or invTableNamaIPF (2)
+howManyFirms: 1000000
+useSmartCapital: 1 # use only 1/0 to express True/False values 
+selected_countries: [0, 1, 10, 14, 27]
+# to select a group of countries use the corresponding number in the list below, e.g.: [1,7,10]
+# [Austria' 0, 'Belgium' 1, 'Bulgaria' 2, 'Croatia' 3, 'Cyprus' 4, 'Czechia' 5, 'Denmark' 6, 'Estonia' 7, 'Finland' 8, 'France' 9, 'Germany' 10, 
+#'Greece' 11, 'Hungary' 12, 'Ireland' 13, 'Italy' 14, 'Latvia' 15, 'Lithuania' 16, 'Luxembourg' 17, 'Malta' 18, Netherlands' 19, 'Poland' 20, 
+#'Portugal' 21, 'Romania' 22, 'Slovakia' 23, 'Slovenia' 24, 'Spain' 25, 'Sweden' 26, 'EU27' 27]
+plannedMarkup: 1.25
