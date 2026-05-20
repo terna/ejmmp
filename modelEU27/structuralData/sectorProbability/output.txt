@@ -1,0 +1,6 @@
+Lista: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Valore casuale: 7.2440
+Primo elemento maggiore di 7.2440: 8 (posizione 7)
+Lista: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Valore casuale: 0.5101
+Posizione trovata con bisect: 0

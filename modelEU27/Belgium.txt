@@ -1,0 +1,19 @@
+
+ Belgium 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000                  848                35828
+   AFF Worker Number              9000000                  769                32490
+         Firm Number             42251874              1000031             42251874
+       Worker Number            171467679                96679              4084742
+      Empl. Compens.              7447036                  591                24972
+Cap. R & Op. Surplus              6856862                  478                20195
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                 1069                45165
+ Int. goods basic p.             16939701                 1156                48857
+
+ AFF => Agriculture, Forestry and Fishing
+
+

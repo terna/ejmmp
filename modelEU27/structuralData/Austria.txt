@@ -1,0 +1,19 @@
+
+ Austria 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000                   28               118388
+   AFF Worker Number              9000000                   25               105703
+         Firm Number             42251874                 9993             42251874
+       Worker Number            171467679                  456              1928035
+      Empl. Compens.              7447036                    2                10687
+Cap. R & Op. Surplus              6856862                    1                 4228
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                    4                16912
+ Int. goods basic p.             16939701                    4                17841
+
+ AFF => Agriculture, Forestry and Fishing
+
+
