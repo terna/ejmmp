@@ -4,15 +4,15 @@
 Markup tentative 25.0%
                                     EU 27           simulation        simulation to
                                                                            EU scale
-     AFF Firm Number             10000000                  848                35828
-   AFF Worker Number              9000000                  790                33377
+     AFF Firm Number             10000000                  926                39124
+   AFF Worker Number              9000000                  838                35405
          Firm Number             42251874              1000031             42251874
-       Worker Number            171467679                96700              4085629
-      Empl. Compens.              7447036                  591                24973
-Cap. R & Op. Surplus              6856862                  478                20195
+       Worker Number            171467679                96595              4081193
+      Empl. Compens.              7447036                  506                21390
+Cap. R & Op. Surplus              6856862                  458                19350
   GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
-  Add. Val. basic p.             14303899                 1069                45165
- Int. goods basic p.             16939701                 1155                48827
+  Add. Val. basic p.             14303899                  964                40729
+ Int. goods basic p.             16939701                  989                41814
 
  AFF => Agriculture, Forestry and Fishing
 
