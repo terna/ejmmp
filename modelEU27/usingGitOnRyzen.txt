@@ -1,0 +1,27 @@
+# connect
+ssh pietroterna@130.192.254.65
+
+# or
+
+sftp pietroterna@130.192.254.65
+# with
+get # to download files
+
+# to clean previous executions and modifications before pull novelties
+git restore .
+
+# to align to github
+cd ~/progetti/ejmmp
+git status
+git fetch
+git pull
+
+#to save on github
+git add .
+git commit -m "A description"
+git push
+
+# to work with the model
+repast-on
+# stop working
+repast-off
