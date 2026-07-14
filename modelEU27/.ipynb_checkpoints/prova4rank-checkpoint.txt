@@ -1,0 +1,676 @@
+rank 0 starting
+rank 1 starting
+rank 2 starting
+rank 3 starting
+rank 2 tableOfInvestmentShare 2
+rank 2 how many firms 1000000
+rank 2 use smart capital 1
+371300 firms created in rank  2
+propFactor 113.79443576622677
+rank 2 self.EUstatGhostList []
+rank 3 tableOfInvestmentShare 2
+rank 3 how many firms 1000000
+rank 3 use smart capital 1
+263927 firms created in rank  3
+propFactor 160.0892443743914
+rank 3 self.EUstatGhostList []
+rank 0 tableOfInvestmentShare 2
+rank 0 how many firms 1000000
+rank 0 use smart capital 1
+231615 firms created in rank  0
+propFactor 182.42287416618095
+rank 0 self.EUstatGhostList [Agent(0, 1, 1), Agent(0, 1, 2), Agent(0, 1, 3)]
+rank 1 tableOfInvestmentShare 2
+rank 1 how many firms 1000000
+rank 1 use smart capital 1
+133189 firms created in rank  1
+propFactor 317.23245913701584
+rank 1 self.EUstatGhostList []
+
+ MONTH 1 YEAR 1
+
+ totEU27 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000               236736             10002229
+   AFF Worker Number              9000000               213425              9017326
+         Firm Number             42251874              1000031             42251874
+       Worker Number            171467679              4064817            171740811
+      Empl. Compens.              7447036                15258               644687
+Cap. R & Op. Surplus              6856862                13287               561383
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                28546              1206084
+ Int. goods basic p.             16939701                37284              1575297
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+
+ Add. Val. basic p. by country 
+
+Austria 35876
+Belgium 40771
+Bulgaria 5375
+Croatia 4379
+Cyprus 2163
+Czechia 22854
+Denmark 40006
+Estonia 3559
+Finland 21957
+France 187137
+Germany 324851
+Greece 11963
+Hungary 9939
+Ireland 31470
+Italy 128306
+Latvia 3864
+Lithuania 5902
+Luxembourg 5321
+Malta 1274
+Netherlands 87954
+Poland 35522
+Portugal 19682
+Romania 13004
+Slovakia 9969
+Slovenia 4698
+Spain 102856
+Sweden 45446
+totEU27 1206112
+
+ MONTH 2 YEAR 1
+
+ totEU27 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000               236736              5656115
+   AFF Worker Number              9000000               213425              5099166
+         Firm Number             42251874              1768447             42251874
+       Worker Number            171467679              4064817             97116925
+      Empl. Compens.              7447036                15258               364561
+Cap. R & Op. Surplus              6856862                13287               317454
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                28546               682023
+ Int. goods basic p.             16939701                28049               670165
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+
+ Add. Val. basic p. by country 
+
+Austria 20287
+Belgium 23055
+Bulgaria 3040
+Croatia 2476
+Cyprus 1223
+Czechia 12923
+Denmark 22623
+Estonia 2012
+Finland 12416
+France 105823
+Germany 183698
+Greece 6765
+Hungary 5620
+Ireland 17796
+Italy 72555
+Latvia 2185
+Lithuania 3337
+Luxembourg 3009
+Malta 720
+Netherlands 49736
+Poland 20087
+Portugal 11129
+Romania 7353
+Slovakia 5637
+Slovenia 2656
+Spain 58163
+Sweden 25699
+totEU27 682039
+
+ MONTH 3 YEAR 1
+
+ totEU27 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000               236736              3942877
+   AFF Worker Number              9000000               213425              3554628
+         Firm Number             42251874              2536863             42251874
+       Worker Number            171467679              4064817             67700201
+      Empl. Compens.              7447036                15258               254135
+Cap. R & Op. Surplus              6856862                13287               221297
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                28546               475438
+ Int. goods basic p.             16939701                28049               467172
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+
+ Add. Val. basic p. by country 
+
+Austria 14142
+Belgium 16072
+Bulgaria 2119
+Croatia 1726
+Cyprus 852
+Czechia 9009
+Denmark 15770
+Estonia 1403
+Finland 8655
+France 73769
+Germany 128056
+Greece 4716
+Hungary 3918
+Ireland 12405
+Italy 50578
+Latvia 1523
+Lithuania 2326
+Luxembourg 2097
+Malta 502
+Netherlands 34671
+Poland 14002
+Portugal 7758
+Romania 5126
+Slovakia 3929
+Slovenia 1852
+Spain 40546
+Sweden 17915
+totEU27 475449
+
+ MONTH 4 YEAR 1
+
+ totEU27 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000               236736              3026231
+   AFF Worker Number              9000000               213425              2728243
+         Firm Number             42251874              3305279             42251874
+       Worker Number            171467679              4064817             51961161
+      Empl. Compens.              7447036                15258               195054
+Cap. R & Op. Surplus              6856862                13287               169849
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                28546               364907
+ Int. goods basic p.             16939701                28049               358563
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+
+ Add. Val. basic p. by country 
+
+Austria 10854
+Belgium 12335
+Bulgaria 1626
+Croatia 1325
+Cyprus 654
+Czechia 6914
+Denmark 12104
+Estonia 1076
+Finland 6643
+France 56619
+Germany 98285
+Greece 3619
+Hungary 3007
+Ireland 9521
+Italy 38820
+Latvia 1169
+Lithuania 1785
+Luxembourg 1610
+Malta 385
+Netherlands 26611
+Poland 10747
+Portugal 5954
+Romania 3934
+Slovakia 3016
+Slovenia 1421
+Spain 31119
+Sweden 13750
+totEU27 364916
+
+ MONTH 5 YEAR 1
+
+ totEU27 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000               236736              2455397
+   AFF Worker Number              9000000               213425              2213618
+         Firm Number             42251874              4073695             42251874
+       Worker Number            171467679              4064817             42159792
+      Empl. Compens.              7447036                15258               158261
+Cap. R & Op. Surplus              6856862                13287               137811
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                28546               296075
+ Int. goods basic p.             16939701                28049               290928
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+
+ Add. Val. basic p. by country 
+
+Austria 8807
+Belgium 10008
+Bulgaria 1319
+Croatia 1075
+Cyprus 531
+Czechia 5610
+Denmark 9821
+Estonia 873
+Finland 5390
+France 45939
+Germany 79746
+Greece 2936
+Hungary 2440
+Ireland 7725
+Italy 31497
+Latvia 948
+Lithuania 1448
+Luxembourg 1306
+Malta 312
+Netherlands 21591
+Poland 8720
+Portugal 4831
+Romania 3192
+Slovakia 2447
+Slovenia 1153
+Spain 25249
+Sweden 11156
+totEU27 296082
+
+ MONTH 6 YEAR 1
+
+ totEU27 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000               236736              2065739
+   AFF Worker Number              9000000               213425              1862329
+         Firm Number             42251874              4842111             42251873
+       Worker Number            171467679              4064817             35469268
+      Empl. Compens.              7447036                15258               133146
+Cap. R & Op. Surplus              6856862                13287               115941
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                28546               249090
+ Int. goods basic p.             16939701                28049               244759
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+
+ Add. Val. basic p. by country
+
+
+Rank 1, gloabal time 269.9584128856659, cpu time 127.468163
+
+Rank  1 concluded
+ 
+
+Austria 7409
+Belgium 8420
+Bulgaria 1110
+Croatia 904
+Cyprus 446
+Czechia 4720
+Denmark 8262
+Estonia 735
+Finland 4534
+France 38649
+Germany 67090
+Greece 2470
+Hungary 2052
+Ireland 6499
+Italy 26498
+Latvia 798
+Lithuania 1218
+Luxembourg 1099
+Malta 263
+Netherlands 18165
+Poland 7336
+Portugal 4064
+Romania 2685
+Slovakia 2058
+Slovenia 970
+Spain 21242
+Sweden 9385
+totEU27 249095
+
+ MONTH 7 YEAR 1
+
+ totEU27 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000               236736              1782816
+   AFF Worker Number              9000000               213425              1607265
+         Firm Number             42251874              5610527             42251874
+       Worker Number            171467679              4064817             30611408
+      Empl. Compens.              7447036                15258               114910
+Cap. R & Op. Surplus              6856862                13287               100062
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                28546               214974
+ Int. goods basic p.             16939701                28049               211237
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+
+ Add. Val. basic p. by country 
+
+Austria 6394
+Belgium 7267
+Bulgaria 958
+Croatia 780
+Cyprus 385
+Czechia 4073
+Denmark 7130
+Estonia 634
+Finland 3913
+France 33355
+Germany 57902
+Greece 2132
+Hungary 1771
+Ireland 5609
+Italy 22869
+Latvia 688
+Lithuania 1052
+Luxembourg 948
+Malta 227
+Netherlands 15677
+Poland 6331
+Portugal 3508
+Romania 2317
+Slovakia 1776
+Slovenia 837
+Spain 18333
+Sweden 8100
+totEU27 214979
+
+ MONTH 8 YEAR 1
+
+ totEU27 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000               236736              1568055
+   AFF Worker Number              9000000               213425              1413652
+         Firm Number             42251874              6378943             42251874
+       Worker Number            171467679              4064817             26923917
+      Empl. Compens.              7447036                15258               101068
+Cap. R & Op. Surplus              6856862                13287                88008
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                28546               189078
+ Int. goods basic p.             16939701                28049               185791
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+
+ Add. Val. basic p. by country 
+
+Austria 5624
+Belgium 6391
+Bulgaria 842
+Croatia 686
+Cyprus 339
+Czechia 3582
+Denmark 6271
+Estonia 558
+Finland 3442
+France 29337
+Germany 50927
+Greece 1875
+Hungary 1558
+Ireland 4933
+Italy 20114
+Latvia 605
+Lithuania 925
+Luxembourg 834
+Malta 199
+Netherlands 13788
+Poland 5568
+Portugal 3085
+Romania 2038
+Slovakia 1562
+Slovenia 736
+Spain 16124
+Sweden 7124
+totEU27 189083
+
+ MONTH 9 YEAR 1
+
+ totEU27 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000               236736              1399473
+   AFF Worker Number              9000000               213425              1261669
+         Firm Number             42251874              7147359             42251874
+       Worker Number            171467679              4064817             24029314
+      Empl. Compens.              7447036                15258                90202
+Cap. R & Op. Surplus              6856862                13287                78546
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                28546               168750
+ Int. goods basic p.             16939701                28049               165816
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+
+ Add. Val. basic p. by country 
+
+Austria 5019
+Belgium 5704
+Bulgaria 752
+Croatia 612
+Cyprus 302
+Czechia 3197
+Denmark 5597
+Estonia 498
+Finland 3072
+France 26183
+Germany 45451
+Greece 1673
+Hungary 1390
+Ireland 4403
+Italy 17952
+Latvia 540
+Lithuania 825
+Luxembourg 744
+Malta 178
+Netherlands 12306
+Poland 4970
+Portugal 2753
+Romania 1819
+Slovakia 1394
+Slovenia 657
+Spain 14391
+Sweden 6358
+totEU27 168754
+
+ MONTH 10 YEAR 1
+
+ totEU27 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000               236736              1263621
+   AFF Worker Number              9000000               213425              1139194
+         Firm Number             42251874              7915775             42251874
+       Worker Number            171467679              4064817             21696692
+      Empl. Compens.              7447036                15258                81445
+Cap. R & Op. Surplus              6856862                13287                70921
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                28546               152369
+ Int. goods basic p.             16939701                28049               149720
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+
+ Add. Val. basic p. by country 
+
+Austria 4532
+Belgium 5150
+Bulgaria 679
+Croatia 553
+Cyprus 273
+Czechia 2887
+Denmark 5054
+Estonia 449
+Finland 2774
+France 23641
+Germany 41039
+Greece 1511
+Hungary 1255
+Ireland 3975
+Italy 16209
+Latvia 488
+Lithuania 745
+Luxembourg 672
+Malta 160
+Netherlands 11111
+Poland 4487
+Portugal 2486
+Romania 1642
+Slovakia 1259
+Slovenia 593
+Spain 12994
+Sweden 5741
+totEU27 152372
+
+ MONTH 11 YEAR 1
+
+ totEU27 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000               236736              1151810
+   AFF Worker Number              9000000               213425              1038393
+         Firm Number             42251874              8684191             42251874
+       Worker Number            171467679              4064817             19776872
+      Empl. Compens.              7447036                15258                74239
+Cap. R & Op. Surplus              6856862                13287                64646
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                28546               138887
+ Int. goods basic p.             16939701                28049               136472
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+
+ Add. Val. basic p. by country 
+
+Austria 4131
+Belgium 4695
+Bulgaria 619
+Croatia 504
+Cyprus 249
+Czechia 2631
+Denmark 4606
+Estonia 409
+Finland 2528
+France 21549
+Germany 37408
+Greece 1377
+Hungary 1144
+Ireland 3624
+Italy 14775
+Latvia 445
+Lithuania 679
+Luxembourg 612
+Malta 146
+Netherlands 10128
+Poland 4090
+Portugal 2266
+Romania 1497
+Slovakia 1148
+Slovenia 541
+Spain 11844
+Sweden 5233
+totEU27 138890
+
+ MONTH 12 YEAR 1
+
+ totEU27 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000               236736              1058177
+   AFF Worker Number              9000000               213425               953980
+         Firm Number             42251874              9452607             42251874
+       Worker Number            171467679              4064817             18169181
+      Empl. Compens.              7447036                15258                68204
+Cap. R & Op. Surplus              6856862                13287                59391
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                28546               127596
+ Int. goods basic p.             16939701                28049               125378
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+
+ Add. Val. basic p. by country 
+
+Austria 3795
+Belgium 4313
+Bulgaria 568
+Croatia 463
+Cyprus 228
+Czechia 2417
+Denmark 4232
+Estonia 376
+Finland 2323
+France 19798
+Germany 34367
+Greece 1265
+Hungary 1051
+Ireland 3329
+Italy 13574
+Latvia 408
+Lithuania 624
+Luxembourg 563
+Malta 134
+Netherlands 9305
+Poland 3758
+Portugal 2082
+Romania 1375
+Slovakia 1054
+Slovenia 497
+Spain 10881
+Sweden 4807
+totEU27 127599
+
+
+
+Rank 0, gloabal time 271.202748298645, cpu time 215.419507
+
+Rank  0 concluded
+
+
+
+Rank 3, gloabal time 271.6365067958832, cpu time 187.677603
+
+Rank  3 concluded
+
+
+
+Rank 2, gloabal time 272.89862394332886, cpu time 231.748221
+
+Rank  2 concluded
