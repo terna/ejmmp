@@ -1,5 +1,19 @@
-MONTH 1
-MONTH 1
+rank 0 starting
+rank 1 starting
+rank 1 tableOfInvestmentShare 2
+rank 1 how many firms 1000000
+rank 1 use smart capital 1
+635227 firms created in rank  1
+propFactor 66.51460658945543 in rank 1
+rank 1 self.EUstatGhostList []
+rank 0 tableOfInvestmentShare 2
+rank 0 how many firms 1000000
+rank 0 use smart capital 1
+364804 firms created in rank  0
+propFactor 115.82075306191818 in rank 0
+rank 0 self.EUstatGhostList [Agent(0, 1, 1)]
+
+ MONTH 1 YEAR 1
 
  totEU27 
 
@@ -19,8 +33,39 @@ Cap. R & Op. Surplus              6856862                13048               551
  AFF => Agriculture, Forestry and Fishing
 
 
-MONTH 2
-MONTH 2
+
+ Add. Val. basic p. by country 
+
+Austria 34225
+Belgium 42656
+Bulgaria 3777
+Croatia 4470
+Cyprus 2200
+Czechia 22119
+Denmark 39335
+Estonia 2370
+Finland 18910
+France 183362
+Germany 308160
+Greece 11201
+Hungary 11160
+Ireland 29214
+Italy 132635
+Latvia 2687
+Lithuania 4844
+Luxembourg 4080
+Malta 2022
+Netherlands 84867
+Poland 41100
+Portugal 22150
+Romania 14937
+Slovakia 9799
+Slovenia 3073
+Spain 102854
+Sweden 45005
+totEU27 1183225
+
+ MONTH 2 YEAR 1
 
  totEU27 
 
@@ -40,3 +85,46 @@ Cap. R & Op. Surplus              6856862                13048               337
  AFF => Agriculture, Forestry and Fishing
 
 
+
+ Add. Val. basic p. by country 
+
+Austria 10708
+Belgium 13568
+Bulgaria 1176
+Croatia 1576
+Cyprus 873
+Czechia 6411
+Denmark 11400
+Estonia 907
+Finland 6615
+France 58564
+Germany 92745
+Greece 3682
+Hungary 3951
+Ireland 9705
+Italy 43981
+Latvia 993
+Lithuania 1963
+Luxembourg 1373
+Malta 580
+Netherlands 23650
+Poland 13055
+Portugal 7733
+Romania 4591
+Slovakia 3085
+Slovenia 1056
+Spain 34484
+Sweden 13934
+totEU27 372370
+
+
+
+Rank 0, gloabal time 104.58974194526672, cpu time 77.83462200000001
+
+Rank  0 concluded
+
+
+
+Rank 1, gloabal time 107.80295300483704, cpu time 105.126667
+
+Rank  1 concluded
