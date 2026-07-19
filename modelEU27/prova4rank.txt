@@ -1,7 +1,13 @@
-rank 0 starting
-rank 1 starting
 rank 2 starting
 rank 3 starting
+rank 0 starting
+rank 1 starting
+rank 1 tableOfInvestmentShare 2
+rank 1 how many firms 1000000
+rank 1 use smart capital 1
+133189 firms created in rank  1
+propFactor 317.23245913701584 in rank 1
+rank 1 self.EUstatGhostList []
 rank 2 tableOfInvestmentShare 2
 rank 2 how many firms 1000000
 rank 2 use smart capital 1
@@ -20,12 +26,6 @@ rank 0 use smart capital 1
 231615 firms created in rank  0
 propFactor 182.42287416618095 in rank 0
 rank 0 self.EUstatGhostList [Agent(0, 1, 1), Agent(0, 1, 2), Agent(0, 1, 3)]
-rank 1 tableOfInvestmentShare 2
-rank 1 how many firms 1000000
-rank 1 use smart capital 1
-133189 firms created in rank  1
-propFactor 317.23245913701584 in rank 1
-rank 1 self.EUstatGhostList []
 
  MONTH 1 YEAR 1
 
@@ -131,78 +131,26 @@ Spain 194
 Sweden 63
 totEU27 3705
 
- MONTH 3 YEAR 1
-
- totEU27 
-
-Markup tentative 25.0%
-                                    EU 27           simulation        simulation to
-                                                                           EU scale
-     AFF Firm Number             10000000               236736             10002229
-   AFF Worker Number              9000000               213425              9017326
-         Firm Number             42251874              1000031             42251874
-       Worker Number            171467679              4064817            171740811
-      Empl. Compens.              7447036                15258               644687
-Cap. R & Op. Surplus              6856862                13287               561383
-  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
-  Add. Val. basic p.             14303899                   87                 3705
- Int. Prod. basic p.             16939701                    3                  151
-
- AFF => Agriculture, Forestry and Fishing
 
 
-
- Add. Val. basic p. by country 
-
-Austria 38
-Belgium 274
-Bulgaria 8
-Croatia 0
-Cyprus 0
-Czechia 31
-Denmark 144
-Estonia 0
-Finland 105
-France 714
-Germany 1391
-Greece 9
-Hungary 1
-Ireland 95
-Italy 232
-Latvia 0
-Lithuania 7
-Luxembourg 28
-Malta 0
-Netherlands 291
-Poland 47
-Portugal 14
-Romania 3
-Slovakia 4
-Slovenia 2
-Spain 194
-Sweden 63
-totEU27 3705
-
-
-
-Rank 0, gloabal time 84.09412670135498, cpu time 69.15588500000001
+Rank 0, gloabal time 63.97135519981384, cpu time 53.939335
 
 Rank  0 concluded
 
 
 
-Rank 1, gloabal time 84.09446406364441, cpu time 41.736216
+Rank 1, gloabal time 63.97201681137085, cpu time 33.344608
 
 Rank  1 concluded
 
 
 
-Rank 2, gloabal time 84.09311008453369, cpu time 74.019048
+Rank 2, gloabal time 63.971051931381226, cpu time 57.121151000000005
 
 Rank  2 concluded
 
 
 
-Rank 3, gloabal time 84.09468221664429, cpu time 61.734758
+Rank 3, gloabal time 63.97074913978577, cpu time 48.639713
 
 Rank  3 concluded
