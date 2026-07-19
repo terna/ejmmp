@@ -77,13 +77,7 @@ ptptptptptptpt self.countActualAddedValue[27] 5.242280163606098 rank= 0 month 1
 ptptptptptptpt self.countActualAddedValue[27] 79.18591776568012 rank= 1 month 1
 ptptptptpt synch done, rank 1 month 1
 ptptptptpt synch done, rank 0 month 1
-ptptptptptpt after aggregating ranks self.countActualAddedValue[27] 14411.720555738166 rank 0 month 1
-
-
-
-Rank 1, gloabal time 99.90494894981384, cpu time 96.64443899999999
-
-Rank  1 concluded
+ptptptptptpt after aggregating ranks self.countActualAddedValue[27] 84.42819792928621 rank 0 month 1
 
  MONTH 2 YEAR 1
 
@@ -99,8 +93,8 @@ Markup tentative 25.0%
       Empl. Compens.              7447036                14956               631939
 Cap. R & Op. Surplus              6856862                13048               551285
   GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
-  Add. Val. basic p.             14303899                14411               608903
- Int. Prod. basic p.             16939701                17550               741518
+  Add. Val. basic p.             14303899                   84                 3567
+ Int. Prod. basic p.             16939701                    4                  186
 
  AFF => Agriculture, Forestry and Fishing
 
@@ -108,37 +102,43 @@ Cap. R & Op. Surplus              6856862                13048               551
 
  Add. Val. basic p. by country 
 
-Austria 17510
-Belgium 22186
-Bulgaria 1923
-Croatia 2578
-Cyprus 1429
-Czechia 10483
-Denmark 18641
-Estonia 1483
-Finland 10817
-France 95764
-Germany 151658
-Greece 6022
-Hungary 6461
-Ireland 15871
-Italy 71918
-Latvia 1623
-Lithuania 3211
-Luxembourg 2246
-Malta 948
-Netherlands 38673
-Poland 21348
-Portugal 12645
-Romania 7507
-Slovakia 5044
-Slovenia 1728
-Spain 56388
-Sweden 22785
-totEU27 608903
+Austria 103
+Belgium 72
+Bulgaria 1
+Croatia 2
+Cyprus 0
+Czechia 6
+Denmark 368
+Estonia 0
+Finland 68
+France 950
+Germany 717
+Greece 101
+Hungary 6
+Ireland 43
+Italy 496
+Latvia 1
+Lithuania 0
+Luxembourg 84
+Malta 0
+Netherlands 250
+Poland 29
+Portugal 3
+Romania 12
+Slovakia 14
+Slovenia 9
+Spain 92
+Sweden 126
+totEU27 3567
 
 
 
-Rank 0, gloabal time 99.90496397018433, cpu time 74.391639
+Rank 0, gloabal time 99.63863110542297, cpu time 73.915126
 
 Rank  0 concluded
+
+
+
+Rank 1, gloabal time 99.63867211341858, cpu time 96.887115
+
+Rank  1 concluded
