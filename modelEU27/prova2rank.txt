@@ -12,6 +12,13 @@ rank 0 use smart capital 1
 364804 firms created in rank  0
 propFactor 115.82075306191818 in rank 0
 rank 0 self.EUstatGhostList [Agent(0, 1, 1)]
+ptptptpt countActualValue 13598.474051091891 rank 0 count_months 0
+ptptptpt countActualValue 14406.478275582493 rank 1 count_months 0
+ptptptptptptpt self.countActualAddedValue[27] 14406.478275574558 rank= 1 month 0
+ptptptptptptpt self.countActualAddedValue[27] 13598.474051090914 rank= 0 month 0
+ptptptptpt synch done, rank 1 month 0
+ptptptptpt synch done, rank 0 month 0
+ptptptptptpt after aggregating ranks self.countActualAddedValue[27] 28004.952326665472 rank 0 month 0
 
  MONTH 1 YEAR 1
 
@@ -64,6 +71,19 @@ Slovenia 3073
 Spain 102854
 Sweden 45005
 totEU27 1183225
+ptptptpt countActualValue 5.242280163606097 rank 0 count_months 1
+ptptptpt countActualValue 79.18591776568014 rank 1 count_months 1
+ptptptptptptpt self.countActualAddedValue[27] 5.242280163606098 rank= 0 month 1
+ptptptptptptpt self.countActualAddedValue[27] 79.18591776568012 rank= 1 month 1
+ptptptptpt synch done, rank 1 month 1
+ptptptptpt synch done, rank 0 month 1
+ptptptptptpt after aggregating ranks self.countActualAddedValue[27] 14411.720555738166 rank 0 month 1
+
+
+
+Rank 1, gloabal time 99.90494894981384, cpu time 96.64443899999999
+
+Rank  1 concluded
 
  MONTH 2 YEAR 1
 
@@ -72,15 +92,15 @@ totEU27 1183225
 Markup tentative 25.0%
                                     EU 27           simulation        simulation to
                                                                            EU scale
-     AFF Firm Number             10000000               236736              6116796
-   AFF Worker Number              9000000               212602              5493220
-         Firm Number             42251874              1635258             42251874
-       Worker Number            171467679              4028122            104078807
-      Empl. Compens.              7447036                14956               386458
-Cap. R & Op. Surplus              6856862                13048               337134
+     AFF Firm Number             10000000               236736             10002229
+   AFF Worker Number              9000000               212602              8982554
+         Firm Number             42251874              1000031             42251874
+       Worker Number            171467679              4028122            170190427
+      Empl. Compens.              7447036                14956               631939
+Cap. R & Op. Surplus              6856862                13048               551285
   GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
-  Add. Val. basic p.             14303899                14411               372370
- Int. Prod. basic p.             16939701                17550               453470
+  Add. Val. basic p.             14303899                14411               608903
+ Int. Prod. basic p.             16939701                17550               741518
 
  AFF => Agriculture, Forestry and Fishing
 
@@ -88,43 +108,37 @@ Cap. R & Op. Surplus              6856862                13048               337
 
  Add. Val. basic p. by country 
 
-Austria 10708
-Belgium 13568
-Bulgaria 1176
-Croatia 1576
-Cyprus 873
-Czechia 6411
-Denmark 11400
-Estonia 907
-Finland 6615
-France 58564
-Germany 92745
-Greece 3682
-Hungary 3951
-Ireland 9705
-Italy 43981
-Latvia 993
-Lithuania 1963
-Luxembourg 1373
-Malta 580
-Netherlands 23650
-Poland 13055
-Portugal 7733
-Romania 4591
-Slovakia 3085
-Slovenia 1056
-Spain 34484
-Sweden 13934
-totEU27 372370
+Austria 17510
+Belgium 22186
+Bulgaria 1923
+Croatia 2578
+Cyprus 1429
+Czechia 10483
+Denmark 18641
+Estonia 1483
+Finland 10817
+France 95764
+Germany 151658
+Greece 6022
+Hungary 6461
+Ireland 15871
+Italy 71918
+Latvia 1623
+Lithuania 3211
+Luxembourg 2246
+Malta 948
+Netherlands 38673
+Poland 21348
+Portugal 12645
+Romania 7507
+Slovakia 5044
+Slovenia 1728
+Spain 56388
+Sweden 22785
+totEU27 608903
 
 
 
-Rank 0, gloabal time 104.58974194526672, cpu time 77.83462200000001
+Rank 0, gloabal time 99.90496397018433, cpu time 74.391639
 
 Rank  0 concluded
-
-
-
-Rank 1, gloabal time 107.80295300483704, cpu time 105.126667
-
-Rank  1 concluded

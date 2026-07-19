@@ -1,5 +1,4 @@
-MONTH 1
-MONTH 1
+MONTH 2
 
  Belgium 
 
@@ -13,30 +12,9 @@ Markup tentative 25.0%
       Empl. Compens.              7447036                  538                22746
 Cap. R & Op. Surplus              6856862                  471                19900
   GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
-  Add. Val. basic p.             14303899                 1009                42656
- Int. Prod. basic p.             16939701                 1236                52226
+  Add. Val. basic p.             14303899                  525                22186
+ Int. Prod. basic p.             16939701                  645                27262
 
  AFF => Agriculture, Forestry and Fishing
 
 
-MONTH 2
-
- Belgium 
-
-Markup tentative 25.0%
-                                    EU 27           simulation        simulation to
-                                                                           EU scale
-     AFF Firm Number             10000000                  951                24571
-   AFF Worker Number              9000000                  850                21962
-         Firm Number             42251874              1635258             42251874
-       Worker Number            171467679               103154              2665297
-      Empl. Compens.              7447036                  538                13910
-Cap. R & Op. Surplus              6856862                  471                12169
-  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
-  Add. Val. basic p.             14303899                  525                13568
- Int. Prod. basic p.             16939701                  645                16672
-
- AFF => Agriculture, Forestry and Fishing
-
-
-MONTH 2
