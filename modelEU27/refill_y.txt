@@ -1,0 +1,132 @@
+rank 0 tableOfInvestmentShare 2
+rank 0 how many firms 1000000
+rank 0 use smart capital 1
+1000031 firms created in rank  0
+propFactor 42.25056423250879 in rank 0
+rank 0 self.EUstatGhostList []
+
+MONTH 1 YEAR 1 before int. goods restocking with refill =  y 
+total output warehouses of int. goods 37595599381.87846 
+total refill needs                    33014927432.13832
+
+MONTH 1 YEAR 1 after int. goods restocking with refill =  y 
+total output warehouses of int. goods 13486895273.537724 
+total refill needs                    8906223323.639875
+
+ MONTH 1 YEAR 1
+
+ totEU27 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000               236736             10002229
+   AFF Worker Number              9000000               213282              9011284
+         Firm Number             42251874              1000031             42251874
+       Worker Number            171467679              4040328            170706137
+      Empl. Compens.              7447036                15072               636842
+Cap. R & Op. Surplus              6856862                13171               556482
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                28244              1193325
+ Int. Prod. basic p.             16939701                37595              1588435
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+
+ Add. Val. basic p. by country 
+
+Austria 35343
+Belgium 45182
+Bulgaria 4090
+Croatia 3721
+Cyprus 2415
+Czechia 24553
+Denmark 38668
+Estonia 3105
+Finland 25089
+France 182672
+Germany 308063
+Greece 12875
+Hungary 10202
+Ireland 31416
+Italy 133110
+Latvia 3255
+Lithuania 6010
+Luxembourg 5920
+Malta 3169
+Netherlands 82846
+Poland 36366
+Portugal 20715
+Romania 15531
+Slovakia 8593
+Slovenia 3387
+Spain 104481
+Sweden 42535
+totEU27 1193325
+
+MONTH 2 YEAR 1 before int. goods restocking with refill =  y 
+total output warehouses of int. goods 14882313089.169237 
+total refill needs                    10175661400.928722
+
+MONTH 2 YEAR 1 after int. goods restocking with refill =  y 
+total output warehouses of int. goods 11709720768.308521 
+total refill needs                    7003069080.067525
+
+ MONTH 2 YEAR 1
+
+ totEU27 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000               236736             10002229
+   AFF Worker Number              9000000               213282              9011284
+         Firm Number             42251874              1000031             42251874
+       Worker Number            171467679              4040328            170706137
+      Empl. Compens.              7447036                15072               636842
+Cap. R & Op. Surplus              6856862                13171               556482
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                  843                35623
+ Int. Prod. basic p.             16939701                 1395                58957
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+
+ Add. Val. basic p. by country 
+
+Austria 857
+Belgium 767
+Bulgaria 214
+Croatia 451
+Cyprus 69
+Czechia 626
+Denmark 558
+Estonia 132
+Finland 597
+France 4610
+Germany 4647
+Greece 1024
+Hungary 885
+Ireland 1206
+Italy 6588
+Latvia 226
+Lithuania 460
+Luxembourg 36
+Malta 40
+Netherlands 1106
+Poland 2138
+Portugal 798
+Romania 1711
+Slovakia 257
+Slovenia 183
+Spain 4643
+Sweden 780
+totEU27 35623
+
+
+
+Rank 0, gloabal time 262.32766699790955, cpu time 262.498086
+
+Rank  0 concluded
