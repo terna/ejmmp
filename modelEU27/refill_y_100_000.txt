@@ -1,0 +1,138 @@
+rank 0 tableOfInvestmentShare 2
+rank 0 how many firms 100000
+rank 0 use smart capital 1
+100002 firms created in rank  0
+propFactor 422.51028979420414 in rank 0
+rank 0 self.EUstatGhostList []
+
+MONTH 1 YEAR 1 before int. goods restocking with refill =  y 
+total output warehouses of int. goods 3569890974.1215425 
+total refill needs                    3192246397.109193
+
+MONTH 1 YEAR 1 after int. goods restocking with refill =  y 
+total output warehouses of int. goods 1293009309.7870924 
+total refill needs                    915364732.7725455 
+missing refill                        915364732.7725455
+
+ MONTH 1 YEAR 1
+
+Local preference 10
+
+ totEU27 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000                23674             10002508
+   AFF Worker Number              9000000                21236              8972428
+         Firm Number             42251874               100002             42251874
+       Worker Number            171467679               386935            163484018
+      Empl. Compens.              7447036                 1434               605984
+Cap. R & Op. Surplus              6856862                 1282               541658
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                 2716              1147924
+ Int. Prod. basic p.             16939701                 3569              1508315
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+
+ Add. Val. basic p. by country 
+
+Austria 30641
+Belgium 31023
+Bulgaria 7518
+Croatia 2322
+Cyprus 3742
+Czechia 22500
+Denmark 50033
+Estonia 2197
+Finland 23340
+France 205738
+Germany 295902
+Greece 9501
+Hungary 11313
+Ireland 22275
+Italy 121536
+Latvia 2200
+Lithuania 4039
+Luxembourg 3366
+Malta 846
+Netherlands 95355
+Poland 33959
+Portugal 21626
+Romania 12194
+Slovakia 6080
+Slovenia 8640
+Spain 88849
+Sweden 31177
+totEU27 1147924
+
+MONTH 2 YEAR 1 before int. goods restocking with refill =  y 
+total output warehouses of int. goods 1398498588.2390785 
+total refill needs                    1007653357.2588019
+
+MONTH 2 YEAR 1 after int. goods restocking with refill =  y 
+total output warehouses of int. goods 1156020126.7429118 
+total refill needs                    765174895.7629483 
+missing refill                        765174895.7629483
+
+ MONTH 2 YEAR 1
+
+Local preference 10
+
+ totEU27 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000                23674             10002508
+   AFF Worker Number              9000000                21236              8972428
+         Firm Number             42251874               100002             42251874
+       Worker Number            171467679               386935            163484018
+      Empl. Compens.              7447036                 1434               605984
+Cap. R & Op. Surplus              6856862                 1282               541658
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                   67                28516
+ Int. Prod. basic p.             16939701                  105                44570
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+
+ Add. Val. basic p. by country 
+
+Austria 612
+Belgium 391
+Bulgaria 101
+Croatia 384
+Cyprus 75
+Czechia 322
+Denmark 301
+Estonia 97
+Finland 395
+France 4166
+Germany 3712
+Greece 922
+Hungary 841
+Ireland 854
+Italy 5266
+Latvia 177
+Lithuania 419
+Luxembourg 28
+Malta 24
+Netherlands 757
+Poland 1787
+Portugal 575
+Romania 1695
+Slovakia 130
+Slovenia 181
+Spain 3887
+Sweden 406
+totEU27 28516
+
+
+
+Rank 0, gloabal time 56.25251293182373, cpu time 56.0652434
+
+Rank  0 concluded

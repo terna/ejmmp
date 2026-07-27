@@ -6,11 +6,11 @@ propFactor 42.25056423250879 in rank 0
 rank 0 self.EUstatGhostList []
 
 MONTH 1 YEAR 1 before int. goods restocking with refill =  n 
-total output warehouses of int. goods 37_595_599_381.87846 
+total output warehouses of int. goods 37595599381.87846 
 total refill needs                    33014927432.13832
 
 MONTH 1 YEAR 1 after int. goods restocking with refill =  n 
-total output warehouses of int. goods 37_595_599_381.87846 
+total output warehouses of int. goods 37595599381.87846 
 total refill needs                    33014927432.13832
 
  MONTH 1 YEAR 1
