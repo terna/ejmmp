@@ -1,0 +1,6 @@
+
+preferenza 10         53.2         17.9
+no meccanismo rip     12.6          3.8
+or rip 0
+
+ma con continue se <0.01 via i refill, 2° mese senza VA
