@@ -1,6 +1,24 @@
+pref 10 rip  0   successful refill  successful local refill     needs after refill   AV       seconds
+         [total]                    [total]
+month 1          53.2               17.9                        14335.78             28244
+month 2          12.6                3.8                        11714.77              3233    324
 
-preferenza 10         53.2         17.9
-no meccanismo rip     12.6          3.8
-or rip 0
+pref 10 rip  10  
+month 1          53.1                17.8                       13705.05             28244     
+month 2          14.4                 4.2                       11113.25              3966    398
 
-ma con continue se <0.01 via i refill, 2° mese senza VA
+pref 10 rip  20
+month 1          52.7                17.3                       12922.71             28244
+month 2          15.1                 4.0                       10284.51              4414    479
+
+pref 10 rip  50
+month 1          53.0                16.9                       11367.17             28244
+month 2          24.5                 6.6                        9423.84              7634    694
+
+pref  1 rip  50
+month 1          51.8                 4.1                        9154.09              28244
+month 2          30.7                 2.2                        8079.96              10578   714
+
+pref  1 rip 100  
+month 1          50.8 [209.2]         4.0 [18.8]                 7840.22              28244 
+month 2          33.5 [281.4]         2.4 [22.0]                 6822.10              11864  1103
