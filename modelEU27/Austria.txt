@@ -13,7 +13,7 @@ Markup tentative 25.0%
 Cap. R & Op. Surplus              6856862                  353                14914
   GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
   Add. Val. basic p.             14303899                  836                35343
- Int. Prod. basic p.             16939701                 1221                51608
+ Int. Prod. basic p.             16939701                  938                39671
 
  AFF => Agriculture, Forestry and Fishing
 

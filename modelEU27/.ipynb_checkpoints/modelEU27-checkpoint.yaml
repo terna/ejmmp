@@ -16,5 +16,5 @@ selected_countries: [0, 1, 10, 14, 27]
 plannedMarkup: 1.25
 restocking: "y" #"n" # usefull in code test phase
 localPreference: 10 #1.5 # it is a multiplier, so 1 means no local preference
-max_refill_repeat: 10 #number of refill repetions after default initial action; 0 mean no repetitions
+max_refill_repeat: 20 #number of refill repetions after default initial action; 0 mean no repetitions
 import: True

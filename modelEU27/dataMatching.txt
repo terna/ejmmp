@@ -1,0 +1,19 @@
+Int. goods basic p. [EU 16_939_701] is now 16_738_710 in static version and 1_394_899 * 12 => 16_738_788 in dynamic one.
+Before August 22, 2026, there was a significant discrepancy, with the dynamic version exceeding the static version by 2,322,399; the error stemmed from the fact that the static version reported demand (as in the EU data), while the dynamic version reported supply.
+
+In structuralData/data_import.ipynb, cell [6] reports Naio 2022 data.
+The first column, "Total" contains intermediate use of the rows' products.
+
+16_939_701.18 is the global amount of intermediate consumption; the same column reports the intemediate consumption of sectors 1-65; we use 0-63 cutting off the last sector (Services provided by extraterritorial organisations).
+
+Examples (# in 1-64 range), with propFact 42.25056:
+
+4 Mining and quarrying 
+67_100.23 at row 0: intermediate inputs of the sector at basic prices, including
+ 6_161.09 at row 81: use of imported products (of any sector)
+the difference is 60_939.14; we have 82.59*42.25056*12 => 41_873.68
+
+337295.56 at row 4 col. Total, is the demand of Mining and quarring intermediate good by any sector
+we have (month 1) 678.67*42.25056*12 => 344_090.25
+
+The amount of intermediate Mining and quarring goods by any sector is not emerging from this table.
