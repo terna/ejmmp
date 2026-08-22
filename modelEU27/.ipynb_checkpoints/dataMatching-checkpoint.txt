@@ -8,12 +8,26 @@ The first column, "Total" contains intermediate use of the rows' products.
 
 Examples (# in 1-64 range), with propFact 42.25056:
 
-4 Mining and quarrying 
+4 Mining and quarrying [chosen because, proportionally, it requires a large number of imports]
 67_100.23 at row 0: intermediate inputs of the sector at basic prices, including
  6_161.09 at row 81: use of imported products (of any sector)
-the difference is 60_939.14; we have 82.59*42.25056*12 => 41_873.68
+the difference is 60_939.14; we have 82.59*42.25056*12 => 41_873.68 (≈ 2/3)
 
-337295.56 at row 4 col. Total, is the demand of Mining and quarring intermediate good by any sector
+337_295.56 at row 4 col. Total, is the demand of Mining and quarrying intermediate goods by any sector;
 we have (month 1) 678.67*42.25056*12 => 344_090.25
+The amount of intermediate Mining and quarrying goods imported directly by each sector is not emerging from this table (it is included in the sectorial use of imported products).
 
-The amount of intermediate Mining and quarring goods by any sector is not emerging from this table.
+Considering the Added Value gross (row 66) 61_205.82, the amount of intermediate goods as output is 67_100.23 + 61_205.82 => 128_306.05; 
+we have 155.15*42.25056*12 => 78_662.09 (≈ 2/3 as above)
+
+From Naio: consumptions 12_761.25; gross capital formation 3_949.72; export (outside EU) 10_117.36;	so, final uses, 26_828.33
+
+26_828.33 + 337_295.56 - 128_306.05 => 235_817.84 as an estimate of the global Mining and quarrying imports
+
+In the case of pref 10 rep 10, imports of Mining and quarrying by productive sectors are 563.4*42.25056*12 => 285_647.58, which is consistent with the 2/3 value of production.
+
+Always in the case of pref 10 rep 10, total imports from sectors are 13368.78 (month 1) giving 13368.78*42.25056*12 = > 6_778_061.29
+
+In Naio we have 2_153_475.82 as total imports from sectors
+
+5 Food, beverages and tobacco products []
