@@ -12,6 +12,6 @@ Total imports 13368.78
 
 ---
 
-pref 10 rep 20
+pref 10 rep 40
 month 1
 

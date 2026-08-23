@@ -1,5 +1,5 @@
 #parameters for modelEU27.ipynb
-howManyCycles: 2
+howManyCycles: 3
 seed924: 12345
 myRandom.seed: [12345, 12346, 12347, 12348, 12349, 12350, 12351, 12352, 12353, 12354, 12355, 12356, 12357, 12358, 12359, 12360,
                 12361, 12362, 12363, 12364, 12365, 12366, 12367, 12368, 12369, 12370, 12371, 12372, 12373, 12374, 12375, 12376,
@@ -16,5 +16,5 @@ selected_countries: [0, 1, 10, 14, 27]
 plannedMarkup: 1.25
 restocking: "y" #"n" # usefull in code test phase
 localPreference: 10 #1.5 # it is a multiplier, so 1 means no local preference
-max_refill_repeat: 10 #number of refill repetions after default initial action; 0 mean no repetitions
+max_refill_repeat: 40 #number of refill repetions after default initial action; 0 mean no repetitions
 import: True
