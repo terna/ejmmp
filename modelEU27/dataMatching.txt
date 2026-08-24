@@ -28,6 +28,6 @@ In the case of pref 10 rep 10, imports of Mining and quarrying by productive sec
 
 Always in the case of pref 10 rep 10, total imports from sectors are 13368.78 (month 1) giving 13368.78*42.25056*12 = > 6_778_061.29
 
-In Naio we have 2_153_475.82 as total imports from sectors
+In Naio we have 2_153_475.82 as total imports from sectors 
 
 5 Food, beverages and tobacco products []

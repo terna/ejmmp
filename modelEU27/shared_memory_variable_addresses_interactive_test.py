@@ -9,10 +9,6 @@ from repast4py.context import SharedContext
 # Parameters
 # ============================================================
 
-BASE_FIRMS_PER_RANK = 2_500
-MIN_LOCAL_FIRMS = 1_500
-MAX_LOCAL_FIRMS = 3_500
-
 N_CYCLES = 3
 
 PRODUCTION = 10.0
@@ -232,28 +228,114 @@ def main():
     context = SharedContext(comm)
 
     # --------------------------------------------------------
-    # Create a variable number of local Firms on each rank.
+    # Ask interactively for the TOTAL number of Firms.
     #
-    # In the real model this number may depend on probabilities
-    # by class, sector, country, size, and other characteristics.
+    # Only rank 0 reads from standard input. The requested total
+    # is then broadcast to all MPI ranks.
     #
-    # Here we emulate that situation with a deterministic random
-    # number of local Firms for each rank.
+    # This works both with:
+    #
+    #     python3.13 shared_memory_variable_addresses_interactive_test.py
+    #
+    # and with, for example:
+    #
+    #     mpirun -n 4 python3.13 shared_memory_variable_addresses_interactive_test.py
     # --------------------------------------------------------
 
-    local_rng = np.random.default_rng(
-        SEED + 1000 + rank
+    if rank == 0:
+
+        while True:
+
+            try:
+
+                total_firms_requested = int(
+                    input(
+                        "Total number of Firms to create: "
+                    )
+                )
+
+                if total_firms_requested <= 0:
+                    raise ValueError
+
+                break
+
+            except ValueError:
+
+                print(
+                    "Please enter a positive integer."
+                )
+
+    else:
+
+        total_firms_requested = None
+
+    total_firms_requested = comm.bcast(
+        total_firms_requested,
+        root=0,
     )
 
-    if size == 1:
-        n_local = BASE_FIRMS_PER_RANK * 4
-    else:
-        n_local = int(
-            local_rng.integers(
-                MIN_LOCAL_FIRMS,
-                MAX_LOCAL_FIRMS + 1,
+    # --------------------------------------------------------
+    # Distribute the requested total among MPI ranks.
+    #
+    # In the real model the number of Firms created by each rank
+    # may emerge from probabilities by country, sector, class,
+    # size, and other characteristics.
+    #
+    # Here we emulate unequal rank populations by drawing one
+    # random allocation on rank 0. The multinomial draw guarantees
+    # that the rank counts sum EXACTLY to total_firms_requested.
+    #
+    # With one MPI rank, all Firms are assigned to rank 0.
+    # --------------------------------------------------------
+
+    if rank == 0:
+
+        if size == 1:
+
+            counts = np.array(
+                [total_firms_requested],
+                dtype=np.int64,
             )
-        )
+
+        else:
+
+            allocation_rng = np.random.default_rng(
+                SEED + 1000
+            )
+
+            # Positive random weights create unequal expected
+            # populations across ranks.
+            weights = (
+                allocation_rng.random(size)
+                + 0.5
+            )
+
+            probabilities = (
+                weights / weights.sum()
+            )
+
+            counts = allocation_rng.multinomial(
+                total_firms_requested,
+                probabilities,
+            ).astype(np.int64)
+
+    else:
+
+        counts = None
+
+    counts = comm.bcast(
+        counts,
+        root=0,
+    )
+
+    counts = np.asarray(
+        counts,
+        dtype=np.int64,
+    )
+
+    n_local = int(
+        counts[rank]
+    )
 
     local_firms = []
 
@@ -276,19 +358,9 @@ def main():
         local_firms.append(aFirm)
 
     # --------------------------------------------------------
-    # Collect only the number of Firms created on each rank.
-    #
-    # Every rank receives the same counts array.
+    # Every rank already has the same counts array because rank 0
+    # broadcast the complete allocation above.
     # --------------------------------------------------------
-
-    counts = comm.allgather(
-        n_local
-    )
-
-    counts = np.asarray(
-        counts,
-        dtype=np.int64,
-    )
 
     # --------------------------------------------------------
     # Compute the starting address of each rank.
@@ -314,6 +386,12 @@ def main():
     total_firms = int(
         counts.sum()
     )
+
+    if total_firms != total_firms_requested:
+        raise RuntimeError(
+            "Internal error: distributed Firm counts do not "
+            "sum to the requested total."
+        )
 
     # --------------------------------------------------------
     # Assign one compact and globally unique shared-memory
@@ -415,6 +493,10 @@ def main():
         print(
             f"MPI ranks: {size}; "
             f"shared-memory ranks: {shared_size}"
+        )
+
+        print(
+            f"requested total Firms: {total_firms_requested}"
         )
 
         print(
