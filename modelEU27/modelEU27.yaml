@@ -18,3 +18,4 @@ restocking: "y" #"n" # usefull in code test phase
 localPreference: 4 #1.5 # it is a multiplier, so 1 means no local preference
 max_refill_repeat: 2 #number of refill repetions after default initial action; 0 mean no repetitions
 import: True
+randomize_country_order: true # or True, is the same
