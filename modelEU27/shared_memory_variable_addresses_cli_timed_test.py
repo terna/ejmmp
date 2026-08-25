@@ -1,9 +1,36 @@
 from mpi4py import MPI
 import numpy as np
 import time
+import sys
 
 from repast4py import core
 from repast4py.context import SharedContext
+
+
+# ============================================================
+# Usage
+# ============================================================
+#
+# Interactive mono-rank:
+#
+#     python3.13 shared_memory_variable_addresses_cli_timed_test.py
+#
+# Interactive multi-rank:
+#
+#     mpirun -n 32 python3.13 shared_memory_variable_addresses_cli_timed_test.py
+#
+# Non-interactive: pass the TOTAL number of Firms as the first
+# command-line argument:
+#
+#     mpirun -n 32 python3.13 shared_memory_variable_addresses_cli_timed_test.py 1000000
+#
+# Background benchmark with stdout and stderr redirected:
+#
+#     mpirun -n 64 python3.13 shared_memory_variable_addresses_cli_timed_test.py 1000000 > 64.txt 2>&1 &
+#
+# In all cases, only rank 0 determines the requested total and
+# broadcasts it to the other MPI ranks.
+# ============================================================
 
 
 # ============================================================
@@ -240,42 +267,59 @@ def main():
     context = SharedContext(comm)
 
     # --------------------------------------------------------
-    # Ask interactively for the TOTAL number of Firms.
+    # Determine the TOTAL number of Firms.
     #
-    # Only rank 0 reads from standard input. The requested total
+    # If a command-line argument is present, rank 0 reads the
+    # total from sys.argv[1]. Otherwise rank 0 asks interactively.
+    #
+    # Only rank 0 parses / reads the requested total. The result
     # is then broadcast to all MPI ranks.
-    #
-    # This works both with:
-    #
-    #     python3.13 shared_memory_variable_addresses_interactive_test.py
-    #
-    # and with, for example:
-    #
-    #     mpirun -n 4 python3.13 shared_memory_variable_addresses_interactive_test.py
     # --------------------------------------------------------
 
     if rank == 0:
 
-        while True:
+        if len(sys.argv) > 1:
 
             try:
 
                 total_firms_requested = int(
-                    input(
-                        "Total number of Firms to create: "
-                    )
+                    sys.argv[1]
                 )
 
                 if total_firms_requested <= 0:
                     raise ValueError
 
-                break
-
             except ValueError:
 
                 print(
-                    "Please enter a positive integer."
+                    "ERROR: the first command-line argument "
+                    "must be a positive integer."
                 )
+
+                comm.Abort(1)
+
+        else:
+
+            while True:
+
+                try:
+
+                    total_firms_requested = int(
+                        input(
+                            "Total number of Firms to create: "
+                        )
+                    )
+
+                    if total_firms_requested <= 0:
+                        raise ValueError
+
+                    break
+
+                except ValueError:
+
+                    print(
+                        "Please enter a positive integer."
+                    )
 
     else:
 
