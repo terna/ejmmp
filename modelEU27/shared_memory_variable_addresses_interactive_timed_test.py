@@ -1,5 +1,6 @@
 from mpi4py import MPI
 import numpy as np
+import time
 
 from repast4py import core
 from repast4py.context import SharedContext
@@ -190,6 +191,17 @@ def main():
 
     rank = comm.Get_rank()
     size = comm.Get_size()
+
+    # --------------------------------------------------------
+    # Timing
+    #
+    # MPI.Wtime() measures wall-clock elapsed time.
+    # time.process_time() measures CPU time consumed by this
+    # Python process.
+    # --------------------------------------------------------
+
+    elapsed_start = MPI.Wtime()
+    cpu_start = time.process_time()
 
     processor_name = MPI.Get_processor_name()
 
@@ -487,6 +499,9 @@ def main():
 
     comm.Barrier()
 
+    initialization_elapsed = MPI.Wtime() - elapsed_start
+    initialization_cpu = time.process_time() - cpu_start
+
     if rank == 0:
 
         print()
@@ -620,6 +635,12 @@ def main():
     # ========================================================
     # Simulation
     # ========================================================
+
+    # Synchronize all ranks before measuring the simulation.
+    comm.Barrier()
+
+    simulation_elapsed_start = MPI.Wtime()
+    simulation_cpu_start = time.process_time()
 
     try:
 
@@ -997,6 +1018,83 @@ def main():
             )
 
     finally:
+
+        # ----------------------------------------------------
+        # Timing summary
+        # ----------------------------------------------------
+
+        comm.Barrier()
+
+        simulation_elapsed = MPI.Wtime() - simulation_elapsed_start
+        simulation_cpu = time.process_time() - simulation_cpu_start
+
+        total_elapsed = MPI.Wtime() - elapsed_start
+        total_cpu = time.process_time() - cpu_start
+
+        timing_row = (
+            rank,
+            n_local,
+            initialization_elapsed,
+            initialization_cpu,
+            simulation_elapsed,
+            simulation_cpu,
+            total_elapsed,
+            total_cpu,
+        )
+
+        timing_rows = comm.gather(
+            timing_row,
+            root=0,
+        )
+
+        if rank == 0:
+
+            print()
+            print(
+                "==========================================================================="
+            )
+            print(
+                "PER-RANK TIMING"
+            )
+            print(
+                "==========================================================================="
+            )
+            print(
+                " rank   local Firms   init elapsed   init CPU   "
+                "sim elapsed    sim CPU   total elapsed   total CPU"
+            )
+
+            for row in timing_rows:
+
+                (
+                    r,
+                    local_count,
+                    init_elapsed,
+                    init_cpu,
+                    sim_elapsed,
+                    sim_cpu,
+                    elapsed,
+                    cpu,
+                ) = row
+
+                print(
+                    f"{r:5d} "
+                    f"{local_count:13,d} "
+                    f"{init_elapsed:12.3f} "
+                    f"{init_cpu:10.3f} "
+                    f"{sim_elapsed:12.3f} "
+                    f"{sim_cpu:10.3f} "
+                    f"{elapsed:13.3f} "
+                    f"{cpu:10.3f}"
+                )
+
+            print()
+            print(
+                "Elapsed time = wall-clock time measured with MPI.Wtime()."
+            )
+            print(
+                "CPU time     = process CPU time measured with time.process_time()."
+            )
 
         # ----------------------------------------------------
         # Clean shutdown
