@@ -39,21 +39,25 @@ In the case of pref 20 rep 2, imports of Mining and quarrying by productive sect
 the difference is 879_383.04; we have (from month 1) 1802.04*42.25056*12 => 913_646.39 (+3.8%)
 
 508_405.01 at row 5 col. 'Total': demand of Food, beverages and tobacco intermediate goods by all sectors;
-we have (month 1) 950.25*42.25056*12 => 481_783.14 (-5.2%)
-The amount of intermediate Mining and quarrying goods imported directly by each sector is not emerging from this table (it is included in the sectorial use of imported products)
+we have (month 1) 950.25*42.25056*12 => 481_783.14 (-5.2%); NB, demand
+The amount of intermediate Food, beverages and tobacco goods imported directly by each sector is not emerging from this table (it is included in the sectorial use of imported products)
 
-Considering the Added Value gross (row 66) 284_672.03, the amount of intermediate goods as output is 983_256.48 + 284_672.03 => 1_267_928.51; we have  (1802.04+521.73)*42.25056*12 => 1_178_167.01 (-0.1%)
-@@@
-
+Considering the Added Value gross (row 66) 284_672.03, the amount of intermediate goods as output is 983_256.48 + 284_672.03 => 1_267_928.51; we have (1802.04+521.73)*42.25056*12 => 1_178_167.01 (-0.1%)
 
 From Naio, row Food, beverages and tobacco products: consumptions 695_495.73; gross capital formation 36_173.44; export (outside EU) 154_747.91; so, final uses, 886_417.09
 
-886_417.09 + 508_405.01 - 1_267_928.51 => 126_893.59 as an estimate of the global Food, beverages and tobacco imports
+Use - production: 886_417.09 + 508_405.01 - 1_267_928.51 => 126_893.59 as a Naio indirect estimate of the global Food, beverages and tobacco imports
+We temporary miss final uses from the model. 
+To be considered: in the case of pref 20 rep 2, imports of Food, beverages and tobacco by productive sectors are 48.01*42.25056*12 => 24_341.39 (no related value in Naio)
 
-In the case of pref 20 rep 2, imports of Food, beverages and tobacco by productive sectors are 48.01*42.25056*12 => 24_341.39 ???
+The amount of potential export from Food, beverages and tobacco (residual warehouse after refills) is 212.78*42.25056*12 => 107_880.89, not so far from 154_747.91 above
+
+A test: outputWarehouse before refill 1_115.02*42.25056*12 => 565_322.63, after refill 202.77, sold 912.25*42.25056*12 => 462 516.88032
+output 1_178_167.01
 
 ---
 
-Always in the case of pref 20 rep 2, total imports by sectors are 4222.53 (month 1) 4222.53*42.25056*12 => 2_140_851.09
+N.B.: firms hold a cumulative variable warehouseForPotentialExtraEU27export, while the outputWarhouse is set to zero at the end of each month
 
+Always in the case of pref 20 rep 2, total imports by sectors are 4222.53 (month 1) 4222.53*42.25056*12 => 2_140_851.09
 In Naio we have 2_153_475.82 as total imports by sectors.
