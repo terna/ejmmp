@@ -11,55 +11,117 @@ The first column, "Total" contains intermediate use of the rows' products.
 
 Examples (# in 1-64 range), with propFact 42.25056 and time * 12:
 
-4 Mining and quarrying [chosen because, proportionally to its added value, it requires a very large quantity of imports; Without imports, we would face a serious bottleneck here]
+---
 
+4 Mining and quarrying [chosen because, proportionally to its low produciton, it determines a very large quantity of direct imports; without imports, we had a serious bottleneck here]
+
+
+*use of intermediate products by sector 4*
+
+in Naio, all the firms, col. 4
 67_100.23 at row 0: intermediate inputs of the sector at basic prices, including
- 6_161.09 at row 81: use of imported products (of any sector)
-the difference is 60_939.14; we have (from month 1) 82.59*42.25056*12 => 41_873.68 (≈ 2/3)
+6_161.09 at row 81: use of imported products (of any sector)
+the difference is 60_939.14
 
+in model (refill needs from any sector, sum of col. 4 with firms of any productionType)
+we have (from month 1) 82.59*42.25056*12 => 41_873.68 (≈ 2/3) of 60_939.14
+
+
+*demand of intermediate products of sector 4 by all productive sectors*
+
+in Naio
 337_295.56 at row 4 col. 'Total': demand of Mining and quarrying intermediate goods by all sectors;
-we have (month 1) 678.67*42.25056*12 => 344_090.25
-The amount of intermediate Mining and quarrying goods imported directly by each sector is not emerging from this table (it is included in the sectorial use of imported products)
 
-Considering the Added Value gross (row 66) 61_205.82, the amount of intermediate goods as output is 67_100.23 + 61_205.82 => 128_306.05; 
-we have 155.15*42.25056*12 => 78_662.09 (≈ 2/3 as above)
+in model
+we have (month 1) 678.67*42.25056*12 => 344_090.25 (quite close: +2.0%)
 
-From Naio, row Mining and quarrying: consumptions 12_761.25; gross capital formation 3_949.72; export (outside EU) 10_117.36; so, final uses, 26_828.33
+[the amount of intermediate Mining and quarrying goods imported directly by each sector is not emerging from the Naio table; it is included in the 'sectorial use of imported products']
 
-26_828.33 + 337_295.56 - 128_306.05 => 235_817.84 as an estimate of the global Mining and quarrying imports
 
-In the case of pref 20 rep 2, imports of Mining and quarrying by productive sectors are 523.52*42.25056*12 => 265_428.16, with a surplus of 29_610.32, which is consistent with the missing 1/3 of production.
+*production*
+
+in Naio
+with Added Value gross (row 66) 61_205.82 and the amount of used intermediate goods 67_100.23 (see above) the output is 7_100.23 + 61_205.82 => 128_306.05 for any productionType; 
+
+in model
+for any production type we have (82.59+75.34)*42.25056*12 => 80_071.57 (again: ≈ 2/3)
+
+
+*final uses*
+
+in Naio, row Mining and quarrying products: consumptions 12_761.25; gross capital formation 3_949.72; export (outside EU) 10_117.36; total final uses, 26_828.33
+Uses minus production: 26_828.33 + 337_295.56 - 128_306.05 => 235_817.84 as an estimate of the global Mining and quarrying imports
+
+in model
+we are temporary missing final uses from the model 
+to be considered: in the case of pref 20 rep 2, imports of Mining and quarrying by productive sectors are 523.52*42.25056*12 => 265_428.16, with a surplus of 29_610.32, which is consistent with the missing 1/3 of production
+
+the amount of potential export from Mining and quarrying (residual warehouse after refills) is 0.0, not so far from 10_117.36 above
+
+*a check*
+
+in model
+sector 4 outputWarehouse before refill reports 155.15*42.25056*12 => 78_662.09; this is the output uniquely of firms with productionType Int; total output of the whole sector, as above, is 80_071.57; using addedValue (target or actual added value are ere equal) we have the quote of int producion (data of month 1) as 74.02/75.34 => 0.98
+80_071.57 * 0.98 => 78 470.13 very close to78_662.09 above
+
+
 
 ---
 
 5 Food, beverages and tobacco products [chosen for relevance]
 
+
 *use of intermediate products by sector 5*
+
+in Naio, all the firms, col. 5
 983_256.48 at row 0: intermediate inputs of the sector at basic prices, including
 103_873.44 at row 81: use of imported products (of any sector)
-the difference is 879_383.04; we have (from month 1) 1802.04*42.25056*12 => 913_646.39 (quite close: +3.8%)
+the difference is 879_383.04
 
-*demand of product of sector 5 by other sectors as intermediate products*
+in model (refill needs from any sector, sum of col. 5 with firms of any productionType)
+we have (from month 1) 1802.04*42.25056*12 => 913_646.39 (quite close: +3.8%)
+
+
+*demand of intermediate products of sector 5 by all productive sectors*
+
+in Naio
 508_405.01 at row 5 col. 'Total': demand of Food, beverages and tobacco intermediate goods by all sectors;
-we have (month 1) 950.25*42.25056*12 => 481_783.14 (-5.2%); NB, demand
-The amount of intermediate Food, beverages and tobacco goods imported directly by each sector is not emerging from this table (it is included in the sectorial use of imported products)
 
-Considering the Added Value gross (row 66) 284_672.03, the amount of intermediate goods as output is 983_256.48 + 284_672.03 => 1_267_928.51; we have (1802.04+521.73)*42.25056*12 => 1_178_167.01 (-0.1%)
+in model
+we have (month 1) 950.25*42.25056*12 => 481_783.14 (quite close: -5.2%)
 
-From Naio, row Food, beverages and tobacco products: consumptions 695_495.73; gross capital formation 36_173.44; export (outside EU) 154_747.91; so, final uses, 886_417.09
+[the amount of intermediate Food, beverages and tobacco goods imported directly by each sector is not emerging from the Naio table; it is included in the 'sectorial use of imported products']
 
-Use - production: 886_417.09 + 508_405.01 - 1_267_928.51 => 126_893.59 as a Naio indirect estimate of the global Food, beverages and tobacco imports
-We temporary miss final uses from the model. 
-To be considered: in the case of pref 20 rep 2, imports of Food, beverages and tobacco by productive sectors are 48.01*42.25056*12 => 24_341.39 (no related value in Naio)
 
-The amount of potential export from Food, beverages and tobacco (residual warehouse after refills) is 212.78*42.25056*12 => 107_880.89, not so far from 154_747.91 above
+*production*
 
-A test: outputWarehouse before refill 1_115.02*42.25056*12 => 565_322.63, after refill 202.77, sold 912.25*42.25056*12 => 462 516.88032
-output 1_178_167.01
+in Naio
+with Added Value gross (row 66) 284_672.03 and the amount of used intermediate goods 983_256.48 (see above) the output is 983_256.48 + 284_672.03 => 1_267_928.51 for any productionType; 
+
+in model
+for any production type we have (1802.04+521.73)*42.25056*12 => 1_178_167.01 (very close: -0.1%)
+
+
+*final uses*
+
+in Naio, row Food, beverages and tobacco products: consumptions 695_495.73; gross capital formation 36_173.44; export (outside EU) 154_747.91; total final uses, 886_417.09
+Uses minus production: 886_417.09 + 508_405.01 (intermediate) - 1_267_928.51 => 126_893.59 as a Naio indirect estimate of the global Food, beverages and tobacco imports
+
+in model
+we are temporary missing final uses from the model 
+to be considered: in the case of pref 20 rep 2, imports of Food, beverages and tobacco by productive sectors are 48.01*42.25056*12 => 24_341.39 (no related value in Naio)
+
+the amount of potential export from Food, beverages and tobacco (residual warehouse after refills) is 212.78*42.25056*12 => 107_880.89, not so far from 154_747.91 above
+
+*a check*
+
+in model
+sector 5 outputWarehouse before refill reports 1_115.02*42.25056*12 => 565_322.63; this is the output uniquely of firms with productionType Int; total output of the whole sector, as above, is 1_178_167.01; using addedValue (target or actual added value are ere equal) we have the quote of int producion (data of month 1) as 250.34/521.73 => 0.48
+1_178_167.01 * 0.48 => 565 520.17 very close to 565_322.63 above
 
 ---
 
-N.B.: firms hold a cumulative variable warehouseForPotentialExtraEU27export, while the outputWarhouse is set to zero at the end of each month
+N.B.: firms hold a cumulative variable warehouseForPotentialExtraEU27export; the outputWarehouse is reset to zero at the end of each month
 
-Always in the case of pref 20 rep 2, total imports by sectors are 4222.53 (month 1) 4222.53*42.25056*12 => 2_140_851.09
-In Naio we have 2_153_475.82 as total imports by sectors.
+always in the case of pref 20 rep 2, total imports by sectors are 4222.53 (month 1) 4222.53*42.25056*12 => 2_140_851.09
+In Naio we have 2_153_475.82 as total imports by sectors
