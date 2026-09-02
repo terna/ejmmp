@@ -13,9 +13,9 @@ class ContoBancario:
     # 2. IL SETTER: Modifica e convalida il valore
     @saldo.setter
     def saldo(self, nuovo_saldo):
-        if nuevo_saldo >= 0:
+        if nuovo_saldo >= 0:
             print(f"Modifica saldo a: {nuovo_saldo}")
-            self._saldo = nuevo_saldo
+            self._saldo = nuovo_saldo
         else:
             print("Errore: Il saldo non può essere negativo!")
 
