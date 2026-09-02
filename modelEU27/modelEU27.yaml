@@ -20,5 +20,5 @@ max_refill_repeat: 2 #number of refill repetions after default initial action; 0
 import: True
 randomize_country_order: true
 stop_technical_print: true
-stop_detailed_timing: true
+stop_detailed_timing: false
 # True or true are the same here, always report True in the Python code
