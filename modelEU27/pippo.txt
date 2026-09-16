@@ -1,0 +1,79 @@
+rank 0 starting
+rank 1 starting
+rank 0 tableOfInvestmentShare 2
+rank 0 how many firms 10000
+rank 0 use smart capital 1
+4984 firms created in rank  0
+propFactor 8477.502808988764 in rank 0
+Rank 0 Starting phase concluded: global time 1.0735142230987549, cpu time 0.9003085999999998
+
+ MONTH 1 YEAR 1
+
+Local preference 20 max_refill_repeat 2
+
+ totEU27 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000                 2366             10032911
+   AFF Worker Number              9000000                 2101              8909191
+         Firm Number             42251874                 9964             42251874
+       Worker Number            171467679                28104            119173691
+      Empl. Compens.              7447036                  102               435861
+Cap. R & Op. Surplus              6856862                   90               381640
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                  193               821736
+ Int. Prod. basic p.             16939701                  189               802832
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+
+ Add. Val. basic p. by country 
+
+Austria 19678
+Belgium 16695
+Bulgaria 2469
+Croatia 1305
+Cyprus 1603
+Czechia 11435
+Denmark 23597
+Estonia 1879
+Finland 9392
+France 134230
+Germany 225751
+Greece 8178
+Hungary 8903
+Ireland 17037
+Italy 96419
+Latvia 1447
+Lithuania 3873
+Luxembourg 2400
+Malta 275
+Netherlands 54753
+Poland 23107
+Portugal 15928
+Romania 7330
+Slovakia 5512
+Slovenia 2183
+Spain 94516
+Sweden 31828
+totEU27 821736
+
+
+
+Rank 0, global time 2.7500014305114746, cpu time 2.5377675
+
+Rank  0 concluded
+rank 1 tableOfInvestmentShare 2
+rank 1 how many firms 10000
+rank 1 use smart capital 1
+4980 firms created in rank  1
+propFactor 8484.31204819277 in rank 1
+
+
+
+Rank 1, global time 2.7495667934417725, cpu time 2.6933589999999996
+
+Rank  1 concluded
