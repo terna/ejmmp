@@ -78,3 +78,123 @@ Cap. R & Op. Surplus              6856862                   22                93
  AFF => Agriculture, Forestry and Fishing
 
 
+MONTH 1
+
+ Germany 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000                   69               291742
+   AFF Worker Number              9000000                   64               270601
+         Firm Number             42251874                 9993             42251874
+       Worker Number            171467679                 4723             19969538
+      Empl. Compens.              7447036                   21                89643
+Cap. R & Op. Surplus              6856862                   18                76106
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                   39               166931
+ Int. Prod. basic p.             16939701                   43               185438
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+MONTH 1
+
+ Germany 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000                   69               291742
+   AFF Worker Number              9000000                   64               270601
+         Firm Number             42251874                 9993             42251874
+       Worker Number            171467679                 4723             19969538
+      Empl. Compens.              7447036                   21                89643
+Cap. R & Op. Surplus              6856862                   18                76106
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                   39               166931
+ Int. Prod. basic p.             16939701                   43               185438
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+MONTH 1
+
+ Germany 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000                   75               318033
+   AFF Worker Number              9000000                   71               301072
+         Firm Number             42251874                 9964             42251874
+       Worker Number            171467679                 5950             25230695
+      Empl. Compens.              7447036                   30               129392
+Cap. R & Op. Surplus              6856862                   22                93289
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                    0                    0
+ Int. Prod. basic p.             16939701                   49               211508
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+MONTH 1
+
+ Germany 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000                   75               318033
+   AFF Worker Number              9000000                   71               301072
+         Firm Number             42251874                 9964             42251874
+       Worker Number            171467679                 5950             25230695
+      Empl. Compens.              7447036                   30               129392
+Cap. R & Op. Surplus              6856862                   22                93289
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                   53               225751
+ Int. Prod. basic p.             16939701                   49               211508
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+MONTH 1
+
+ Germany 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000                  718               303362
+   AFF Worker Number              9000000                  637               269139
+         Firm Number             42251874               100002             42251874
+       Worker Number            171467679                82875             35015540
+      Empl. Compens.              7447036                  383               162114
+Cap. R & Op. Surplus              6856862                  316               133513
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                  700               295902
+ Int. Prod. basic p.             16939701                  906               383122
+
+ AFF => Agriculture, Forestry and Fishing
+
+
+MONTH 1
+
+ Germany 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000                  697               294566
+   AFF Worker Number              9000000                  645               272590
+         Firm Number             42251874                99976             42251874
+       Worker Number            171467679                82551             34887717
+      Empl. Compens.              7447036                  391               165299
+Cap. R & Op. Surplus              6856862                  296               125095
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                  687               290669
+ Int. Prod. basic p.             16939701                  765               323310
+
+ AFF => Agriculture, Forestry and Fishing
+
+
