@@ -219,3 +219,25 @@ Cap. R & Op. Surplus              6856862                13171               556
  AFF => Agriculture, Forestry and Fishing
 
 
+MONTH 1
+PROVACCIA 2480760.5418986855
+PROVACCIA ACCIA ACCIA 3910045.9281345764
+
+ totEU27 
+
+Markup tentative 25.0%
+                                    EU 27           simulation        simulation to
+                                                                           EU scale
+     AFF Firm Number             10000000                  236             10001446
+   AFF Worker Number              9000000                  203              8602939
+         Firm Number             42251874                  997             42251874
+       Worker Number            171467679                 1660             70349158
+      Empl. Compens.              7447036                    5               225077
+Cap. R & Op. Surplus              6856862                    5               211895
+  GDP curr. p. (VAT)             16144780    N.B. contains VAT                     
+  Add. Val. basic p.             14303899                   10               463903
+ Int. Prod. basic p.             16939701                   10               431914
+
+ AFF => Agriculture, Forestry and Fishing
+
+
