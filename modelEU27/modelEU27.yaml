@@ -16,8 +16,10 @@ selected_countries: [0, 1, 10, 14, 27]
 #'Portugal' 21, 'Romania' 22, 'Slovakia' 23, 'Slovenia' 24, 'Spain' 25, 'Sweden' 26, 'EU27' 27]
 plannedMarkup: 1.25
 restocking: "y" #"n" # usefull in code test phase
-localPreference: 20 #1.5 # it is a multiplier, so 1 means no local preference
-max_refill_repeat: 3.8 #number of refill repetions after default initial action; 0 mean no repetitions; fraction as a probability of refill
+localPreferenceInt: 20 #1.5 # it is a multiplier, so 1 means no local preference
+maxRefillRepeatInt: 3.8 #number of refill repetions after default initial action; 0 mean no repetitions; fraction as a probability of refill
+localPreferenceI: 20 #1.5 # it is a multiplier, so 1 means no local preference
+maxRefillRepeatI: 3.8 #number of refill repetions after default initial action; 0 mean no repetitions; fraction as a probability of refill
 import: True
 randomize_country_order: true
 stop_technical_print: true
