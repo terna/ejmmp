@@ -19,9 +19,8 @@ restocking: "y" #"n" # usefull in code test phase
 localPreferenceInt: 20 #1.5 # it is a multiplier, so 1 means no local preference
 maxRefillRepeatInt: 3.8 #number of refill repetitions after default initial action; 0 mean no repetitions; fraction as a probability of refill
 localPreferenceI: 1 #1.5 # it is a multiplier, so 1 means no local preference
-maxRefillRepeatI: 5 #number of search repetitions after default initial action; 0 mean no repetitions; fraction as a probability of 
-localPreferenceI_ImputedRents: 1 #1.5 # it is a multiplier, so 1 means no local preference
-maxRefillRepeatI_ImputedRents: 100 #20 number of search repetitions after default initial action; 0 mean no repetitions; fraction as a probability of search
+maxSupplierMatchingRepeatI: 5 #number of search repetitions after default initial action; 0 mean no repetitions; fraction as a probability of 
+localPreferenceI_ImputedRents: 20 #1.5 # it is a multiplier, so 1 means no local preference
 import: True
 randomize_country_order: true
 stop_technical_print: true
