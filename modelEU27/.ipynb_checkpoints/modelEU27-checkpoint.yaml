@@ -23,6 +23,7 @@ maxSupplierMatchingRepeatI: 5 #number of search repetitions after default initia
 localPreferenceI_ImputedRents: 20 #1.5 # it is a multiplier, so 1 means no local preference
 import: True
 randomize_country_order: true
+investmentQuantityAdjustment: 1 # < 1 if reducing; > 1 if increasing
 stop_technical_print: true
 stop_super_technical_print: true
 stop_detailed_timing: false
